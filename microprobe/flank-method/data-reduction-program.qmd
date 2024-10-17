@@ -1,0 +1,138 @@
+---
+title: "Data Reduction"
+---
+
+This way to flank metheod data reduction:\
+<a href="https://flankmethod.streamlit.app">flank method data reduction program</a>
+
+
+# Datasets
+
+## Preparing the Sample File
+**File Type**\
+The file needs to be a csv file saved in the UTF-8 format. Some Excel versions have problems saving to UTF-8. Apple Numbers allows  simple export to csv UTF-8.
+
+**General Spreadsheet Layout**\
+The first row needs to be the categories, and there must not be any additional rows after the final sample row.
+
+**Sample Naming Conventions**\
+drift
+standard – which are also in the sample file?!
+sample
+
+**Required Categories**\
+The spreadsheet needs to have the following categories (=column headers). Some of the categories are automatically renamed by the program. The categories can be sorted in any order.
+
+*Point*\
+Will be renamed to: Point Nr.\
+This category is used in a number of plots on the x-axis, thereby allowing the quick identification of a sample that might have a bad analyses, and one might wants to not include.
+
+*Comment*\
+Will be renamed to: Name\
+Provides the name of the sample.
+
+*Inspected*\
+Will not be renamed\
+This needs to be added manually by simply duplicating the 'Comment' column (= copy&paste a second 'Comment' column next to it) and then renaming the duplicated 'Comment' column to 'Inspected'. 
+
+*oxide_name(Mass%)*\
+Will be renamed to: oxide_name (wt%)\
+For example, categories need to be: SiO2(Mass%), Al2O3(Mass%), and so on. These are renamed to the common> SiO2 (wt%), Al2O3 (wt%), and so on. There is no need for specific oxides, except for, of course, FeO(Mass%).
+
+*Bi(Net), Ar(Net), Br(Net), As(Net)*\
+Will be renamed to: Lb (2TAPL), La (2TAPL), Lb (4TAPL), Ls (4TAPL)\
+These are the fake elements in the measurement program of the EPMA. It is assumed that in the measurement program Bi and Ar are measured on channel 2, crystal TAPL, and Br and As are measured on channel 4 and also crystal TAPL. This is, because of the renaming of these categories as given above.
+
+*Additionnal Categories*\
+It is possible to have as many other categories as wanted in the file. These are simply ignored. It might be sensible to include an addtional 'Comment' category to add specific notes. 
+
+## The Test Dataset
+```{python}
+# | label: tbl-sample-file
+# | tbl-cap: The layout of a sample file
+#import pandas as pd
+#df = pd.read_csv('data/moessbauer standard data.csv')
+#df
+```
+
+
+# Moessbauer Standard File
+The file contains standards for currenlty garnet and pyroxene. Any standard used for the flank method must be in the Moessbauer standard file. The file contains the name, mineral type, Fe3+/FeT (atom-ratio), Fe2+/FeT (atom-ratio), soure where the standard comes from, an opitional comment, the total no. of measurements, and the oxide composition of the standard in wt%. The Fe3+/FeT ratios of some standards have been measured by different techniques or laboratories, and the Fe3+/FeT values from the various techniques/laboratories are given, and can be choosen from in the flank data reduction program.
+
+## Adding new Standards
+Each new standard that needs to be used for the flank method needs to be added to the Moessbauer stanard file. Should you wish to add a new standard, drop me an email with the required details and I will update the file with this new standard.
+
+## The Moessbauer Standard File
+Fe3+/FeT is an atom-ratio. Oxide-Concentrations are in wt%.
+```{python}
+# | label: tbl-moessbauer
+# | tbl-cap: The standard file used in the flank method program
+#import pandas as pd
+#pd.read_csv('data/moessbauer standard data.csv')
+```
+
+
+# Test Datasets for Download
+Should you want to test the flank method data reduction program, but have no dataset available, below are one dataset for the flank method and one to determine the crystal positions provided for download.
+
+#### Flank Method
+Download the flank method test-dataset from the following GitHub repo: \
+<a href="">Flank Method Test-Dataset</a> \
+This csv file can directly be used for upload in the flank method data reduction program: \
+<a href="https://flankmethod.streamlit.app">->flank method data reduction program</a>
+
+
+#### Spectra for Crystal Positioning
+Download the spectra test-dataset from the following GitHub repo: \
+<a href="https://github.com/Hezel2000/flank_method/blob/31aedff128e8a89696a072d20805dd275130fc50/flank%20method%20documentation/test_data/Fe%20Spectra.csv">Flank Method Test-Dataset</a>
+This csv file can directly be used for upload in the flank method data reduction program, section 'crystal positioning': \
+<a href="https://flankmethod.streamlit.app">->flank method data reduction program</a>
+
+
+
+# Documentation
+
+
+## Start & Data Upload
+Form of the data
+
+## Data Reduction
+And so
+
+## Results Tables
+
+### Fe3+/SFe in Standard
+
+
+### Fe3+/SFe in Drift
+
+### Fe3+/SFe in Samples
+
+
+## Visualisations
+
+### Select your Detail
+
+#### Drift Inspection
+
+#### Comparing La & Lb
+
+#### Parametrisation
+
+#### Sample Inspection
+
+#### Error Considerations
+
+#### Results Inspection
+
+
+# GitHub
+
+The entire code etc. can be found in the following GitHub repository:
+
+<a href="https://github.com/Hezel2000/flank_method">Hezel2000/flank_method</a>
+
+
+## readme
+The readme.md file from GitHub:\ 
+<a href='https://github.com/Hezel2000/flank_method/blob/28ff8bf7e7ea99d6f0858168bb618b9bbb007c24/readme.md'>flank method github readme</a>

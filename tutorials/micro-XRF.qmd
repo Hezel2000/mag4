@@ -1,0 +1,31 @@
+---
+title: 'µ.XRF'
+---
+
+## The micro X-ray flourescense (µ.XRF)
+{{< video https://vimeo.com/541030264 >}}
+
+## Switch on the Machine
+{{< video https://vimeo.com/566706719 >}}
+
+## Loading the Sample
+{{< video https://vimeo.com/566700261 >}}
+
+## Point Analysis with the EDS
+{{< video https://vimeo.com/566697766 >}}
+
+## Focusing the sample
+{{< video https://vimeo.com/566711373 >}}
+
+## Acquiring a Montage Image of the Sample
+{{< video https://vimeo.com/566707832 >}}
+
+## Element Maps with the EDS
+{{< video https://vimeo.com/566703279 >}}
+
+## Display the Results of an Element Map
+{{< video https://vimeo.com/566965014 >}}
+
+## Unload the Sample and Switch Off the Machine
+{{< video https://vimeo.com/566709937 >}}
+

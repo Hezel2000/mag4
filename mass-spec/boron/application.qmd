@@ -1,0 +1,5 @@
+---
+title: 'Application'
+---
+
+This <a href="https://boron-reduction.streamlit.app">way</a> to the boron data reduction application.

@@ -1,0 +1,29 @@
+---
+title: 'Other Great Web Resources' 
+---
+
+# Pyrolite
+
+https://pyrolite.readthedocs.io/en/main/#
+
+
+# OneGeochemistry
+
+http://onegeochemistry.org
+
+# Misc
+https://topomap.streamlit.app
+https://worm-portal.asu.edu
+https://www.mindat.org
+https://melts.ofm-research.org
+https://figmas.org
+
+<!-- 
+https://course.fast.ai 
+https://handbookofmineralogy.org/pdf-search/
+http://www.science.smith.edu/~jbrady/petrology/tour.php
+http://www.minsocam.org/msa/Teaching_Resources.html
+
+https://ugacollections.recollectcms.com/pages/allard
+https://discourse.specifysoftware.org/t/about-the-geospecify-project-category/1026
+-->

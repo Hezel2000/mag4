@@ -1,0 +1,9 @@
+---
+title: 'The Data Reduction Code'
+---
+
+``` {.python code-line-numbers="true"}
+import matplotlib.pyplot as plt
+plt.plot([1,23,2,4])
+plt.show()
+```

@@ -1,0 +1,33 @@
+---
+title: 'Glossary'
+---
+
+**AAI**  
+Authentication, Authorisation & Identification – for example, Eduroam is an AAI system
+
+**API**  
+Application Programming Interface
+
+**csv**  
+comma separated values – a file format
+
+**ELN**  
+Electronic Lab Notebook
+
+**EPMA**  
+Electron-Probe Micro-Analyser
+
+**FAIR**  
+Findable, Accessible, Interoperable, Reproducible
+
+**GU**\
+Goethe Universität Frankfurt am Main
+
+**IfG**\
+Institut für Geowissenschaften (Institute for Geosciences) at the GU Frankfurt am Main
+
+**L-value**\
+The distance of the analyser crystal from the sample in a JEOL EPMA.
+
+**TAPL**\
+The large (L) type Thallium-Phthalat-Acid (TAP) analyser crystal.

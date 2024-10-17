@@ -1,0 +1,13 @@
+---
+Title: 'Misc'
+---
+
+# Misc
+
+## This app contains the following, handy tools:
+- Searchable standards of the IfG EPMA  
+- A tool to merge standard files  
+- Plots for the energy levels of all elements  
+- A tool to calculate peak interferences  
+
+<a href="https://tools-epma.streamlit.app">EPMA Tools</a>

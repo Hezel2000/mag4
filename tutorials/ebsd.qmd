@@ -1,0 +1,73 @@
+---
+title: 'EBSD'
+---
+
+# Vorbereitungen [09:25]
+
+##  Einbau der Probe & Sicherheitsabstand einstellen [4:09]
+
+Die Probe muss bedampft sein, und ausreichend leitend über Kupfer-Band mit dem Halter verbunden sein – wie im Video zu sehen. Anschließend wird die Probe eingebaut, wobei aufgrund der großen Höhe des Halters unbedingt ein Sicherheitsabstand eingestellt werden muss.
+
+{{< video https://youtu.be/Z6StuZMDuo4 >}}
+
+##  Verzerrung durch die 70º Neigung der Probe korrigieren [1:33]
+Die Probe ist um 70º geneigt, damit gebeugten Elektronen auf den Detektor auftreffen können. Allerdings verzerrt diese Neigung das Elektronen-Bild enorm. Das kann und sollte in jedem Fall durch die Software korrigiert werden. Nicht vergessen, diese Korrektur am Ende des Messtages wieder auf normal zurück zu stellen!
+
+{{< video https://youtu.be/YTtqO7hvNoE >}}
+
+##  Arbeitsabstand einstellen [1:03]
+Der Arbeitsabstand für EBSD-Messungen muss zunächst eingestellt werden, und sollte zwischen 16 und 21 mm liegen. Wir nehmen häufig 17 oder 20 mm.!
+
+{{< video https://youtu.be/2AZ08PVZBDY >}}
+
+##  Detektor einschalten & einfahren [2:41]
+Der Detektor muss zunächst eingeschaltet und eingefahren werden. Das Video zeigt das in voller Länge – da darf vorsichtig ein wenig nach vorne gespult werden.
+
+{{< video https://youtu.be/gV9PL0qkNlM >}}
+
+
+#  Messungen [18:06]
+
+## EBSD-Analysen mit Flamenco [9:47]
+Die EBSD-Programme – für Analysen wie Auswertungen – scheinen von irgendwelchen Tanz-Verrückten programmiert, zumindest heißen sie alle nach Tänzen. Mit dem ersten Programm – Flamenco – werden die eigentlichen EBSD-Analysen gemacht. Wir schauen uns zunächst an, wie einzelne Punkte mit Flamenco gemessen werden, d.h. wie bestimmen die Orientierung eines einzelnen Minerals. Dazu wählt man aus einer Liste zunächst die Minerale aus, welche man in der Probe erwartet, d.h., man sollt wissen, welche Minerale man untersuchen möchte.
+
+{{< video https://youtu.be/1aplDNKy1wo >}}
+
+## Maps aufnehmen mit Flamenco [8:19]
+Sehr häufig möchte man die Verteilung aller Mineralorientierungen in einem Gestein, d.h. in einem Schliff wissen. Dazu nimmt man automatisiert ein Raster von Punkten über einen Ausschnitt der Probe, oder die gesamte Probe auf. Diese EBSD-Maps können wieder sehr einfach mit Flamenco programmiert und aufgenommen werden.
+
+{{< video https://youtu.be/oy94IKkPbZI >}}
+
+
+# Auswertungen [24:33]
+
+## Maps bearbeiten mit Tango [11:49]
+Die Orientierungen der Minerale lassen sich mit dem Programm Tango farbcodiert darstellen. Es können eine Vielzahl unterschiedlicher Parameter ausgewählt und auf Maps wiedergegeben werden.
+
+{{< video https://youtu.be/amw6yzRRwQI >}}
+
+## Pol-Figuren mit Mambo [6:37]
+Mit dem Programm Mambo können dann die Mineralorientierungen in Pol-Figuren dargestellt werden. Besonders elegant ist die Verbindung mit Tango, sodass die Farbcodierung der Polfiguren in Mambo den Farbcodierungen der Maps in Tango entspricht.
+
+{{< video https://youtu.be/g8F_IAOqpLs >}}
+
+## Mit Twist eigene Daten hinzufügen [4:54]
+Möglicherweise möchte man ein Mineral untersuchen, das in keiner der angebotenen Datenbanken existiert. Dann kann mit dem Programm Twist das zu untersuchende Mineral manuell hinzugefügt werden. Dazu müssen allerdings die kristallgraphischen Parameter des Minerals bekannt sein, welche über eine Eingabemaske dem Programm mitgeteilt werden müssen.
+
+{{< video https://youtu.be/Rd5ekqxuzy8 >}}
+
+## Maps mit Stitch zusammen fügen [1:13]
+Hat man mehrere benachbarte Maps gemessen, können diese mit dem Programm Stitch zusammen gefügt werden, allerdings nur, wenn die Maps mit derselben Step-Size aufgenommen wurden – darauf sollte man entsprechend bei der Erstellung der Maps achten. Nachdem eine solche kombinierte Map erstellt wurde, kann diese mit den oben erklärten Programm als Gesamtmap ausgewertet werden.
+
+{{< video https://youtu.be/xyP3CYE4Oig >}}
+
+
+# Abschluss [00:38]
+
+## Detektor heraus fahren [0:38]
+Zum Abschluss in jedem Fall den Detektor heraus fahren, die Probe entnehmen, Probenkammer wieder evakuieren, alles aufräumen – und die Probe am Besten gleich wieder mitnehmen.
+
+{{< video https://youtu.be/I0pjV1mEfSc >}}
+
+## Verzerrungskorrektur zurück stellen
+Siehe Kapitel 1.2: die Software-Korrektur für die Elektronen-Bilder wieder zurück stellen.

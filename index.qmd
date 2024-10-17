@@ -1,0 +1,34 @@
+---
+title: 'mag4' 
+---
+
+## Welcome to Lab Data Processing <span style="color:grey">(*beta*)</span> 
+<!-- The World of Data & Science -->
+This site is still being built, but a number of Tools are up and running and even the documentation is more or less available. The first processing application that is up and running is the <span style="color:#242B64;">**flank data reduction**</span> application, which you will find under 'Microprobe' and then 'Flank Method'.
+
+A sneak peak into the <span style="color:#242B64;">**microprobe data processing**</span> application is found under 'Microprobe' and then 'Data Processing'.
+
+The application of how to <span style="color:#242B64;">**reduce B-isotope data**</span> is up and running, and the documentation almost finished. You find this in the 'Mass Spectrometry' section.
+
+A peak into the <span style="color:#242B64;">**powder standards**</span> application is available via the 'Tools' section.
+
+Two <span style="color:#242B64;">**full courses**</span> are available, one on <span style="color:#242B64;">**Data Science**</span>, and one on <span style="color:#242B64;">**Cosmochemistry**</span>, the documentation will be added in due time. These are obviously accessible through the 'Courses' section.
+
+## Contributors
+Dominik Hezel  
+Premkumar Elangovan  
+Mara Hochstein  
+Heidi Höfer  
+Andreas Fichtner  
+Lea Schnapp  
+Jie Xu  
+Lara Friedrichs  
+Lea Ruckes
+<!--
+Cecily Ogunjobi – maps
+Lea Dietel – Modulhandbuch
+-->
+
+## Supported by
+
+![](images/supported-by.png)
