@@ -5,7 +5,7 @@
   }
   
   .image-grid img {
-    width: 250px;  /* Set width to 150px */
+    width: 100px;  /* Set width to 150px */
     height: auto;  /* Maintain aspect ratio */
   }
 
