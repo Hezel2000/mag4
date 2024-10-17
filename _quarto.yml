@@ -41,6 +41,7 @@ website:
           - microprobe/flank-method/code.qmd
           - microprobe/flank-method/glossary.qmd
         - microprobe/tools/resources.qmd
+        - microprobe/measurement-request/provide-info.qmd
     
     - title: "Mass-Spectrometry"
       collapse-level: 1
