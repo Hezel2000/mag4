@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jie Xu &amp; Dominik C. Hezel">
+<meta name="dcterms.date" content="2023-01-25">
+
+<title>Documentation – mag4</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="stylesheet" href="gdpr/cookieconsent-2.9.2/cookieconsent.css" media="print" onload="this.media='all'">
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">mag4</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../microprobe/epma-intro.html"> 
+<span class="menu-text">Microprobe</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../mass-spec/mass-spec-intro.html"> 
+<span class="menu-text">Mass Spectrometry</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../tutorials/tutorials-intro.html"> 
+<span class="menu-text">Tutorials</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resources/resources-intro.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../courses/courses-intro.html"> 
+<span class="menu-text">Courses</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../allapps/allapps.html"> 
+<span class="menu-text">All Apps</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#boron-la-icp-ms-data-reduction-application" id="toc-boron-la-icp-ms-data-reduction-application" class="nav-link active" data-scroll-target="#boron-la-icp-ms-data-reduction-application"><span class="header-section-number">1</span> Boron LA-ICP-MS Data Reduction Application</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="header-section-number">1.1</span> Introduction</a></li>
+  <li><a href="#how-to-use-the-progame" id="toc-how-to-use-the-progame" class="nav-link" data-scroll-target="#how-to-use-the-progame"><span class="header-section-number">1.2</span> How to use the Progame</a></li>
+  <li><a href="#input-file-requirements" id="toc-input-file-requirements" class="nav-link" data-scroll-target="#input-file-requirements"><span class="header-section-number">1.3</span> Input File Requirements</a></li>
+  <li><a href="#description-of-the-python-code" id="toc-description-of-the-python-code" class="nav-link" data-scroll-target="#description-of-the-python-code"><span class="header-section-number">1.4</span> Description of the Python Code</a>
+  <ul class="collapse">
+  <li><a href="#explaining-the-functions" id="toc-explaining-the-functions" class="nav-link" data-scroll-target="#explaining-the-functions"><span class="header-section-number">1.4.1</span> Explaining the Functions</a></li>
+  <li><a href="#explaining-the-main-body-of-the-code" id="toc-explaining-the-main-body-of-the-code" class="nav-link" data-scroll-target="#explaining-the-main-body-of-the-code"><span class="header-section-number">1.4.2</span> Explaining the Main Body of the Code</a></li>
+  </ul></li>
+  <li><a href="#explain-the-output" id="toc-explain-the-output" class="nav-link" data-scroll-target="#explain-the-output"><span class="header-section-number">1.5</span> Explain the Output</a></li>
+  <li><a href="#testing" id="toc-testing" class="nav-link" data-scroll-target="#testing"><span class="header-section-number">1.6</span> Testing</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Documentation</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jie Xu &amp; Dominik C. Hezel </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 25, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="boron-la-icp-ms-data-reduction-application" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Boron LA-ICP-MS Data Reduction Application</h1>
+<section id="introduction" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1.1</span> Introduction</h2>
+<p>This program is capable of:</p>
+<ul>
+<li>Read multiple .exp data files</li>
+<li>Read additional .csv files</li>
+<li>Outlier rejection</li>
+<li>Background correction</li>
+<li>Intra-sequence Instrumental drift correction</li>
+<li>Ablation volume dependent B concentration offset correction</li>
+<li>Combination of calculation results, laser parameters and trace elements results</li>
+<li>Ready to use final data table</li>
+</ul>
+</section>
+<section id="how-to-use-the-progame" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="how-to-use-the-progame"><span class="header-section-number">1.2</span> How to use the Progame</h2>
+<ol type="1">
+<li><p>Upload data files from Neptune: click the ‘Browse files’ botton, then, use ‘command A’ to choose all ‘.exp’ data files required from Neptune.</p></li>
+<li><p>Set up parameters for isotopic data: (1). drag slider to choose bacground and signal area. Orange color zone represents background, and blue color zone is signal area. (2). set your outlier factor: with smaller number, more data will be cut as outlier, which can be observed from red spots. (3). set the bulge factor for 11B factor: this is related with bulge correction from 10B, 0.6 here as a factor is defined by Dr.&nbsp;Axel Gerdes. (4). choose your standard for intra-sequence instrumental drift correction: the name, the ‘A/B/C/D’ inside the name of standard, the regression level.</p></li>
+<li><p>Upload your log file from laser: click the ‘Browse files’ botton and choose your laser file. (have a check if it is matched with isotopic data.)</p></li>
+<li><p>Set up parameters for corrected boron concentration from signal intensity: (1). the regression level for boron concentration correction. (2). insert the depth of selected reference depth and other sample depth if you have. Otherwise, just keep it. (3). insert the shape of your spots: circle or squre. (4). tell us if you used split stream or not.</p></li>
+</ol>
+<p>*5. Upload your trace element file if you used split stream. (not necessary)</p>
+<ol start="6" type="1">
+<li>download your final results as a csv file.</li>
+</ol>
+</section>
+<section id="input-file-requirements" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="input-file-requirements"><span class="header-section-number">1.3</span> Input File Requirements</h2>
+<ol type="1">
+<li><p>Input datafiles from Neptune: (1). ‘.dat’, ‘.exp’, ‘.log’, ‘.TDT’ four type of datafiles for each measurement would be produced. Only ‘.exp’ can be read successfully and can be openned by excel. (2). underds datafiles are named in a format of ‘num-A/B/C/D/U’(e.g.&nbsp;‘001-A’, ‘002-B’), num represents sequence number, A/B/C/D are four label for standards, U is label for unknown samples. Attention: all datafiles in one sequence need to be all uploaded once! (3). Inside each ‘.exp’ datafile, data start from the 23th row, and columns(‘9.9’, ‘10B’, ‘10.2’, ‘11B’) are necessary for data processing according to our method.</p></li>
+<li><p>Input laser file: this is a csv file produced during abalation. Please have a check about all recorded information, which should be in the same order with Neptune datafile. Error may happen here.</p></li>
+<li><p>Input trace element datafile: trace element data required from Ladr here. Raw data should be processed by Ladr and be appended here.</p></li>
+</ol>
+</section>
+<section id="description-of-the-python-code" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="description-of-the-python-code"><span class="header-section-number">1.4</span> Description of the Python Code</h2>
+<p>Required packages</p>
+<div id="f41012fc" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statistics <span class="im">as</span> stt</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy <span class="im">import</span> stats</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.optimize <span class="im">import</span> curve_fit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>Uploading files, multiple files and only .exp files are allowed.</p>
+<div id="7358c258" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> st.button(<span class="st">'clear uploaded data'</span>):</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    st.session_state.uploaded_files <span class="op">=</span> []</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="st">'uploaded_files'</span> <span class="kw">in</span> st.session_state <span class="kw">and</span> <span class="bu">len</span>(st.session_state.uploaded_files) <span class="op">!=</span> <span class="dv">0</span>:</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    uploaded_files <span class="op">=</span> st.session_state.uploaded_files</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    st.session_state.uploaded_files <span class="op">=</span> st.file_uploader(<span class="st">'upload files'</span>, <span class="bu">type</span><span class="op">=</span>[<span class="st">'exp'</span>], accept_multiple_files<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<section id="explaining-the-functions" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="explaining-the-functions"><span class="header-section-number">1.4.1</span> Explaining the Functions</h3>
+<p>-&gt; Include here explanations of what the functions do to the data, e.g., why the regression, why higher orders: or – why the subtraction of the backgrounds, what two backgrounds exist: the ‘normal’ one, and one from an unknown source</p>
+<p><strong>def selSmpType(dataFiles)</strong></p>
+<p>Get the sequence number for each datafile from their file name. The sequence number can be used for Instrumental drift correction later.</p>
+<div id="9cd09d07" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> selSmpType(dataFiles):</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    l <span class="op">=</span> []</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> dataFiles:    </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>        l.append(<span class="bu">float</span>(<span class="bu">file</span>.split(<span class="st">'_'</span>)[<span class="dv">0</span>]))</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> l</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><strong>def outlierCorrection(data, factorSD)</strong></p>
+<p>Outlier rejection of data, data is out of factorSD times of standard deviation will be taken as outliers. The first one is used for plot, the second one is used for calculation.</p>
+<div id="b3b242ed" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> outlierCorrection_plot(data, factorSD):</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    element_signal <span class="op">=</span> np.array(data)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    mean <span class="op">=</span> np.mean(element_signal, axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    sd <span class="op">=</span> np.std(element_signal, axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    fil <span class="op">=</span> (data <span class="op">&lt;</span> mean <span class="op">+</span> factorSD <span class="op">*</span> sd) <span class="op">&amp;</span> (data <span class="op">&gt;</span> mean <span class="op">-</span> factorSD <span class="op">*</span> sd)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> fil</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> outlierCorrection(data, factorSD):</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    element_signal <span class="op">=</span> np.array(data)</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    mean <span class="op">=</span> np.mean(element_signal, axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    sd <span class="op">=</span> np.std(element_signal, axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> [x <span class="cf">for</span> x <span class="kw">in</span> data <span class="cf">if</span> (x <span class="op">&gt;</span> mean <span class="op">-</span> factorSD <span class="op">*</span> sd) <span class="kw">and</span> (x <span class="op">&lt;</span> mean <span class="op">+</span> factorSD <span class="op">*</span> sd)]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><strong>def parseBoronTable(file)</strong></p>
+<p>find the useful data body from uploaded ‘.exp’ datafiles.</p>
+<div id="f91dd074" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> parseBoronTable(<span class="bu">file</span>):</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">#content = file.read()</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    content <span class="op">=</span> <span class="bu">file</span>.getvalue().decode(<span class="st">"utf-8"</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    fname <span class="op">=</span> <span class="bu">file</span>.__dict__[<span class="st">"name"</span>]</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    _start <span class="op">=</span> content.find(<span class="st">"Cycle</span><span class="ch">\t</span><span class="st">Time"</span>)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    _end <span class="op">=</span> content.find(<span class="st">"***</span><span class="ch">\t</span><span class="st">Cup"</span>)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    myTable <span class="op">=</span> content[_start:_end<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    cleanFname <span class="op">=</span> <span class="ss">f"temp/</span><span class="sc">{</span>fname<span class="sc">}</span><span class="ss">_cleanTable"</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(cleanFname, <span class="st">"w"</span>) <span class="im">as</span> _:</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>        _.write(myTable)</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> pd.read_csv(cleanFname,</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>                     sep<span class="op">=</span><span class="st">'</span><span class="ch">\t</span><span class="st">'</span>,</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>                     <span class="co"># dtype="float"   #not working --&gt;time</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>                     )</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> df, fname</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><strong>def sig_selection()</strong></p>
+<p>Plot the signal selection zone.</p>
+<div id="61bbf16b" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># st.session_state.sample_plot = st.selectbox(</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co">#     'Which is your sample to plot?',</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co">#     (st.session_state.uploaded_files))</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># def sig_selection():</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co">#     average_B = []</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co">#     df_data, filename = parseBoronTable(st.session_state.sample_plot)</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="co">#     df_data = df_data[['Cycle', '9.9', '10B', '10.2', '11B']].astype(float)</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co">#     fig, ax = plt.subplots()</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="co">#     ax.plot(df_data['11B'], label='11B', c='green')</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="co">#     ax.plot(df_data['10B'], label='10B', c='firebrick')</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co">#     ax.set_ylabel('signal intensity')</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="co">#     ax.set_xlabel('cycle')</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="co">#     x = df_data['11B'].index.to_numpy()</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="co">#     ax.fill_between(x, max(df_data['11B']), where=(</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="co">#         x &lt; st.session_state.sig_end) &amp; (x &gt; st.session_state.sig_str), alpha=0.5)</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a><span class="co">#     ax.fill_between(x, max(df_data['11B']), where=(</span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="co">#         x &lt; st.session_state.bac_end) &amp; (x &gt; st.session_state.bac_str), alpha=0.5)</span></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="co">#     ax.legend()</span></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a><span class="co">#     return fig</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><strong>def bacground_sub(factorSD, factor_B11)</strong></p>
+<p>Background subtraction. ‘9.9’, ‘10B’, ’10.2’ and ‘11B’ are useful data here. (1). noise substraction from each cup. (2). bulge is defined by ‘9.9’ and ’10.2’. The average value of ‘9.9’ and ’10.2’ is applied for 10B correction, multiply 0.6 of the average value is applied for 11B correction. (3). the outlier data is plotted here. (4). the average of 11B/10B, standard deviation and name of datafile are returned.</p>
+<div id="34026d21" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> bacground_sub(factorSD, factor_B11):</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    average_B <span class="op">=</span> []</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> st.session_state.uploaded_files:</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>        df_data, filename <span class="op">=</span> parseBoronTable(i)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>        df_data <span class="op">=</span> df_data[[<span class="st">'Cycle'</span>, <span class="st">'9.9'</span>, <span class="st">'10B'</span>, <span class="st">'10.2'</span>, <span class="st">'11B'</span>]].astype(<span class="bu">float</span>)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>        df_bacground_mean <span class="op">=</span> df_data[st.session_state.bac_str:st.session_state.bac_end].mean()</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>        df_signal <span class="op">=</span> df_data[st.session_state.sig_str:st.session_state.sig_end]</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>        df_bacground_sub <span class="op">=</span> df_signal <span class="op">-</span> df_bacground_mean</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>        df_bacground_sub[<span class="st">'10B_bulc_sub'</span>] <span class="op">=</span> df_bacground_sub[<span class="st">'10B'</span>] <span class="op">-</span> <span class="op">\</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>            (df_bacground_sub[<span class="st">'9.9'</span>]<span class="op">+</span>df_bacground_sub[<span class="st">'10.2'</span>])<span class="op">/</span><span class="dv">2</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>        df_bacground_sub[<span class="st">'11B_bulc_sub'</span>] <span class="op">=</span> df_bacground_sub[<span class="st">'11B'</span>] <span class="op">-</span> <span class="op">\</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>            factor_B11<span class="op">*</span>(df_bacground_sub[<span class="st">'9.9'</span>]<span class="op">+</span>df_bacground_sub[<span class="st">'10.2'</span>])<span class="op">/</span><span class="dv">2</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>        df_bacground_sub[<span class="st">'11B/10B'</span>] <span class="op">=</span> df_bacground_sub[<span class="st">'11B_bulc_sub'</span>] <span class="op">/</span> <span class="op">\</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>            df_bacground_sub[<span class="st">'10B_bulc_sub'</span>]</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>        fil <span class="op">=</span> outlierCorrection_plot(df_bacground_sub[<span class="st">'11B/10B'</span>], factorSD)</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>        res_iso <span class="op">=</span> df_bacground_sub[<span class="st">'11B/10B'</span>][fil]</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>        res_iso_outlier <span class="op">=</span> df_bacground_sub[<span class="st">'11B/10B'</span>][<span class="op">~</span>fil]</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>        res_11B <span class="op">=</span> outlierCorrection(df_bacground_sub[<span class="st">'11B'</span>], factorSD)</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> i <span class="op">==</span> st.session_state.sample_plot:</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>            fig1, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>            ax.plot(df_bacground_sub[<span class="st">'11B/10B'</span>], <span class="st">'ko'</span>)</span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>            ax.plot(res_iso_outlier, <span class="st">'ro'</span>, label<span class="op">=</span><span class="st">'outliers'</span>)</span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>            ax.set_ylabel(<span class="st">'$^</span><span class="sc">{11}</span><span class="st">B$/$^</span><span class="sc">{1O}</span><span class="st">B$'</span>)</span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a>            ax.legend()</span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>            st.pyplot(fig1)</span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>        average_B.append({<span class="st">'filename'</span>: filename, <span class="st">'11B'</span>: np.mean(</span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>            res_11B), <span class="st">'11B/10B_row'</span>: np.mean(res_iso), <span class="st">'se'</span>: np.std(res_iso)<span class="op">/</span>np.sqrt(<span class="bu">len</span>(res_iso))})</span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> pd.DataFrame(average_B)</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>    st.session_state.average_B <span class="op">=</span> df</span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><strong>def polynomFit(inp, *args)</strong></p>
+<p>used for regression function.</p>
+<div id="a2192175" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> polynomFit(inp, <span class="op">*</span>args):</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span>inp</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    res<span class="op">=</span><span class="dv">0</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> order <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(args)):</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>        res<span class="op">+=</span>args[order] <span class="op">*</span> x<span class="op">**</span>order</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> res</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><strong>def regression(x, y, ref_stand, order, listname)</strong></p>
+<p>Get the correction function of the Intra-sequence Instrumental drift.</p>
+<div id="b2f085e3" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> regression(x, y, ref_stand, order, listname):</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    x_use <span class="op">=</span> np.array(x)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    popt, pcov <span class="op">=</span> curve_fit(polynomFit, xdata<span class="op">=</span>x_use, ydata<span class="op">=</span>y , p0<span class="op">=</span>[<span class="dv">0</span>]<span class="op">*</span>(order<span class="op">+</span><span class="dv">1</span>))</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    fitData<span class="op">=</span>polynomFit(x_use,<span class="op">*</span>popt)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    res <span class="op">=</span> []</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> unknown <span class="kw">in</span> listname:</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>        y_unknown <span class="op">=</span> ref_stand <span class="op">/</span> polynomFit(unknown,<span class="op">*</span>popt)</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>        res.append({<span class="st">'factor'</span>: y_unknown})</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span>(pd.DataFrame(res))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><strong>def regression_plot(x, y, ref_stand, order, listname)</strong></p>
+<p>Return the plot the regress line.</p>
+<div id="42888788" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> regression_plot(x, y, ref_stand, order, listname):</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    fig, ax <span class="op">=</span> plt.subplots()</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    ax.plot(x, y, label<span class="op">=</span><span class="st">'measuered'</span>, marker<span class="op">=</span><span class="st">'o'</span>, linestyle<span class="op">=</span><span class="st">'none'</span> )</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    x_use <span class="op">=</span> np.array(x)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    popt, pcov <span class="op">=</span> curve_fit(polynomFit, xdata<span class="op">=</span>x_use, ydata<span class="op">=</span>y , p0<span class="op">=</span>[<span class="dv">0</span>]<span class="op">*</span>(order<span class="op">+</span><span class="dv">1</span>))</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    fitData<span class="op">=</span>polynomFit(x_use,<span class="op">*</span>popt)</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    ax.plot(x_use, fitData, label<span class="op">=</span><span class="st">'polyn. fit, order '</span><span class="op">+</span><span class="bu">str</span>(order), linestyle<span class="op">=</span><span class="st">'--'</span> )</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    ax.legend(loc<span class="op">=</span><span class="st">'upper left'</span>, bbox_to_anchor<span class="op">=</span>(<span class="fl">1.05</span>, <span class="dv">1</span>))</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> fig</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><strong>def prepare_trace(datafile)</strong></p>
+<p>Prepare trace element datafile from Ladr: change the column titles and change data formate from str to float.</p>
+<div id="b742f477" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> prepare_trace(datafile):</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">'LR'</span> <span class="kw">in</span> datafile.columns[<span class="dv">14</span>]:</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>        <span class="kw">del</span> datafile[<span class="st">'44Ca(LR)'</span>]</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>        <span class="kw">del</span> datafile[<span class="st">'26Mg(LR)'</span>]</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>        <span class="kw">del</span> datafile[<span class="st">'44Ca'</span>]</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>        <span class="kw">del</span> datafile[<span class="st">'26Mg'</span>]</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>    datafile.columns <span class="op">=</span> datafile.columns.<span class="bu">str</span>.replace(<span class="st">'\d+'</span>, <span class="st">''</span>)</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>    datafile.columns <span class="op">=</span> datafile.columns.<span class="bu">str</span>.replace(<span class="st">'\('</span><span class="op">+</span><span class="st">'LR'</span><span class="op">+</span><span class="st">'\)'</span>, <span class="st">''</span>)</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>    res <span class="op">=</span> []</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">13</span>, <span class="bu">len</span>(datafile.columns)):</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> j <span class="kw">in</span> datafile.iloc[:, i]:</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="st">'&lt;'</span> <span class="kw">in</span> j:</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>                res.append(j)</span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>    RES <span class="op">=</span> datafile.replace(to_replace<span class="op">=</span>res, value<span class="op">=</span><span class="st">'nan'</span>, regex<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>    RES2 <span class="op">=</span> RES.replace(</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>        {<span class="st">'ERROR: Error (#1002): Internal standard composition can not be 0'</span>: np.nan})</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>    RES3 <span class="op">=</span> RES2.replace(</span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>        {<span class="st">'ERROR: Error (#1003): Calibration RM composition does not contain analyte element'</span>: np.nan})</span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>    RES4 <span class="op">=</span> RES3.iloc[:, <span class="dv">13</span>:].astype(<span class="bu">float</span>)</span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>    columns <span class="op">=</span> RES4.iloc[:, <span class="dv">13</span>:].columns</span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>    RES4[columns] <span class="op">=</span> RES4.iloc[:, <span class="dv">13</span>:]</span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>    RES4[<span class="st">' Sequence Number'</span>] <span class="op">=</span> RES3[<span class="st">'LB#'</span>]</span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span>(RES4)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><strong>def processData()</strong></p>
+<p>Use functions for Intra-sequence Instrumental drift.</p>
+<div id="1c679a4a" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> processData():</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    st.set_option(<span class="st">'deprecation.showPyplotGlobalUse'</span>, <span class="va">False</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>    st.subheader(<span class="st">'1.1 select your background and signal area'</span>)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>    st.session_state.bac_str, st.session_state.bac_end <span class="op">=</span> st.slider(<span class="st">'Select bacground'</span>, <span class="dv">0</span>, <span class="dv">200</span>, (<span class="dv">5</span>, <span class="dv">70</span>))</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>    st.session_state.sig_str, st.session_state.sig_end <span class="op">=</span> st.slider(<span class="st">'Select signal'</span>, <span class="dv">0</span>, <span class="dv">200</span>, (<span class="dv">95</span>, <span class="dv">175</span>))</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>    st.pyplot(sig_selection())</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>    st.subheader(<span class="st">'1.2 Please set your outlier and bulge factor'</span>)</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>    outlier_factor <span class="op">=</span> st.number_input(<span class="st">'insert your outlier factor (means data is outlier_factor times of sd will be cut)'</span>,</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>                                     value<span class="op">=</span><span class="fl">1.5</span>)</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>    bulc_factor <span class="op">=</span> st.number_input(</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>        <span class="st">'insert your bulge factor for 11B correction'</span>, value<span class="op">=</span><span class="fl">0.6</span>)</span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">"average_B"</span> <span class="kw">in</span> st.session_state:</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>        df_data <span class="op">=</span> st.session_state.average_B</span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>        df_data <span class="op">=</span> bacground_sub(outlier_factor, bulc_factor)</span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>    st.subheader(</span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>        <span class="st">'1.3 Please choose your standard for boron isotopes correction'</span>)</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>    standard <span class="op">=</span> st.selectbox(</span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>        <span class="st">'NIST 612 or B5 for correction?'</span>,</span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>        (<span class="st">'NIST SRM 612'</span>, <span class="st">'B5'</span>))</span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> standard <span class="op">==</span> <span class="st">'B5'</span>:</span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>        number_iso <span class="op">=</span> <span class="bu">int</span>(<span class="fl">4.0332057</span>)</span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>        number_trace <span class="op">=</span> <span class="bu">int</span>(<span class="fl">8.42</span>)</span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>        SRM951_value <span class="op">=</span> <span class="bu">int</span>(<span class="fl">4.0492</span>)</span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> standard <span class="op">==</span> <span class="st">'NIST SRM 612'</span>:</span>
+<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a>        number_iso <span class="op">=</span> <span class="bu">int</span>(<span class="fl">4.05015</span>)</span>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a>        number_trace <span class="op">=</span> <span class="bu">int</span>(<span class="dv">35</span>)</span>
+<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a>        SRM951_value <span class="op">=</span> <span class="bu">int</span>(<span class="fl">4.0545</span>)</span>
+<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-37"><a href="#cb12-37" aria-hidden="true" tabindex="-1"></a>    st.session_state.standard_values <span class="op">=</span> {</span>
+<span id="cb12-38"><a href="#cb12-38" aria-hidden="true" tabindex="-1"></a>        <span class="st">"number_iso"</span> : number_iso,</span>
+<span id="cb12-39"><a href="#cb12-39" aria-hidden="true" tabindex="-1"></a>        <span class="st">"number_trace"</span> : number_trace,</span>
+<span id="cb12-40"><a href="#cb12-40" aria-hidden="true" tabindex="-1"></a>        <span class="st">"SRM951_value"</span> : SRM951_value</span>
+<span id="cb12-41"><a href="#cb12-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-42"><a href="#cb12-42" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb12-43"><a href="#cb12-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-44"><a href="#cb12-44" aria-hidden="true" tabindex="-1"></a>    st.session_state.sample_correction <span class="op">=</span> st.selectbox(</span>
+<span id="cb12-45"><a href="#cb12-45" aria-hidden="true" tabindex="-1"></a>        <span class="st">'Which type is your choosed standard?'</span>,</span>
+<span id="cb12-46"><a href="#cb12-46" aria-hidden="true" tabindex="-1"></a>        (<span class="st">'A'</span>, <span class="st">'B'</span>, <span class="st">'C'</span>, <span class="st">'D'</span>))</span>
+<span id="cb12-47"><a href="#cb12-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-48"><a href="#cb12-48" aria-hidden="true" tabindex="-1"></a>    st.session_state.default_reg_level <span class="op">=</span> <span class="dv">4</span></span>
+<span id="cb12-49"><a href="#cb12-49" aria-hidden="true" tabindex="-1"></a>    st.session_state.regress_level <span class="op">=</span> st.number_input(<span class="st">'insert your regression level (4 is recommended)'</span>, step<span class="op">=</span><span class="dv">1</span>, value<span class="op">=</span>st.session_state.default_reg_level, <span class="bu">format</span><span class="op">=</span><span class="st">'</span><span class="sc">%X</span><span class="st">'</span></span>
+<span id="cb12-50"><a href="#cb12-50" aria-hidden="true" tabindex="-1"></a>                                                     )</span>
+<span id="cb12-51"><a href="#cb12-51" aria-hidden="true" tabindex="-1"></a>    fil <span class="op">=</span> df_data[<span class="st">'filename'</span>].<span class="bu">str</span>.contains(st.session_state.sample_correction)</span>
+<span id="cb12-52"><a href="#cb12-52" aria-hidden="true" tabindex="-1"></a>    df_data_B <span class="op">=</span> df_data[fil]</span>
+<span id="cb12-53"><a href="#cb12-53" aria-hidden="true" tabindex="-1"></a>    df_data[<span class="st">' Sequence Number'</span>] <span class="op">=</span> selSmpType(df_data[<span class="st">'filename'</span>])</span>
+<span id="cb12-54"><a href="#cb12-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-55"><a href="#cb12-55" aria-hidden="true" tabindex="-1"></a>    y_isotope <span class="op">=</span> df_data_B[<span class="st">'11B/10B_row'</span>]</span>
+<span id="cb12-56"><a href="#cb12-56" aria-hidden="true" tabindex="-1"></a>    y_11B <span class="op">=</span> df_data_B[<span class="st">'11B'</span>]</span>
+<span id="cb12-57"><a href="#cb12-57" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> df_data_B.index.to_numpy()</span>
+<span id="cb12-58"><a href="#cb12-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-59"><a href="#cb12-59" aria-hidden="true" tabindex="-1"></a>    factor_iso <span class="op">=</span> regression(x, y_isotope,</span>
+<span id="cb12-60"><a href="#cb12-60" aria-hidden="true" tabindex="-1"></a>                            number_iso,</span>
+<span id="cb12-61"><a href="#cb12-61" aria-hidden="true" tabindex="-1"></a>                            st.session_state.regress_level <span class="cf">if</span> <span class="st">"regress_level"</span> <span class="kw">in</span> st.session_state <span class="cf">else</span> st.session_state.default_reg_level,</span>
+<span id="cb12-62"><a href="#cb12-62" aria-hidden="true" tabindex="-1"></a>                            df_data.index.to_numpy()</span>
+<span id="cb12-63"><a href="#cb12-63" aria-hidden="true" tabindex="-1"></a>                            )</span>
+<span id="cb12-64"><a href="#cb12-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-65"><a href="#cb12-65" aria-hidden="true" tabindex="-1"></a>    df_data[<span class="st">'factor_iso'</span>] <span class="op">=</span> factor_iso</span>
+<span id="cb12-66"><a href="#cb12-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-67"><a href="#cb12-67" aria-hidden="true" tabindex="-1"></a>    df_data[<span class="st">'11B/10B_corrected'</span>] <span class="op">=</span> df_data[<span class="st">'factor_iso'</span>]<span class="op">*</span>df_data[<span class="st">'11B/10B_row'</span>]</span>
+<span id="cb12-68"><a href="#cb12-68" aria-hidden="true" tabindex="-1"></a>    df_data[<span class="st">'δ11B'</span>] <span class="op">=</span> ((df_data[<span class="st">'11B/10B_corrected'</span>]<span class="op">/</span>SRM951_value)<span class="op">-</span><span class="dv">1</span>)<span class="op">*</span><span class="dv">1000</span></span>
+<span id="cb12-69"><a href="#cb12-69" aria-hidden="true" tabindex="-1"></a>    df_data[<span class="st">'δ11B_se'</span>] <span class="op">=</span> (df_data[<span class="st">'se'</span>]<span class="op">*</span>df_data[<span class="st">'factor_iso'</span>]<span class="op">/</span>SRM951_value)<span class="op">*</span><span class="dv">1000</span></span>
+<span id="cb12-70"><a href="#cb12-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-71"><a href="#cb12-71" aria-hidden="true" tabindex="-1"></a>    st.session_state.df_data <span class="op">=</span> df_data</span>
+<span id="cb12-72"><a href="#cb12-72" aria-hidden="true" tabindex="-1"></a>    st.session_state.df_data_B <span class="op">=</span> df_data_B</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><strong>def processLaser()</strong></p>
+<p>Use functions and volume factors for corrected boron concerntrations.</p>
+<div id="ba997bd2" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> processLaser():</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">"df_data"</span> <span class="kw">in</span> st.session_state:</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>        st.header(<span class="st">'2. Please upload your log file from Laser'</span>)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>        st.session_state.uploaded_laser_file <span class="op">=</span> st.file_uploader(<span class="st">"Choose a laser file"</span>, <span class="bu">type</span><span class="op">=</span><span class="st">'csv'</span>)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> st.session_state.uploaded_laser_file <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>:</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>            st.session_state.df_Laser <span class="op">=</span> pd.read_csv(st.session_state.uploaded_laser_file)</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>            st.session_state.df_Laser_part1 <span class="op">=</span> st.session_state.df_Laser[st.session_state.df_Laser[<span class="st">' Laser State'</span>]</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>                                    <span class="op">==</span> <span class="st">'On'</span>].iloc[:, [<span class="dv">13</span>, <span class="dv">20</span>, <span class="dv">21</span>]]</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>            st.session_state.df_Laser_part2 <span class="op">=</span> st.session_state.df_Laser[st.session_state.df_Laser[<span class="st">' Sequence Number'</span>].notnull()].iloc[:, [</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>                    <span class="dv">1</span>, <span class="dv">4</span>]]</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>            st.session_state.df_Laser_res <span class="op">=</span> pd.concat([st.session_state.df_Laser_part2.reset_index(</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>                    drop<span class="op">=</span><span class="va">True</span>), st.session_state.df_Laser_part1.reset_index(drop<span class="op">=</span><span class="va">True</span>)], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>            st.session_state.df_map1 <span class="op">=</span> st.session_state.df_Laser_res.merge(st.session_state.df_data, on<span class="op">=</span><span class="st">' Sequence Number'</span>)</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>            st.subheader(<span class="st">'2.1 B concerntration correction'</span>)</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a>            st.session_state.regress_level_B <span class="op">=</span> st.number_input(<span class="st">'insert your regression level for [B] (4 is recommended)'</span>, </span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>            step<span class="op">=</span><span class="dv">1</span>, </span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a>            value<span class="op">=</span>st.session_state.default_reg_level, </span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>            <span class="bu">format</span><span class="op">=</span><span class="st">'</span><span class="sc">%X</span><span class="st">'</span></span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>                                                            )     </span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>            y_isotope <span class="op">=</span> st.session_state.df_data_B[<span class="st">'11B/10B_row'</span>]</span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>            y_11B <span class="op">=</span> st.session_state.df_data_B[<span class="st">'11B'</span>]</span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>            x <span class="op">=</span> st.session_state.df_data_B.index.to_numpy()   </span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>            factor_B <span class="op">=</span> regression(x, y_11B, st.session_state.standard_values[<span class="st">"number_trace"</span>],</span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>                            st.session_state.regress_level_B <span class="cf">if</span> <span class="st">"regress_level_B"</span> <span class="kw">in</span> st.session_state <span class="cf">else</span> st.session_state.default_reg_level_B, </span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>                            st.session_state.df_data.index.to_numpy()</span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>                            )</span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a>            st.session_state.df_map1[<span class="st">'factor_B'</span>] <span class="op">=</span> factor_B</span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a>            depth_ref <span class="op">=</span> st.number_input(<span class="st">'insert the abalation depth of selected reference / µm'</span>, value <span class="op">=</span> <span class="fl">30.0</span>)</span>
+<span id="cb13-36"><a href="#cb13-36" aria-hidden="true" tabindex="-1"></a>            depth_sample <span class="op">=</span> st.number_input(<span class="st">'insert the abalation depth of other samples / µm'</span>, value <span class="op">=</span> <span class="fl">30.0</span>)</span>
+<span id="cb13-37"><a href="#cb13-37" aria-hidden="true" tabindex="-1"></a>                    </span>
+<span id="cb13-38"><a href="#cb13-38" aria-hidden="true" tabindex="-1"></a>            depth_ratios <span class="op">=</span> []</span>
+<span id="cb13-39"><a href="#cb13-39" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> i <span class="kw">in</span> st.session_state.df_map1[<span class="st">'filename'</span>].<span class="bu">str</span>.contains(<span class="st">'A'</span>):</span>
+<span id="cb13-40"><a href="#cb13-40" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> i <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb13-41"><a href="#cb13-41" aria-hidden="true" tabindex="-1"></a>                    depth_ratio <span class="op">=</span> <span class="dv">1</span> </span>
+<span id="cb13-42"><a href="#cb13-42" aria-hidden="true" tabindex="-1"></a>                <span class="cf">else</span>:</span>
+<span id="cb13-43"><a href="#cb13-43" aria-hidden="true" tabindex="-1"></a>                    depth_ratio <span class="op">=</span> depth_sample <span class="op">/</span> depth_ref</span>
+<span id="cb13-44"><a href="#cb13-44" aria-hidden="true" tabindex="-1"></a>                depth_ratios.append(depth_ratio)</span>
+<span id="cb13-45"><a href="#cb13-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-46"><a href="#cb13-46" aria-hidden="true" tabindex="-1"></a>            st.session_state.df_map1[<span class="st">'depth_correction'</span>] <span class="op">=</span> depth_ratios</span>
+<span id="cb13-47"><a href="#cb13-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-48"><a href="#cb13-48" aria-hidden="true" tabindex="-1"></a>            spot_shape <span class="op">=</span> st.selectbox(</span>
+<span id="cb13-49"><a href="#cb13-49" aria-hidden="true" tabindex="-1"></a>                        <span class="st">'What is the type of your spots?'</span>,</span>
+<span id="cb13-50"><a href="#cb13-50" aria-hidden="true" tabindex="-1"></a>                        (<span class="st">'circle'</span>, <span class="st">'squre'</span>))</span>
+<span id="cb13-51"><a href="#cb13-51" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> spot_shape <span class="op">==</span> <span class="st">'circle'</span>:</span>
+<span id="cb13-52"><a href="#cb13-52" aria-hidden="true" tabindex="-1"></a>                st.session_state.df_map1[<span class="st">' Spot Size (um)'</span>] <span class="op">=</span> st.session_state.df_Laser_res[<span class="st">' Spot Size (um)'</span>]</span>
+<span id="cb13-53"><a href="#cb13-53" aria-hidden="true" tabindex="-1"></a>                ref <span class="op">=</span> ((st.session_state.df_map1[st.session_state.df_map1[<span class="st">'filename'</span>].<span class="bu">str</span>.contains(st.session_state.sample_correction)][<span class="st">' Spot Size (um)'</span>]<span class="op">/</span><span class="dv">2</span>)<span class="op">**</span><span class="dv">2</span>).mean()</span>
+<span id="cb13-54"><a href="#cb13-54" aria-hidden="true" tabindex="-1"></a>                st.session_state.df_map1[<span class="st">'[B]_corrected'</span>] <span class="op">=</span> st.session_state.df_map1[<span class="st">'11B'</span>]<span class="op">*</span>st.session_state.df_map1[<span class="st">'factor_B'</span>] <span class="op">*</span> (ref <span class="op">/</span> ((st.session_state.df_map1[<span class="st">' Spot Size (um)'</span>]<span class="op">/</span><span class="dv">2</span>)<span class="op">**</span><span class="dv">2</span>) <span class="op">/</span> depth_ratios)</span>
+<span id="cb13-55"><a href="#cb13-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-56"><a href="#cb13-56" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> spot_shape <span class="op">==</span> <span class="st">'squre'</span>:</span>
+<span id="cb13-57"><a href="#cb13-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-58"><a href="#cb13-58" aria-hidden="true" tabindex="-1"></a>                dia <span class="op">=</span> st.session_state.df_map1[<span class="st">' Spot Size (um)'</span>]</span>
+<span id="cb13-59"><a href="#cb13-59" aria-hidden="true" tabindex="-1"></a>                spotsize <span class="op">=</span> dia.<span class="bu">str</span>.split(<span class="st">' '</span>).<span class="bu">str</span>[<span class="dv">0</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="bu">float</span>(x))</span>
+<span id="cb13-60"><a href="#cb13-60" aria-hidden="true" tabindex="-1"></a>                st.session_state.df_map1[<span class="st">' Spot Size (um)'</span>] <span class="op">=</span> spotsize</span>
+<span id="cb13-61"><a href="#cb13-61" aria-hidden="true" tabindex="-1"></a>                ref <span class="op">=</span> ((st.session_state.df_map1[st.session_state.df_map1[<span class="st">'filename'</span>].<span class="bu">str</span>.contains(st.session_state.sample_correction)][<span class="st">' Spot Size (um)'</span>])<span class="op">**</span><span class="dv">2</span>).mean()</span>
+<span id="cb13-62"><a href="#cb13-62" aria-hidden="true" tabindex="-1"></a>                st.session_state.df_map1[<span class="st">'[B]_corrected'</span>] <span class="op">=</span> st.session_state.df_map1[<span class="st">'11B'</span>]<span class="op">*</span>st.session_state.df_map1[<span class="st">'factor_B'</span>] <span class="op">*</span> (ref <span class="op">/</span> ((st.session_state.df_map1[<span class="st">' Spot Size (um)'</span>])<span class="op">**</span><span class="dv">2</span>) <span class="op">/</span> depth_ratios)   </span>
+<span id="cb13-63"><a href="#cb13-63" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-64"><a href="#cb13-64" aria-hidden="true" tabindex="-1"></a>            st.session_state.df_map1 <span class="op">=</span> st.session_state.df_map1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><strong>def maping()</strong></p>
+<p>upload trace element datafile and merge laser parameter, isotopic results and trace element compositions into one file based on sequence number.</p>
+<div id="cb440614" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> maping():</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">"df_map1"</span> <span class="kw">in</span> st.session_state:</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>        st.subheader(<span class="st">'2.2 export results or append your trace elements'</span>)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>        trace_file <span class="op">=</span> st.selectbox(</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>            <span class="st">'split stream or not?'</span>,</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>            (<span class="st">'Split stream'</span>, <span class="st">'No'</span>))</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> trace_file <span class="op">==</span> <span class="st">'No'</span>:</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>            st.session_state.df_all <span class="op">=</span> st.session_state.df_map1</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> trace_file <span class="op">==</span> <span class="st">'Split stream'</span>:</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>            st.header(<span class="st">'3. Please upload your trace element data processed from Ladr'</span>)</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>            st.session_state.trace <span class="op">=</span> st.file_uploader(<span class="st">"Choose a file"</span>, <span class="bu">type</span><span class="op">=</span><span class="st">'csv'</span>, accept_multiple_files<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="st">"trace"</span> <span class="kw">in</span>  st.session_state <span class="kw">and</span> <span class="bu">len</span>(st.session_state.trace) <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>                trace_file <span class="op">=</span> pd.read_csv(st.session_state.trace[<span class="dv">0</span>])</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>                <span class="co">#trace_file = pd.read_csv('2022-11-28-Si corrected-B5.csv')</span></span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>                df_trace <span class="op">=</span> prepare_trace(trace_file)</span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>                st.session_state.df_all <span class="op">=</span> st.session_state.df_map1.merge(df_trace, on<span class="op">=</span><span class="st">' Sequence Number'</span>)</span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>                <span class="co"># fig4, ax = plt.subplots()</span></span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a>                <span class="co"># ax.plot([0,1],[0,1], transform=ax.transAxes, c = 'red')</span></span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>                <span class="co"># ax.scatter(st.session_state.df_all['[B]_corrected'], st.session_state.df_all['B'], s =70, c = 'darkorange', edgecolors = 'black')</span></span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a>                <span class="co"># ax.set_ylabel('[B]_measured by Element')</span></span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a>                <span class="co"># ax.set_xlabel('[B]_corrected by Neptune')</span></span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>                <span class="co"># st.pyplot(fig4)</span></span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="st">"df_all"</span> <span class="kw">in</span> st.session_state:</span>
+<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a>            st.session_state.df_all.to_csv(<span class="st">'final.csv'</span>)</span>
+<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a>            st.write(st.session_state.df_all)</span>
+<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a>            result_csv <span class="op">=</span> st.session_state.df_all.to_csv().encode(<span class="st">'utf-8'</span>)</span>
+<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a>            st.download_button(</span>
+<span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a>                label<span class="op">=</span><span class="st">'download results as .csv'</span>,</span>
+<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a>                data<span class="op">=</span>result_csv,</span>
+<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a>                file_name<span class="op">=</span><span class="st">'boron results.csv'</span>,</span>
+<span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a>                mime<span class="op">=</span><span class="st">'txt/csv'</span>,</span>
+<span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a>            )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="explaining-the-main-body-of-the-code" class="level3" data-number="1.4.2">
+<h3 data-number="1.4.2" class="anchored" data-anchor-id="explaining-the-main-body-of-the-code"><span class="header-section-number">1.4.2</span> Explaining the Main Body of the Code</h3>
+<p>run thw function:</p>
+<div id="d53fe0c8" class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># if len(st.session_state.uploaded_files) != 0:</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co">#     processData()</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co"># processLaser()</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="co"># maping()</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+</section>
+<section id="explain-the-output" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="explain-the-output"><span class="header-section-number">1.5</span> Explain the Output</h2>
+<p>What exactly is the output, likely best with screen shots.</p>
+<p>–&gt;’Sequence Number’ column: the number of datafile in all sequence. –&gt;The ‘Comment’ column: sample name, labelled by yourself during measuring. –&gt; ‘Spot size (um)’, ‘Laser HV (kV)’, ‘Laser Energy (mJ)’: useful information selected from laser parameters. –&gt;The ‘filename’ column: name of datafile. –&gt;from ‘11B’ to ‘factor_iso’: all results from Neptune. ’[B]_corrected’ is calculated B concentrations from 11B. ‘δ11B’ and ‘δ11B_se’column are calculated isotope results and erros. –&gt;from ‘Li’, ‘B’ to ‘U’ are all trace element results from Element XR.</p>
+<p>(the following is copied from what was a ‘text’ file.) 1. csv files are changed from original .exp file 2. data automatically from machine can be found in ‘data/original data type’.</p>
+</section>
+<section id="testing" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="testing"><span class="header-section-number">1.6</span> Testing</h2>
+<p>For a demonstration of a line plot on a polar axis, see <a href="#fig-polar" class="quarto-xref">Figure&nbsp;1</a>.</p>
+<div id="fig-polar" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>  subplot_kw <span class="op">=</span> {<span class="st">'projection'</span>: <span class="st">'polar'</span>} </span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>ax.plot(theta, r)</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>ax.grid(<span class="va">True</span>)</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
+</figcaption>
+</figure>
+</div>
+
+<p>:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-<a type="button" data-cc="c-settings" class="cc-link">Manage cookie preferences”} </a><a type="button" data-cc="c-settings" class="cc-link">Manage cookie preferences</a></p><a type="button" data-cc="c-settings" class="cc-link">
+<p>:::</p>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="footer-right-/about.html">
+<p>Legal information</p>
+</div>
+<p>:::</p>
+
+</a></section><a type="button" data-cc="c-settings" class="cc-link">
+</a></section><a type="button" data-cc="c-settings" class="cc-link">
+
+</a></main><a type="button" data-cc="c-settings" class="cc-link"> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/Hezel2000\.github\.io\/mag4\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</a></div><a type="button" data-cc="c-settings" class="cc-link"> <!-- /content -->
+</a><footer class="footer"><a type="button" data-cc="c-settings" class="cc-link">
+  </a><div class="nav-footer"><a type="button" data-cc="c-settings" class="cc-link">
+    </a><div class="nav-footer-left"><a type="button" data-cc="c-settings" class="cc-link">
+      </a><ul class="footer-items list-unstyled"><a type="button" data-cc="c-settings" class="cc-link">
+    </a><li class="nav-item"><a type="button" data-cc="c-settings" class="cc-link">
+ Built with </a><a href="https://quarto.org/">Quarto</a>.
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ <a type="button" data-cc="c-settings" class="cc-link">Manage cookie preferences
+  </a></li><a type="button" data-cc="c-settings" class="cc-link">  
+</a></ul><a type="button" data-cc="c-settings" class="cc-link">
+    </a></div><a type="button" data-cc="c-settings" class="cc-link">
+    </a><div class="nav-footer-right"><a type="button" data-cc="c-settings" class="cc-link">
+      </a><ul class="footer-items list-unstyled"><a type="button" data-cc="c-settings" class="cc-link">
+    </a><li class="nav-item"><a type="button" data-cc="c-settings" class="cc-link">
+    </a><a class="nav-link" href="../../about.html">
+ Legal information
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+<script defer="" src="gdpr/cookieconsent-2.9.2/cookieconsent.js"></script>
+<script defer="" src="gdpr/cookieconsent-init.js"></script>
+
+
+
+
+</body></html>

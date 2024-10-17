@@ -1,7 +1,0 @@
----
-title: 'Welcome'
----
-
-To learn everything about the flank method, check the section **Basics**. If you want to use the *flank data reduction program* and/or want to know how this progam works, navigate to the section **Data Reduction**. The section **Publications** provides a *method section* ready for copy&paste into your publication, *literature* regarding the basics of the flank mehtod, and finally a copy&paste reference for your pubilcation to *cite the flank method program*. Finally, the **Code Documentation** section provides an *in-depth reference* that describes each part and the entire flank method reduction program. The section concludes with links to the *GitHub repository* of the Python code.
-
-Should you have any questions, found a bug, or run into other problems, please contact the developer Dominik Hezel at dominik.hezel - at - em.uni-frankfurt.de

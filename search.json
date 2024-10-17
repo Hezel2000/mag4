@@ -1,0 +1,1301 @@
+[
+  {
+    "objectID": "allapps/allapps.html",
+    "href": "allapps/allapps.html",
+    "title": "All Apps",
+    "section": "",
+    "text": "Click on an app icon to directly go to the respective app\n\n    \n\n  \n\n  \n    \n      Flank Method\n      \n        \n          \n        \n      \n    \n  \n\n  \n    \n      EPMA Data Access\n      \n        \n          \n        \n      \n    \n  \n\n  \n    \n      Visualising Geochemical Databases\n      \n        \n          \n        \n      \n    \n  \n\n  \n    \n      The mag4 Database\n      \n        \n          \n        \n      \n    \n  \n\n  \n    \n      EPMA Tools\n      \n        \n          \n        \n      \n    \n  \n\n  \n    \n      Mineral Info\n      \n        \n          \n        \n      \n    \n  \n\n  \n    \n      B-Isotope Data Reduction\n      \n        \n          \n        \n      \n    \n  \n\n  \n    \n      Powder Standards\n      \n        \n          \n        \n      \n    \n  \n\n  \n    \n      Data Science Course\n      \n        \n          \n        \n      \n    \n  \n\n  \n    \n      Cosmochemistry Course\n      \n        \n          \n        \n      \n    \n  \n\n  \n    \n      Microanalysis Course\n      \n        \n          \n        \n      \n    \n  \n\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+  },
+  {
+    "objectID": "tutorials/epma.html#probe-einschleusen",
+    "href": "tutorials/epma.html#probe-einschleusen",
+    "title": "EPMA",
+    "section": "Probe Einschleusen",
+    "text": "Probe Einschleusen",
+    "crumbs": [
+      "Tutorials",
+      "EPMA"
+    ]
+  },
+  {
+    "objectID": "tutorials/epma.html#probe-ausschleusen",
+    "href": "tutorials/epma.html#probe-ausschleusen",
+    "title": "EPMA",
+    "section": "Probe ausschleusen",
+    "text": "Probe ausschleusen",
+    "crumbs": [
+      "Tutorials",
+      "EPMA"
+    ]
+  },
+  {
+    "objectID": "tutorials/epma.html#producing-the-summary-file",
+    "href": "tutorials/epma.html#producing-the-summary-file",
+    "title": "EPMA",
+    "section": "Producing the Summary File",
+    "text": "Producing the Summary File",
+    "crumbs": [
+      "Tutorials",
+      "EPMA"
+    ]
+  },
+  {
+    "objectID": "tutorials/epma.html#recipe-structure",
+    "href": "tutorials/epma.html#recipe-structure",
+    "title": "EPMA",
+    "section": "Recipe Structure",
+    "text": "Recipe Structure\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Tutorials",
+      "EPMA"
+    ]
+  },
+  {
+    "objectID": "tutorials/ebsd.html",
+    "href": "tutorials/ebsd.html",
+    "title": "EBSD",
+    "section": "",
+    "text": "Die Probe muss bedampft sein, und ausreichend leitend über Kupfer-Band mit dem Halter verbunden sein – wie im Video zu sehen. Anschließend wird die Probe eingebaut, wobei aufgrund der großen Höhe des Halters unbedingt ein Sicherheitsabstand eingestellt werden muss.\n\n\n\n\nDie Probe ist um 70º geneigt, damit gebeugten Elektronen auf den Detektor auftreffen können. Allerdings verzerrt diese Neigung das Elektronen-Bild enorm. Das kann und sollte in jedem Fall durch die Software korrigiert werden. Nicht vergessen, diese Korrektur am Ende des Messtages wieder auf normal zurück zu stellen!\n\n\n\n\nDer Arbeitsabstand für EBSD-Messungen muss zunächst eingestellt werden, und sollte zwischen 16 und 21 mm liegen. Wir nehmen häufig 17 oder 20 mm.!\n\n\n\n\nDer Detektor muss zunächst eingeschaltet und eingefahren werden. Das Video zeigt das in voller Länge – da darf vorsichtig ein wenig nach vorne gespult werden.",
+    "crumbs": [
+      "Tutorials",
+      "EBSD"
+    ]
+  },
+  {
+    "objectID": "tutorials/ebsd.html#einbau-der-probe-sicherheitsabstand-einstellen-409",
+    "href": "tutorials/ebsd.html#einbau-der-probe-sicherheitsabstand-einstellen-409",
+    "title": "EBSD",
+    "section": "",
+    "text": "Die Probe muss bedampft sein, und ausreichend leitend über Kupfer-Band mit dem Halter verbunden sein – wie im Video zu sehen. Anschließend wird die Probe eingebaut, wobei aufgrund der großen Höhe des Halters unbedingt ein Sicherheitsabstand eingestellt werden muss.",
+    "crumbs": [
+      "Tutorials",
+      "EBSD"
+    ]
+  },
+  {
+    "objectID": "tutorials/ebsd.html#verzerrung-durch-die-70º-neigung-der-probe-korrigieren-133",
+    "href": "tutorials/ebsd.html#verzerrung-durch-die-70º-neigung-der-probe-korrigieren-133",
+    "title": "EBSD",
+    "section": "",
+    "text": "Die Probe ist um 70º geneigt, damit gebeugten Elektronen auf den Detektor auftreffen können. Allerdings verzerrt diese Neigung das Elektronen-Bild enorm. Das kann und sollte in jedem Fall durch die Software korrigiert werden. Nicht vergessen, diese Korrektur am Ende des Messtages wieder auf normal zurück zu stellen!",
+    "crumbs": [
+      "Tutorials",
+      "EBSD"
+    ]
+  },
+  {
+    "objectID": "tutorials/ebsd.html#arbeitsabstand-einstellen-103",
+    "href": "tutorials/ebsd.html#arbeitsabstand-einstellen-103",
+    "title": "EBSD",
+    "section": "",
+    "text": "Der Arbeitsabstand für EBSD-Messungen muss zunächst eingestellt werden, und sollte zwischen 16 und 21 mm liegen. Wir nehmen häufig 17 oder 20 mm.!",
+    "crumbs": [
+      "Tutorials",
+      "EBSD"
+    ]
+  },
+  {
+    "objectID": "tutorials/ebsd.html#detektor-einschalten-einfahren-241",
+    "href": "tutorials/ebsd.html#detektor-einschalten-einfahren-241",
+    "title": "EBSD",
+    "section": "",
+    "text": "Der Detektor muss zunächst eingeschaltet und eingefahren werden. Das Video zeigt das in voller Länge – da darf vorsichtig ein wenig nach vorne gespult werden.",
+    "crumbs": [
+      "Tutorials",
+      "EBSD"
+    ]
+  },
+  {
+    "objectID": "tutorials/ebsd.html#ebsd-analysen-mit-flamenco-947",
+    "href": "tutorials/ebsd.html#ebsd-analysen-mit-flamenco-947",
+    "title": "EBSD",
+    "section": "EBSD-Analysen mit Flamenco [9:47]",
+    "text": "EBSD-Analysen mit Flamenco [9:47]\nDie EBSD-Programme – für Analysen wie Auswertungen – scheinen von irgendwelchen Tanz-Verrückten programmiert, zumindest heißen sie alle nach Tänzen. Mit dem ersten Programm – Flamenco – werden die eigentlichen EBSD-Analysen gemacht. Wir schauen uns zunächst an, wie einzelne Punkte mit Flamenco gemessen werden, d.h. wie bestimmen die Orientierung eines einzelnen Minerals. Dazu wählt man aus einer Liste zunächst die Minerale aus, welche man in der Probe erwartet, d.h., man sollt wissen, welche Minerale man untersuchen möchte.",
+    "crumbs": [
+      "Tutorials",
+      "EBSD"
+    ]
+  },
+  {
+    "objectID": "tutorials/ebsd.html#maps-aufnehmen-mit-flamenco-819",
+    "href": "tutorials/ebsd.html#maps-aufnehmen-mit-flamenco-819",
+    "title": "EBSD",
+    "section": "Maps aufnehmen mit Flamenco [8:19]",
+    "text": "Maps aufnehmen mit Flamenco [8:19]\nSehr häufig möchte man die Verteilung aller Mineralorientierungen in einem Gestein, d.h. in einem Schliff wissen. Dazu nimmt man automatisiert ein Raster von Punkten über einen Ausschnitt der Probe, oder die gesamte Probe auf. Diese EBSD-Maps können wieder sehr einfach mit Flamenco programmiert und aufgenommen werden.",
+    "crumbs": [
+      "Tutorials",
+      "EBSD"
+    ]
+  },
+  {
+    "objectID": "tutorials/ebsd.html#maps-bearbeiten-mit-tango-1149",
+    "href": "tutorials/ebsd.html#maps-bearbeiten-mit-tango-1149",
+    "title": "EBSD",
+    "section": "Maps bearbeiten mit Tango [11:49]",
+    "text": "Maps bearbeiten mit Tango [11:49]\nDie Orientierungen der Minerale lassen sich mit dem Programm Tango farbcodiert darstellen. Es können eine Vielzahl unterschiedlicher Parameter ausgewählt und auf Maps wiedergegeben werden.",
+    "crumbs": [
+      "Tutorials",
+      "EBSD"
+    ]
+  },
+  {
+    "objectID": "tutorials/ebsd.html#pol-figuren-mit-mambo-637",
+    "href": "tutorials/ebsd.html#pol-figuren-mit-mambo-637",
+    "title": "EBSD",
+    "section": "Pol-Figuren mit Mambo [6:37]",
+    "text": "Pol-Figuren mit Mambo [6:37]\nMit dem Programm Mambo können dann die Mineralorientierungen in Pol-Figuren dargestellt werden. Besonders elegant ist die Verbindung mit Tango, sodass die Farbcodierung der Polfiguren in Mambo den Farbcodierungen der Maps in Tango entspricht.",
+    "crumbs": [
+      "Tutorials",
+      "EBSD"
+    ]
+  },
+  {
+    "objectID": "tutorials/ebsd.html#mit-twist-eigene-daten-hinzufügen-454",
+    "href": "tutorials/ebsd.html#mit-twist-eigene-daten-hinzufügen-454",
+    "title": "EBSD",
+    "section": "Mit Twist eigene Daten hinzufügen [4:54]",
+    "text": "Mit Twist eigene Daten hinzufügen [4:54]\nMöglicherweise möchte man ein Mineral untersuchen, das in keiner der angebotenen Datenbanken existiert. Dann kann mit dem Programm Twist das zu untersuchende Mineral manuell hinzugefügt werden. Dazu müssen allerdings die kristallgraphischen Parameter des Minerals bekannt sein, welche über eine Eingabemaske dem Programm mitgeteilt werden müssen.",
+    "crumbs": [
+      "Tutorials",
+      "EBSD"
+    ]
+  },
+  {
+    "objectID": "tutorials/ebsd.html#maps-mit-stitch-zusammen-fügen-113",
+    "href": "tutorials/ebsd.html#maps-mit-stitch-zusammen-fügen-113",
+    "title": "EBSD",
+    "section": "Maps mit Stitch zusammen fügen [1:13]",
+    "text": "Maps mit Stitch zusammen fügen [1:13]\nHat man mehrere benachbarte Maps gemessen, können diese mit dem Programm Stitch zusammen gefügt werden, allerdings nur, wenn die Maps mit derselben Step-Size aufgenommen wurden – darauf sollte man entsprechend bei der Erstellung der Maps achten. Nachdem eine solche kombinierte Map erstellt wurde, kann diese mit den oben erklärten Programm als Gesamtmap ausgewertet werden.",
+    "crumbs": [
+      "Tutorials",
+      "EBSD"
+    ]
+  },
+  {
+    "objectID": "tutorials/ebsd.html#detektor-heraus-fahren-038",
+    "href": "tutorials/ebsd.html#detektor-heraus-fahren-038",
+    "title": "EBSD",
+    "section": "Detektor heraus fahren [0:38]",
+    "text": "Detektor heraus fahren [0:38]\nZum Abschluss in jedem Fall den Detektor heraus fahren, die Probe entnehmen, Probenkammer wieder evakuieren, alles aufräumen – und die Probe am Besten gleich wieder mitnehmen.",
+    "crumbs": [
+      "Tutorials",
+      "EBSD"
+    ]
+  },
+  {
+    "objectID": "tutorials/ebsd.html#verzerrungskorrektur-zurück-stellen",
+    "href": "tutorials/ebsd.html#verzerrungskorrektur-zurück-stellen",
+    "title": "EBSD",
+    "section": "Verzerrungskorrektur zurück stellen",
+    "text": "Verzerrungskorrektur zurück stellen\nSiehe Kapitel 1.2: die Software-Korrektur für die Elektronen-Bilder wieder zurück stellen.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Tutorials",
+      "EBSD"
+    ]
+  },
+  {
+    "objectID": "tutorials/sem.html#probeneinbau-in-den-halter",
+    "href": "tutorials/sem.html#probeneinbau-in-den-halter",
+    "title": "SEM",
+    "section": "Probeneinbau in den Halter",
+    "text": "Probeneinbau in den Halter",
+    "crumbs": [
+      "Tutorials",
+      "SEM"
+    ]
+  },
+  {
+    "objectID": "tutorials/sem.html#probe-einbauen",
+    "href": "tutorials/sem.html#probe-einbauen",
+    "title": "SEM",
+    "section": "Probe einbauen",
+    "text": "Probe einbauen",
+    "crumbs": [
+      "Tutorials",
+      "SEM"
+    ]
+  },
+  {
+    "objectID": "tutorials/sem.html#gerät-einschalten",
+    "href": "tutorials/sem.html#gerät-einschalten",
+    "title": "SEM",
+    "section": "Gerät einschalten",
+    "text": "Gerät einschalten",
+    "crumbs": [
+      "Tutorials",
+      "SEM"
+    ]
+  },
+  {
+    "objectID": "tutorials/sem.html#height-einstellen",
+    "href": "tutorials/sem.html#height-einstellen",
+    "title": "SEM",
+    "section": "Height einstellen",
+    "text": "Height einstellen",
+    "crumbs": [
+      "Tutorials",
+      "SEM"
+    ]
+  },
+  {
+    "objectID": "tutorials/sem.html#einstellen-des-probenstroms",
+    "href": "tutorials/sem.html#einstellen-des-probenstroms",
+    "title": "SEM",
+    "section": "Einstellen des Probenstroms",
+    "text": "Einstellen des Probenstroms",
+    "crumbs": [
+      "Tutorials",
+      "SEM"
+    ]
+  },
+  {
+    "objectID": "tutorials/sem.html#bild-einstellen",
+    "href": "tutorials/sem.html#bild-einstellen",
+    "title": "SEM",
+    "section": "Bild einstellen",
+    "text": "Bild einstellen",
+    "crumbs": [
+      "Tutorials",
+      "SEM"
+    ]
+  },
+  {
+    "objectID": "tutorials/sem.html#menuleiste",
+    "href": "tutorials/sem.html#menuleiste",
+    "title": "SEM",
+    "section": "Menuleiste",
+    "text": "Menuleiste",
+    "crumbs": [
+      "Tutorials",
+      "SEM"
+    ]
+  },
+  {
+    "objectID": "tutorials/sem.html#inca-eds-messungen",
+    "href": "tutorials/sem.html#inca-eds-messungen",
+    "title": "SEM",
+    "section": "INCA EDS Messungen",
+    "text": "INCA EDS Messungen",
+    "crumbs": [
+      "Tutorials",
+      "SEM"
+    ]
+  },
+  {
+    "objectID": "tutorials/sem.html#inca-element-maps",
+    "href": "tutorials/sem.html#inca-element-maps",
+    "title": "SEM",
+    "section": "INCA Element-Maps",
+    "text": "INCA Element-Maps",
+    "crumbs": [
+      "Tutorials",
+      "SEM"
+    ]
+  },
+  {
+    "objectID": "tutorials/sem.html#ausschalten-und-probenausbau",
+    "href": "tutorials/sem.html#ausschalten-und-probenausbau",
+    "title": "SEM",
+    "section": "Ausschalten und Probenausbau",
+    "text": "Ausschalten und Probenausbau\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Tutorials",
+      "SEM"
+    ]
+  },
+  {
+    "objectID": "courses/data_science.html",
+    "href": "courses/data_science.html",
+    "title": "Data Science",
+    "section": "",
+    "text": "Click here to go to the Data Science course.\nDie Veranstaltung besteht aus\n- ca. 100 Seiten Skript, aufgeteilt in die 3 Teilskripte - ca. 50 Videos mit insgesamt über 7 Stunden Material - über 100 Jupyter Notebooks mit &gt;100 Fragen, Aufgaben & Beispielen - &gt; 00 Selbstlern-Fragen mit Antworten - &gt;20 Aufgaben zur gemeinsamen Lösung in den Präsenzphasen und den Semester-Projekten - zahlreiche zusätzlicher Dateien für verschiedene Aufgaben",
+    "crumbs": [
+      "Courses",
+      "Data Science"
+    ]
+  },
+  {
+    "objectID": "courses/data_science.html#einführung-installation-ein-erstes-programm-1.1-1.4-1142",
+    "href": "courses/data_science.html#einführung-installation-ein-erstes-programm-1.1-1.4-1142",
+    "title": "Data Science",
+    "section": "1 Einführung, Installation & ein erstes Programm: 1.1 – 1.4 [11:42]",
+    "text": "1 Einführung, Installation & ein erstes Programm: 1.1 – 1.4 [11:42]\nIn der ersten Stunde starten wir gemeinsam mit mit der Installation von Jupyter Notebooks, bzw. Anaconda. Wir lernen das Interface ein wenig kennen und schreiben ein erstes kleines Programm. Außerdem erkläre ich wie dieser Kurs im Flipped Classroom Format abläuft.",
+    "crumbs": [
+      "Courses",
+      "Data Science"
+    ]
+  },
+  {
+    "objectID": "courses/data_science.html#rufe-eine-selbst-geschriebene-mischungs-funktion-auf-2.1-2.5-3917",
+    "href": "courses/data_science.html#rufe-eine-selbst-geschriebene-mischungs-funktion-auf-2.1-2.5-3917",
+    "title": "Data Science",
+    "section": "2 Rufe eine selbst geschriebene Mischungs-Funktion auf: 2.1 – 2.5 [39:17]",
+    "text": "2 Rufe eine selbst geschriebene Mischungs-Funktion auf: 2.1 – 2.5 [39:17]\nZum Programmieren verwenden wir Befehle, das sollte recht einleuchtend sein. Nun hat Python natürlich keine Befehle für die Geochemie, um mit so einem beispielsweise direkt auszurechnen wie die neue Zusammensetzung einer Schmelze ist, nachdem sie sich mit einer anderen gemischt hat. Praktisch wäre es aber schon. Nicht nur in der Geochemie, sondern für sehr vieles. Daher ist es möglich eigenen Befehle zu definieren – etwas zur Mischung von Magmen – um diese anschließend immer wieder zu verwenden. Es ist sogar möglich mehrere Befehle in einer Datei zu speichern, und aus dieser ›Bibliothek‹ immer wieder aufzurufen. Wie das geht lernen wir in dieser Einheit.",
+    "crumbs": [
+      "Courses",
+      "Data Science"
+    ]
+  },
+  {
+    "objectID": "courses/data_science.html#erste-schritte-in-data-science-3.1-3.5-4321",
+    "href": "courses/data_science.html#erste-schritte-in-data-science-3.1-3.5-4321",
+    "title": "Data Science",
+    "section": "3 Erste Schritte in ›Data Science‹: 3.1 – 3.5 [43:21]",
+    "text": "3 Erste Schritte in ›Data Science‹: 3.1 – 3.5 [43:21]\nst.write(’In den vergangenen Jahren werden immer mehr Daten publiziert, deren Menge zukünftig noch schneller anwachsen wird. Es ist nicht leicht, all den Publikationen dieser erfreulich großen Mengen immer neuer Informationen zu folgen. Jupyter Notebooks wurden gerade auch dafür entwickelt, auf große Mengen an Daten zuzugreifen, diese zu visualisieren, analysieren und auf Problemstellungen anzuwenden. Natürlich ist das nur möglich, wenn die Daten in entsprechenden Formaten vorliegen. Oftmals ist daher im ersten Schritt ein ›Daten clean-up‹ notwendig. Seit 2020 gibt es nun endlich mehrere Initiativen, darunter so große wie die Nationale Forschungsdatenbank Initiative (NFDI) der DFG, GWK und anderer, die versuchen gemeinsam mit internationalen Partnern Daten besser verfügbar zu machen. Schon bestehende Datenbanken wie GeoROC, EarthChem oder auch MetBase erlauben schon seit langer Zeit solchen Zugang, und damit Data Science in z.B. der Geo- und Kosmochemie. In dieser Einheit steigen wir in das neue Feld der Data Science in der Mineralogie ein.",
+    "crumbs": [
+      "Courses",
+      "Data Science"
+    ]
+  },
+  {
+    "objectID": "courses/data_science.html#interaktive-elemente-erste-programme-4.1-4.5-4142",
+    "href": "courses/data_science.html#interaktive-elemente-erste-programme-4.1-4.5-4142",
+    "title": "Data Science",
+    "section": "4 Interaktive Elemente & erste Programme: 4.1 – 4.5 [41:42]",
+    "text": "4 Interaktive Elemente & erste Programme: 4.1 – 4.5 [41:42]\nNun fehlt uns nur noch wenig Rüstzeug, um erste, leistungsfähige Programme zu schreiben. Dieses Verbleibende lernen wir in dieser Einheit, um dann tatsächlich 2 Programme zu bauen, welche Datenbank-Daten effektiv darstellen. Vor allem lernen wir hier interaktive Möglichkeiten kennen die es uns ermöglichen, mit den Daten über eine graphische Benutzeroberfläche direkt zu interagieren, diese zu manipulieren und immer wieder neu darzustellen.",
+    "crumbs": [
+      "Courses",
+      "Data Science"
+    ]
+  },
+  {
+    "objectID": "courses/data_science.html#data-science-mit-api-requests-daten-auswertung-5.1-5.5-10322",
+    "href": "courses/data_science.html#data-science-mit-api-requests-daten-auswertung-5.1-5.5-10322",
+    "title": "Data Science",
+    "section": "5 Data Science mit API Requests & Daten-Auswertung 5.1 – 5.5 [1:03:22]",
+    "text": "5 Data Science mit API Requests & Daten-Auswertung 5.1 – 5.5 [1:03:22]\nEine besonders effektive und interessante Art auf Daten zuzugreifen ist über ›Application Programming Interfaces‹ – kurz: API. Der Begriff API ist sehr weit verbreitet, und sollte man sich in jedem Fall merken. In einer idealen Welt hätte man gar keine eigenen Datenbanken mehr, sondern würde nur noch über APIs auf Datenbanken zugreifen, sich die gewünschten Daten herunter laden, und diese dann auf dem eigenen Computer auswerten. Ein Großteil des Internets, und viele der erfolgreichsten Apps auf dem Smartphone funktionieren genau so: über ein API werden die gewünschten Daten geladen, und die App macht letztlich nicht mehr als ein Interface zur verfügung zu stellen, um diese Daten entsprechend auszuwählen und darzustellen. Das Interface ist dabei ein Graphical User Interface – kurz GUI. Ebenfalls ein Begriff, den man kennen sollte. Eine GUI ist letztlich nichts anders als das, was wir mit ›Interact‹ kennen gelernt haben. D.h., mit einer API und einer GUI machen wir exakt das, was fast jede unserer App auf dem Smartphone macht. Das hört sich alles großartig an – und ist es auch! Wäre da nicht das eine Problem: viele geowissenschaftliche Datenbanken haben – noch – keine vernünftige API. Glücklicherweise ändert sich daran gerade viel. Fun Fact Wir hier in Frankfurt sind an dieser Änderung recht zentral beteiligt.",
+    "crumbs": [
+      "Courses",
+      "Data Science"
+    ]
+  },
+  {
+    "objectID": "courses/cosmochemistry.html",
+    "href": "courses/cosmochemistry.html",
+    "title": "Cosmochemistry",
+    "section": "",
+    "text": "Course Link\nClick here to go to the Cosmochemistry course.\nHier geht es zum Kosmochemie Kurs.\n\n\nReihenfolge der zu schauenden Videos\n\n\n\nSollte selbst erklärend sein.\n\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Courses",
+      "Cosmochemistry"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "mag4",
+    "section": "",
+    "text": "This site is still being built, but a number of Tools are up and running and even the documentation is more or less available. The first processing application that is up and running is the flank data reduction application, which you will find under ‘Microprobe’ and then ‘Flank Method’.\nA sneak peak into the microprobe data processing application is found under ‘Microprobe’ and then ‘Data Processing’.\nThe application of how to reduce B-isotope data is up and running, and the documentation almost finished. You find this in the ‘Mass Spectrometry’ section.\nA peak into the powder standards application is available via the ‘Tools’ section.\nTwo full courses are available, one on Data Science, and one on Cosmochemistry, the documentation will be added in due time. These are obviously accessible through the ‘Courses’ section."
+  },
+  {
+    "objectID": "index.html#welcome-to-lab-data-processing-beta",
+    "href": "index.html#welcome-to-lab-data-processing-beta",
+    "title": "mag4",
+    "section": "",
+    "text": "This site is still being built, but a number of Tools are up and running and even the documentation is more or less available. The first processing application that is up and running is the flank data reduction application, which you will find under ‘Microprobe’ and then ‘Flank Method’.\nA sneak peak into the microprobe data processing application is found under ‘Microprobe’ and then ‘Data Processing’.\nThe application of how to reduce B-isotope data is up and running, and the documentation almost finished. You find this in the ‘Mass Spectrometry’ section.\nA peak into the powder standards application is available via the ‘Tools’ section.\nTwo full courses are available, one on Data Science, and one on Cosmochemistry, the documentation will be added in due time. These are obviously accessible through the ‘Courses’ section."
+  },
+  {
+    "objectID": "index.html#contributors",
+    "href": "index.html#contributors",
+    "title": "mag4",
+    "section": "Contributors",
+    "text": "Contributors\nDominik Hezel\nPremkumar Elangovan\nMara Hochstein\nHeidi Höfer\nAndreas Fichtner\nLea Schnapp\nJie Xu\nLara Friedrichs\nLea Ruckes"
+  },
+  {
+    "objectID": "index.html#supported-by",
+    "href": "index.html#supported-by",
+    "title": "mag4",
+    "section": "Supported by",
+    "text": "Supported by\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+  },
+  {
+    "objectID": "microprobe/data-access/thekadi4mateln.html",
+    "href": "microprobe/data-access/thekadi4mateln.html",
+    "title": "The Kadi4Mat ELN",
+    "section": "",
+    "text": "What is Kadi4Mat?\nKadi4Mat – or in short Kadi – is an Electronic Lab Notebook (ELN) that we use for EPMA results management and making data FAIR. Kadi is an online system that can be accessed with only a browser. A login is might be possible through your university email (if the Shibboleth AAI is connected to Kadi) or by applying for an account. However, we use the Kadi Python API for our tools, and with these, no login to Kadi is necessary.\nFor a sneak peak into the data processing application, check this out.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Microprobe",
+      "Data Access",
+      "The Kadi4Mat ELN"
+    ]
+  },
+  {
+    "objectID": "microprobe/epma-intro.html",
+    "href": "microprobe/epma-intro.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Electron Microprobe Data Processing\nThe flank data reduction application, including all documentation is up and running – check it out from the sidebar.\nThe data processing application is in development, a sneak peak is available.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Microprobe",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/basics.html",
+    "href": "microprobe/flank-method/basics.html",
+    "title": "Basics",
+    "section": "",
+    "text": "Introduction\nThe members of the garnet group have a large variety of chemical compositions with the general formula A2+3B3+2(SiO4)3. A is a distorted octahedral site and B a normal octahedral site. Here we focus on the two garnets almandine and andradite, which differ in their chemical composition and the valence state of Fe. Almandine has the chemical formula Fe2+3Al2(SiO4)3, with Fe as Fe2+ in the distorted octahedral A site, and andradite has the chemical formula Ca3Fe3+2(SiO4)3, with Fe as Fe3+ in the octahedral B site. There is a general, large immiscibility gap between almandine and andradite, however, almandine can have up to ~10% Fe3+ and andradite up to ~10% Fe2+. This amount is expressed in the atomic ratio Fe3+/FeT, with FeT meaning total Fe. The amount of Fe3+/FeT can be directly used to calculate the amount of free oxygen, i.e., the oxygen fugacity (\\(\\rightarrow\\) fO2) while the garnet formed.\n\n\n\n\n\n\nSummary\n\n\n\n\n\nAlmandine: Fe2+3Al2(SiO4)3, up to ~10% Fe3+/FeT\nAndradite: Ca3Fe3+2(SiO4)3, down to ~90% Fe3+/FeT\nThe amount of Fe3+/FeT is used to calculate the fO2.\n\n\n\n\n\nPrinciple\nThe energies of the FeL\\(\\alpha\\) and FeL\\(\\beta\\) lines are close together at 0.7049 and 0.7183 keV, respectively. These energies translate to analyser crystal positions, i.e., L-values on a JEOL microprobe of 191.218 and 187.631 mm. The relative intensities of the lines are 80 and 20, respectively, on a normalised scale of 100. Figure 1 shows the FeLa and FeLb peaks of an almandine spectra. The vertical lines indicate the tabulated values for FeLa and FeLb. A single tabulated and measured values need not to coincide, as this depends on the mechanical build. The distance of FeLa and FeLb, on the other, should be the same between the tabulated and measured peaks. However, this is not the case as already visible in Figure 1 by the naked eye.\n\n\n\n\n\n\nFigure 1: An Almandine Fe spectra with the Fe La and Lb lines. Taken with 2 µm steps, 1 s dwell time, 3 accumulations at 100 nA and 15 kV in Diff mode to suppress the FeKa 9. order peak at 189.417 mm (0.7116 keV). Spectra obtained with the GU Frankfurt IfG JEOL EPMA.\n\n\n\nThis means, at least one peak is not where it theoretically should be. The reason is the crystal field in which an atom, in this case the Fe atom, sits. This crystal fields slightly changes the electron energy levels around the Fe atom, and therewith the differences between the electron energy levels. Figure 2 illustrates this effect. The lengths of the arrows represent the energy differences when an electron from a higher shell transitions down to a lower shell, thereby emitting the characteristic X-rays with the same energies as these energy difference. The comparison of the arrow lengths on the right illustrate the change in energy difference between the two characteristic lines La and Lb.\n\n\n\n\n\n\nFigure 2: Schematic comparison of tabulated Fe energy levels with energy levels that are slightly changed by the crystal field.\n\n\n\nThese differences define the energies of the characteristic X-rays of the Lb and La lines. This effect is called chemical peak shift, and is the fundamental effect, upon which the flank method builds. :red[And finally, this effect also changes the relative intensities of the Lb and La lines.]\nNow, the Fe2+ in pure almandine occupies the distorted octahedral site, while the Fe3+ in pure andradite occupies the normal octahedral site. These two different crystal fields result in slightly different energy levels, and therewith in different energies of the characteristic La and Lb lines and different peak intensities. Hence, almandine and andradite are discriminated by the location and height of their La and Lb peaks. The goal is, however, not to simply discriminate two minerals, Further, most garnets in mantle and metamorphic rocks are solid solutions between almandine and pyrope with the general formula (Mg,Fe)3Al2(SiO4)3. These garnets contain, as outlined above, small amounts of Fe3+, which is a function of the ambient fO2 during garnet formation. But even small variations of Fe3+ shift the positions and increase/decrease the intensities of the La and Lb peaks. We cannot sensibly quantify an entire spectrum such as the one shown in Figure 1, and obtaining such spectra would cost way too much time. We therefore position the analyser crystal at a certain L-value, and measure the counts at this position in a standard and then in the sample. Because the peak shifted and in- or decreased its intensity depending on the sample’s Fe3+/FeT ratio, the counts in the sample will be either lower or higher than in the standard. As these count differences will be small, it is important to move the analyser crystal to a position with maximum count differences between standard and sample. As is seen from the schematic Figure 3, this position is at around the middle of a peak’s flank (now guess how this method earned its name). Each measurement position results in another count difference between the standard and sample peak. Note that peak means somewhere on the peak, not the peak maximum – which would not possible for both peaks at the same time when the measurement position is fixed, but the peak maximum of the samples is shifted from the peak maximum of the standard.\n\n\n\n\n\n\nFigure 3: Schematic FeL peak in a standard and a sample. The peak of the sample shifted its position and changed its intensity due to a different amount of Fe3+/FeT. Three coloured, dashed, vertical measurement positions (Pos) (\\(\\rightarrow\\) L-values) are indicated.\n\n\n\nThe maximum counts difference between the two spectra can be identified when the counts of spectra, e.g., almandine are subtracted from the counts of the other spectra, which would then be andradite. The positions of the maxima and minima of the resulting difference spectra (orange line in Figure 4) indicate the positions, where the two spectra have their maximum counts differences.\nThe counts differences between a single, e.g., FeLa standard and sample would insufficiently sensitive to correlate these with Fe3+/FeT difference between the standard and the sample. Therefore the counts differences between both, the FeLa and FeLb are determined. To obtain maximum changes in counts, for FeLa the position is chosen, where the difference spectra has its maxima, which will decrease with changing Fe3+/FeT, while for FeLb the position is chosen, where the difference spectra has its minima, which will increase with changing Fe3+/FeT. The change of counts at these two positions is then expressed by dividing the counts at these two positions, specifically by dividing the counts at the FeLb flank through the counts of the FeLa flank, in short: FeLb/FeLa. This provides a dimensionless number, which is preferable instead of the counts difference, which would be a dimensional number, and depend on measurement conditions.\nThe two analyser crystal positions should not be too close to their respective peaks, i.e., good analyser crystal positions in case of Figure 4 would be at 188.07 mm for FeLb and at 190.67 for FeLa, as drawn in the figure by the dashed, grey, vertical lines.\n\n\n\n\n\n\nFigure 4: FeLa and FeLb spectra for almandine and andradite, and the difference spectra of andradite minus almandine. Dashed, grey, vertical lines indicate ideal measurement positions for the TAPL analyser crystal positions. Measurement conditions are the same as for Figure 1.\n\n\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\nFe3+/FeT-poor (e.g., almandine) and Fe3+/FeT-rich (andradite) garnets have different chemical peak shifts. The extent of this chemical peak shift is a function of the garnet’s Fe3+/FeT and FeT. Count rates are measured on the FeLa and FeLb flanks and from these the dimensionless FeLb/FeLa-ratio is calculated. This ratio together with the FeT of a granet is used to determine its Fe3+/FeT.\n\n\n\n\n\nApplication\nThe FeLb/FeLa of a garnet not only depends on its Fe3+/FeT, but also on its Fe-content. Figure 5 illustrates this dependency, with the total Fe on the x/ and the FeLb/FeLa ratio on the y-axis. Standards with an ideally wide range of FeT concentrations are therefore imperative. This parametrisation plot and how it is calculated is explained in the next section.\nThe spread of the iso-Fe3+/FeT lines depends on the chosen standards. If only Fe3+/FeT-poor garnets are chosen (Figure 5 (a)), the spread is large, and the resolution, i.e., the precision of the Fe3+/FeT becomes better. The addition of an andradite standard decreases the spread of the iso-Fe3+/FeT lines, and reduces the Fe3+/FeT resolution (Figure 5 (b)). Finally, the precision of determining the Fe3+/FeT becomes increasingly better with increasing FeT, which correlates with a significant increase in the iso-Fe3+/FeT lines spread. And vice versa, the lower the FeT in garnet, the more imprecise it becomes to determine its iso-Fe3+/FeT.\n\n\n\n\n\n\n\n\n\n\n\n(a) Only pyrope-alamandine standards\n\n\n\n\n\n\n\n\n\n\n\n(b) Almandine and one andradite standard\n\n\n\n\n\n\n\nFigure 5: The FeLb/FeLa ratio depends on the Fe3+/FeT and the FeT concentration of a garnet. The blue and orange lines represent lines of the same Fe3+/FeT content, with high FeLb/FeLa represent high Fe3+/FeT and vice versa. Standards: large, black-rimmed symbols. Samples: small symbols.\n\n\n\n\n\nParametrisation\nRegression formulas, in which the parameters are used:\n\\(Fe^{2+} = A + B \\times \\frac{L\\beta}{L\\alpha} + C \\times \\Sigma Fe + D \\times \\Sigma Fe \\times \\frac{L\\beta}{L\\alpha}\\)\n\\(Fe^{3+} = -A - B \\times \\frac{L\\beta}{L\\alpha} - C \\times \\Sigma Fe - D \\times \\Sigma Fe \\times \\frac{L\\beta}{L\\alpha} + Fe_{tot}\\)\nx = \\(L\\beta/L\\alpha\\)\ny = \\(Fe_{tot}\\)\nz = \\(Fe^{2+}\\)\nA = [\n[n, \\(\\Sigma x\\), \\(\\Sigma y\\), \\(\\Sigma(x \\times y)\\)],\n[\\(\\Sigma x\\), \\(\\Sigma x^2\\), \\(\\Sigma(x \\times y)\\), \\(\\Sigma (y \\times x^2)\\)],\n[\\(\\Sigma y\\), \\(\\Sigma(x \\times y)\\), \\(\\Sigma(y^2)\\), \\(\\Sigma(x \\times y^ 2)\\)],\n[\\((x \\times y)\\), \\(\\Sigma((x^2) \\times y)\\),\n\\(\\Sigma(x \\times y^2)\\), \\(\\Sigma((x^2) \\times (y^2)\\)]\n]\nv = [\\(z\\), \\(\\Sigma(z \\times x)\\), \\(\\Sigma(z \\times y)\\), \\(\\Sigma(x \\times y \\times z)\\)]\nregression parameters:\nrfp = np.linalg.inv(A) @ v\nres = rfp[0] + rfp[1] * \\(L\\beta/L\\alpha\\) + rfp[2] * \\(Fe_{tot}\\) + rfp[3] * (\\(Fe_{tot}\\) * \\(L\\beta/L\\alpha\\))\nresultsFe3FP = (\\(Fe_{tot}\\) - res)/\\(Fe_{tot}\\)\n\n\nConclusion\nThe flank method is an elegant, cost efficient high resolution technique to determine Fe3+/FeT, and at the same time the chemical composition of the garnet. It has the potential to be used in a wide range of minerals. The main drawback is the tedious effort to setup the flank method for a new mineral type, which requires a range of minerals with variable FeO-concentrations and known Fe3+/FeT, as e.g., determined using Mössbauer quadrupole splitting.\n\n\nAlternatives\nAlternative methods to determine Fe3+/FeT are Mössbauer spectroscopy or XANES (X-ray absorption near edge structure). Mössbauer spectroscopy has a low resolution in the typical range of tens of µm, while XANES requires a synchrotron and is therefore costly and laborious. These methods can, however, determine Fe3+/FeT in basically all types of material.\n\n\nDetermining Analyser Crystal Positions\nThe flank method requires measurements on the FeLa and FeLb flanks rather than on their respective peaks. The ideal positions of the analyser crystals are best determined using a difference spectra, as described in the previous section. For garnet, this is best produced from a qualitative almandine and and andradite scan. It is, however, not required to record full spectra, as small intervals across the expected minima and maxima of the difference spectra are sufficient. Sufficient step size and dwell time – i.e., the counting time at each step – can be comparatively small, e.g., a step size of 3 µm and a dwell time of 300 ms. Figure 6 shows such segmented spectra with an interval for FeLa from 187.5 to 188. 5 mm, and for FeLb from 190 to 191 mm, as well as the resulting difference spectra. A high current of e.g., 300 nA is advisable, to obtain higher count rates. The sole measurement time will then be approx. 7 min, i.e., recording the required spectra should take about 10 min, if predefined measurement recipes are used.\n\n\n\n\n\n\nFigure 6: A segmented Fe spectra for fast determination of the FeLa and FeLb analyser crystal positions.\n\n\n\nThe flank data reduction program has a tool to determine analyser crystal positions (‘Crystal Positioning’ in ‘Tools’). Figure 7 shows how a csv table needs to be prepared for this tool. The ‘Datasets’ section further provides a test dataset for download that also serves as a template.\n\n\n\n\n\n\nFigure 7: Required header row and layout for csv tables to be used with the crystal positioning tool of the data reduction program.\n\n\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\nSegmented Fe spectra are sufficient to determine analyser crystal positions, e.g., using the one from the Tools section in the data reduction program.\n\n\n\n\n\nEPMA Set-Up\nThe flank method requires measuring the FeLa, FeLb flanks, as well as the Fe-concentration, e.g., on FeKa. The FeLa and FeLb flank measurement positions need to be input manually, after these have been determined as described above. The flank measurement set-ups in the EPMA measurement program might be labelled with element names that are never or only very rarely used. For the FeLb line, this could be Bi or Br and vor La Ar or As.\nThe FeLa and FeLb lines can be measured using a TAP-crystal, ideally a large-type TAPL cyrstal for better count rates, as the Fe L-lines are comparatively weak. Figure 8 shows a possible EPMA flank measurement set-up, in which the FeLa and FeLb lines are measured using the TAPL crystal of spectrometer 2 (2TAPL), and redundantly also on 4TAPL, to validate the results obtained with 2TAPL (or vice versa).\n\n\n\n\n\n\nFigure 8: The EPMA-measurement program and set-up for the FeLa and FeLb flanks. The flanks are measured on 2 spectrometers for cross-validation.\n\n\n\nThe selected Bi in Figure 8 represents the FeLb flank. The X-ray line as well as the order are as random as the selected Bi for labelling the measurement conditions of the actual FeLb line that is measured with this set-up. The peak position is input manually as determined using e.g., the data reduction program crystal positioning tool. The PHA conditions are determined as usual. The measurement time on all flanks is 100 s. No backgrounds are measured, i.e., the net count rates will be used to determine Fe3+ abundances.\nThe remaining spectrometers can be used for normal element analyses. Measuring Fe is mandatory, as it is required to determine Fe3+ abundances. It is, hence, also mandatory to at least measure all main elements, as these are required for accurate matrix corrected Fe concentrations. As the measurement of the flanks takes a little longer than 200 s (considering movement times of the analyser crystals), there might be time for further elements. Figure 9 displays a measurement set-up frequently used at the Institut für Geowissenschaften JEOL EPMA at the Goethe Universität Frankfurt.\n\n\n\n\n\n\nFigure 9: A full IfG GU Frankfurt EPMA flank measurement set-up.\n\n\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\nThe FeLa & FeLb measurement set-ups are labelled with fake elements, and measured for cross-validation on two spectrometers using TAPL crystals. Fe and main elements need to be measured for accurate Fe concentrations, further elements can be added.\n\n\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Basics"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/publications.html",
+    "href": "microprobe/flank-method/publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Method Section For Publications\nThe atomic Fe3+/Fetot proportions in garnets were determined with the flank method as developed and refined by Höfer et al. (1994) and Höfer and Brey (2007). Measurements were conducted with a JEOL JXA-8530F Plus electron microprobe at the Institute für Geowissenschaften, GU Frankfurt am Main. The flank method and the quantitative elemental analyses were simultaneously conducted using WDS at 15 kV and 120 nA, with a beam diameter of 1 μm. Two spectrometers with TAPL crystals for high intensities and the smallest detector slit (300 μm) were used, with 100 s counting time for FeLα and FeLβ. The Fe3+/Fetot of garnets were determined by applying the correction for self-absorption using natural and synthetic garnets with variable total Fe and Fe3+/Fetot known from Mössbauer ›milliprobe‹ (Höfer and Brey, 2007). The remaining 3 spectrometers carried out the simultaneous elemental analyses of Si, Ti, Al, Cr, Fe, Mn, Ni, Mg, Ca, Na, K and P. Appropriate silicates (pyrope (Mg, Al, Si), albite (Na), CaSiO3 (Ca)), phosphate (KTiOPO4 (Ti, K, P)), and metals or metal oxides (iron metal (Fe), NiO (Ni), MnTiO3 (Mn), Cr2O3 (Cr)) were used as standards, and a PRZ routine was used for the matrix correction (REF). The uncertainty in Fe3+/Fetot analyses is about ± 0.01 (1σ), while garnets with higher FeO have smaller errors than garnets with lower FeO.\nReferences\nHöfer H. E. and Brey G. P. (2007) The iron oxidation state of garnet by electron microprobe: Its determination with the flank method combined with major-element analysis. Am Mineral 92, 873–885. Höfer, H. E., Brey, G. P., Schulz-Dobrick, B., and Oberhänsli, R. (1994) The determination of the oxidation state of iron by the electron microprobe. European Journal of Mineralogy, 6, 407-418. PRZ REF\nAdditional References are listed in the according section in the sidebar on the left.\n\n\nLiterature\nHöfer H. E. and Brey G. P. (2007) The iron oxidation state of garnet by electron microprobe: Its determination with the flank method combined with major-element analysis. Am Mineral 92, 873–885.\nHöfer H. E. (2002) Quantification of Fe2+/Fe3+ by Electron Microprobe Analysis – New Developments. Hyperfine Interact 144–145, 239–248.\nHöfer H. E., Brey, G. P., and Hibberson, W. O. (2004) Iron oxidation state determination in synthetic pyroxenes by electron microprobe. Lithos, 73, 551.\nHöfer H. E., Weinbruch S., Mccammon C. A. and Brey G. P. (2000) Comparison of two electron probe microanalysis techniques to determine ferric iron in synthetic wüstite samples. Eur J Mineral 12, 63–71.\nHöfer, H. E., Brey, G. P., and Oberhänsli, R. (1996) The determination of the oxidation state of iron in synthetic garnets by X-ray spectroscopy with the electron microprobe. Physics and Chemistry of Minerals, 23, 241.\nHöfer, H. E., Brey, G. P., Schulz-Dobrick, B., and Oberhänsli, R. (1994) The determination of the oxidation state of iron by the electron microprobe. European Journal of Mineralogy, 6, 407-418.\n\n\nHow to Cite Flank Reduction\nIf you are using the flank method reduction website, please cite the following publication: Hezel, DC, Höfer, H, Fichtner A (2024) A fast open data reduction workflow for the electron microprobe flank method to determine Fe3+/SFe contents in minerals. American Mineralogist resubmitted.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/video-tutorials.html",
+    "href": "microprobe/flank-method/video-tutorials.html",
+    "title": "Video Tutorials",
+    "section": "",
+    "text": "The video tutorials are currently being updated and new one produced, and will go live towards autum 2024. Otherwise please ask for assistance.\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Video Tutorials"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html",
+    "href": "microprobe/flank-method/data-reduction-program.html",
+    "title": "Data Reduction",
+    "section": "",
+    "text": "This way to flank metheod data reduction:\nflank method data reduction program",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#preparing-the-sample-file",
+    "href": "microprobe/flank-method/data-reduction-program.html#preparing-the-sample-file",
+    "title": "Data Reduction",
+    "section": "Preparing the Sample File",
+    "text": "Preparing the Sample File\nFile Type\nThe file needs to be a csv file saved in the UTF-8 format. Some Excel versions have problems saving to UTF-8. Apple Numbers allows simple export to csv UTF-8.\nGeneral Spreadsheet Layout\nThe first row needs to be the categories, and there must not be any additional rows after the final sample row.\nSample Naming Conventions\ndrift standard – which are also in the sample file?! sample\nRequired Categories\nThe spreadsheet needs to have the following categories (=column headers). Some of the categories are automatically renamed by the program. The categories can be sorted in any order.\nPoint\nWill be renamed to: Point Nr.\nThis category is used in a number of plots on the x-axis, thereby allowing the quick identification of a sample that might have a bad analyses, and one might wants to not include.\nComment\nWill be renamed to: Name\nProvides the name of the sample.\nInspected\nWill not be renamed\nThis needs to be added manually by simply duplicating the ‘Comment’ column (= copy&paste a second ‘Comment’ column next to it) and then renaming the duplicated ‘Comment’ column to ‘Inspected’.\noxide_name(Mass%)\nWill be renamed to: oxide_name (wt%)\nFor example, categories need to be: SiO2(Mass%), Al2O3(Mass%), and so on. These are renamed to the common&gt; SiO2 (wt%), Al2O3 (wt%), and so on. There is no need for specific oxides, except for, of course, FeO(Mass%).\nBi(Net), Ar(Net), Br(Net), As(Net)\nWill be renamed to: Lb (2TAPL), La (2TAPL), Lb (4TAPL), Ls (4TAPL)\nThese are the fake elements in the measurement program of the EPMA. It is assumed that in the measurement program Bi and Ar are measured on channel 2, crystal TAPL, and Br and As are measured on channel 4 and also crystal TAPL. This is, because of the renaming of these categories as given above.\nAdditionnal Categories\nIt is possible to have as many other categories as wanted in the file. These are simply ignored. It might be sensible to include an addtional ‘Comment’ category to add specific notes.",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#the-test-dataset",
+    "href": "microprobe/flank-method/data-reduction-program.html#the-test-dataset",
+    "title": "Data Reduction",
+    "section": "The Test Dataset",
+    "text": "The Test Dataset\n\n\n\nTable 1: The layout of a sample file\n\n\n#import pandas as pd\n#df = pd.read_csv('data/moessbauer standard data.csv')\n#df",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#adding-new-standards",
+    "href": "microprobe/flank-method/data-reduction-program.html#adding-new-standards",
+    "title": "Data Reduction",
+    "section": "Adding new Standards",
+    "text": "Adding new Standards\nEach new standard that needs to be used for the flank method needs to be added to the Moessbauer stanard file. Should you wish to add a new standard, drop me an email with the required details and I will update the file with this new standard.",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#the-moessbauer-standard-file",
+    "href": "microprobe/flank-method/data-reduction-program.html#the-moessbauer-standard-file",
+    "title": "Data Reduction",
+    "section": "The Moessbauer Standard File",
+    "text": "The Moessbauer Standard File\nFe3+/FeT is an atom-ratio. Oxide-Concentrations are in wt%.\n\n\n\nTable 2: The standard file used in the flank method program\n\n\n#import pandas as pd\n#pd.read_csv('data/moessbauer standard data.csv')",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#start-data-upload",
+    "href": "microprobe/flank-method/data-reduction-program.html#start-data-upload",
+    "title": "Data Reduction",
+    "section": "Start & Data Upload",
+    "text": "Start & Data Upload\nForm of the data",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#data-reduction",
+    "href": "microprobe/flank-method/data-reduction-program.html#data-reduction",
+    "title": "Data Reduction",
+    "section": "Data Reduction",
+    "text": "Data Reduction\nAnd so",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#results-tables",
+    "href": "microprobe/flank-method/data-reduction-program.html#results-tables",
+    "title": "Data Reduction",
+    "section": "Results Tables",
+    "text": "Results Tables\n\nFe3+/SFe in Standard\n\n\nFe3+/SFe in Drift\n\n\nFe3+/SFe in Samples",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#visualisations",
+    "href": "microprobe/flank-method/data-reduction-program.html#visualisations",
+    "title": "Data Reduction",
+    "section": "Visualisations",
+    "text": "Visualisations\n\nSelect your Detail\n\nDrift Inspection\n\n\nComparing La & Lb\n\n\nParametrisation\n\n\nSample Inspection\n\n\nError Considerations\n\n\nResults Inspection",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#readme",
+    "href": "microprobe/flank-method/data-reduction-program.html#readme",
+    "title": "Data Reduction",
+    "section": "readme",
+    "text": "readme\nThe readme.md file from GitHub:  flank method github readme\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/tools/epma-intro.html",
+    "href": "microprobe/tools/epma-intro.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Electron Microprobe Data Processing\nThe flank data reduction application, including all documentation is up and running – check it out from the sidebar.\nThe data processing application is in development, a sneak peak is available.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+  },
+  {
+    "objectID": "mass-spec/boron/documentation.html",
+    "href": "mass-spec/boron/documentation.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "This program is capable of:\n\nRead multiple .exp data files\nRead additional .csv files\nOutlier rejection\nBackground correction\nIntra-sequence Instrumental drift correction\nAblation volume dependent B concentration offset correction\nCombination of calculation results, laser parameters and trace elements results\nReady to use final data table\n\n\n\n\n\nUpload data files from Neptune: click the ‘Browse files’ botton, then, use ‘command A’ to choose all ‘.exp’ data files required from Neptune.\nSet up parameters for isotopic data: (1). drag slider to choose bacground and signal area. Orange color zone represents background, and blue color zone is signal area. (2). set your outlier factor: with smaller number, more data will be cut as outlier, which can be observed from red spots. (3). set the bulge factor for 11B factor: this is related with bulge correction from 10B, 0.6 here as a factor is defined by Dr. Axel Gerdes. (4). choose your standard for intra-sequence instrumental drift correction: the name, the ‘A/B/C/D’ inside the name of standard, the regression level.\nUpload your log file from laser: click the ‘Browse files’ botton and choose your laser file. (have a check if it is matched with isotopic data.)\nSet up parameters for corrected boron concentration from signal intensity: (1). the regression level for boron concentration correction. (2). insert the depth of selected reference depth and other sample depth if you have. Otherwise, just keep it. (3). insert the shape of your spots: circle or squre. (4). tell us if you used split stream or not.\n\n*5. Upload your trace element file if you used split stream. (not necessary)\n\ndownload your final results as a csv file.\n\n\n\n\n\nInput datafiles from Neptune: (1). ‘.dat’, ‘.exp’, ‘.log’, ‘.TDT’ four type of datafiles for each measurement would be produced. Only ‘.exp’ can be read successfully and can be openned by excel. (2). underds datafiles are named in a format of ‘num-A/B/C/D/U’(e.g. ‘001-A’, ‘002-B’), num represents sequence number, A/B/C/D are four label for standards, U is label for unknown samples. Attention: all datafiles in one sequence need to be all uploaded once! (3). Inside each ‘.exp’ datafile, data start from the 23th row, and columns(‘9.9’, ‘10B’, ‘10.2’, ‘11B’) are necessary for data processing according to our method.\nInput laser file: this is a csv file produced during abalation. Please have a check about all recorded information, which should be in the same order with Neptune datafile. Error may happen here.\nInput trace element datafile: trace element data required from Ladr here. Raw data should be processed by Ladr and be appended here.\n\n\n\n\nRequired packages\n\n\nCode\nimport streamlit as st\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport statistics as stt\nfrom scipy import stats\nfrom scipy.optimize import curve_fit\n\n\nUploading files, multiple files and only .exp files are allowed.\n\n\nCode\nif st.button('clear uploaded data'):\n    st.session_state.uploaded_files = []\n\nif 'uploaded_files' in st.session_state and len(st.session_state.uploaded_files) != 0:\n    uploaded_files = st.session_state.uploaded_files\n\nelse:\n    st.session_state.uploaded_files = st.file_uploader('upload files', type=['exp'], accept_multiple_files=True)\n\n\n\n\n-&gt; Include here explanations of what the functions do to the data, e.g., why the regression, why higher orders: or – why the subtraction of the backgrounds, what two backgrounds exist: the ‘normal’ one, and one from an unknown source\ndef selSmpType(dataFiles)\nGet the sequence number for each datafile from their file name. The sequence number can be used for Instrumental drift correction later.\n\n\nCode\ndef selSmpType(dataFiles):\n    l = []\n    for file in dataFiles:    \n        l.append(float(file.split('_')[0]))\n    return l\n\n\ndef outlierCorrection(data, factorSD)\nOutlier rejection of data, data is out of factorSD times of standard deviation will be taken as outliers. The first one is used for plot, the second one is used for calculation.\n\n\nCode\ndef outlierCorrection_plot(data, factorSD):\n    element_signal = np.array(data)\n    mean = np.mean(element_signal, axis=0)\n    sd = np.std(element_signal, axis=0)\n    fil = (data &lt; mean + factorSD * sd) & (data &gt; mean - factorSD * sd)\n    return fil\n\n\ndef outlierCorrection(data, factorSD):\n    element_signal = np.array(data)\n    mean = np.mean(element_signal, axis=0)\n    sd = np.std(element_signal, axis=0)\n\n    return [x for x in data if (x &gt; mean - factorSD * sd) and (x &lt; mean + factorSD * sd)]\n\n\ndef parseBoronTable(file)\nfind the useful data body from uploaded ‘.exp’ datafiles.\n\n\nCode\ndef parseBoronTable(file):\n    #content = file.read()\n    content = file.getvalue().decode(\"utf-8\")\n    fname = file.__dict__[\"name\"]\n    _start = content.find(\"Cycle\\tTime\")\n    _end = content.find(\"***\\tCup\")\n    myTable = content[_start:_end-1]\n\n    cleanFname = f\"temp/{fname}_cleanTable\"\n    with open(cleanFname, \"w\") as _:\n        _.write(myTable)\n\n    df = pd.read_csv(cleanFname,\n                     sep='\\t',\n                     # dtype=\"float\"   #not working --&gt;time\n                     )\n\n    return df, fname\n\n\ndef sig_selection()\nPlot the signal selection zone.\n\n\nCode\n# st.session_state.sample_plot = st.selectbox(\n#     'Which is your sample to plot?',\n#     (st.session_state.uploaded_files))\n    \n# def sig_selection():\n#     average_B = []\n#     df_data, filename = parseBoronTable(st.session_state.sample_plot)\n#     df_data = df_data[['Cycle', '9.9', '10B', '10.2', '11B']].astype(float)\n\n#     fig, ax = plt.subplots()\n#     ax.plot(df_data['11B'], label='11B', c='green')\n#     ax.plot(df_data['10B'], label='10B', c='firebrick')\n#     ax.set_ylabel('signal intensity')\n#     ax.set_xlabel('cycle')\n#     x = df_data['11B'].index.to_numpy()\n#     ax.fill_between(x, max(df_data['11B']), where=(\n#         x &lt; st.session_state.sig_end) & (x &gt; st.session_state.sig_str), alpha=0.5)\n#     ax.fill_between(x, max(df_data['11B']), where=(\n#         x &lt; st.session_state.bac_end) & (x &gt; st.session_state.bac_str), alpha=0.5)\n\n#     ax.legend()\n#     return fig\n\n\ndef bacground_sub(factorSD, factor_B11)\nBackground subtraction. ‘9.9’, ‘10B’, ’10.2’ and ‘11B’ are useful data here. (1). noise substraction from each cup. (2). bulge is defined by ‘9.9’ and ’10.2’. The average value of ‘9.9’ and ’10.2’ is applied for 10B correction, multiply 0.6 of the average value is applied for 11B correction. (3). the outlier data is plotted here. (4). the average of 11B/10B, standard deviation and name of datafile are returned.\n\n\nCode\ndef bacground_sub(factorSD, factor_B11):\n    average_B = []\n    for i in st.session_state.uploaded_files:\n        df_data, filename = parseBoronTable(i)\n        df_data = df_data[['Cycle', '9.9', '10B', '10.2', '11B']].astype(float)\n\n        df_bacground_mean = df_data[st.session_state.bac_str:st.session_state.bac_end].mean()\n        df_signal = df_data[st.session_state.sig_str:st.session_state.sig_end]\n\n        df_bacground_sub = df_signal - df_bacground_mean\n        df_bacground_sub['10B_bulc_sub'] = df_bacground_sub['10B'] - \\\n            (df_bacground_sub['9.9']+df_bacground_sub['10.2'])/2\n        df_bacground_sub['11B_bulc_sub'] = df_bacground_sub['11B'] - \\\n            factor_B11*(df_bacground_sub['9.9']+df_bacground_sub['10.2'])/2\n        df_bacground_sub['11B/10B'] = df_bacground_sub['11B_bulc_sub'] / \\\n            df_bacground_sub['10B_bulc_sub']\n        fil = outlierCorrection_plot(df_bacground_sub['11B/10B'], factorSD)\n        res_iso = df_bacground_sub['11B/10B'][fil]\n        res_iso_outlier = df_bacground_sub['11B/10B'][~fil]\n        res_11B = outlierCorrection(df_bacground_sub['11B'], factorSD)\n        if i == st.session_state.sample_plot:\n            fig1, ax = plt.subplots()\n            ax.plot(df_bacground_sub['11B/10B'], 'ko')\n            ax.plot(res_iso_outlier, 'ro', label='outliers')\n            ax.set_ylabel('$^{11}B$/$^{1O}B$')\n            ax.legend()\n            st.pyplot(fig1)\n        average_B.append({'filename': filename, '11B': np.mean(\n            res_11B), '11B/10B_row': np.mean(res_iso), 'se': np.std(res_iso)/np.sqrt(len(res_iso))})\n\n    df = pd.DataFrame(average_B)\n    st.session_state.average_B = df\n\n    return df\n\n\ndef polynomFit(inp, *args)\nused for regression function.\n\n\nCode\ndef polynomFit(inp, *args):\n    x=inp\n    res=0\n    for order in range(len(args)):\n        res+=args[order] * x**order\n    return res\n\n\ndef regression(x, y, ref_stand, order, listname)\nGet the correction function of the Intra-sequence Instrumental drift.\n\n\nCode\ndef regression(x, y, ref_stand, order, listname):\n    x_use = np.array(x)\n    popt, pcov = curve_fit(polynomFit, xdata=x_use, ydata=y , p0=[0]*(order+1))\n    fitData=polynomFit(x_use,*popt)\n    \n    res = []\n    for unknown in listname:\n        y_unknown = ref_stand / polynomFit(unknown,*popt)\n        res.append({'factor': y_unknown})\n    return(pd.DataFrame(res))\n\n\ndef regression_plot(x, y, ref_stand, order, listname)\nReturn the plot the regress line.\n\n\nCode\ndef regression_plot(x, y, ref_stand, order, listname):\n    fig, ax = plt.subplots()\n    ax.plot(x, y, label='measuered', marker='o', linestyle='none' )\n    x_use = np.array(x)\n    popt, pcov = curve_fit(polynomFit, xdata=x_use, ydata=y , p0=[0]*(order+1))\n    fitData=polynomFit(x_use,*popt)\n    ax.plot(x_use, fitData, label='polyn. fit, order '+str(order), linestyle='--' )\n    ax.legend(loc='upper left', bbox_to_anchor=(1.05, 1))\n    \n    return fig\n\n\ndef prepare_trace(datafile)\nPrepare trace element datafile from Ladr: change the column titles and change data formate from str to float.\n\n\nCode\ndef prepare_trace(datafile):\n    if 'LR' in datafile.columns[14]:\n        del datafile['44Ca(LR)']\n        del datafile['26Mg(LR)']\n    else:\n        del datafile['44Ca']\n        del datafile['26Mg']\n\n    datafile.columns = datafile.columns.str.replace('\\d+', '')\n    datafile.columns = datafile.columns.str.replace('\\('+'LR'+'\\)', '')\n    res = []\n    for i in range(13, len(datafile.columns)):\n        for j in datafile.iloc[:, i]:\n            if '&lt;' in j:\n                res.append(j)\n    RES = datafile.replace(to_replace=res, value='nan', regex=True)\n    RES2 = RES.replace(\n        {'ERROR: Error (#1002): Internal standard composition can not be 0': np.nan})\n    RES3 = RES2.replace(\n        {'ERROR: Error (#1003): Calibration RM composition does not contain analyte element': np.nan})\n    RES4 = RES3.iloc[:, 13:].astype(float)\n    columns = RES4.iloc[:, 13:].columns\n    RES4[columns] = RES4.iloc[:, 13:]\n    RES4[' Sequence Number'] = RES3['LB#']\n    return(RES4)\n\n\ndef processData()\nUse functions for Intra-sequence Instrumental drift.\n\n\nCode\ndef processData():\n    st.set_option('deprecation.showPyplotGlobalUse', False)\n    st.subheader('1.1 select your background and signal area')\n    st.session_state.bac_str, st.session_state.bac_end = st.slider('Select bacground', 0, 200, (5, 70))\n    st.session_state.sig_str, st.session_state.sig_end = st.slider('Select signal', 0, 200, (95, 175))\n    st.pyplot(sig_selection())\n\n    st.subheader('1.2 Please set your outlier and bulge factor')\n    outlier_factor = st.number_input('insert your outlier factor (means data is outlier_factor times of sd will be cut)',\n                                     value=1.5)\n    bulc_factor = st.number_input(\n        'insert your bulge factor for 11B correction', value=0.6)\n\n\n\n    if \"average_B\" in st.session_state:\n        df_data = st.session_state.average_B\n    else:\n        df_data = bacground_sub(outlier_factor, bulc_factor)\n\n    st.subheader(\n        '1.3 Please choose your standard for boron isotopes correction')\n\n    standard = st.selectbox(\n        'NIST 612 or B5 for correction?',\n        ('NIST SRM 612', 'B5'))\n    if standard == 'B5':\n        number_iso = int(4.0332057)\n        number_trace = int(8.42)\n        SRM951_value = int(4.0492)\n\n    if standard == 'NIST SRM 612':\n        number_iso = int(4.05015)\n        number_trace = int(35)\n        SRM951_value = int(4.0545)\n\n    st.session_state.standard_values = {\n        \"number_iso\" : number_iso,\n        \"number_trace\" : number_trace,\n        \"SRM951_value\" : SRM951_value\n\n    }\n\n    st.session_state.sample_correction = st.selectbox(\n        'Which type is your choosed standard?',\n        ('A', 'B', 'C', 'D'))\n\n    st.session_state.default_reg_level = 4\n    st.session_state.regress_level = st.number_input('insert your regression level (4 is recommended)', step=1, value=st.session_state.default_reg_level, format='%X'\n                                                     )\n    fil = df_data['filename'].str.contains(st.session_state.sample_correction)\n    df_data_B = df_data[fil]\n    df_data[' Sequence Number'] = selSmpType(df_data['filename'])\n\n    y_isotope = df_data_B['11B/10B_row']\n    y_11B = df_data_B['11B']\n    x = df_data_B.index.to_numpy()\n\n    factor_iso = regression(x, y_isotope,\n                            number_iso,\n                            st.session_state.regress_level if \"regress_level\" in st.session_state else st.session_state.default_reg_level,\n                            df_data.index.to_numpy()\n                            )\n\n    df_data['factor_iso'] = factor_iso\n\n    df_data['11B/10B_corrected'] = df_data['factor_iso']*df_data['11B/10B_row']\n    df_data['δ11B'] = ((df_data['11B/10B_corrected']/SRM951_value)-1)*1000\n    df_data['δ11B_se'] = (df_data['se']*df_data['factor_iso']/SRM951_value)*1000\n\n    st.session_state.df_data = df_data\n    st.session_state.df_data_B = df_data_B\n\n\ndef processLaser()\nUse functions and volume factors for corrected boron concerntrations.\n\n\nCode\ndef processLaser():\n    if \"df_data\" in st.session_state:\n        st.header('2. Please upload your log file from Laser')\n        st.session_state.uploaded_laser_file = st.file_uploader(\"Choose a laser file\", type='csv')\n        if st.session_state.uploaded_laser_file is not None:\n            st.session_state.df_Laser = pd.read_csv(st.session_state.uploaded_laser_file)\n\n            st.session_state.df_Laser_part1 = st.session_state.df_Laser[st.session_state.df_Laser[' Laser State']\n                                    == 'On'].iloc[:, [13, 20, 21]]\n            st.session_state.df_Laser_part2 = st.session_state.df_Laser[st.session_state.df_Laser[' Sequence Number'].notnull()].iloc[:, [\n                    1, 4]]\n\n            st.session_state.df_Laser_res = pd.concat([st.session_state.df_Laser_part2.reset_index(\n                    drop=True), st.session_state.df_Laser_part1.reset_index(drop=True)], axis=1)\n                    \n            st.session_state.df_map1 = st.session_state.df_Laser_res.merge(st.session_state.df_data, on=' Sequence Number')\n\n            st.subheader('2.1 B concerntration correction')\n            st.session_state.regress_level_B = st.number_input('insert your regression level for [B] (4 is recommended)', \n            step=1, \n            value=st.session_state.default_reg_level, \n            format='%X'\n                                                            )     \n\n            y_isotope = st.session_state.df_data_B['11B/10B_row']\n            y_11B = st.session_state.df_data_B['11B']\n            x = st.session_state.df_data_B.index.to_numpy()   \n            factor_B = regression(x, y_11B, st.session_state.standard_values[\"number_trace\"],\n                            st.session_state.regress_level_B if \"regress_level_B\" in st.session_state else st.session_state.default_reg_level_B, \n                            st.session_state.df_data.index.to_numpy()\n                            )\n            st.session_state.df_map1['factor_B'] = factor_B\n            \n\n            depth_ref = st.number_input('insert the abalation depth of selected reference / µm', value = 30.0)\n            depth_sample = st.number_input('insert the abalation depth of other samples / µm', value = 30.0)\n                    \n            depth_ratios = []\n            for i in st.session_state.df_map1['filename'].str.contains('A'):\n                if i == True:\n                    depth_ratio = 1 \n                else:\n                    depth_ratio = depth_sample / depth_ref\n                depth_ratios.append(depth_ratio)\n\n            st.session_state.df_map1['depth_correction'] = depth_ratios\n\n            spot_shape = st.selectbox(\n                        'What is the type of your spots?',\n                        ('circle', 'squre'))\n            if spot_shape == 'circle':\n                st.session_state.df_map1[' Spot Size (um)'] = st.session_state.df_Laser_res[' Spot Size (um)']\n                ref = ((st.session_state.df_map1[st.session_state.df_map1['filename'].str.contains(st.session_state.sample_correction)][' Spot Size (um)']/2)**2).mean()\n                st.session_state.df_map1['[B]_corrected'] = st.session_state.df_map1['11B']*st.session_state.df_map1['factor_B'] * (ref / ((st.session_state.df_map1[' Spot Size (um)']/2)**2) / depth_ratios)\n\n            if spot_shape == 'squre':\n\n                dia = st.session_state.df_map1[' Spot Size (um)']\n                spotsize = dia.str.split(' ').str[0].apply(lambda x: float(x))\n                st.session_state.df_map1[' Spot Size (um)'] = spotsize\n                ref = ((st.session_state.df_map1[st.session_state.df_map1['filename'].str.contains(st.session_state.sample_correction)][' Spot Size (um)'])**2).mean()\n                st.session_state.df_map1['[B]_corrected'] = st.session_state.df_map1['11B']*st.session_state.df_map1['factor_B'] * (ref / ((st.session_state.df_map1[' Spot Size (um)'])**2) / depth_ratios)   \n    \n            st.session_state.df_map1 = st.session_state.df_map1\n\n\ndef maping()\nupload trace element datafile and merge laser parameter, isotopic results and trace element compositions into one file based on sequence number.\n\n\nCode\ndef maping():\n    if \"df_map1\" in st.session_state:\n        st.subheader('2.2 export results or append your trace elements')\n\n        trace_file = st.selectbox(\n            'split stream or not?',\n            ('Split stream', 'No'))\n\n        if trace_file == 'No':\n            st.session_state.df_all = st.session_state.df_map1\n\n\n        elif trace_file == 'Split stream':\n            st.header('3. Please upload your trace element data processed from Ladr')\n\n            st.session_state.trace = st.file_uploader(\"Choose a file\", type='csv', accept_multiple_files=True)\n            if \"trace\" in  st.session_state and len(st.session_state.trace) &gt; 0:\n\n                trace_file = pd.read_csv(st.session_state.trace[0])\n\n                #trace_file = pd.read_csv('2022-11-28-Si corrected-B5.csv')\n\n                df_trace = prepare_trace(trace_file)\n\n                st.session_state.df_all = st.session_state.df_map1.merge(df_trace, on=' Sequence Number')\n                # fig4, ax = plt.subplots()\n                # ax.plot([0,1],[0,1], transform=ax.transAxes, c = 'red')\n                # ax.scatter(st.session_state.df_all['[B]_corrected'], st.session_state.df_all['B'], s =70, c = 'darkorange', edgecolors = 'black')\n                # ax.set_ylabel('[B]_measured by Element')\n                # ax.set_xlabel('[B]_corrected by Neptune')\n                # st.pyplot(fig4)\n\n\n        if \"df_all\" in st.session_state:\n            st.session_state.df_all.to_csv('final.csv')\n            st.write(st.session_state.df_all)\n            result_csv = st.session_state.df_all.to_csv().encode('utf-8')\n            st.download_button(\n                label='download results as .csv',\n                data=result_csv,\n                file_name='boron results.csv',\n                mime='txt/csv',\n            )\n\n\n\n\n\nrun thw function:\n\n\nCode\n# if len(st.session_state.uploaded_files) != 0:\n#     processData()\n\n# processLaser()\n# maping()\n\n\n\n\n\n\nWhat exactly is the output, likely best with screen shots.\n–&gt;’Sequence Number’ column: the number of datafile in all sequence. –&gt;The ‘Comment’ column: sample name, labelled by yourself during measuring. –&gt; ‘Spot size (um)’, ‘Laser HV (kV)’, ‘Laser Energy (mJ)’: useful information selected from laser parameters. –&gt;The ‘filename’ column: name of datafile. –&gt;from ‘11B’ to ‘factor_iso’: all results from Neptune. ’[B]_corrected’ is calculated B concentrations from 11B. ‘δ11B’ and ‘δ11B_se’column are calculated isotope results and erros. –&gt;from ‘Li’, ‘B’ to ‘U’ are all trace element results from Element XR.\n(the following is copied from what was a ‘text’ file.) 1. csv files are changed from original .exp file 2. data automatically from machine can be found in ‘data/original data type’.\n\n\n\nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\nFigure 1\n\n\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+  },
+  {
+    "objectID": "mass-spec/boron/documentation.html#introduction",
+    "href": "mass-spec/boron/documentation.html#introduction",
+    "title": "Documentation",
+    "section": "",
+    "text": "This program is capable of:\n\nRead multiple .exp data files\nRead additional .csv files\nOutlier rejection\nBackground correction\nIntra-sequence Instrumental drift correction\nAblation volume dependent B concentration offset correction\nCombination of calculation results, laser parameters and trace elements results\nReady to use final data table"
+  },
+  {
+    "objectID": "mass-spec/boron/documentation.html#how-to-use-the-progame",
+    "href": "mass-spec/boron/documentation.html#how-to-use-the-progame",
+    "title": "Documentation",
+    "section": "",
+    "text": "Upload data files from Neptune: click the ‘Browse files’ botton, then, use ‘command A’ to choose all ‘.exp’ data files required from Neptune.\nSet up parameters for isotopic data: (1). drag slider to choose bacground and signal area. Orange color zone represents background, and blue color zone is signal area. (2). set your outlier factor: with smaller number, more data will be cut as outlier, which can be observed from red spots. (3). set the bulge factor for 11B factor: this is related with bulge correction from 10B, 0.6 here as a factor is defined by Dr. Axel Gerdes. (4). choose your standard for intra-sequence instrumental drift correction: the name, the ‘A/B/C/D’ inside the name of standard, the regression level.\nUpload your log file from laser: click the ‘Browse files’ botton and choose your laser file. (have a check if it is matched with isotopic data.)\nSet up parameters for corrected boron concentration from signal intensity: (1). the regression level for boron concentration correction. (2). insert the depth of selected reference depth and other sample depth if you have. Otherwise, just keep it. (3). insert the shape of your spots: circle or squre. (4). tell us if you used split stream or not.\n\n*5. Upload your trace element file if you used split stream. (not necessary)\n\ndownload your final results as a csv file."
+  },
+  {
+    "objectID": "mass-spec/boron/documentation.html#input-file-requirements",
+    "href": "mass-spec/boron/documentation.html#input-file-requirements",
+    "title": "Documentation",
+    "section": "",
+    "text": "Input datafiles from Neptune: (1). ‘.dat’, ‘.exp’, ‘.log’, ‘.TDT’ four type of datafiles for each measurement would be produced. Only ‘.exp’ can be read successfully and can be openned by excel. (2). underds datafiles are named in a format of ‘num-A/B/C/D/U’(e.g. ‘001-A’, ‘002-B’), num represents sequence number, A/B/C/D are four label for standards, U is label for unknown samples. Attention: all datafiles in one sequence need to be all uploaded once! (3). Inside each ‘.exp’ datafile, data start from the 23th row, and columns(‘9.9’, ‘10B’, ‘10.2’, ‘11B’) are necessary for data processing according to our method.\nInput laser file: this is a csv file produced during abalation. Please have a check about all recorded information, which should be in the same order with Neptune datafile. Error may happen here.\nInput trace element datafile: trace element data required from Ladr here. Raw data should be processed by Ladr and be appended here."
+  },
+  {
+    "objectID": "mass-spec/boron/documentation.html#description-of-the-python-code",
+    "href": "mass-spec/boron/documentation.html#description-of-the-python-code",
+    "title": "Documentation",
+    "section": "",
+    "text": "Required packages\n\n\nCode\nimport streamlit as st\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport statistics as stt\nfrom scipy import stats\nfrom scipy.optimize import curve_fit\n\n\nUploading files, multiple files and only .exp files are allowed.\n\n\nCode\nif st.button('clear uploaded data'):\n    st.session_state.uploaded_files = []\n\nif 'uploaded_files' in st.session_state and len(st.session_state.uploaded_files) != 0:\n    uploaded_files = st.session_state.uploaded_files\n\nelse:\n    st.session_state.uploaded_files = st.file_uploader('upload files', type=['exp'], accept_multiple_files=True)\n\n\n\n\n-&gt; Include here explanations of what the functions do to the data, e.g., why the regression, why higher orders: or – why the subtraction of the backgrounds, what two backgrounds exist: the ‘normal’ one, and one from an unknown source\ndef selSmpType(dataFiles)\nGet the sequence number for each datafile from their file name. The sequence number can be used for Instrumental drift correction later.\n\n\nCode\ndef selSmpType(dataFiles):\n    l = []\n    for file in dataFiles:    \n        l.append(float(file.split('_')[0]))\n    return l\n\n\ndef outlierCorrection(data, factorSD)\nOutlier rejection of data, data is out of factorSD times of standard deviation will be taken as outliers. The first one is used for plot, the second one is used for calculation.\n\n\nCode\ndef outlierCorrection_plot(data, factorSD):\n    element_signal = np.array(data)\n    mean = np.mean(element_signal, axis=0)\n    sd = np.std(element_signal, axis=0)\n    fil = (data &lt; mean + factorSD * sd) & (data &gt; mean - factorSD * sd)\n    return fil\n\n\ndef outlierCorrection(data, factorSD):\n    element_signal = np.array(data)\n    mean = np.mean(element_signal, axis=0)\n    sd = np.std(element_signal, axis=0)\n\n    return [x for x in data if (x &gt; mean - factorSD * sd) and (x &lt; mean + factorSD * sd)]\n\n\ndef parseBoronTable(file)\nfind the useful data body from uploaded ‘.exp’ datafiles.\n\n\nCode\ndef parseBoronTable(file):\n    #content = file.read()\n    content = file.getvalue().decode(\"utf-8\")\n    fname = file.__dict__[\"name\"]\n    _start = content.find(\"Cycle\\tTime\")\n    _end = content.find(\"***\\tCup\")\n    myTable = content[_start:_end-1]\n\n    cleanFname = f\"temp/{fname}_cleanTable\"\n    with open(cleanFname, \"w\") as _:\n        _.write(myTable)\n\n    df = pd.read_csv(cleanFname,\n                     sep='\\t',\n                     # dtype=\"float\"   #not working --&gt;time\n                     )\n\n    return df, fname\n\n\ndef sig_selection()\nPlot the signal selection zone.\n\n\nCode\n# st.session_state.sample_plot = st.selectbox(\n#     'Which is your sample to plot?',\n#     (st.session_state.uploaded_files))\n    \n# def sig_selection():\n#     average_B = []\n#     df_data, filename = parseBoronTable(st.session_state.sample_plot)\n#     df_data = df_data[['Cycle', '9.9', '10B', '10.2', '11B']].astype(float)\n\n#     fig, ax = plt.subplots()\n#     ax.plot(df_data['11B'], label='11B', c='green')\n#     ax.plot(df_data['10B'], label='10B', c='firebrick')\n#     ax.set_ylabel('signal intensity')\n#     ax.set_xlabel('cycle')\n#     x = df_data['11B'].index.to_numpy()\n#     ax.fill_between(x, max(df_data['11B']), where=(\n#         x &lt; st.session_state.sig_end) & (x &gt; st.session_state.sig_str), alpha=0.5)\n#     ax.fill_between(x, max(df_data['11B']), where=(\n#         x &lt; st.session_state.bac_end) & (x &gt; st.session_state.bac_str), alpha=0.5)\n\n#     ax.legend()\n#     return fig\n\n\ndef bacground_sub(factorSD, factor_B11)\nBackground subtraction. ‘9.9’, ‘10B’, ’10.2’ and ‘11B’ are useful data here. (1). noise substraction from each cup. (2). bulge is defined by ‘9.9’ and ’10.2’. The average value of ‘9.9’ and ’10.2’ is applied for 10B correction, multiply 0.6 of the average value is applied for 11B correction. (3). the outlier data is plotted here. (4). the average of 11B/10B, standard deviation and name of datafile are returned.\n\n\nCode\ndef bacground_sub(factorSD, factor_B11):\n    average_B = []\n    for i in st.session_state.uploaded_files:\n        df_data, filename = parseBoronTable(i)\n        df_data = df_data[['Cycle', '9.9', '10B', '10.2', '11B']].astype(float)\n\n        df_bacground_mean = df_data[st.session_state.bac_str:st.session_state.bac_end].mean()\n        df_signal = df_data[st.session_state.sig_str:st.session_state.sig_end]\n\n        df_bacground_sub = df_signal - df_bacground_mean\n        df_bacground_sub['10B_bulc_sub'] = df_bacground_sub['10B'] - \\\n            (df_bacground_sub['9.9']+df_bacground_sub['10.2'])/2\n        df_bacground_sub['11B_bulc_sub'] = df_bacground_sub['11B'] - \\\n            factor_B11*(df_bacground_sub['9.9']+df_bacground_sub['10.2'])/2\n        df_bacground_sub['11B/10B'] = df_bacground_sub['11B_bulc_sub'] / \\\n            df_bacground_sub['10B_bulc_sub']\n        fil = outlierCorrection_plot(df_bacground_sub['11B/10B'], factorSD)\n        res_iso = df_bacground_sub['11B/10B'][fil]\n        res_iso_outlier = df_bacground_sub['11B/10B'][~fil]\n        res_11B = outlierCorrection(df_bacground_sub['11B'], factorSD)\n        if i == st.session_state.sample_plot:\n            fig1, ax = plt.subplots()\n            ax.plot(df_bacground_sub['11B/10B'], 'ko')\n            ax.plot(res_iso_outlier, 'ro', label='outliers')\n            ax.set_ylabel('$^{11}B$/$^{1O}B$')\n            ax.legend()\n            st.pyplot(fig1)\n        average_B.append({'filename': filename, '11B': np.mean(\n            res_11B), '11B/10B_row': np.mean(res_iso), 'se': np.std(res_iso)/np.sqrt(len(res_iso))})\n\n    df = pd.DataFrame(average_B)\n    st.session_state.average_B = df\n\n    return df\n\n\ndef polynomFit(inp, *args)\nused for regression function.\n\n\nCode\ndef polynomFit(inp, *args):\n    x=inp\n    res=0\n    for order in range(len(args)):\n        res+=args[order] * x**order\n    return res\n\n\ndef regression(x, y, ref_stand, order, listname)\nGet the correction function of the Intra-sequence Instrumental drift.\n\n\nCode\ndef regression(x, y, ref_stand, order, listname):\n    x_use = np.array(x)\n    popt, pcov = curve_fit(polynomFit, xdata=x_use, ydata=y , p0=[0]*(order+1))\n    fitData=polynomFit(x_use,*popt)\n    \n    res = []\n    for unknown in listname:\n        y_unknown = ref_stand / polynomFit(unknown,*popt)\n        res.append({'factor': y_unknown})\n    return(pd.DataFrame(res))\n\n\ndef regression_plot(x, y, ref_stand, order, listname)\nReturn the plot the regress line.\n\n\nCode\ndef regression_plot(x, y, ref_stand, order, listname):\n    fig, ax = plt.subplots()\n    ax.plot(x, y, label='measuered', marker='o', linestyle='none' )\n    x_use = np.array(x)\n    popt, pcov = curve_fit(polynomFit, xdata=x_use, ydata=y , p0=[0]*(order+1))\n    fitData=polynomFit(x_use,*popt)\n    ax.plot(x_use, fitData, label='polyn. fit, order '+str(order), linestyle='--' )\n    ax.legend(loc='upper left', bbox_to_anchor=(1.05, 1))\n    \n    return fig\n\n\ndef prepare_trace(datafile)\nPrepare trace element datafile from Ladr: change the column titles and change data formate from str to float.\n\n\nCode\ndef prepare_trace(datafile):\n    if 'LR' in datafile.columns[14]:\n        del datafile['44Ca(LR)']\n        del datafile['26Mg(LR)']\n    else:\n        del datafile['44Ca']\n        del datafile['26Mg']\n\n    datafile.columns = datafile.columns.str.replace('\\d+', '')\n    datafile.columns = datafile.columns.str.replace('\\('+'LR'+'\\)', '')\n    res = []\n    for i in range(13, len(datafile.columns)):\n        for j in datafile.iloc[:, i]:\n            if '&lt;' in j:\n                res.append(j)\n    RES = datafile.replace(to_replace=res, value='nan', regex=True)\n    RES2 = RES.replace(\n        {'ERROR: Error (#1002): Internal standard composition can not be 0': np.nan})\n    RES3 = RES2.replace(\n        {'ERROR: Error (#1003): Calibration RM composition does not contain analyte element': np.nan})\n    RES4 = RES3.iloc[:, 13:].astype(float)\n    columns = RES4.iloc[:, 13:].columns\n    RES4[columns] = RES4.iloc[:, 13:]\n    RES4[' Sequence Number'] = RES3['LB#']\n    return(RES4)\n\n\ndef processData()\nUse functions for Intra-sequence Instrumental drift.\n\n\nCode\ndef processData():\n    st.set_option('deprecation.showPyplotGlobalUse', False)\n    st.subheader('1.1 select your background and signal area')\n    st.session_state.bac_str, st.session_state.bac_end = st.slider('Select bacground', 0, 200, (5, 70))\n    st.session_state.sig_str, st.session_state.sig_end = st.slider('Select signal', 0, 200, (95, 175))\n    st.pyplot(sig_selection())\n\n    st.subheader('1.2 Please set your outlier and bulge factor')\n    outlier_factor = st.number_input('insert your outlier factor (means data is outlier_factor times of sd will be cut)',\n                                     value=1.5)\n    bulc_factor = st.number_input(\n        'insert your bulge factor for 11B correction', value=0.6)\n\n\n\n    if \"average_B\" in st.session_state:\n        df_data = st.session_state.average_B\n    else:\n        df_data = bacground_sub(outlier_factor, bulc_factor)\n\n    st.subheader(\n        '1.3 Please choose your standard for boron isotopes correction')\n\n    standard = st.selectbox(\n        'NIST 612 or B5 for correction?',\n        ('NIST SRM 612', 'B5'))\n    if standard == 'B5':\n        number_iso = int(4.0332057)\n        number_trace = int(8.42)\n        SRM951_value = int(4.0492)\n\n    if standard == 'NIST SRM 612':\n        number_iso = int(4.05015)\n        number_trace = int(35)\n        SRM951_value = int(4.0545)\n\n    st.session_state.standard_values = {\n        \"number_iso\" : number_iso,\n        \"number_trace\" : number_trace,\n        \"SRM951_value\" : SRM951_value\n\n    }\n\n    st.session_state.sample_correction = st.selectbox(\n        'Which type is your choosed standard?',\n        ('A', 'B', 'C', 'D'))\n\n    st.session_state.default_reg_level = 4\n    st.session_state.regress_level = st.number_input('insert your regression level (4 is recommended)', step=1, value=st.session_state.default_reg_level, format='%X'\n                                                     )\n    fil = df_data['filename'].str.contains(st.session_state.sample_correction)\n    df_data_B = df_data[fil]\n    df_data[' Sequence Number'] = selSmpType(df_data['filename'])\n\n    y_isotope = df_data_B['11B/10B_row']\n    y_11B = df_data_B['11B']\n    x = df_data_B.index.to_numpy()\n\n    factor_iso = regression(x, y_isotope,\n                            number_iso,\n                            st.session_state.regress_level if \"regress_level\" in st.session_state else st.session_state.default_reg_level,\n                            df_data.index.to_numpy()\n                            )\n\n    df_data['factor_iso'] = factor_iso\n\n    df_data['11B/10B_corrected'] = df_data['factor_iso']*df_data['11B/10B_row']\n    df_data['δ11B'] = ((df_data['11B/10B_corrected']/SRM951_value)-1)*1000\n    df_data['δ11B_se'] = (df_data['se']*df_data['factor_iso']/SRM951_value)*1000\n\n    st.session_state.df_data = df_data\n    st.session_state.df_data_B = df_data_B\n\n\ndef processLaser()\nUse functions and volume factors for corrected boron concerntrations.\n\n\nCode\ndef processLaser():\n    if \"df_data\" in st.session_state:\n        st.header('2. Please upload your log file from Laser')\n        st.session_state.uploaded_laser_file = st.file_uploader(\"Choose a laser file\", type='csv')\n        if st.session_state.uploaded_laser_file is not None:\n            st.session_state.df_Laser = pd.read_csv(st.session_state.uploaded_laser_file)\n\n            st.session_state.df_Laser_part1 = st.session_state.df_Laser[st.session_state.df_Laser[' Laser State']\n                                    == 'On'].iloc[:, [13, 20, 21]]\n            st.session_state.df_Laser_part2 = st.session_state.df_Laser[st.session_state.df_Laser[' Sequence Number'].notnull()].iloc[:, [\n                    1, 4]]\n\n            st.session_state.df_Laser_res = pd.concat([st.session_state.df_Laser_part2.reset_index(\n                    drop=True), st.session_state.df_Laser_part1.reset_index(drop=True)], axis=1)\n                    \n            st.session_state.df_map1 = st.session_state.df_Laser_res.merge(st.session_state.df_data, on=' Sequence Number')\n\n            st.subheader('2.1 B concerntration correction')\n            st.session_state.regress_level_B = st.number_input('insert your regression level for [B] (4 is recommended)', \n            step=1, \n            value=st.session_state.default_reg_level, \n            format='%X'\n                                                            )     \n\n            y_isotope = st.session_state.df_data_B['11B/10B_row']\n            y_11B = st.session_state.df_data_B['11B']\n            x = st.session_state.df_data_B.index.to_numpy()   \n            factor_B = regression(x, y_11B, st.session_state.standard_values[\"number_trace\"],\n                            st.session_state.regress_level_B if \"regress_level_B\" in st.session_state else st.session_state.default_reg_level_B, \n                            st.session_state.df_data.index.to_numpy()\n                            )\n            st.session_state.df_map1['factor_B'] = factor_B\n            \n\n            depth_ref = st.number_input('insert the abalation depth of selected reference / µm', value = 30.0)\n            depth_sample = st.number_input('insert the abalation depth of other samples / µm', value = 30.0)\n                    \n            depth_ratios = []\n            for i in st.session_state.df_map1['filename'].str.contains('A'):\n                if i == True:\n                    depth_ratio = 1 \n                else:\n                    depth_ratio = depth_sample / depth_ref\n                depth_ratios.append(depth_ratio)\n\n            st.session_state.df_map1['depth_correction'] = depth_ratios\n\n            spot_shape = st.selectbox(\n                        'What is the type of your spots?',\n                        ('circle', 'squre'))\n            if spot_shape == 'circle':\n                st.session_state.df_map1[' Spot Size (um)'] = st.session_state.df_Laser_res[' Spot Size (um)']\n                ref = ((st.session_state.df_map1[st.session_state.df_map1['filename'].str.contains(st.session_state.sample_correction)][' Spot Size (um)']/2)**2).mean()\n                st.session_state.df_map1['[B]_corrected'] = st.session_state.df_map1['11B']*st.session_state.df_map1['factor_B'] * (ref / ((st.session_state.df_map1[' Spot Size (um)']/2)**2) / depth_ratios)\n\n            if spot_shape == 'squre':\n\n                dia = st.session_state.df_map1[' Spot Size (um)']\n                spotsize = dia.str.split(' ').str[0].apply(lambda x: float(x))\n                st.session_state.df_map1[' Spot Size (um)'] = spotsize\n                ref = ((st.session_state.df_map1[st.session_state.df_map1['filename'].str.contains(st.session_state.sample_correction)][' Spot Size (um)'])**2).mean()\n                st.session_state.df_map1['[B]_corrected'] = st.session_state.df_map1['11B']*st.session_state.df_map1['factor_B'] * (ref / ((st.session_state.df_map1[' Spot Size (um)'])**2) / depth_ratios)   \n    \n            st.session_state.df_map1 = st.session_state.df_map1\n\n\ndef maping()\nupload trace element datafile and merge laser parameter, isotopic results and trace element compositions into one file based on sequence number.\n\n\nCode\ndef maping():\n    if \"df_map1\" in st.session_state:\n        st.subheader('2.2 export results or append your trace elements')\n\n        trace_file = st.selectbox(\n            'split stream or not?',\n            ('Split stream', 'No'))\n\n        if trace_file == 'No':\n            st.session_state.df_all = st.session_state.df_map1\n\n\n        elif trace_file == 'Split stream':\n            st.header('3. Please upload your trace element data processed from Ladr')\n\n            st.session_state.trace = st.file_uploader(\"Choose a file\", type='csv', accept_multiple_files=True)\n            if \"trace\" in  st.session_state and len(st.session_state.trace) &gt; 0:\n\n                trace_file = pd.read_csv(st.session_state.trace[0])\n\n                #trace_file = pd.read_csv('2022-11-28-Si corrected-B5.csv')\n\n                df_trace = prepare_trace(trace_file)\n\n                st.session_state.df_all = st.session_state.df_map1.merge(df_trace, on=' Sequence Number')\n                # fig4, ax = plt.subplots()\n                # ax.plot([0,1],[0,1], transform=ax.transAxes, c = 'red')\n                # ax.scatter(st.session_state.df_all['[B]_corrected'], st.session_state.df_all['B'], s =70, c = 'darkorange', edgecolors = 'black')\n                # ax.set_ylabel('[B]_measured by Element')\n                # ax.set_xlabel('[B]_corrected by Neptune')\n                # st.pyplot(fig4)\n\n\n        if \"df_all\" in st.session_state:\n            st.session_state.df_all.to_csv('final.csv')\n            st.write(st.session_state.df_all)\n            result_csv = st.session_state.df_all.to_csv().encode('utf-8')\n            st.download_button(\n                label='download results as .csv',\n                data=result_csv,\n                file_name='boron results.csv',\n                mime='txt/csv',\n            )\n\n\n\n\n\nrun thw function:\n\n\nCode\n# if len(st.session_state.uploaded_files) != 0:\n#     processData()\n\n# processLaser()\n# maping()"
+  },
+  {
+    "objectID": "mass-spec/boron/documentation.html#explain-the-output",
+    "href": "mass-spec/boron/documentation.html#explain-the-output",
+    "title": "Documentation",
+    "section": "",
+    "text": "What exactly is the output, likely best with screen shots.\n–&gt;’Sequence Number’ column: the number of datafile in all sequence. –&gt;The ‘Comment’ column: sample name, labelled by yourself during measuring. –&gt; ‘Spot size (um)’, ‘Laser HV (kV)’, ‘Laser Energy (mJ)’: useful information selected from laser parameters. –&gt;The ‘filename’ column: name of datafile. –&gt;from ‘11B’ to ‘factor_iso’: all results from Neptune. ’[B]_corrected’ is calculated B concentrations from 11B. ‘δ11B’ and ‘δ11B_se’column are calculated isotope results and erros. –&gt;from ‘Li’, ‘B’ to ‘U’ are all trace element results from Element XR.\n(the following is copied from what was a ‘text’ file.) 1. csv files are changed from original .exp file 2. data automatically from machine can be found in ‘data/original data type’."
+  },
+  {
+    "objectID": "mass-spec/boron/documentation.html#testing",
+    "href": "mass-spec/boron/documentation.html#testing",
+    "title": "Documentation",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\nFigure 1\n\n\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+  },
+  {
+    "objectID": "mass-spec/iron/data reduction.html",
+    "href": "mass-spec/iron/data reduction.html",
+    "title": "Fe Data Reduction",
+    "section": "",
+    "text": "Start\nxsdf\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+  },
+  {
+    "objectID": "mass-spec/tools/half_lifes.html",
+    "href": "mass-spec/tools/half_lifes.html",
+    "title": "Finding Half Lifes",
+    "section": "",
+    "text": "How to find. Here is the application:\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+  },
+  {
+    "objectID": "resources/resources-intro.html",
+    "href": "resources/resources-intro.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "The first available tool lets you explore our availabe epma and powder standards.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Resources",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "resources/otherwebresources.html",
+    "href": "resources/otherwebresources.html",
+    "title": "Other Great Web Resources",
+    "section": "",
+    "text": "Pyrolite\nhttps://pyrolite.readthedocs.io/en/main/#\n\n\nOneGeochemistry\nhttp://onegeochemistry.org\n\n\nMisc\nhttps://topomap.streamlit.app https://worm-portal.asu.edu https://www.mindat.org https://melts.ofm-research.org https://figmas.org\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+  },
+  {
+    "objectID": "resources/visualising-geochemical-databases.html",
+    "href": "resources/visualising-geochemical-databases.html",
+    "title": "Visualise Geochemical Databases",
+    "section": "",
+    "text": "Use our online tools to plot data from Astromat, AusGeochem and Georoc together.\nPlus add your own data, code additional tools for implemenation, and in the near future model all those data to geochemcial processes.\nStart here\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Resources",
+      "Visualise Geochemical Databases"
+    ]
+  },
+  {
+    "objectID": "resources/powder-standards.html",
+    "href": "resources/powder-standards.html",
+    "title": "Powder Standards",
+    "section": "",
+    "text": "Explore our available standards here\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Resources",
+      "Powder Standards"
+    ]
+  },
+  {
+    "objectID": "mass-spec/tools/intro.html",
+    "href": "mass-spec/tools/intro.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "What we have here.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+  },
+  {
+    "objectID": "mass-spec/iron/basics.html",
+    "href": "mass-spec/iron/basics.html",
+    "title": "Fe Isotope Basics",
+    "section": "",
+    "text": "Start\nxsdf\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+  },
+  {
+    "objectID": "mass-spec/boron/application.html",
+    "href": "mass-spec/boron/application.html",
+    "title": "Application",
+    "section": "",
+    "text": "This way to the boron data reduction application.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Mass Spectrometry",
+      "B-isotopes",
+      "Application"
+    ]
+  },
+  {
+    "objectID": "mass-spec/mass-spec-intro.html",
+    "href": "mass-spec/mass-spec-intro.html",
+    "title": "Mass-Spectrometry Data Processing",
+    "section": "",
+    "text": "The boron data reduction application is up and running, check it out from the sidebar.\nMore, in particular Fe-isotope applicatinos are coming later inn 2023.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Mass Spectrometry",
+      "Introduction",
+      "Mass-Spectrometry Data Processing"
+    ]
+  },
+  {
+    "objectID": "microprobe/tools/resources.html",
+    "href": "microprobe/tools/resources.html",
+    "title": "Misc",
+    "section": "",
+    "text": "Searchable standards of the IfG EPMA\n\nA tool to merge standard files\n\nPlots for the energy levels of all elements\n\nA tool to calculate peak interferences\n\nEPMA Tools\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Microprobe",
+      "Misc"
+    ]
+  },
+  {
+    "objectID": "microprobe/tools/resources.html#this-app-contains-the-following-handy-tools",
+    "href": "microprobe/tools/resources.html#this-app-contains-the-following-handy-tools",
+    "title": "Misc",
+    "section": "",
+    "text": "Searchable standards of the IfG EPMA\n\nA tool to merge standard files\n\nPlots for the energy levels of all elements\n\nA tool to calculate peak interferences\n\nEPMA Tools\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Microprobe",
+      "Misc"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/code.html",
+    "href": "microprobe/flank-method/code.html",
+    "title": "The Data Reduction Code",
+    "section": "",
+    "text": "import matplotlib.pyplot as plt\nplt.plot([1,23,2,4])\nplt.show()\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "The Data Reduction Code"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/glossary.html",
+    "href": "microprobe/flank-method/glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "AAI\nAuthentication, Authorisation & Identification – for example, Eduroam is an AAI system\nAPI\nApplication Programming Interface\ncsv\ncomma separated values – a file format\nELN\nElectronic Lab Notebook\nEPMA\nElectron-Probe Micro-Analyser\nFAIR\nFindable, Accessible, Interoperable, Reproducible\nGU\nGoethe Universität Frankfurt am Main\nIfG\nInstitut für Geowissenschaften (Institute for Geosciences) at the GU Frankfurt am Main\nL-value\nThe distance of the analyser crystal from the sample in a JEOL EPMA.\nTAPL\nThe large (L) type Thallium-Phthalat-Acid (TAP) analyser crystal.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Glossary"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/welcome.html",
+    "href": "microprobe/flank-method/welcome.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "To learn everything about the flank method, check the section Basics. If you want to use the flank data reduction program and/or want to know how this progam works, navigate to the section Data Reduction. The section Publications provides a method section ready for copy&paste into your publication, literature regarding the basics of the flank mehtod, and finally a copy&paste reference for your pubilcation to cite the flank method program. Finally, the Code Documentation section provides an in-depth reference that describes each part and the entire flank method reduction program. The section concludes with links to the GitHub repository of the Python code.\nShould you have any questions, found a bug, or run into other problems, please contact the developer Dominik Hezel at dominik.hezel - at - em.uni-frankfurt.de\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "microprobe/upload-form.html",
+    "href": "microprobe/upload-form.html",
+    "title": "mag4",
+    "section": "",
+    "text": "Please fill out the form below.\nWhy this form?\nFor good reasons.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Description\n\n Comment\n\n Are the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nDanke für Deinen Beitrag."
+  },
+  {
+    "objectID": "microprobe/upload-form.html#epma-measurement-session-info",
+    "href": "microprobe/upload-form.html#epma-measurement-session-info",
+    "title": "mag4",
+    "section": "",
+    "text": "Please fill out the form below.\nWhy this form?\nFor good reasons.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Description\n\n Comment\n\n Are the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nDanke für Deinen Beitrag."
+  },
+  {
+    "objectID": "microprobe/upload-form.html#plan-your-sessions",
+    "href": "microprobe/upload-form.html#plan-your-sessions",
+    "title": "mag4",
+    "section": "Plan your sessions",
+    "text": "Plan your sessions\nRoom temperature is at a constant 20ºC\nPower sockets are available\nWiFi or Eduroam is not\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+  },
+  {
+    "objectID": "microprobe/data-access/kadi-upload.html",
+    "href": "microprobe/data-access/kadi-upload.html",
+    "title": "Kadi Data Upload",
+    "section": "",
+    "text": "Each record starts with ‘GUF IfG EPMA’\nA single measurement session, i.e., the session of one party with a single set of samples can make use of different measurement programs, i.e., different measurement setups and parameters. For example, when first silicates and then sulphides are measured. In this case, the results have all the same name, but for each specific measurement program a separate record is created, with a lettered postfix in the form of: -a, -b, -c, … The first record with the postfix -a contains files that are similar for all records with this name, e.g., overview images.\nRecords of a single measurement session might be all put in a Kadi Collection.",
+    "crumbs": [
+      "Microprobe",
+      "Data Access",
+      "Kadi Data Upload"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi-upload.html#types-of-kadi-records",
+    "href": "microprobe/data-access/kadi-upload.html#types-of-kadi-records",
+    "title": "Kadi Data Upload",
+    "section": "Types of Kadi records",
+    "text": "Types of Kadi records\nThere are 3 different categories: quantitative, element maps, qualitative. Each category requires its specific measurement setup. Therefore, each category requires is separate Kadi record.",
+    "crumbs": [
+      "Microprobe",
+      "Data Access",
+      "Kadi Data Upload"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi-upload.html#quantitative-analyses",
+    "href": "microprobe/data-access/kadi-upload.html#quantitative-analyses",
+    "title": "Kadi Data Upload",
+    "section": "Quantitative Analyses",
+    "text": "Quantitative Analyses\nMust contain\nsummary{date}.csv\nThe output from: summary, all, to excel, save as .csv\nnormal.txt\nThe output from: summary, normal, type out\nsummary standard.txt\nThe output from: summary, standard, type out\nquick standard.txt\nThe output from: quick menu, right click recipe, ??\nCan contain\nstandard measurements.xlsx\nFile with the results from the standard measurements, with colour results, therefore an excel file\n-&gt; This file can (in rare cases) be missing, so it might be sensible to test for its availability and not if it is not available.\nImage files as .jpg, .tif, .bmp",
+    "crumbs": [
+      "Microprobe",
+      "Data Access",
+      "Kadi Data Upload"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi-upload.html#map-analyses",
+    "href": "microprobe/data-access/kadi-upload.html#map-analyses",
+    "title": "Kadi Data Upload",
+    "section": "Map Analyses",
+    "text": "Map Analyses\nMust contain\nquick standard.txt\nThe output from: quick menu, right click recipe, ??\n{map file}.csv\nThe naming of {map file} is as follows:\nmap {nr} {Eds}{internal designation} {element name} {measured characteristic line}.csv\ne.g.:\nmap 2 data004 Mg Ka.csv\nnote that ‘Eds’ only occurs when the element was measured with EDS, when ‘Eds’ is missing, the element was measured with WDS\nCan contain\n1 or 2 more map files labelled “data{nr} COMPO.csv” or “data{nr} SE.csv”, which are maps of BSE- and/or SE-signals, i.e., essentially BSE- and SE-images. Image files as .jpg, .tif, .bmp",
+    "crumbs": [
+      "Microprobe",
+      "Data Access",
+      "Kadi Data Upload"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi-upload.html#qualitative-analyses",
+    "href": "microprobe/data-access/kadi-upload.html#qualitative-analyses",
+    "title": "Kadi Data Upload",
+    "section": "Qualitative Analyses",
+    "text": "Qualitative Analyses\nMust contain\nsummary{date}.csv\nThe output from: summary, all, to excel, save as .csv\nnormal.txt\nThe output from: summary, normal, type out\nsummary standard.txt\nThe output from: summary, standard, type out\nquick standard.txt\nThe output from: quick menu, right click recipe, ??",
+    "crumbs": [
+      "Microprobe",
+      "Data Access",
+      "Kadi Data Upload"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi-upload.html#measurement-conditions",
+    "href": "microprobe/data-access/kadi-upload.html#measurement-conditions",
+    "title": "Kadi Data Upload",
+    "section": "Measurement Conditions",
+    "text": "Measurement Conditions\nDetection limits (d.l.) are calculated by the machine software for each measurement point. The output in the webinterface is the median of all measurements togehter with the standard deviation.",
+    "crumbs": [
+      "Microprobe",
+      "Data Access",
+      "Kadi Data Upload"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi-upload.html#organise-quantitative-measurements",
+    "href": "microprobe/data-access/kadi-upload.html#organise-quantitative-measurements",
+    "title": "Kadi Data Upload",
+    "section": "Organise Quantitative Measurements",
+    "text": "Organise Quantitative Measurements",
+    "crumbs": [
+      "Microprobe",
+      "Data Access",
+      "Kadi Data Upload"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi-upload.html#preparing-files-for-kadi-upload",
+    "href": "microprobe/data-access/kadi-upload.html#preparing-files-for-kadi-upload",
+    "title": "Kadi Data Upload",
+    "section": "Preparing files for Kadi upload",
+    "text": "Preparing files for Kadi upload",
+    "crumbs": [
+      "Microprobe",
+      "Data Access",
+      "Kadi Data Upload"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi-upload.html#upload-to-kadi",
+    "href": "microprobe/data-access/kadi-upload.html#upload-to-kadi",
+    "title": "Kadi Data Upload",
+    "section": "Upload to Kadi",
+    "text": "Upload to Kadi\n\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Microprobe",
+      "Data Access",
+      "Kadi Data Upload"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/operation.html",
+    "href": "microprobe/data-access/operation.html",
+    "title": "Operation",
+    "section": "",
+    "text": "Standards\nA standard folder called std in which the results of standard control measurements are stored.\n\n\nSamples\nThe sample folder called whatever in which the sample results are stored.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Legal information",
+    "section": "",
+    "text": "Dominik Hezel\nBerliner Str. 52\n61449 Steinbach (Ts.)\nGermany\nPhone +49 6171 8669169\nE-Mail: dominik.hezel xx em.uni-frankfurt.de\n\n\n\nThe website is hosted by Quarto Inc. using https://quartopub.com.\nThis webpage embeds third-party content that uses cookies. The respective providers are listed below.\n\n\nThe website uses plugins from YouTube operated by Google. The operator of the plug-ins is YouTube, LLC, 901 Cherry Ave, San Bruno, CA 94066, USA.\nWhen you visit one of our pages equipped with a YouTube plugin, a connection to the YouTube servers is established. All videos are embedded with the privacy-enhanced mode of Youtube enabled to minimise tracking.\nIf you are logged into your YouTube account, you enable YouTube to assign your surfing behaviour directly to your personal profile. You can prevent this by logging out of your YouTube account.\nThe use of YouTube is in the interest of an appealing presentation of our online offers. This constitutes a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR.\nFurther information on the handling of user data can be found in YouTube’s privacy policy at: https://www.google.de/intl/de/policies/privacy.\n\n\n\nSome third-party elements on this website, such as the YouTube plugin, uses Google Fonts. When you load a page containing such elements, your browser connects to Google Fonts and loads the required web fonts into your browser cache in order to display texts and fonts correctly.\nFor this purpose, the browser you are using must connect to Google’s servers. This informs Google that the website has been accessed via your IP address. The use of Google Web Fonts is in the interest of a uniform and appealing presentation of our online offers. This constitutes a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR.\nIf your browser does not support web fonts, a standard font will be used by your computer.\nFurther information on Google Web Fonts can be found at https://developers.google.com/fonts/faq and in Google’s privacy policy: https://www.google.com/policies/privacy/.\n\n\n\n\n\n\n\n\n\n\nUnless otherwise stated, material on this website is licensed under a Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0) license.\n\n\n\n\n\n\nThis license allows you to:\n\nShare — copy and redistribute the material in any medium or format\nAdapt — remix, transform, and build upon the material\nfor any purpose\n\nif you\n\nprovide proper attribution and\nindicate any changes to the material you made.\ndistribute your contributions under the same license as the original.\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+  },
+  {
+    "objectID": "about.html#provider-according-to-5-tmg",
+    "href": "about.html#provider-according-to-5-tmg",
+    "title": "Legal information",
+    "section": "",
+    "text": "Dominik Hezel\nBerliner Str. 52\n61449 Steinbach (Ts.)\nGermany\nPhone +49 6171 8669169\nE-Mail: dominik.hezel xx em.uni-frankfurt.de"
+  },
+  {
+    "objectID": "about.html#privacy",
+    "href": "about.html#privacy",
+    "title": "Legal information",
+    "section": "",
+    "text": "The website is hosted by Quarto Inc. using https://quartopub.com.\nThis webpage embeds third-party content that uses cookies. The respective providers are listed below.\n\n\nThe website uses plugins from YouTube operated by Google. The operator of the plug-ins is YouTube, LLC, 901 Cherry Ave, San Bruno, CA 94066, USA.\nWhen you visit one of our pages equipped with a YouTube plugin, a connection to the YouTube servers is established. All videos are embedded with the privacy-enhanced mode of Youtube enabled to minimise tracking.\nIf you are logged into your YouTube account, you enable YouTube to assign your surfing behaviour directly to your personal profile. You can prevent this by logging out of your YouTube account.\nThe use of YouTube is in the interest of an appealing presentation of our online offers. This constitutes a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR.\nFurther information on the handling of user data can be found in YouTube’s privacy policy at: https://www.google.de/intl/de/policies/privacy.\n\n\n\nSome third-party elements on this website, such as the YouTube plugin, uses Google Fonts. When you load a page containing such elements, your browser connects to Google Fonts and loads the required web fonts into your browser cache in order to display texts and fonts correctly.\nFor this purpose, the browser you are using must connect to Google’s servers. This informs Google that the website has been accessed via your IP address. The use of Google Web Fonts is in the interest of a uniform and appealing presentation of our online offers. This constitutes a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR.\nIf your browser does not support web fonts, a standard font will be used by your computer.\nFurther information on Google Web Fonts can be found at https://developers.google.com/fonts/faq and in Google’s privacy policy: https://www.google.com/policies/privacy/."
+  },
+  {
+    "objectID": "about.html#license",
+    "href": "about.html#license",
+    "title": "Legal information",
+    "section": "",
+    "text": "Unless otherwise stated, material on this website is licensed under a Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0) license.\n\n\n\n\n\n\nThis license allows you to:\n\nShare — copy and redistribute the material in any medium or format\nAdapt — remix, transform, and build upon the material\nfor any purpose\n\nif you\n\nprovide proper attribution and\nindicate any changes to the material you made.\ndistribute your contributions under the same license as the original.\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+  },
+  {
+    "objectID": "courses/microanalytic.html",
+    "href": "courses/microanalytic.html",
+    "title": "Microanalytic",
+    "section": "",
+    "text": "Hier geht es zum Kurs Mikroanalytik.\nDie Veranstaltung besteht aus ca. 100 Seiten Skript, aufgeteilt in die 3 Teilskripte ca. 70 Videos mit &gt;10 Stunden Material &gt;300 Selbstlern-Fragen mit Antworten &gt;20 Aufgaben zur gemeinsamen Lösung in den Präsenzphasen ca. 10 zusätzlicher Dateien für verschiedene Aufgaben",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#labor-tour-1.1.-1.5.-3300",
+    "href": "courses/microanalytic.html#labor-tour-1.1.-1.5.-3300",
+    "title": "Microanalytic",
+    "section": "1. Labor-Tour: 1.1. – 1.5. [33:00]",
+    "text": "1. Labor-Tour: 1.1. – 1.5. [33:00]\nIn der ersten Veranstaltung lernen wir die verschiedenen Labore und Geräte kennen. Studiert dafür das gesamte erste Kapitel ›Labor-Tour‹.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#atomaufbau-elektronen-konfigurationen-2.1.-2.5.-11116",
+    "href": "courses/microanalytic.html#atomaufbau-elektronen-konfigurationen-2.1.-2.5.-11116",
+    "title": "Microanalytic",
+    "section": "2. Atomaufbau & Elektronen-Konfigurationen: 2.1. – 2.5. [1:11:16]",
+    "text": "2. Atomaufbau & Elektronen-Konfigurationen: 2.1. – 2.5. [1:11:16]\nDiese fast noch erste Einheit wird Dir etwas abverlangen – allerdings: je besser wir die atomphysikalischen Grundlagen verstehen, sowie die dazu gehörigen Beschreibungen und das dafür verwendete Vokabular beherrschen, umso leichter wird es uns anschließend fallen, das zentrale Prinzip der Element-Bestimmung mit EDS und WDS an Mikrosonde, Raster, RFA – sowie verwandter Geräte wie das Transmissionselektronen-Mikroskop (TEM) zu verstehen. Nicht alle Details müssen über die Zeit hängen bleiben. Wenn man aber einmal verstanden hat, wie es funktioniert, lässt man sich später nicht mehr so leicht verwirren. Und das ist viel wert. Also, dran bleiben wenn es heißt sich durch diese etwas längere Einheit mit den Kapiteln 2.1. bis 2.5. durchzuarbeiten. Die nächsten werden dafür wieder kürzer. Versprochen.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#interaktion-von-elektronen-mit-material-2.6.-3.1.-3622",
+    "href": "courses/microanalytic.html#interaktion-von-elektronen-mit-material-2.6.-3.1.-3622",
+    "title": "Microanalytic",
+    "section": "3. Interaktion von Elektronen mit Material: 2.6. – 3.1. [36:22]",
+    "text": "3. Interaktion von Elektronen mit Material: 2.6. – 3.1. [36:22]\nDas vorige Thema setzt sich noch etwas fort, denn bei der Interaktion der Elektronen mit Materie gibt es noch allerlei weitere Effekte, die wir kennen müssen. Viele dieser Themen sind wichtig, um später die quantitative Analyse zu verstehen. Das Wissen gegen Ende von Kapitel 2 benötigen wir Grundlage für bildgebende Verfahren, die der Inhalt von Kapitel 3 sind, und mit denen wir hier schon ein wenig beginnen.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-3.2.-4.2.3.-5855",
+    "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-3.2.-4.2.3.-5855",
+    "title": "Microanalytic",
+    "section": "4. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 3.2. – 4.2.3. [58:55]",
+    "text": "4. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 3.2. – 4.2.3. [58:55]\nWir lernen die beiden verbleibenden, wichtigen bildgebenden Verfahren kennen: SE- und CL-Bilder. Anschließend geht es mit einem neuen Thema los: der Charakteristischen Röntgenstrahlung als analytisches Werkzeug. Mit dem zuvor gewonnen Rüstzeug lernen wir nun, wie wir die Zusammensetzung von Proben bestimmen können. In einem zunächst kurzen Kapitel wird das Energie-Dispersive Spektrometer (EDS) vorgestellt. Anschließend lernen wir die wichtigste und zentrale Grundlage der Winkel-Dispersiven Spektrometerie: die Selektion der Röntgenstrahlung eines Elements mit Hilfe der Bragg-Bedingung, sowie der Rowland-Kreis Geometrie.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.4.-4.2.6.-4704",
+    "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.4.-4.2.6.-4704",
+    "title": "Microanalytic",
+    "section": "5. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.4. – 4.2.6. [47:04]",
+    "text": "5. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.4. – 4.2.6. [47:04]\nDiese Einheit beschäftigt sich mit dem Röntgendetektor. Diese Gaszähler erlauben es Röntgenstrahlung höherer Ordnung auszuschließen, was sehr praktisch ist, um damit Interferenzen zu unterdrücken. Das Thema ist nicht ganz unkomplex, daher ist die Gesamtzeit der Videos zwar etwas kürzer, jedoch müssen besonders die beiden Kapitel/Videos 4.2.4 & 4.2.6 sehr gut studiert werden, um das Thema wirklich zu verstehen. Es wäre nicht erstaunlich, wenn es diesmal im Besondern nötig wäre, zwischendurch anzuhalten, und sich die Dinge durch z.B. eigene Skizzen selbst noch einmal klar zu machen.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.7.-4.3.5.5152",
+    "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.7.-4.3.5.5152",
+    "title": "Microanalytic",
+    "section": "6. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.7. – 4.3.5.[51:52]",
+    "text": "6. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.7. – 4.3.5.[51:52]\nEin zentrales Element um Proben zu messen, ist die Standardisierung, welche wir in dieser Einheit kennen lernen. Wir lernen außerdem erste, konkrete Parameter und Bedingungen kennen, mit denen eine Probe gemessen werden kann, und einige Dinge wie Matrix-Korrektur, Nachweisgrenze, etc. die für eine erfolgreiche Messung beachtet werden müssen.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.3.6.-4.5.-5149",
+    "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.3.6.-4.5.-5149",
+    "title": "Microanalytic",
+    "section": "7. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.3.6. – 4.5. [51:49]",
+    "text": "7. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.3.6. – 4.5. [51:49]\nIm letzten Teil von Kapitel 4 schauen wir uns noch Interferenzen und den Chemical Peak Shift, welche die Messung beeinflussen können. Dann wollen wir jedoch wissen, was und wie wir mit der Mikrosonde oder dem Rasterelektronen-Mikroskop messen können. Schließlich gibt es ein wichtiges Video dazu, was man überlegen sollte oder muss, bevor man am Messtag im Labor steht. Wichtig ist das Video, da es Dir hilft eine erfolgreiche Mess-Kampagne durchführen.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#daten-auswertung--darstellung-5.1.-5.3.-5155",
+    "href": "courses/microanalytic.html#daten-auswertung--darstellung-5.1.-5.3.-5155",
+    "title": "Microanalytic",
+    "section": "8. Daten-Auswertung & -Darstellung: 5.1. – 5.3. [51:55]",
+    "text": "8. Daten-Auswertung & -Darstellung: 5.1. – 5.3. [51:55]\nWir können nun erfolgreich an der Mikrosonde und eigentlich auch dem REM messen. Aber was tun mit all den Daten? Zunächst müssen wir wissen, wie wir sie vom Gerät auf unseren Computer transferieren. Als erstes wollen wir dann natürlich wissen, wie genau wir gemessen haben, bzw. mit welchem Vokabular wir diese Genauigkeit kommunizieren. Dann sind wir natürlich neugierig, wie denn nun die gemessenen Minerale und andere Phasen genau zusammen gesetzt sind. Das erfahren wir, indem wir deren Mineral- und Strukturformel berechnen. Um all das geht es in diesen Kapiteln.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#daten-auswertung--darstellung-5.4.1.-5.4.4.-5908",
+    "href": "courses/microanalytic.html#daten-auswertung--darstellung-5.4.1.-5.4.4.-5908",
+    "title": "Microanalytic",
+    "section": "9. Daten-Auswertung & -Darstellung: 5.4.1. – 5.4.4. [59:08]",
+    "text": "9. Daten-Auswertung & -Darstellung: 5.4.1. – 5.4.4. [59:08]\nEin wichtiger Teil der Analytik ist die Darstellung der Daten in aussagekräftigen und übersichtlichen Diagramme und Tabellen. Dazu schauen wir uns zunächst an, wie die Daten für typische Diagramme aufbereitet werden – nämlich als Element-Konzentrationen oder normiert. Dann arbeiten wir uns ein wenig durch typische Diagramm-Typen, um zu lernen und zu verstehen, was das eigentlich für Diagramme sind, die wir da häufig sehen, und regelmäßig selbst nutzen. Schließlich lernen wir ein wenig welche Elemente bei Diagrammen und Tabellen wichtig sind, und wie diese genutzt werden können und sollten.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#rem-rfa-kapitel-6-2726",
+    "href": "courses/microanalytic.html#rem-rfa-kapitel-6-2726",
+    "title": "Microanalytic",
+    "section": "10. REM & RFA: Kapitel 6 [27:26]",
+    "text": "10. REM & RFA: Kapitel 6 [27:26]\nIn dieser vergleichsweise kurzen Einheit lernen wir den Unterschied zwischen EPMA und REM etwas genauer kennen, und weshalb das REM sehr viel mehr ein Mikroskop ist. An unserem REM haben wir außerdem einen EBSD-Detektor, der vorgestellt wird, und was man damit anstellen kann. Im zweiten Teil wird die RFA vorgestellt, worin sich diese von der EPMA unterscheidet, und welche unterschiedlichen Einsatzgebiete es für die RFA gibt, und damit, in welch unterschiedlichen Ausführungen RFAs gebaut werden.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#vorbereitung-auf-den-praktischen-teil-kapitel-7-10846",
+    "href": "courses/microanalytic.html#vorbereitung-auf-den-praktischen-teil-kapitel-7-10846",
+    "title": "Microanalytic",
+    "section": "11. Vorbereitung auf den praktischen Teil: Kapitel 7 [1:08:46]",
+    "text": "11. Vorbereitung auf den praktischen Teil: Kapitel 7 [1:08:46]\nIn Vorbereitung auf den praktischen Teil gibt es zunächst Video-Trockenübungen. Diese sind sehr hilfreich, um am Gerät nicht gleich verloren zu sein, sondern schon mit Vorkenntnis zu starten. Daher zum Bingen und immer wieder schauen ein paar Videos mit Einblicken von der Sonde wie diese bedient wird. Abgerundet durch ein paar kurze Impressionen rund um und aus der Sonde.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#probe-klausur",
+    "href": "courses/microanalytic.html#probe-klausur",
+    "title": "Microanalytic",
+    "section": "12. Probe-Klausur",
+    "text": "12. Probe-Klausur\nDie Probe-Klausur ist ähnlich der tatsächlichen Klausur. Der Umfang ist etwas kürzer, da Du im Anschluss noch die Klausur einer Kommilitonin eins Kommilitonen korrigieren wirst.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#sinn-und-zweck-dieser-übung",
+    "href": "courses/microanalytic.html#sinn-und-zweck-dieser-übung",
+    "title": "Microanalytic",
+    "section": "Sinn und Zweck dieser Übung",
+    "text": "Sinn und Zweck dieser Übung\nEs gibt diese Probeklausur, damit Du eine Idee davon bekommst, was Dich bei der echten Klausur erwartet. Als Vorbereitung dafür gibt es keine weiteren Inhalte oder Videos – sondern wiederhole alles, das wir bislang durchgegangen sind und geübt haben.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#ablauf",
+    "href": "courses/microanalytic.html#ablauf",
+    "title": "Microanalytic",
+    "section": "Ablauf",
+    "text": "Ablauf\nDie Klausur dauert ca. 50 min., also etwas länger oder kürzer als im Modul vorgegeben, je nachdem ob Du Dir den Kurs für BSc (30 min als möglicher Teil einer kumulativen Modulabschlussklausur; max. Punktzahl: 33) oder MSc (90 min als mögliche exemplarische Modulabschlussklausur; max. Punktzahl: 100) anrechnen lässt. Du schreibst die Klausur für Dich allein. Schummeln wird nicht kontrolliert, diese Probeklausur dient allein Deiner eigenen Einschätzung. Anschließend kommst Du in eine 2er oder 3er Gruppe, erhältst die Lösung für die Klausur, und Ihr korrigiert gegenseitig Eure Klausuren. Das sollte ca. 15 min dauern.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#halb-finale",
+    "href": "courses/microanalytic.html#halb-finale",
+    "title": "Microanalytic",
+    "section": "Halb-Finale",
+    "text": "Halb-Finale\nZum Abschluss haben wir knapp 30 min. Zeit die Klausur gemeinsam durchzusprechen, allgemeine Fragen zu stellen und zu beantworten, oder letzte Unklarheiten auszuräumen.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/microanalytic.html#fünf-beispiel-fragen-für-die-vorbereitung-gesamtpunktzahl-33",
+    "href": "courses/microanalytic.html#fünf-beispiel-fragen-für-die-vorbereitung-gesamtpunktzahl-33",
+    "title": "Microanalytic",
+    "section": "Fünf Beispiel-Fragen für die Vorbereitung (Gesamtpunktzahl: 33)",
+    "text": "Fünf Beispiel-Fragen für die Vorbereitung (Gesamtpunktzahl: 33)\nNotwendige Unterlagen wie z.B. Tabellen zum Nachschlagen werden zur Verfügung gestellt.\nFrage 1 (5 Punkte)\nNenne 2 Elementpaare (also 2 x 2 Elemente) deren charakteristische Röntgenstrahlung möglicherweise eine Linienüberlagerung zeigen könnten.\nFrage 2 (5 Punkte)\nWorin können sich Proben ähneln und/oder unterscheiden die mit der EPMA oder mit dem REM untersucht werden.\nFrage 3 (8 Punkte / 3 Punkte)\nErkläre schematisch die Funktionsweise des Gaszählers. Wozu wird dieser verwendet?\nFrage 4 (4 Punkte)\nWie hoch sollte die Beschleunigungsspannung sein um Hf,Lα anzuregen? Und wie hoch der Strom?\nFrage 5 (8 Punkte)\nElemente mit charakteristischer Linien höherer Ordnung können die charakteristischen Linien anderer Elementen überlagern. (i) An welcher Stelle in der EPMA, und (ii) wie können diese Linien höherer Ordnung von der Zählung ausgeschlossen werden.",
+    "crumbs": [
+      "Courses",
+      "Microanalytic"
+    ]
+  },
+  {
+    "objectID": "courses/courses-intro.html",
+    "href": "courses/courses-intro.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Three courses are currenlty available:\n1. Data Science (german only, english coming later 2023)\n2. Cosmochemistry (german & english)\n3. Microanalytic (german only, english coming in 2024)\n\n\n\n\n\n\nWie zu schauen ist – oder zumindest: wie geschaut werden kann\nAnhalten, nachvollziehen, eventuell zurückspulen und dazu eigen Skizzen oder Mitschriebe anfertigen Einige wenige Videos haben aus rechtlichen Gründen ein Passwort, das erhaltet Ihr von mir.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Courses",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "courses/courses-intro.html#courses-1",
+    "href": "courses/courses-intro.html#courses-1",
+    "title": "Welcome",
+    "section": "",
+    "text": "Three courses are currenlty available:\n1. Data Science (german only, english coming later 2023)\n2. Cosmochemistry (german & english)\n3. Microanalytic (german only, english coming in 2024)\n\n\n\n\n\n\nWie zu schauen ist – oder zumindest: wie geschaut werden kann\nAnhalten, nachvollziehen, eventuell zurückspulen und dazu eigen Skizzen oder Mitschriebe anfertigen Einige wenige Videos haben aus rechtlichen Gründen ein Passwort, das erhaltet Ihr von mir.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Courses",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "tutorials/tutorials-intro.html",
+    "href": "tutorials/tutorials-intro.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Check out the sidebar.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Tutorials",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "tutorials/tutorials-intro.html#tutorials",
+    "href": "tutorials/tutorials-intro.html#tutorials",
+    "title": "Welcome",
+    "section": "",
+    "text": "Check out the sidebar.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Tutorials",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "tutorials/preparation.html",
+    "href": "tutorials/preparation.html",
+    "title": "Preparation",
+    "section": "",
+    "text": ":::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Tutorials",
+      "Preparation"
+    ]
+  },
+  {
+    "objectID": "tutorials/preparation.html#remove-a-carbon-coating",
+    "href": "tutorials/preparation.html#remove-a-carbon-coating",
+    "title": "Preparation",
+    "section": "",
+    "text": ":::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Tutorials",
+      "Preparation"
+    ]
+  },
+  {
+    "objectID": "tutorials/micro-XRF.html#switch-on-the-machine",
+    "href": "tutorials/micro-XRF.html#switch-on-the-machine",
+    "title": "µ.XRF",
+    "section": "Switch on the Machine",
+    "text": "Switch on the Machine",
+    "crumbs": [
+      "Tutorials",
+      "µ.XRF"
+    ]
+  },
+  {
+    "objectID": "tutorials/micro-XRF.html#loading-the-sample",
+    "href": "tutorials/micro-XRF.html#loading-the-sample",
+    "title": "µ.XRF",
+    "section": "Loading the Sample",
+    "text": "Loading the Sample",
+    "crumbs": [
+      "Tutorials",
+      "µ.XRF"
+    ]
+  },
+  {
+    "objectID": "tutorials/micro-XRF.html#point-analysis-with-the-eds",
+    "href": "tutorials/micro-XRF.html#point-analysis-with-the-eds",
+    "title": "µ.XRF",
+    "section": "Point Analysis with the EDS",
+    "text": "Point Analysis with the EDS",
+    "crumbs": [
+      "Tutorials",
+      "µ.XRF"
+    ]
+  },
+  {
+    "objectID": "tutorials/micro-XRF.html#focusing-the-sample",
+    "href": "tutorials/micro-XRF.html#focusing-the-sample",
+    "title": "µ.XRF",
+    "section": "Focusing the sample",
+    "text": "Focusing the sample",
+    "crumbs": [
+      "Tutorials",
+      "µ.XRF"
+    ]
+  },
+  {
+    "objectID": "tutorials/micro-XRF.html#acquiring-a-montage-image-of-the-sample",
+    "href": "tutorials/micro-XRF.html#acquiring-a-montage-image-of-the-sample",
+    "title": "µ.XRF",
+    "section": "Acquiring a Montage Image of the Sample",
+    "text": "Acquiring a Montage Image of the Sample",
+    "crumbs": [
+      "Tutorials",
+      "µ.XRF"
+    ]
+  },
+  {
+    "objectID": "tutorials/micro-XRF.html#element-maps-with-the-eds",
+    "href": "tutorials/micro-XRF.html#element-maps-with-the-eds",
+    "title": "µ.XRF",
+    "section": "Element Maps with the EDS",
+    "text": "Element Maps with the EDS",
+    "crumbs": [
+      "Tutorials",
+      "µ.XRF"
+    ]
+  },
+  {
+    "objectID": "tutorials/micro-XRF.html#display-the-results-of-an-element-map",
+    "href": "tutorials/micro-XRF.html#display-the-results-of-an-element-map",
+    "title": "µ.XRF",
+    "section": "Display the Results of an Element Map",
+    "text": "Display the Results of an Element Map",
+    "crumbs": [
+      "Tutorials",
+      "µ.XRF"
+    ]
+  },
+  {
+    "objectID": "tutorials/micro-XRF.html#unload-the-sample-and-switch-off-the-machine",
+    "href": "tutorials/micro-XRF.html#unload-the-sample-and-switch-off-the-machine",
+    "title": "µ.XRF",
+    "section": "Unload the Sample and Switch Off the Machine",
+    "text": "Unload the Sample and Switch Off the Machine\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Tutorials",
+      "µ.XRF"
+    ]
+  }
+]

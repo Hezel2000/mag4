@@ -1,6 +1,0 @@
----
-title: 'Finding Half Lifes'
----
-
-How to find.
-Here is the application: 

@@ -1,6 +1,0 @@
----
-title: 'Fe Isotope Basics'
----
-
-# Start
-xsdf

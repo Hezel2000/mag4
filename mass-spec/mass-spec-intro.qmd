@@ -1,7 +1,0 @@
----
-title: 'Mass-Spectrometry Data Processing'
----
-
-The boron data reduction application is up and running, check it out from the sidebar.
-
-More, in particular Fe-isotope applicatinos are coming later inn 2023.
