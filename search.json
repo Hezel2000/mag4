@@ -421,14 +421,36 @@
     ]
   },
   {
-    "objectID": "microprobe/epma-intro.html",
-    "href": "microprobe/epma-intro.html",
-    "title": "Welcome",
+    "objectID": "microprobe/measurement-request/provide-info.html",
+    "href": "microprobe/measurement-request/provide-info.html",
+    "title": "Request Time",
     "section": "",
-    "text": "Electron Microprobe Data Processing\nThe flank data reduction application, including all documentation is up and running – check it out from the sidebar.\nThe data processing application is in development, a sneak peak is available.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "text": "Please fill out the form below.\nWhy this form?\nFor good reasons.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Description\n\n Comment\n\n Are the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nDanke für Deinen Beitrag.\n\n\n\n\nRoom temperature is at a constant 20ºC\nPower sockets are available\nWiFi or Eduroam is not\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
     "crumbs": [
       "Microprobe",
-      "Welcome"
+      "Request Time"
+    ]
+  },
+  {
+    "objectID": "microprobe/measurement-request/provide-info.html#epma-measurement-session-info",
+    "href": "microprobe/measurement-request/provide-info.html#epma-measurement-session-info",
+    "title": "Request Time",
+    "section": "",
+    "text": "Please fill out the form below.\nWhy this form?\nFor good reasons.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Description\n\n Comment\n\n Are the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nDanke für Deinen Beitrag.",
+    "crumbs": [
+      "Microprobe",
+      "Request Time"
+    ]
+  },
+  {
+    "objectID": "microprobe/measurement-request/provide-info.html#plan-your-sessions",
+    "href": "microprobe/measurement-request/provide-info.html#plan-your-sessions",
+    "title": "Request Time",
+    "section": "",
+    "text": "Room temperature is at a constant 20ºC\nPower sockets are available\nWiFi or Eduroam is not\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Microprobe",
+      "Request Time"
     ]
   },
   {
@@ -864,25 +886,15 @@
     ]
   },
   {
-    "objectID": "microprobe/upload-form.html",
-    "href": "microprobe/upload-form.html",
-    "title": "mag4",
+    "objectID": "microprobe/epma-intro.html",
+    "href": "microprobe/epma-intro.html",
+    "title": "Welcome",
     "section": "",
-    "text": "Please fill out the form below.\nWhy this form?\nFor good reasons.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Description\n\n Comment\n\n Are the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nDanke für Deinen Beitrag."
-  },
-  {
-    "objectID": "microprobe/upload-form.html#epma-measurement-session-info",
-    "href": "microprobe/upload-form.html#epma-measurement-session-info",
-    "title": "mag4",
-    "section": "",
-    "text": "Please fill out the form below.\nWhy this form?\nFor good reasons.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Description\n\n Comment\n\n Are the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nDanke für Deinen Beitrag."
-  },
-  {
-    "objectID": "microprobe/upload-form.html#plan-your-sessions",
-    "href": "microprobe/upload-form.html#plan-your-sessions",
-    "title": "mag4",
-    "section": "Plan your sessions",
-    "text": "Plan your sessions\nRoom temperature is at a constant 20ºC\nPower sockets are available\nWiFi or Eduroam is not\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
+    "text": "Electron Microprobe Data Processing\nThe flank data reduction application, including all documentation is up and running – check it out from the sidebar.\nThe data processing application is in development, a sneak peak is available.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "crumbs": [
+      "Microprobe",
+      "Welcome"
+    ]
   },
   {
     "objectID": "microprobe/data-access/kadi-upload.html",
