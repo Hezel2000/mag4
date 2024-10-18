@@ -7,11 +7,11 @@
     "text": "Click on an app icon to directly go to the respective app"
   },
   {
-    "objectID": "allapps/allapps.html#epma-data-access-tools",
-    "href": "allapps/allapps.html#epma-data-access-tools",
+    "objectID": "allapps/allapps.html#electron-microprobe-epma",
+    "href": "allapps/allapps.html#electron-microprobe-epma",
     "title": "All Apps",
-    "section": "EPMA Data Access Tools",
-    "text": "EPMA Data Access Tools"
+    "section": "Electron Microprobe (EPMA)",
+    "text": "Electron Microprobe (EPMA)"
   },
   {
     "objectID": "allapps/allapps.html#tools",
@@ -30,34 +30,6 @@
   {
     "objectID": "allapps/allapps.html#ifg",
     "href": "allapps/allapps.html#ifg",
-    "title": "All Apps",
-    "section": "IfG",
-    "text": "IfG"
-  },
-  {
-    "objectID": "allapps/allapps.html#electron-microprobe-epma",
-    "href": "allapps/allapps.html#electron-microprobe-epma",
-    "title": "All Apps",
-    "section": "Electron Microprobe (EPMA)",
-    "text": "Electron Microprobe (EPMA)"
-  },
-  {
-    "objectID": "allapps/allapps.html#tools-1",
-    "href": "allapps/allapps.html#tools-1",
-    "title": "All Apps",
-    "section": "Tools",
-    "text": "Tools"
-  },
-  {
-    "objectID": "allapps/allapps.html#courses-1",
-    "href": "allapps/allapps.html#courses-1",
-    "title": "All Apps",
-    "section": "Courses",
-    "text": "Courses"
-  },
-  {
-    "objectID": "allapps/allapps.html#ifg-1",
-    "href": "allapps/allapps.html#ifg-1",
     "title": "All Apps",
     "section": "IfG",
     "text": "IfG\n\n\n\n\nPowder Standards\n\n\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
