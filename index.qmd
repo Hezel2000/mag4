@@ -2,7 +2,7 @@
 title: 'mag4' 
 ---
 
-## Welcome to Lab Data Processing <span style="color:grey">(*beta*)</span> 
+## Welcome <span style="color:grey">(*beta*)</span> 
 <!-- The World of Data & Science -->
 This site is still being built, but a number of Tools are up and running and even the documentation is more or less available. The first processing application that is up and running is the <span style="color:#242B64;">**flank data reduction**</span> application, which you will find under 'Microprobe' and then 'Flank Method'.
 
