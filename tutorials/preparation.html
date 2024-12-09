@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -89,10 +89,6 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../microprobe/epma-intro.html"> 
 <span class="menu-text">Microprobe</span></a>
   </li>  
@@ -100,10 +96,33 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../mass-spec/mass-spec-intro.html"> 
 <span class="menu-text">Mass Spectrometry</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="../tutorials/tutorials-intro.html" aria-current="page"> 
-<span class="menu-text">Tutorials</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tutorials" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Tutorials</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-tutorials">    
+        <li>
+    <a class="dropdown-item" href="../tutorials/preparation.html">
+ <span class="dropdown-text">Sample Preparation</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../tutorials/epma.html">
+ <span class="dropdown-text">Electron Microprobe</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../tutorials/sem.html">
+ <span class="dropdown-text">Scanning Electron Microscope</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../tutorials/ebsd.html">
+ <span class="dropdown-text">EBSD <span class="citation" data-cites="SEM">@SEM</span></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../tutorials/micro-XRF.html">
+ <span class="dropdown-text">µ.XRF</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../resources/resources-intro.html"> 
 <span class="menu-text">Resources</span></a>
@@ -149,63 +168,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tutorials/preparation.html">Preparation</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tutorials/tutorials-intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Welcome</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tutorials/preparation.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Preparation</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tutorials/epma.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">EPMA</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tutorials/sem.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">SEM</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tutorials/ebsd.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">EBSD</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tutorials/micro-XRF.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">µ.XRF</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">

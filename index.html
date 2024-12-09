@@ -89,10 +89,6 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./microprobe/epma-intro.html"> 
 <span class="menu-text">Microprobe</span></a>
   </li>  
@@ -100,10 +96,33 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./mass-spec/mass-spec-intro.html"> 
 <span class="menu-text">Mass Spectrometry</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./tutorials/tutorials-intro.html"> 
-<span class="menu-text">Tutorials</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tutorials" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Tutorials</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-tutorials">    
+        <li>
+    <a class="dropdown-item" href="./tutorials/preparation.html">
+ <span class="dropdown-text">Sample Preparation</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./tutorials/epma.html">
+ <span class="dropdown-text">Electron Microprobe</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tutorials/sem.html">
+ <span class="dropdown-text">Scanning Electron Microscope</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tutorials/ebsd.html">
+ <span class="dropdown-text">EBSD <span class="citation" data-cites="SEM">@SEM</span></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./tutorials/micro-XRF.html">
+ <span class="dropdown-text">µ.XRF</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./resources/resources-intro.html"> 
 <span class="menu-text">Resources</span></a>
@@ -190,7 +209,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="welcome-beta" class="level2">
 <h2 class="anchored" data-anchor-id="welcome-beta">Welcome <span style="color:grey">(<em>beta</em>)</span></h2>
 <!-- The World of Data & Science -->
-<p>This site is still being built, but a number of Tools are up and running and even the documentation is more or less available. The first processing application that is up and running is the <span style="color:#242B64;"><strong>flank data reduction</strong></span> application, which you will find under ‘Microprobe’ and then ‘Flank Method’.</p>
+<p>This site contains mainly tools and courses for data science, cosmochemistry, and microanalytic. The ‘Courses’ drop-down contains all available teaching resources, and the ‘All Apps’ tab all available tools. As there are continuous updates and additions, some</p>
+<p><span style="color:#242B64;"><strong>flank data reduction</strong></span> application, which you will find under ‘Microprobe’ and then ‘Flank Method’.</p>
 <p>A sneak peak into the <span style="color:#242B64;"><strong>microprobe data processing</strong></span> application is found under ‘Microprobe’ and then ‘Data Processing’.</p>
 <p>The application of how to <span style="color:#242B64;"><strong>reduce B-isotope data</strong></span> is up and running, and the documentation almost finished. You find this in the ‘Mass Spectrometry’ section.</p>
 <p>A peak into the <span style="color:#242B64;"><strong>powder standards</strong></span> application is available via the ‘Tools’ section.</p>
