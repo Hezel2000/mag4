@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome – mag4</title>
+<title>courses-intro – mag4</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -108,10 +108,37 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../resources/resources-intro.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="../courses/courses-intro.html" aria-current="page"> 
-<span class="menu-text">Courses</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-courses" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Courses</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-courses">    
+        <li>
+    <a class="dropdown-item" href="../courses/data_science.html">
+ <span class="dropdown-text">Data Science</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="https://datascienceshortcourse.streamlit.app">
+ <span class="dropdown-text">Data Science Short Course</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/cosmochemistry.html">
+ <span class="dropdown-text">Kosmochemie</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../courses/microanalytic.html">
+ <span class="dropdown-text">Mikroanalytik</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://hezel2000.quarto.pub/geochemie-1/">
+ <span class="dropdown-text">Geochemie I - Kosmochemie-Teil</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://hezel2000.quarto.pub/umweltwissenschaften-mikroanalytik/">
+ <span class="dropdown-text">Umweltwissenschaften - Mikroanalytik-Teil</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../allapps/allapps.html"> 
 <span class="menu-text">All Apps</span></a>
@@ -122,51 +149,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../courses/courses-intro.html">Welcome</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../courses/courses-intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Welcome</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../courses/data_science.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Science</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../courses/cosmochemistry.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cosmochemistry</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../courses/microanalytic.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Microanalytic</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -175,10 +161,11 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#courses" id="toc-courses" class="nav-link active" data-scroll-target="#courses">Courses</a>
   <ul class="collapse">
-  <li><a href="#courses-1" id="toc-courses-1" class="nav-link" data-scroll-target="#courses-1">Courses</a>
+  <li><a href="#allgemeines" id="toc-allgemeines" class="nav-link" data-scroll-target="#allgemeines">Allgemeines</a></li>
+  <li><a href="#kurse-courses" id="toc-kurse-courses" class="nav-link" data-scroll-target="#kurse-courses">Kurse – Courses</a>
   <ul class="collapse">
-  <li><a href="#intro" id="toc-intro" class="nav-link" data-scroll-target="#intro">Intro</a></li>
-  <li><a href="#überblick" id="toc-überblick" class="nav-link" data-scroll-target="#überblick">Überblick</a></li>
+  <li><a href="#geochemie-i-kosmochemie-teil-deutsch" id="toc-geochemie-i-kosmochemie-teil-deutsch" class="nav-link" data-scroll-target="#geochemie-i-kosmochemie-teil-deutsch">Geochemie I: Kosmochemie-Teil (deutsch)</a></li>
+  <li><a href="#umweltwissenschaften-mikroanalytik-teil-deutsch" id="toc-umweltwissenschaften-mikroanalytik-teil-deutsch" class="nav-link" data-scroll-target="#umweltwissenschaften-mikroanalytik-teil-deutsch">Umweltwissenschaften: Mikroanalytik-Teil (deutsch)</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -187,41 +174,31 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Welcome</h1>
-</div>
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <section id="courses" class="level1">
 <h1>Courses</h1>
-<section id="courses-1" class="level2">
-<h2 class="anchored" data-anchor-id="courses-1">Courses</h2>
+<section id="allgemeines" class="level2">
+<h2 class="anchored" data-anchor-id="allgemeines">Allgemeines</h2>
 <p>Three courses are currenlty available:<br>
 1. Data Science (german only, english coming later 2023)<br>
 2. Cosmochemistry (german &amp; english)<br>
 3. Microanalytic (german only, english coming in 2024)</p>
-<section id="intro" class="level3">
-<h3 class="anchored" data-anchor-id="intro">Intro</h3>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/amJkqAgkris" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-<section id="überblick" class="level3">
-<h3 class="anchored" data-anchor-id="überblick">Überblick</h3>
 <p><strong>Wie zu schauen ist – oder zumindest: wie geschaut werden kann</strong><br>
-Anhalten, nachvollziehen, eventuell zurückspulen und dazu eigen Skizzen oder Mitschriebe anfertigen Einige wenige Videos haben aus rechtlichen Gründen ein Passwort, das erhaltet Ihr von mir.</p>
+Anhalten, nachvollziehen, eventuell zurückspulen und dazu eigen Skizzen oder Mitschriebe anfertigen<br>
+Einige wenige Videos haben aus rechtlichen Gründen ein Passwort, das erhaltet Ihr von mir.</p>
+</section>
+<section id="kurse-courses" class="level2">
+<h2 class="anchored" data-anchor-id="kurse-courses">Kurse – Courses</h2>
+<section id="geochemie-i-kosmochemie-teil-deutsch" class="level3">
+<h3 class="anchored" data-anchor-id="geochemie-i-kosmochemie-teil-deutsch">Geochemie I: Kosmochemie-Teil (deutsch)</h3>
+<p><a href="https://hezel2000.quarto.pub/geochemie-1/">Geochemie I: Kosmochemie-Teil</a></p>
+</section>
+<section id="umweltwissenschaften-mikroanalytik-teil-deutsch" class="level3">
+<h3 class="anchored" data-anchor-id="umweltwissenschaften-mikroanalytik-teil-deutsch">Umweltwissenschaften: Mikroanalytik-Teil (deutsch)</h3>
+<p><a href="https://hezel2000.quarto.pub/umweltwissenschaften-mikroanalytik/">Umweltwissenschaften: Mikroanalytik-Teil</a></p>
 
 <p>:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-<a type="button" data-cc="c-settings" class="cc-link">Manage cookie preferences”} </a><a type="button" data-cc="c-settings" class="cc-link">Manage cookie preferences</a></p><a type="button" data-cc="c-settings" class="cc-link">
 <p>:::</p>

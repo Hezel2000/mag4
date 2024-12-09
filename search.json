@@ -336,77 +336,49 @@
     "href": "courses/data_science.html",
     "title": "Data Science",
     "section": "",
-    "text": "Click here to go to the Data Science course.\nDie Veranstaltung besteht aus\n- ca. 100 Seiten Skript, aufgeteilt in die 3 Teilskripte - ca. 50 Videos mit insgesamt über 7 Stunden Material - über 100 Jupyter Notebooks mit &gt;100 Fragen, Aufgaben & Beispielen - &gt; 00 Selbstlern-Fragen mit Antworten - &gt;20 Aufgaben zur gemeinsamen Lösung in den Präsenzphasen und den Semester-Projekten - zahlreiche zusätzlicher Dateien für verschiedene Aufgaben",
-    "crumbs": [
-      "Courses",
-      "Data Science"
-    ]
+    "text": "Click here to go to the Data Science course.\nDie Veranstaltung besteht aus\n- ca. 100 Seiten Skript, aufgeteilt in die 3 Teilskripte - ca. 50 Videos mit insgesamt über 7 Stunden Material - über 100 Jupyter Notebooks mit &gt;100 Fragen, Aufgaben & Beispielen - &gt; 00 Selbstlern-Fragen mit Antworten - &gt;20 Aufgaben zur gemeinsamen Lösung in den Präsenzphasen und den Semester-Projekten - zahlreiche zusätzlicher Dateien für verschiedene Aufgaben"
   },
   {
     "objectID": "courses/data_science.html#einführung-installation-ein-erstes-programm-1.1-1.4-1142",
     "href": "courses/data_science.html#einführung-installation-ein-erstes-programm-1.1-1.4-1142",
     "title": "Data Science",
     "section": "1 Einführung, Installation & ein erstes Programm: 1.1 – 1.4 [11:42]",
-    "text": "1 Einführung, Installation & ein erstes Programm: 1.1 – 1.4 [11:42]\nIn der ersten Stunde starten wir gemeinsam mit mit der Installation von Jupyter Notebooks, bzw. Anaconda. Wir lernen das Interface ein wenig kennen und schreiben ein erstes kleines Programm. Außerdem erkläre ich wie dieser Kurs im Flipped Classroom Format abläuft.",
-    "crumbs": [
-      "Courses",
-      "Data Science"
-    ]
+    "text": "1 Einführung, Installation & ein erstes Programm: 1.1 – 1.4 [11:42]\nIn der ersten Stunde starten wir gemeinsam mit mit der Installation von Jupyter Notebooks, bzw. Anaconda. Wir lernen das Interface ein wenig kennen und schreiben ein erstes kleines Programm. Außerdem erkläre ich wie dieser Kurs im Flipped Classroom Format abläuft."
   },
   {
     "objectID": "courses/data_science.html#rufe-eine-selbst-geschriebene-mischungs-funktion-auf-2.1-2.5-3917",
     "href": "courses/data_science.html#rufe-eine-selbst-geschriebene-mischungs-funktion-auf-2.1-2.5-3917",
     "title": "Data Science",
     "section": "2 Rufe eine selbst geschriebene Mischungs-Funktion auf: 2.1 – 2.5 [39:17]",
-    "text": "2 Rufe eine selbst geschriebene Mischungs-Funktion auf: 2.1 – 2.5 [39:17]\nZum Programmieren verwenden wir Befehle, das sollte recht einleuchtend sein. Nun hat Python natürlich keine Befehle für die Geochemie, um mit so einem beispielsweise direkt auszurechnen wie die neue Zusammensetzung einer Schmelze ist, nachdem sie sich mit einer anderen gemischt hat. Praktisch wäre es aber schon. Nicht nur in der Geochemie, sondern für sehr vieles. Daher ist es möglich eigenen Befehle zu definieren – etwas zur Mischung von Magmen – um diese anschließend immer wieder zu verwenden. Es ist sogar möglich mehrere Befehle in einer Datei zu speichern, und aus dieser ›Bibliothek‹ immer wieder aufzurufen. Wie das geht lernen wir in dieser Einheit.",
-    "crumbs": [
-      "Courses",
-      "Data Science"
-    ]
+    "text": "2 Rufe eine selbst geschriebene Mischungs-Funktion auf: 2.1 – 2.5 [39:17]\nZum Programmieren verwenden wir Befehle, das sollte recht einleuchtend sein. Nun hat Python natürlich keine Befehle für die Geochemie, um mit so einem beispielsweise direkt auszurechnen wie die neue Zusammensetzung einer Schmelze ist, nachdem sie sich mit einer anderen gemischt hat. Praktisch wäre es aber schon. Nicht nur in der Geochemie, sondern für sehr vieles. Daher ist es möglich eigenen Befehle zu definieren – etwas zur Mischung von Magmen – um diese anschließend immer wieder zu verwenden. Es ist sogar möglich mehrere Befehle in einer Datei zu speichern, und aus dieser ›Bibliothek‹ immer wieder aufzurufen. Wie das geht lernen wir in dieser Einheit."
   },
   {
     "objectID": "courses/data_science.html#erste-schritte-in-data-science-3.1-3.5-4321",
     "href": "courses/data_science.html#erste-schritte-in-data-science-3.1-3.5-4321",
     "title": "Data Science",
     "section": "3 Erste Schritte in ›Data Science‹: 3.1 – 3.5 [43:21]",
-    "text": "3 Erste Schritte in ›Data Science‹: 3.1 – 3.5 [43:21]\nst.write(’In den vergangenen Jahren werden immer mehr Daten publiziert, deren Menge zukünftig noch schneller anwachsen wird. Es ist nicht leicht, all den Publikationen dieser erfreulich großen Mengen immer neuer Informationen zu folgen. Jupyter Notebooks wurden gerade auch dafür entwickelt, auf große Mengen an Daten zuzugreifen, diese zu visualisieren, analysieren und auf Problemstellungen anzuwenden. Natürlich ist das nur möglich, wenn die Daten in entsprechenden Formaten vorliegen. Oftmals ist daher im ersten Schritt ein ›Daten clean-up‹ notwendig. Seit 2020 gibt es nun endlich mehrere Initiativen, darunter so große wie die Nationale Forschungsdatenbank Initiative (NFDI) der DFG, GWK und anderer, die versuchen gemeinsam mit internationalen Partnern Daten besser verfügbar zu machen. Schon bestehende Datenbanken wie GeoROC, EarthChem oder auch MetBase erlauben schon seit langer Zeit solchen Zugang, und damit Data Science in z.B. der Geo- und Kosmochemie. In dieser Einheit steigen wir in das neue Feld der Data Science in der Mineralogie ein.",
-    "crumbs": [
-      "Courses",
-      "Data Science"
-    ]
+    "text": "3 Erste Schritte in ›Data Science‹: 3.1 – 3.5 [43:21]\nst.write(’In den vergangenen Jahren werden immer mehr Daten publiziert, deren Menge zukünftig noch schneller anwachsen wird. Es ist nicht leicht, all den Publikationen dieser erfreulich großen Mengen immer neuer Informationen zu folgen. Jupyter Notebooks wurden gerade auch dafür entwickelt, auf große Mengen an Daten zuzugreifen, diese zu visualisieren, analysieren und auf Problemstellungen anzuwenden. Natürlich ist das nur möglich, wenn die Daten in entsprechenden Formaten vorliegen. Oftmals ist daher im ersten Schritt ein ›Daten clean-up‹ notwendig. Seit 2020 gibt es nun endlich mehrere Initiativen, darunter so große wie die Nationale Forschungsdatenbank Initiative (NFDI) der DFG, GWK und anderer, die versuchen gemeinsam mit internationalen Partnern Daten besser verfügbar zu machen. Schon bestehende Datenbanken wie GeoROC, EarthChem oder auch MetBase erlauben schon seit langer Zeit solchen Zugang, und damit Data Science in z.B. der Geo- und Kosmochemie. In dieser Einheit steigen wir in das neue Feld der Data Science in der Mineralogie ein."
   },
   {
     "objectID": "courses/data_science.html#interaktive-elemente-erste-programme-4.1-4.5-4142",
     "href": "courses/data_science.html#interaktive-elemente-erste-programme-4.1-4.5-4142",
     "title": "Data Science",
     "section": "4 Interaktive Elemente & erste Programme: 4.1 – 4.5 [41:42]",
-    "text": "4 Interaktive Elemente & erste Programme: 4.1 – 4.5 [41:42]\nNun fehlt uns nur noch wenig Rüstzeug, um erste, leistungsfähige Programme zu schreiben. Dieses Verbleibende lernen wir in dieser Einheit, um dann tatsächlich 2 Programme zu bauen, welche Datenbank-Daten effektiv darstellen. Vor allem lernen wir hier interaktive Möglichkeiten kennen die es uns ermöglichen, mit den Daten über eine graphische Benutzeroberfläche direkt zu interagieren, diese zu manipulieren und immer wieder neu darzustellen.",
-    "crumbs": [
-      "Courses",
-      "Data Science"
-    ]
+    "text": "4 Interaktive Elemente & erste Programme: 4.1 – 4.5 [41:42]\nNun fehlt uns nur noch wenig Rüstzeug, um erste, leistungsfähige Programme zu schreiben. Dieses Verbleibende lernen wir in dieser Einheit, um dann tatsächlich 2 Programme zu bauen, welche Datenbank-Daten effektiv darstellen. Vor allem lernen wir hier interaktive Möglichkeiten kennen die es uns ermöglichen, mit den Daten über eine graphische Benutzeroberfläche direkt zu interagieren, diese zu manipulieren und immer wieder neu darzustellen."
   },
   {
     "objectID": "courses/data_science.html#data-science-mit-api-requests-daten-auswertung-5.1-5.5-10322",
     "href": "courses/data_science.html#data-science-mit-api-requests-daten-auswertung-5.1-5.5-10322",
     "title": "Data Science",
     "section": "5 Data Science mit API Requests & Daten-Auswertung 5.1 – 5.5 [1:03:22]",
-    "text": "5 Data Science mit API Requests & Daten-Auswertung 5.1 – 5.5 [1:03:22]\nEine besonders effektive und interessante Art auf Daten zuzugreifen ist über ›Application Programming Interfaces‹ – kurz: API. Der Begriff API ist sehr weit verbreitet, und sollte man sich in jedem Fall merken. In einer idealen Welt hätte man gar keine eigenen Datenbanken mehr, sondern würde nur noch über APIs auf Datenbanken zugreifen, sich die gewünschten Daten herunter laden, und diese dann auf dem eigenen Computer auswerten. Ein Großteil des Internets, und viele der erfolgreichsten Apps auf dem Smartphone funktionieren genau so: über ein API werden die gewünschten Daten geladen, und die App macht letztlich nicht mehr als ein Interface zur verfügung zu stellen, um diese Daten entsprechend auszuwählen und darzustellen. Das Interface ist dabei ein Graphical User Interface – kurz GUI. Ebenfalls ein Begriff, den man kennen sollte. Eine GUI ist letztlich nichts anders als das, was wir mit ›Interact‹ kennen gelernt haben. D.h., mit einer API und einer GUI machen wir exakt das, was fast jede unserer App auf dem Smartphone macht. Das hört sich alles großartig an – und ist es auch! Wäre da nicht das eine Problem: viele geowissenschaftliche Datenbanken haben – noch – keine vernünftige API. Glücklicherweise ändert sich daran gerade viel. Fun Fact Wir hier in Frankfurt sind an dieser Änderung recht zentral beteiligt.",
-    "crumbs": [
-      "Courses",
-      "Data Science"
-    ]
+    "text": "5 Data Science mit API Requests & Daten-Auswertung 5.1 – 5.5 [1:03:22]\nEine besonders effektive und interessante Art auf Daten zuzugreifen ist über ›Application Programming Interfaces‹ – kurz: API. Der Begriff API ist sehr weit verbreitet, und sollte man sich in jedem Fall merken. In einer idealen Welt hätte man gar keine eigenen Datenbanken mehr, sondern würde nur noch über APIs auf Datenbanken zugreifen, sich die gewünschten Daten herunter laden, und diese dann auf dem eigenen Computer auswerten. Ein Großteil des Internets, und viele der erfolgreichsten Apps auf dem Smartphone funktionieren genau so: über ein API werden die gewünschten Daten geladen, und die App macht letztlich nicht mehr als ein Interface zur verfügung zu stellen, um diese Daten entsprechend auszuwählen und darzustellen. Das Interface ist dabei ein Graphical User Interface – kurz GUI. Ebenfalls ein Begriff, den man kennen sollte. Eine GUI ist letztlich nichts anders als das, was wir mit ›Interact‹ kennen gelernt haben. D.h., mit einer API und einer GUI machen wir exakt das, was fast jede unserer App auf dem Smartphone macht. Das hört sich alles großartig an – und ist es auch! Wäre da nicht das eine Problem: viele geowissenschaftliche Datenbanken haben – noch – keine vernünftige API. Glücklicherweise ändert sich daran gerade viel. Fun Fact Wir hier in Frankfurt sind an dieser Änderung recht zentral beteiligt."
   },
   {
     "objectID": "courses/cosmochemistry.html",
     "href": "courses/cosmochemistry.html",
     "title": "Cosmochemistry",
     "section": "",
-    "text": "Course Link\nClick here to go to the Cosmochemistry course.\nHier geht es zum Kosmochemie Kurs.\n\n\nReihenfolge der zu schauenden Videos\n\n\n\nSollte selbst erklärend sein.\n\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
-    "crumbs": [
-      "Courses",
-      "Cosmochemistry"
-    ]
+    "text": "Course Link\nClick here to go to the Cosmochemistry course.\nHier geht es zum Kosmochemie Kurs.\n\n\nReihenfolge der zu schauenden Videos\n\n\n\nSollte selbst erklärend sein.\n\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
   },
   {
     "objectID": "index.html",
@@ -416,8 +388,8 @@
     "text": "This site is still being built, but a number of Tools are up and running and even the documentation is more or less available. The first processing application that is up and running is the flank data reduction application, which you will find under ‘Microprobe’ and then ‘Flank Method’.\nA sneak peak into the microprobe data processing application is found under ‘Microprobe’ and then ‘Data Processing’.\nThe application of how to reduce B-isotope data is up and running, and the documentation almost finished. You find this in the ‘Mass Spectrometry’ section.\nA peak into the powder standards application is available via the ‘Tools’ section.\nTwo full courses are available, one on Data Science, and one on Cosmochemistry, the documentation will be added in due time. These are obviously accessible through the ‘Courses’ section."
   },
   {
-    "objectID": "index.html#welcome-to-lab-data-processing-beta",
-    "href": "index.html#welcome-to-lab-data-processing-beta",
+    "objectID": "index.html#welcome-beta",
+    "href": "index.html#welcome-beta",
     "title": "mag4",
     "section": "",
     "text": "This site is still being built, but a number of Tools are up and running and even the documentation is more or less available. The first processing application that is up and running is the flank data reduction application, which you will find under ‘Microprobe’ and then ‘Flank Method’.\nA sneak peak into the microprobe data processing application is found under ‘Microprobe’ and then ‘Data Processing’.\nThe application of how to reduce B-isotope data is up and running, and the documentation almost finished. You find this in the ‘Mass Spectrometry’ section.\nA peak into the powder standards application is available via the ‘Tools’ section.\nTwo full courses are available, one on Data Science, and one on Cosmochemistry, the documentation will be added in due time. These are obviously accessible through the ‘Courses’ section."
@@ -1072,209 +1044,140 @@
     "href": "courses/microanalytic.html",
     "title": "Microanalytic",
     "section": "",
-    "text": "Hier geht es zum Kurs Mikroanalytik.\nDie Veranstaltung besteht aus ca. 100 Seiten Skript, aufgeteilt in die 3 Teilskripte ca. 70 Videos mit &gt;10 Stunden Material &gt;300 Selbstlern-Fragen mit Antworten &gt;20 Aufgaben zur gemeinsamen Lösung in den Präsenzphasen ca. 10 zusätzlicher Dateien für verschiedene Aufgaben",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "Hier geht es zum Kurs Mikroanalytik.\nDie Veranstaltung besteht aus ca. 100 Seiten Skript, aufgeteilt in die 3 Teilskripte ca. 70 Videos mit &gt;10 Stunden Material &gt;300 Selbstlern-Fragen mit Antworten &gt;20 Aufgaben zur gemeinsamen Lösung in den Präsenzphasen ca. 10 zusätzlicher Dateien für verschiedene Aufgaben"
   },
   {
     "objectID": "courses/microanalytic.html#labor-tour-1.1.-1.5.-3300",
     "href": "courses/microanalytic.html#labor-tour-1.1.-1.5.-3300",
     "title": "Microanalytic",
     "section": "1. Labor-Tour: 1.1. – 1.5. [33:00]",
-    "text": "1. Labor-Tour: 1.1. – 1.5. [33:00]\nIn der ersten Veranstaltung lernen wir die verschiedenen Labore und Geräte kennen. Studiert dafür das gesamte erste Kapitel ›Labor-Tour‹.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "1. Labor-Tour: 1.1. – 1.5. [33:00]\nIn der ersten Veranstaltung lernen wir die verschiedenen Labore und Geräte kennen. Studiert dafür das gesamte erste Kapitel ›Labor-Tour‹."
   },
   {
     "objectID": "courses/microanalytic.html#atomaufbau-elektronen-konfigurationen-2.1.-2.5.-11116",
     "href": "courses/microanalytic.html#atomaufbau-elektronen-konfigurationen-2.1.-2.5.-11116",
     "title": "Microanalytic",
     "section": "2. Atomaufbau & Elektronen-Konfigurationen: 2.1. – 2.5. [1:11:16]",
-    "text": "2. Atomaufbau & Elektronen-Konfigurationen: 2.1. – 2.5. [1:11:16]\nDiese fast noch erste Einheit wird Dir etwas abverlangen – allerdings: je besser wir die atomphysikalischen Grundlagen verstehen, sowie die dazu gehörigen Beschreibungen und das dafür verwendete Vokabular beherrschen, umso leichter wird es uns anschließend fallen, das zentrale Prinzip der Element-Bestimmung mit EDS und WDS an Mikrosonde, Raster, RFA – sowie verwandter Geräte wie das Transmissionselektronen-Mikroskop (TEM) zu verstehen. Nicht alle Details müssen über die Zeit hängen bleiben. Wenn man aber einmal verstanden hat, wie es funktioniert, lässt man sich später nicht mehr so leicht verwirren. Und das ist viel wert. Also, dran bleiben wenn es heißt sich durch diese etwas längere Einheit mit den Kapiteln 2.1. bis 2.5. durchzuarbeiten. Die nächsten werden dafür wieder kürzer. Versprochen.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "2. Atomaufbau & Elektronen-Konfigurationen: 2.1. – 2.5. [1:11:16]\nDiese fast noch erste Einheit wird Dir etwas abverlangen – allerdings: je besser wir die atomphysikalischen Grundlagen verstehen, sowie die dazu gehörigen Beschreibungen und das dafür verwendete Vokabular beherrschen, umso leichter wird es uns anschließend fallen, das zentrale Prinzip der Element-Bestimmung mit EDS und WDS an Mikrosonde, Raster, RFA – sowie verwandter Geräte wie das Transmissionselektronen-Mikroskop (TEM) zu verstehen. Nicht alle Details müssen über die Zeit hängen bleiben. Wenn man aber einmal verstanden hat, wie es funktioniert, lässt man sich später nicht mehr so leicht verwirren. Und das ist viel wert. Also, dran bleiben wenn es heißt sich durch diese etwas längere Einheit mit den Kapiteln 2.1. bis 2.5. durchzuarbeiten. Die nächsten werden dafür wieder kürzer. Versprochen."
   },
   {
     "objectID": "courses/microanalytic.html#interaktion-von-elektronen-mit-material-2.6.-3.1.-3622",
     "href": "courses/microanalytic.html#interaktion-von-elektronen-mit-material-2.6.-3.1.-3622",
     "title": "Microanalytic",
     "section": "3. Interaktion von Elektronen mit Material: 2.6. – 3.1. [36:22]",
-    "text": "3. Interaktion von Elektronen mit Material: 2.6. – 3.1. [36:22]\nDas vorige Thema setzt sich noch etwas fort, denn bei der Interaktion der Elektronen mit Materie gibt es noch allerlei weitere Effekte, die wir kennen müssen. Viele dieser Themen sind wichtig, um später die quantitative Analyse zu verstehen. Das Wissen gegen Ende von Kapitel 2 benötigen wir Grundlage für bildgebende Verfahren, die der Inhalt von Kapitel 3 sind, und mit denen wir hier schon ein wenig beginnen.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "3. Interaktion von Elektronen mit Material: 2.6. – 3.1. [36:22]\nDas vorige Thema setzt sich noch etwas fort, denn bei der Interaktion der Elektronen mit Materie gibt es noch allerlei weitere Effekte, die wir kennen müssen. Viele dieser Themen sind wichtig, um später die quantitative Analyse zu verstehen. Das Wissen gegen Ende von Kapitel 2 benötigen wir Grundlage für bildgebende Verfahren, die der Inhalt von Kapitel 3 sind, und mit denen wir hier schon ein wenig beginnen."
   },
   {
     "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-3.2.-4.2.3.-5855",
     "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-3.2.-4.2.3.-5855",
     "title": "Microanalytic",
     "section": "4. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 3.2. – 4.2.3. [58:55]",
-    "text": "4. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 3.2. – 4.2.3. [58:55]\nWir lernen die beiden verbleibenden, wichtigen bildgebenden Verfahren kennen: SE- und CL-Bilder. Anschließend geht es mit einem neuen Thema los: der Charakteristischen Röntgenstrahlung als analytisches Werkzeug. Mit dem zuvor gewonnen Rüstzeug lernen wir nun, wie wir die Zusammensetzung von Proben bestimmen können. In einem zunächst kurzen Kapitel wird das Energie-Dispersive Spektrometer (EDS) vorgestellt. Anschließend lernen wir die wichtigste und zentrale Grundlage der Winkel-Dispersiven Spektrometerie: die Selektion der Röntgenstrahlung eines Elements mit Hilfe der Bragg-Bedingung, sowie der Rowland-Kreis Geometrie.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "4. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 3.2. – 4.2.3. [58:55]\nWir lernen die beiden verbleibenden, wichtigen bildgebenden Verfahren kennen: SE- und CL-Bilder. Anschließend geht es mit einem neuen Thema los: der Charakteristischen Röntgenstrahlung als analytisches Werkzeug. Mit dem zuvor gewonnen Rüstzeug lernen wir nun, wie wir die Zusammensetzung von Proben bestimmen können. In einem zunächst kurzen Kapitel wird das Energie-Dispersive Spektrometer (EDS) vorgestellt. Anschließend lernen wir die wichtigste und zentrale Grundlage der Winkel-Dispersiven Spektrometerie: die Selektion der Röntgenstrahlung eines Elements mit Hilfe der Bragg-Bedingung, sowie der Rowland-Kreis Geometrie."
   },
   {
     "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.4.-4.2.6.-4704",
     "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.4.-4.2.6.-4704",
     "title": "Microanalytic",
     "section": "5. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.4. – 4.2.6. [47:04]",
-    "text": "5. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.4. – 4.2.6. [47:04]\nDiese Einheit beschäftigt sich mit dem Röntgendetektor. Diese Gaszähler erlauben es Röntgenstrahlung höherer Ordnung auszuschließen, was sehr praktisch ist, um damit Interferenzen zu unterdrücken. Das Thema ist nicht ganz unkomplex, daher ist die Gesamtzeit der Videos zwar etwas kürzer, jedoch müssen besonders die beiden Kapitel/Videos 4.2.4 & 4.2.6 sehr gut studiert werden, um das Thema wirklich zu verstehen. Es wäre nicht erstaunlich, wenn es diesmal im Besondern nötig wäre, zwischendurch anzuhalten, und sich die Dinge durch z.B. eigene Skizzen selbst noch einmal klar zu machen.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "5. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.4. – 4.2.6. [47:04]\nDiese Einheit beschäftigt sich mit dem Röntgendetektor. Diese Gaszähler erlauben es Röntgenstrahlung höherer Ordnung auszuschließen, was sehr praktisch ist, um damit Interferenzen zu unterdrücken. Das Thema ist nicht ganz unkomplex, daher ist die Gesamtzeit der Videos zwar etwas kürzer, jedoch müssen besonders die beiden Kapitel/Videos 4.2.4 & 4.2.6 sehr gut studiert werden, um das Thema wirklich zu verstehen. Es wäre nicht erstaunlich, wenn es diesmal im Besondern nötig wäre, zwischendurch anzuhalten, und sich die Dinge durch z.B. eigene Skizzen selbst noch einmal klar zu machen."
   },
   {
     "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.7.-4.3.5.5152",
     "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.7.-4.3.5.5152",
     "title": "Microanalytic",
     "section": "6. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.7. – 4.3.5.[51:52]",
-    "text": "6. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.7. – 4.3.5.[51:52]\nEin zentrales Element um Proben zu messen, ist die Standardisierung, welche wir in dieser Einheit kennen lernen. Wir lernen außerdem erste, konkrete Parameter und Bedingungen kennen, mit denen eine Probe gemessen werden kann, und einige Dinge wie Matrix-Korrektur, Nachweisgrenze, etc. die für eine erfolgreiche Messung beachtet werden müssen.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "6. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.7. – 4.3.5.[51:52]\nEin zentrales Element um Proben zu messen, ist die Standardisierung, welche wir in dieser Einheit kennen lernen. Wir lernen außerdem erste, konkrete Parameter und Bedingungen kennen, mit denen eine Probe gemessen werden kann, und einige Dinge wie Matrix-Korrektur, Nachweisgrenze, etc. die für eine erfolgreiche Messung beachtet werden müssen."
   },
   {
     "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.3.6.-4.5.-5149",
     "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.3.6.-4.5.-5149",
     "title": "Microanalytic",
     "section": "7. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.3.6. – 4.5. [51:49]",
-    "text": "7. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.3.6. – 4.5. [51:49]\nIm letzten Teil von Kapitel 4 schauen wir uns noch Interferenzen und den Chemical Peak Shift, welche die Messung beeinflussen können. Dann wollen wir jedoch wissen, was und wie wir mit der Mikrosonde oder dem Rasterelektronen-Mikroskop messen können. Schließlich gibt es ein wichtiges Video dazu, was man überlegen sollte oder muss, bevor man am Messtag im Labor steht. Wichtig ist das Video, da es Dir hilft eine erfolgreiche Mess-Kampagne durchführen.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "7. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.3.6. – 4.5. [51:49]\nIm letzten Teil von Kapitel 4 schauen wir uns noch Interferenzen und den Chemical Peak Shift, welche die Messung beeinflussen können. Dann wollen wir jedoch wissen, was und wie wir mit der Mikrosonde oder dem Rasterelektronen-Mikroskop messen können. Schließlich gibt es ein wichtiges Video dazu, was man überlegen sollte oder muss, bevor man am Messtag im Labor steht. Wichtig ist das Video, da es Dir hilft eine erfolgreiche Mess-Kampagne durchführen."
   },
   {
     "objectID": "courses/microanalytic.html#daten-auswertung--darstellung-5.1.-5.3.-5155",
     "href": "courses/microanalytic.html#daten-auswertung--darstellung-5.1.-5.3.-5155",
     "title": "Microanalytic",
     "section": "8. Daten-Auswertung & -Darstellung: 5.1. – 5.3. [51:55]",
-    "text": "8. Daten-Auswertung & -Darstellung: 5.1. – 5.3. [51:55]\nWir können nun erfolgreich an der Mikrosonde und eigentlich auch dem REM messen. Aber was tun mit all den Daten? Zunächst müssen wir wissen, wie wir sie vom Gerät auf unseren Computer transferieren. Als erstes wollen wir dann natürlich wissen, wie genau wir gemessen haben, bzw. mit welchem Vokabular wir diese Genauigkeit kommunizieren. Dann sind wir natürlich neugierig, wie denn nun die gemessenen Minerale und andere Phasen genau zusammen gesetzt sind. Das erfahren wir, indem wir deren Mineral- und Strukturformel berechnen. Um all das geht es in diesen Kapiteln.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "8. Daten-Auswertung & -Darstellung: 5.1. – 5.3. [51:55]\nWir können nun erfolgreich an der Mikrosonde und eigentlich auch dem REM messen. Aber was tun mit all den Daten? Zunächst müssen wir wissen, wie wir sie vom Gerät auf unseren Computer transferieren. Als erstes wollen wir dann natürlich wissen, wie genau wir gemessen haben, bzw. mit welchem Vokabular wir diese Genauigkeit kommunizieren. Dann sind wir natürlich neugierig, wie denn nun die gemessenen Minerale und andere Phasen genau zusammen gesetzt sind. Das erfahren wir, indem wir deren Mineral- und Strukturformel berechnen. Um all das geht es in diesen Kapiteln."
   },
   {
     "objectID": "courses/microanalytic.html#daten-auswertung--darstellung-5.4.1.-5.4.4.-5908",
     "href": "courses/microanalytic.html#daten-auswertung--darstellung-5.4.1.-5.4.4.-5908",
     "title": "Microanalytic",
     "section": "9. Daten-Auswertung & -Darstellung: 5.4.1. – 5.4.4. [59:08]",
-    "text": "9. Daten-Auswertung & -Darstellung: 5.4.1. – 5.4.4. [59:08]\nEin wichtiger Teil der Analytik ist die Darstellung der Daten in aussagekräftigen und übersichtlichen Diagramme und Tabellen. Dazu schauen wir uns zunächst an, wie die Daten für typische Diagramme aufbereitet werden – nämlich als Element-Konzentrationen oder normiert. Dann arbeiten wir uns ein wenig durch typische Diagramm-Typen, um zu lernen und zu verstehen, was das eigentlich für Diagramme sind, die wir da häufig sehen, und regelmäßig selbst nutzen. Schließlich lernen wir ein wenig welche Elemente bei Diagrammen und Tabellen wichtig sind, und wie diese genutzt werden können und sollten.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "9. Daten-Auswertung & -Darstellung: 5.4.1. – 5.4.4. [59:08]\nEin wichtiger Teil der Analytik ist die Darstellung der Daten in aussagekräftigen und übersichtlichen Diagramme und Tabellen. Dazu schauen wir uns zunächst an, wie die Daten für typische Diagramme aufbereitet werden – nämlich als Element-Konzentrationen oder normiert. Dann arbeiten wir uns ein wenig durch typische Diagramm-Typen, um zu lernen und zu verstehen, was das eigentlich für Diagramme sind, die wir da häufig sehen, und regelmäßig selbst nutzen. Schließlich lernen wir ein wenig welche Elemente bei Diagrammen und Tabellen wichtig sind, und wie diese genutzt werden können und sollten."
   },
   {
     "objectID": "courses/microanalytic.html#rem-rfa-kapitel-6-2726",
     "href": "courses/microanalytic.html#rem-rfa-kapitel-6-2726",
     "title": "Microanalytic",
     "section": "10. REM & RFA: Kapitel 6 [27:26]",
-    "text": "10. REM & RFA: Kapitel 6 [27:26]\nIn dieser vergleichsweise kurzen Einheit lernen wir den Unterschied zwischen EPMA und REM etwas genauer kennen, und weshalb das REM sehr viel mehr ein Mikroskop ist. An unserem REM haben wir außerdem einen EBSD-Detektor, der vorgestellt wird, und was man damit anstellen kann. Im zweiten Teil wird die RFA vorgestellt, worin sich diese von der EPMA unterscheidet, und welche unterschiedlichen Einsatzgebiete es für die RFA gibt, und damit, in welch unterschiedlichen Ausführungen RFAs gebaut werden.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "10. REM & RFA: Kapitel 6 [27:26]\nIn dieser vergleichsweise kurzen Einheit lernen wir den Unterschied zwischen EPMA und REM etwas genauer kennen, und weshalb das REM sehr viel mehr ein Mikroskop ist. An unserem REM haben wir außerdem einen EBSD-Detektor, der vorgestellt wird, und was man damit anstellen kann. Im zweiten Teil wird die RFA vorgestellt, worin sich diese von der EPMA unterscheidet, und welche unterschiedlichen Einsatzgebiete es für die RFA gibt, und damit, in welch unterschiedlichen Ausführungen RFAs gebaut werden."
   },
   {
     "objectID": "courses/microanalytic.html#vorbereitung-auf-den-praktischen-teil-kapitel-7-10846",
     "href": "courses/microanalytic.html#vorbereitung-auf-den-praktischen-teil-kapitel-7-10846",
     "title": "Microanalytic",
     "section": "11. Vorbereitung auf den praktischen Teil: Kapitel 7 [1:08:46]",
-    "text": "11. Vorbereitung auf den praktischen Teil: Kapitel 7 [1:08:46]\nIn Vorbereitung auf den praktischen Teil gibt es zunächst Video-Trockenübungen. Diese sind sehr hilfreich, um am Gerät nicht gleich verloren zu sein, sondern schon mit Vorkenntnis zu starten. Daher zum Bingen und immer wieder schauen ein paar Videos mit Einblicken von der Sonde wie diese bedient wird. Abgerundet durch ein paar kurze Impressionen rund um und aus der Sonde.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "11. Vorbereitung auf den praktischen Teil: Kapitel 7 [1:08:46]\nIn Vorbereitung auf den praktischen Teil gibt es zunächst Video-Trockenübungen. Diese sind sehr hilfreich, um am Gerät nicht gleich verloren zu sein, sondern schon mit Vorkenntnis zu starten. Daher zum Bingen und immer wieder schauen ein paar Videos mit Einblicken von der Sonde wie diese bedient wird. Abgerundet durch ein paar kurze Impressionen rund um und aus der Sonde."
   },
   {
     "objectID": "courses/microanalytic.html#probe-klausur",
     "href": "courses/microanalytic.html#probe-klausur",
     "title": "Microanalytic",
     "section": "12. Probe-Klausur",
-    "text": "12. Probe-Klausur\nDie Probe-Klausur ist ähnlich der tatsächlichen Klausur. Der Umfang ist etwas kürzer, da Du im Anschluss noch die Klausur einer Kommilitonin eins Kommilitonen korrigieren wirst.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "12. Probe-Klausur\nDie Probe-Klausur ist ähnlich der tatsächlichen Klausur. Der Umfang ist etwas kürzer, da Du im Anschluss noch die Klausur einer Kommilitonin eins Kommilitonen korrigieren wirst."
   },
   {
     "objectID": "courses/microanalytic.html#sinn-und-zweck-dieser-übung",
     "href": "courses/microanalytic.html#sinn-und-zweck-dieser-übung",
     "title": "Microanalytic",
     "section": "Sinn und Zweck dieser Übung",
-    "text": "Sinn und Zweck dieser Übung\nEs gibt diese Probeklausur, damit Du eine Idee davon bekommst, was Dich bei der echten Klausur erwartet. Als Vorbereitung dafür gibt es keine weiteren Inhalte oder Videos – sondern wiederhole alles, das wir bislang durchgegangen sind und geübt haben.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "Sinn und Zweck dieser Übung\nEs gibt diese Probeklausur, damit Du eine Idee davon bekommst, was Dich bei der echten Klausur erwartet. Als Vorbereitung dafür gibt es keine weiteren Inhalte oder Videos – sondern wiederhole alles, das wir bislang durchgegangen sind und geübt haben."
   },
   {
     "objectID": "courses/microanalytic.html#ablauf",
     "href": "courses/microanalytic.html#ablauf",
     "title": "Microanalytic",
     "section": "Ablauf",
-    "text": "Ablauf\nDie Klausur dauert ca. 50 min., also etwas länger oder kürzer als im Modul vorgegeben, je nachdem ob Du Dir den Kurs für BSc (30 min als möglicher Teil einer kumulativen Modulabschlussklausur; max. Punktzahl: 33) oder MSc (90 min als mögliche exemplarische Modulabschlussklausur; max. Punktzahl: 100) anrechnen lässt. Du schreibst die Klausur für Dich allein. Schummeln wird nicht kontrolliert, diese Probeklausur dient allein Deiner eigenen Einschätzung. Anschließend kommst Du in eine 2er oder 3er Gruppe, erhältst die Lösung für die Klausur, und Ihr korrigiert gegenseitig Eure Klausuren. Das sollte ca. 15 min dauern.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "Ablauf\nDie Klausur dauert ca. 50 min., also etwas länger oder kürzer als im Modul vorgegeben, je nachdem ob Du Dir den Kurs für BSc (30 min als möglicher Teil einer kumulativen Modulabschlussklausur; max. Punktzahl: 33) oder MSc (90 min als mögliche exemplarische Modulabschlussklausur; max. Punktzahl: 100) anrechnen lässt. Du schreibst die Klausur für Dich allein. Schummeln wird nicht kontrolliert, diese Probeklausur dient allein Deiner eigenen Einschätzung. Anschließend kommst Du in eine 2er oder 3er Gruppe, erhältst die Lösung für die Klausur, und Ihr korrigiert gegenseitig Eure Klausuren. Das sollte ca. 15 min dauern."
   },
   {
     "objectID": "courses/microanalytic.html#halb-finale",
     "href": "courses/microanalytic.html#halb-finale",
     "title": "Microanalytic",
     "section": "Halb-Finale",
-    "text": "Halb-Finale\nZum Abschluss haben wir knapp 30 min. Zeit die Klausur gemeinsam durchzusprechen, allgemeine Fragen zu stellen und zu beantworten, oder letzte Unklarheiten auszuräumen.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "Halb-Finale\nZum Abschluss haben wir knapp 30 min. Zeit die Klausur gemeinsam durchzusprechen, allgemeine Fragen zu stellen und zu beantworten, oder letzte Unklarheiten auszuräumen."
   },
   {
     "objectID": "courses/microanalytic.html#fünf-beispiel-fragen-für-die-vorbereitung-gesamtpunktzahl-33",
     "href": "courses/microanalytic.html#fünf-beispiel-fragen-für-die-vorbereitung-gesamtpunktzahl-33",
     "title": "Microanalytic",
     "section": "Fünf Beispiel-Fragen für die Vorbereitung (Gesamtpunktzahl: 33)",
-    "text": "Fünf Beispiel-Fragen für die Vorbereitung (Gesamtpunktzahl: 33)\nNotwendige Unterlagen wie z.B. Tabellen zum Nachschlagen werden zur Verfügung gestellt.\nFrage 1 (5 Punkte)\nNenne 2 Elementpaare (also 2 x 2 Elemente) deren charakteristische Röntgenstrahlung möglicherweise eine Linienüberlagerung zeigen könnten.\nFrage 2 (5 Punkte)\nWorin können sich Proben ähneln und/oder unterscheiden die mit der EPMA oder mit dem REM untersucht werden.\nFrage 3 (8 Punkte / 3 Punkte)\nErkläre schematisch die Funktionsweise des Gaszählers. Wozu wird dieser verwendet?\nFrage 4 (4 Punkte)\nWie hoch sollte die Beschleunigungsspannung sein um Hf,Lα anzuregen? Und wie hoch der Strom?\nFrage 5 (8 Punkte)\nElemente mit charakteristischer Linien höherer Ordnung können die charakteristischen Linien anderer Elementen überlagern. (i) An welcher Stelle in der EPMA, und (ii) wie können diese Linien höherer Ordnung von der Zählung ausgeschlossen werden.",
-    "crumbs": [
-      "Courses",
-      "Microanalytic"
-    ]
+    "text": "Fünf Beispiel-Fragen für die Vorbereitung (Gesamtpunktzahl: 33)\nNotwendige Unterlagen wie z.B. Tabellen zum Nachschlagen werden zur Verfügung gestellt.\nFrage 1 (5 Punkte)\nNenne 2 Elementpaare (also 2 x 2 Elemente) deren charakteristische Röntgenstrahlung möglicherweise eine Linienüberlagerung zeigen könnten.\nFrage 2 (5 Punkte)\nWorin können sich Proben ähneln und/oder unterscheiden die mit der EPMA oder mit dem REM untersucht werden.\nFrage 3 (8 Punkte / 3 Punkte)\nErkläre schematisch die Funktionsweise des Gaszählers. Wozu wird dieser verwendet?\nFrage 4 (4 Punkte)\nWie hoch sollte die Beschleunigungsspannung sein um Hf,Lα anzuregen? Und wie hoch der Strom?\nFrage 5 (8 Punkte)\nElemente mit charakteristischer Linien höherer Ordnung können die charakteristischen Linien anderer Elementen überlagern. (i) An welcher Stelle in der EPMA, und (ii) wie können diese Linien höherer Ordnung von der Zählung ausgeschlossen werden."
   },
   {
     "objectID": "courses/courses-intro.html",
     "href": "courses/courses-intro.html",
-    "title": "Welcome",
+    "title": "Courses",
     "section": "",
-    "text": "Three courses are currenlty available:\n1. Data Science (german only, english coming later 2023)\n2. Cosmochemistry (german & english)\n3. Microanalytic (german only, english coming in 2024)\n\n\n\n\n\n\nWie zu schauen ist – oder zumindest: wie geschaut werden kann\nAnhalten, nachvollziehen, eventuell zurückspulen und dazu eigen Skizzen oder Mitschriebe anfertigen Einige wenige Videos haben aus rechtlichen Gründen ein Passwort, das erhaltet Ihr von mir.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
-    "crumbs": [
-      "Courses",
-      "Welcome"
-    ]
+    "text": "Three courses are currenlty available:\n1. Data Science (german only, english coming later 2023)\n2. Cosmochemistry (german & english)\n3. Microanalytic (german only, english coming in 2024)\n\nWie zu schauen ist – oder zumindest: wie geschaut werden kann\nAnhalten, nachvollziehen, eventuell zurückspulen und dazu eigen Skizzen oder Mitschriebe anfertigen\nEinige wenige Videos haben aus rechtlichen Gründen ein Passwort, das erhaltet Ihr von mir.\n\n\n\n\n\nGeochemie I: Kosmochemie-Teil\n\n\n\nUmweltwissenschaften: Mikroanalytik-Teil\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
   },
   {
-    "objectID": "courses/courses-intro.html#courses-1",
-    "href": "courses/courses-intro.html#courses-1",
-    "title": "Welcome",
+    "objectID": "courses/courses-intro.html#allgemeines",
+    "href": "courses/courses-intro.html#allgemeines",
+    "title": "Courses",
     "section": "",
-    "text": "Three courses are currenlty available:\n1. Data Science (german only, english coming later 2023)\n2. Cosmochemistry (german & english)\n3. Microanalytic (german only, english coming in 2024)\n\n\n\n\n\n\nWie zu schauen ist – oder zumindest: wie geschaut werden kann\nAnhalten, nachvollziehen, eventuell zurückspulen und dazu eigen Skizzen oder Mitschriebe anfertigen Einige wenige Videos haben aus rechtlichen Gründen ein Passwort, das erhaltet Ihr von mir.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
-    "crumbs": [
-      "Courses",
-      "Welcome"
-    ]
+    "text": "Three courses are currenlty available:\n1. Data Science (german only, english coming later 2023)\n2. Cosmochemistry (german & english)\n3. Microanalytic (german only, english coming in 2024)\n\nWie zu schauen ist – oder zumindest: wie geschaut werden kann\nAnhalten, nachvollziehen, eventuell zurückspulen und dazu eigen Skizzen oder Mitschriebe anfertigen\nEinige wenige Videos haben aus rechtlichen Gründen ein Passwort, das erhaltet Ihr von mir."
+  },
+  {
+    "objectID": "courses/courses-intro.html#kurse-courses",
+    "href": "courses/courses-intro.html#kurse-courses",
+    "title": "Courses",
+    "section": "",
+    "text": "Geochemie I: Kosmochemie-Teil\n\n\n\nUmweltwissenschaften: Mikroanalytik-Teil\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
   },
   {
     "objectID": "tutorials/tutorials-intro.html",

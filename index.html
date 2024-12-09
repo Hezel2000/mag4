@@ -108,10 +108,37 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./resources/resources-intro.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./courses/courses-intro.html"> 
-<span class="menu-text">Courses</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-courses" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Courses</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-courses">    
+        <li>
+    <a class="dropdown-item" href="./courses/data_science.html">
+ <span class="dropdown-text">Data Science</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="https://datascienceshortcourse.streamlit.app">
+ <span class="dropdown-text">Data Science Short Course</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./courses/cosmochemistry.html">
+ <span class="dropdown-text">Kosmochemie</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./courses/microanalytic.html">
+ <span class="dropdown-text">Mikroanalytik</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://hezel2000.quarto.pub/geochemie-1/">
+ <span class="dropdown-text">Geochemie I - Kosmochemie-Teil</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://hezel2000.quarto.pub/umweltwissenschaften-mikroanalytik/">
+ <span class="dropdown-text">Umweltwissenschaften - Mikroanalytik-Teil</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./allapps/allapps.html"> 
 <span class="menu-text">All Apps</span></a>
@@ -132,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#welcome-to-lab-data-processing-beta" id="toc-welcome-to-lab-data-processing-beta" class="nav-link active" data-scroll-target="#welcome-to-lab-data-processing-beta">Welcome to Lab Data Processing <span style="color:grey">(<em>beta</em>)</span></a></li>
+  <li><a href="#welcome-beta" id="toc-welcome-beta" class="nav-link active" data-scroll-target="#welcome-beta">Welcome <span style="color:grey">(<em>beta</em>)</span></a></li>
   <li><a href="#contributors" id="toc-contributors" class="nav-link" data-scroll-target="#contributors">Contributors</a></li>
   <li><a href="#supported-by" id="toc-supported-by" class="nav-link" data-scroll-target="#supported-by">Supported by</a></li>
   </ul>
@@ -160,8 +187,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="welcome-to-lab-data-processing-beta" class="level2">
-<h2 class="anchored" data-anchor-id="welcome-to-lab-data-processing-beta">Welcome to Lab Data Processing <span style="color:grey">(<em>beta</em>)</span></h2>
+<section id="welcome-beta" class="level2">
+<h2 class="anchored" data-anchor-id="welcome-beta">Welcome <span style="color:grey">(<em>beta</em>)</span></h2>
 <!-- The World of Data & Science -->
 <p>This site is still being built, but a number of Tools are up and running and even the documentation is more or less available. The first processing application that is up and running is the <span style="color:#242B64;"><strong>flank data reduction</strong></span> application, which you will find under ‘Microprobe’ and then ‘Flank Method’.</p>
 <p>A sneak peak into the <span style="color:#242B64;"><strong>microprobe data processing</strong></span> application is found under ‘Microprobe’ and then ‘Data Processing’.</p>
@@ -181,7 +208,6 @@ Jie Xu<br>
 Lara Friedrichs<br>
 Lea Ruckes <!--
 Cecily Ogunjobi – maps
-Lea Dietel – Modulhandbuch
 --></p>
 </section>
 <section id="supported-by" class="level2">
