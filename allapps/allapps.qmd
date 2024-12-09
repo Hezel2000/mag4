@@ -1,161 +1,40 @@
 ---
 title: "All Apps"
-format: html
+# format: html
 css: allapps_styles.css  # bootstrap.min.css
 ---
 
-<!-- 
----
-title: "All Apps"
-format: 
-  html:
-    css: allapps_styles.css
----
- -->
+**Click on an app icon to directly go to the respective app**
 
-### Click on an app icon to directly go to the respective app
+## Electron Microprobe (EPMA)
+<!-- <div class="image-grid">
+  [![EPMA Data Access](/images/epma_data_tools-logo.png)](https://epmatools.streamlit.app)
+  [![Flank Method](/microprobe/flank-method/images/flank-method-logo.png)](https://flankmethod.streamlit.app)
+  [![EPMA Tools](/images/epma-tools-logo.png)](https://tools-epma.streamlit.app)
+</div> -->
 
-```{=html}
-<div class="grid-container">
-    <!-- <div class="grid-item">
-      <a href="https://example.com/page1">
-        <img src="img1.webp" alt="Image 1">
-      </a>
-    </div> -->
+::: {.image-grid}
+[![EPMA Data Access](/images/epma_data_tools-logo.png)](https://epmatools.streamlit.app)
+[![Flank Method](/microprobe/flank-method/images/flank-method-logo.png)](https://flankmethod.streamlit.app)
+[![EPMA Tools](/images/epma-tools-logo.png)](https://tools-epma.streamlit.app)
+:::
 
-  <!-- <div class="grid-item">
-      <a href="https://example.com/page2">
-        <img src="img2.png" alt="Image 2">
-      </a>
-    </div>
+## Tools
+::: {.image-grid}
+[![The mag4 Database](/images/mag4-database-logo.png)](https://mag4datasharing-app.streamlit.app)
+[![Visualising Geochemical Databases](/images/geoaccess-logo.png)](https://geoaccess.streamlit.app)
+[![Mineral Info](/images/mineral-info-logo.png)](https://testauswahlminerale-bcybf6tgb5maialzhvrcv7.streamlit.app)
+[![B-Isotope Data Reduction](/images/boron-reduction-logo.png)](https://boron-reduction.streamlit.app)
+:::
 
-  <div class="grid-item">
-      <a href="https://example.com/page3">
-        <img src="img3.png" alt="Image 3">
-      </a>
-    </div>
-  </div> -->
+## Courses
+::: {.image-grid}
+  [![Data Science Course](/images/data_science-course-logo.png)](https://geocourses.streamlit.app/Data_Science)
+  [![Cosmochemistry Course](/images/cosmochemistry-course-logo.png)](https://geocourses.streamlit.app/Cosmochemistry)
+  [![Microanalysis Course](/images/microanalysis-course-logo.png)](https://geocourses.streamlit.app/Microanalysis)
+:::
 
-  <div class="grid-item">
-    <div class="card border-primary mb-3" style="max-width: 10rem;">
-      <div class="card-header">Flank Method</div>
-      <div class="card-body">
-        <!-- <h3 class="card-title">Primary card title</h3> -->
-          <a href="https://flankmethod.streamlit.app"><img src="/microprobe/flank-method/images/flank-method-logo.png" alt="Image 3"></a>
-        <!-- <p class="card-text">Documentation</p> -->
-      </div>
-    </div>
-  </div>
-
-  <div class="grid-item">
-    <div class="card border-primary mb-3" style="max-width: 10rem;">
-      <div class="card-header">EPMA Data Access</div>
-      <div class="card-body">
-        <!-- <h3 class="card-title">Primary card title</h3> -->
-          <a href="https://epmatools.streamlit.app/"><img src="/images/epma_data_tools-logo.png" alt="Image 3"></a>
-        <!-- <p class="card-text">Documentation</p> -->
-      </div>
-    </div>
-  </div>
-
-  <div class="grid-item">
-    <div class="card border-primary mb-3" style="max-width: 10rem;">
-      <div class="card-header">Visualising Geochemical Databases</div>
-      <div class="card-body">
-        <!-- <h3 class="card-title">Primary card title</h3> -->
-          <a href="https://geoaccess.streamlit.app"><img src="/images/geoaccess-logo.png" alt="Image 3"></a>
-        <!-- <p class="card-text">Documentation</p> -->
-      </div>
-    </div>
-  </div>
-
-  <div class="grid-item">
-    <div class="card border-primary mb-3" style="max-width: 10rem;">
-      <div class="card-header">The mag4 Database</div>
-      <div class="card-body">
-        <!-- <h3 class="card-title">Primary card title</h3> -->
-          <a href="https://mag4datasharing-app.streamlit.app"><img src="/images/mag4-database-logo.png" alt="Image 3"></a>
-        <!-- <p class="card-text">Documentation</p> -->
-      </div>
-    </div>
-  </div>
-
-  <div class="grid-item">
-    <div class="card border-primary mb-3" style="max-width: 10rem;">
-      <div class="card-header">EPMA Tools</div>
-      <div class="card-body">
-        <!-- <h3 class="card-title">Primary card title</h3> -->
-          <a href="https://tools-epma.streamlit.app"><img src="/images/epma-tools-logo.png" alt="Image 3"></a>
-        <!-- <p class="card-text">Documentation</p> -->
-      </div>
-    </div>
-  </div>
-
-  <div class="grid-item">
-    <div class="card border-primary mb-3" style="max-width: 10rem;">
-      <div class="card-header">Mineral Info</div>
-      <div class="card-body">
-        <!-- <h3 class="card-title">Primary card title</h3> -->
-          <a href="https://testauswahlminerale-bcybf6tgb5maialzhvrcv7.streamlit.app"><img src="/images/mineral-info-logo.png" alt="Image 3"></a>
-        <!-- <p class="card-text">Documentation</p> -->
-      </div>
-    </div>
-  </div>
-
-  <div class="grid-item">
-    <div class="card border-primary mb-3" style="max-width: 10rem;">
-      <div class="card-header">B-Isotope Data Reduction</div>
-      <div class="card-body">
-        <!-- <h3 class="card-title">Primary card title</h3> -->
-          <a href="https://boron-reduction.streamlit.app"><img src="/images/boron-reduction-logo.png" alt="Image 3"></a>
-        <!-- <p class="card-text">Documentation</p> -->
-      </div>
-    </div>
-  </div>
-
-  <div class="grid-item">
-    <div class="card border-primary mb-3" style="max-width: 10rem;">
-      <div class="card-header">Powder Standards</div>
-      <div class="card-body">
-        <!-- <h3 class="card-title">Primary card title</h3> -->
-          <a href="https://ifgpowderstandards.streamlit.app"><img src="/images/powder_standards-logo.png" alt="Image 3"></a>
-        <!-- <p class="card-text">Documentation</p> -->
-      </div>
-    </div>
-  </div>
-
-  <div class="grid-item">
-    <div class="card border-primary mb-3" style="max-width: 10rem;">
-      <div class="card-header">Data Science Course</div>
-      <div class="card-body">
-        <!-- <h3 class="card-title">Primary card title</h3> -->
-          <a href="https://geocourses.streamlit.app/Data_Science"><img src="/images/data_science-course-logo.png" alt="Image 3"></a>
-        <!-- <p class="card-text">Documentation</p> -->
-      </div>
-    </div>
-  </div>
-
-  <div class="grid-item">
-    <div class="card border-primary mb-3" style="max-width: 10rem;">
-      <div class="card-header">Cosmochemistry Course</div>
-      <div class="card-body">
-        <!-- <h3 class="card-title">Primary card title</h3> -->
-          <a href="https://geocourses.streamlit.app/Cosmochemistry"><img src="/images/cosmochemistry-course-logo.png" alt="Image 3"></a>
-        <!-- <p class="card-text">Documentation</p> -->
-      </div>
-    </div>
-  </div>
-
-  <div class="grid-item">
-    <div class="card border-primary mb-3" style="max-width: 10rem;">
-      <div class="card-header">Microanalysis Course</div>
-      <div class="card-body">
-        <!-- <h3 class="card-title">Primary card title</h3> -->
-          <a href="https://geocourses.streamlit.app/Microanalysis"><img src="/images/microanalysis-course-logo.png" alt="Image 3"></a>
-        <!-- <p class="card-text">Documentation</p> -->
-      </div>
-    </div>
-  </div>
-
-</div>
-```
+## IfG
+::: {.image-grid}
+[![Powder Standards](/images/powder_standards-logo.png)](https://ifgpowderstandards.streamlit.app)
+:::

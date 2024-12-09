@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: mag4 #IfG Data Processsing Center
+  title: mag4
   navbar:
     background: primary
     search: true
@@ -18,7 +18,20 @@ website:
       - text: "Resources"
         file: resources/resources-intro.qmd
       - text: "Courses"
-        file: courses/courses-intro.qmd
+        menu:
+          # - courses/courses-intro.qmd
+          - text: 'Data Science'
+            href: courses/data_science.qmd
+          - text: 'Data Science Short Course'
+            href: https://datascienceshortcourse.streamlit.app
+          - text: 'Kosmochemie'
+            href: courses/cosmochemistry.qmd
+          - text: 'Mikroanalytik'
+            href: courses/microanalytic.qmd
+          - text: 'Geochemie I - Kosmochemie-Teil'
+            href: https://hezel2000.quarto.pub/geochemie-1/
+          - text: 'Umweltwissenschaften - Mikroanalytik-Teil'
+            href: https://hezel2000.quarto.pub/umweltwissenschaften-mikroanalytik/
       - text: "All Apps"
         file: allapps/allapps.qmd
   
@@ -75,13 +88,13 @@ website:
         - resources/visualising-geochemical-databases.qmd
         - resources/powder-standards.qmd
     
-    - title: "Courses"
-      collapse-level: 1
-      contents:
-        - courses/courses-intro.qmd
-        - courses/data_science.qmd
-        - courses/cosmochemistry.qmd
-        - courses/microanalytic.qmd
+    # - title: "Courses"
+    #   collapse-level: 1
+    #   contents:
+    #     - courses/courses-intro.qmd
+    #     - courses/data_science.qmd
+    #     - courses/cosmochemistry.qmd
+    #     - courses/microanalytic.qmd
     
     # - title: "All Apps"
     #   collapse-level: 1

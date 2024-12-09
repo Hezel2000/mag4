@@ -6,4 +6,4 @@ title: 'The Kadi4Mat ELN'
 
 Kadi4Mat – or in short *Kadi* – is an Electronic Lab Notebook (ELN) that we use for EPMA results management and making data FAIR. Kadi is an online system that can be accessed with only a browser. A login is might be possible through your university email (if the Shibboleth AAI is connected to Kadi) or by applying for an account. However, we use the Kadi Python API for our tools, and with these, no login to Kadi is necessary.
 
-For a sneak peak into the data processing application, check <a href="https://epmatools.streamlit.app/">this</a> out.
+For a sneak peak into the data processing application, check [this](https://epmatools.streamlit.app/) out.

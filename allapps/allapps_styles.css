@@ -1,7 +1,18 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Grid columns */
+    gap: 30px;
+  }
+  
+  .image-grid img {
+    width: 100px;  /* Set width to 150px */
+    height: auto;  /* Maintain aspect ratio */
+  }
+
 .grid-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Adjust the gap between images */
+    gap: 30px; /* Adjust the gap between images */
 }
 
 .grid-item {

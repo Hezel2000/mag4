@@ -1,20 +1,25 @@
----
-title: 'Welcome'
----
+
 
 # Courses
 
-## Courses
+## Allgemeines
 Three courses are currenlty available:\
 1. Data Science (german only, english coming later 2023)\
 2. Cosmochemistry (german & english)\
 3. Microanalytic (german only, english coming in 2024)
 
-### Intro
+
 {{< video https://youtu.be/amJkqAgkris >}}
 
-### Überblick
-
 **Wie zu schauen ist – oder zumindest: wie geschaut werden kann**\
-Anhalten, nachvollziehen, eventuell zurückspulen und dazu eigen Skizzen oder Mitschriebe anfertigen\n
+Anhalten, nachvollziehen, eventuell zurückspulen und dazu eigen Skizzen oder Mitschriebe anfertigen  
 Einige wenige Videos haben aus rechtlichen Gründen ein Passwort, das erhaltet Ihr von mir.
+
+
+## Kurse – Courses
+
+### Geochemie I: Kosmochemie-Teil (deutsch)
+[Geochemie I: Kosmochemie-Teil](https://hezel2000.quarto.pub/geochemie-1/)
+
+### Umweltwissenschaften: Mikroanalytik-Teil (deutsch)
+[Umweltwissenschaften: Mikroanalytik-Teil](https://hezel2000.quarto.pub/umweltwissenschaften-mikroanalytik/)
