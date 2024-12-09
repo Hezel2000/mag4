@@ -26,7 +26,6 @@ Lara Friedrichs
 Lea Ruckes
 <!--
 Cecily Ogunjobi – maps
-Lea Dietel – Modulhandbuch
 -->
 
 ## Supported by
