@@ -277,21 +277,21 @@
     "href": "index.html",
     "title": "mag4",
     "section": "",
-    "text": "This site contains mainly tools and courses for data science, cosmochemistry, and microanalytic. The ‘Courses’ drop-down contains all available teaching resources, and the ‘All Apps’ tab all available tools. As there are continuous updates and additions, some\nflank data reduction application, which you will find under ‘Microprobe’ and then ‘Flank Method’.\nA sneak peak into the microprobe data processing application is found under ‘Microprobe’ and then ‘Data Processing’.\nThe application of how to reduce B-isotope data is up and running, and the documentation almost finished. You find this in the ‘Mass Spectrometry’ section.\nA peak into the powder standards application is available via the ‘Tools’ section.\nTwo full courses are available, one on Data Science, and one on Cosmochemistry, the documentation will be added in due time. These are obviously accessible through the ‘Courses’ section."
+    "text": "This site contains mainly tools and courses for data science, cosmochemistry, and microanalytic. The ‘Courses’ drop-down contains all available teaching resources, and the ‘All Apps’ tab all available tools. As there are continuous updates and additions, the site still experiences some regular re-organisation.\n\n\n\nIf you are looking for the new visualisation or teaching tools, these will be released in early 2025. Until then, the original MetBase site remains online and available at metbase.org."
   },
   {
     "objectID": "index.html#welcome-beta",
     "href": "index.html#welcome-beta",
     "title": "mag4",
     "section": "",
-    "text": "This site contains mainly tools and courses for data science, cosmochemistry, and microanalytic. The ‘Courses’ drop-down contains all available teaching resources, and the ‘All Apps’ tab all available tools. As there are continuous updates and additions, some\nflank data reduction application, which you will find under ‘Microprobe’ and then ‘Flank Method’.\nA sneak peak into the microprobe data processing application is found under ‘Microprobe’ and then ‘Data Processing’.\nThe application of how to reduce B-isotope data is up and running, and the documentation almost finished. You find this in the ‘Mass Spectrometry’ section.\nA peak into the powder standards application is available via the ‘Tools’ section.\nTwo full courses are available, one on Data Science, and one on Cosmochemistry, the documentation will be added in due time. These are obviously accessible through the ‘Courses’ section."
+    "text": "This site contains mainly tools and courses for data science, cosmochemistry, and microanalytic. The ‘Courses’ drop-down contains all available teaching resources, and the ‘All Apps’ tab all available tools. As there are continuous updates and additions, the site still experiences some regular re-organisation.\n\n\n\nIf you are looking for the new visualisation or teaching tools, these will be released in early 2025. Until then, the original MetBase site remains online and available at metbase.org."
   },
   {
-    "objectID": "index.html#contributors",
-    "href": "index.html#contributors",
+    "objectID": "index.html#mag4-contributors",
+    "href": "index.html#mag4-contributors",
     "title": "mag4",
-    "section": "Contributors",
-    "text": "Contributors\nDominik Hezel\nPremkumar Elangovan\nMara Hochstein\nHeidi Höfer\nAndreas Fichtner\nLea Schnapp\nJie Xu\nLara Friedrichs\nLea Ruckes"
+    "section": "mag4 Contributors",
+    "text": "mag4 Contributors\nDominik Hezel\nPremkumar Elangovan\nMara Hochstein\nHeidi Höfer\nAndreas Fichtner\nLea Schnapp\nJie Xu\nLara Friedrichs\nLea Ruckes"
   },
   {
     "objectID": "index.html#supported-by",
