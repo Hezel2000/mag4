@@ -1,20 +1,19 @@
----
+<!-- ---
 title: 'mag4' 
----
+--- -->
 
-## Welcome <span style="color:grey">(*beta*)</span> 
-<!-- The World of Data & Science -->
-This site is still being built, but a number of Tools are up and running and even the documentation is more or less available. The first processing application that is up and running is the <span style="color:#242B64;">**flank data reduction**</span> application, which you will find under 'Microprobe' and then 'Flank Method'.
+# Hello Stranger  <!-- <span style="color:grey">(*beta*)</span>  -->
+This site contains mainly tools and courses for data science, cosmochemistry, and microanalytic. The 'Courses' drop-down contains all available teaching resources, and the 'All Apps' tab all available tools. As there are continuous updates and additions, the site still experiences some regular re-organisation. 
 
-A sneak peak into the <span style="color:#242B64;">**microprobe data processing**</span> application is found under 'Microprobe' and then 'Data Processing'.
+### MetBase Info
+![](images/MetBase%20Logo.png)  
+If you are looking for the new visualisation or teaching tools, these will be released in early 2025. Until then, the original MetBase site remains online and available at [metbase.org](https://www.metbase.org).
 
-The application of how to <span style="color:#242B64;">**reduce B-isotope data**</span> is up and running, and the documentation almost finished. You find this in the 'Mass Spectrometry' section.
+### Flank Method Info
+![Flank Method](/microprobe/flank-method/images/flank-method-logo.png){width=100px}  
+If you are looking for the flank method, go to 'Microprobe' and then 'Flank Method', or click [here](microprobe/flank-method/welcome.qmd).
 
-A peak into the <span style="color:#242B64;">**powder standards**</span> application is available via the 'Tools' section.
-
-Two <span style="color:#242B64;">**full courses**</span> are available, one on <span style="color:#242B64;">**Data Science**</span>, and one on <span style="color:#242B64;">**Cosmochemistry**</span>, the documentation will be added in due time. These are obviously accessible through the 'Courses' section.
-
-## Contributors
+## mag4 Contributors
 Dominik Hezel  
 Premkumar Elangovan  
 Mara Hochstein  

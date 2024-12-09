@@ -7,16 +7,27 @@ website:
     background: primary
     search: true
     left:
-      - text: "Home"
-        file: index.qmd
+      # - text: "Home"
+      #   file: index.qmd
       - text: "Microprobe"
         file: microprobe/epma-intro.qmd
       - text: "Mass Spectrometry"
         file: mass-spec/mass-spec-intro.qmd
-      - text: "Tutorials"
-        file: tutorials/tutorials-intro.qmd
       - text: "Resources"
         file: resources/resources-intro.qmd
+      - text: "Tutorials"
+        menu:
+            # tutorials/tutorials-intro.qmd  
+          - text: Sample Preparation
+            href: tutorials/preparation.qmd
+          - text: Electron Microprobe
+            href: tutorials/epma.qmd
+          - text: Scanning Electron Microscope
+            href: tutorials/sem.qmd
+          - text: EBSD @SEM
+            href: tutorials/ebsd.qmd
+          - text: µ.XRF
+            href: tutorials/micro-XRF.qmd 
       - text: "Courses"
         menu:
           # - courses/courses-intro.qmd
@@ -71,15 +82,15 @@ website:
      #       - mass-spec/iron/basics.qmd
      #       - mass-spec/iron/data reduction.qmd
     
-    - title: "Tutorials"
-      collapse-level: 1
-      contents:
-        - tutorials/tutorials-intro.qmd
-        - tutorials/preparation.qmd
-        - tutorials/epma.qmd
-        - tutorials/sem.qmd
-        - tutorials/ebsd.qmd
-        - tutorials/micro-XRF.qmd
+    # - title: "Tutorials"
+    #   collapse-level: 1
+    #   contents:
+    #     - tutorials/tutorials-intro.qmd
+    #     - tutorials/preparation.qmd
+    #     - tutorials/epma.qmd
+    #     - tutorials/sem.qmd
+    #     - tutorials/ebsd.qmd
+    #     - tutorials/micro-XRF.qmd
     
     - title: "Resources"
       collapse-level: 1
