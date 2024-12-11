@@ -53,8 +53,8 @@ website:
         - microprobe/epma-intro.qmd
         - section: 'Data Access'
           contents:
-          - microprobe/data-access/thekadi4mateln.qmd
-          - microprobe/data-access/kadi-upload.qmd
+          - microprobe/data-access/epmatools-data-access.qmd
+          - microprobe/data-access/kadi4mat-backend-eln.qmd
         - section: 'Flank Method'
           contents:
           - microprobe/flank-method/welcome.qmd

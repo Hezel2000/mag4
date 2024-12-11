@@ -1,22 +1,29 @@
 ---
-title: 'Kadi Data Upload'
+title: 'Kadi4Mat backend ELN'
 ---
 
-# Naming of Kadi records  
+This section describes and documents the Electronic Lab Notebook (ELN) backend used for the [epmatools](https://epmatools.streamlit.app/) frontend that allows users to access data of the JEOL JXA-8530F Plus electron-probe micro-analyser (EPMA) at the Institut für Geowissenschaften, Goethe Universität Frankfurt am Main.
+
+# What is an ELN?
+
+xxx
+
+
+# What is Kadi4Mat?
+
+Kadi4Mat – or in short *Kadi* – is an Electronic Lab Notebook (ELN) that we use for EPMA results management and making data FAIR. Kadi is an online system that can be accessed with only a browser. A login is might be possible through your university email (if the Shibboleth AAI is connected to Kadi) or by applying for an account. However, we use the Kadi Python API for our tools, and with these, no login to Kadi is necessary.
+
+
+# Naming a Kadi record
 
 Each record starts with 'GUF IfG EPMA'  
 A single measurement session, i.e., the session of one party with a single set of samples can make use of different measurement programs, i.e., different measurement setups and parameters. For example, when first silicates and then sulphides are measured. In this case, the results have all the same name, but for each specific measurement program a separate record is created, with a lettered postfix in the form of: -a, -b, -c, ... The first record with the postfix -a contains files that are similar for all records with this name, e.g., overview images.  
 Records of a single measurement session might be all put in a Kadi Collection.
 
-# Entries in Kadi records  
 
+# Quantitative Analyses  
 
-## Types of Kadi records
-There are 3 different categories: quantitative, element maps, qualitative. Each category requires its specific measurement setup. Therefore, each category requires is separate Kadi record.
-
-## Quantitative Analyses  
-
-**Must contain**  
+## Must contain
 
 *summary{date}.csv*  
 The output from: summary, all, to excel, save as .csv  
@@ -31,18 +38,26 @@ The output from: summary, standard, type out
 The output from: quick menu, right click recipe, ??  
 
   
-**Can contain**  
+## Can contain
 
-*standard measurements.xlsx*  
+### standard meausrements
+standard measurements.xlsx
 File with the results from the standard measurements, with colour results, therefore an excel file  
 -> This file can (in rare cases) be missing, so it might be sensible to test for its availability and not if it is not available.
 
-Image files as .jpg, .tif, .bmp  
+![Example of a standard.xlsx file.](images/epma-tools-standards-xlsx.png){#standard-xlsx}
+
+### Images
+Files as .jpg, .tif, .bmp
+
+## Video Tutorial
+**something**
+{{< video https://vimeo.com/954306014 >}}
 
 
-## Map Analyses  
+# Map Analyses  
 
-**Must contain**  
+## Must contain
 
 *quick standard.txt*  
 The output from: quick menu, right click recipe, ??  
@@ -54,15 +69,15 @@ e.g.:
 map 2 data004 Mg Ka.csv  
 note that 'Eds' only occurs when the element was measured with EDS, when 'Eds' is missing, the element was measured with WDS
   
-**Can contain**  
+## Can contain  
 
 1 or 2 more map files labelled "data{nr} COMPO.csv" or "data{nr} SE.csv", which are maps of BSE- and/or SE-signals, i.e., essentially BSE- and SE-images.
 Image files as .jpg, .tif, .bmp  
 
 
-## Qualitative Analyses  
+# Qualitative Analyses  
 
-**Must contain**  
+## Must contain
 
 *summary{date}.csv*  
 The output from: summary, all, to excel, save as .csv  
@@ -93,17 +108,14 @@ Upload all files to [Kadi4Mat](https://kadi4mat.iam-cms.kit.edu/login).
 
 Provide additional, sensible info. Inivite the person to the respective group. Include the Kadi record in other, sensible groups.
 
+## Video Tutorials
 
-# Videos
-
-## Organise Quantitative Measurements
-{{< video https://vimeo.com/954306014 >}}
-
-## Preparing files for Kadi upload
+**Preparing files for Kadi upload**
 {{< video https://vimeo.com/954342011 >}}
 
-##  Upload to Kadi
+**Upload to Kadi**
 {{< video https://vimeo.com/954341524 >}}
+
 
 
 <!-- # Definitions & Naming Conventions
