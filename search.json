@@ -294,15 +294,15 @@
     "text": ":::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
   },
   {
-    "objectID": "microprobe/data-access/thekadi4mateln.html",
-    "href": "microprobe/data-access/thekadi4mateln.html",
-    "title": "The Kadi4Mat ELN",
+    "objectID": "microprobe/data-access/epmatools-data-access.html",
+    "href": "microprobe/data-access/epmatools-data-access.html",
+    "title": "EPMA tools",
     "section": "",
-    "text": "What is Kadi4Mat?\nKadi4Mat – or in short Kadi – is an Electronic Lab Notebook (ELN) that we use for EPMA results management and making data FAIR. Kadi is an online system that can be accessed with only a browser. A login is might be possible through your university email (if the Shibboleth AAI is connected to Kadi) or by applying for an account. However, we use the Kadi Python API for our tools, and with these, no login to Kadi is necessary.\nFor a sneak peak into the data processing application, check this out.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "text": "EPMA tools\nThis section provides a brief manual and description for the epmatools to access data of the JEOL JXA-8530F Plus electron-probe micro-analyser (EPMA) at the Institut für Geowissenschaften, Goethe Universität Frankfurt am Main.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "The Kadi4Mat ELN"
+      "EPMA tools"
     ]
   },
   {
@@ -583,76 +583,6 @@
     "text": "Pyrolite\nhttps://pyrolite.readthedocs.io/en/main/#\n\n\nOneGeochemistry\nhttp://onegeochemistry.org\n\n\nMisc\nhttps://topomap.streamlit.app https://worm-portal.asu.edu https://www.mindat.org https://melts.ofm-research.org https://figmas.org\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
   },
   {
-    "objectID": "misc/x old/ifg_data_processing-1/annnouncement.html",
-    "href": "misc/x old/ifg_data_processing-1/annnouncement.html",
-    "title": "Announcement",
-    "section": "",
-    "text": "DMG PhD Short Course:\nData Science in Geo- and Cosmochemistry\n\n\n\nThe amount of geochemical and cosmochemical data increases exponentially since many years. It is a challenge in particular for students and young scientists to keep an overview over all these data, but it is also a chance to obtain originally new insights from this wealth of data. Data Science in Geosciences uses all available data, processes these into easily understandable information, and uses statistical or machine learning methods to search for new insights.\n{{&lt; page break &gt;}}\n\n\n\nThe Data Science Course has two parts: First an online part, consisting of 3 x 2 hours over 10 days, including exercises for at home. The online part covers basic programming skills in Python using plenty of examples and exercises. In the subsequent presence part, we will use concrete examples to program solutions for geo-/cosmochemical problems. For example visualising data in plots or on maps, modelling an AFC-process or isotope fractionation, or produce data reduction work-flows. Bringing your own project or idea is equally possible and welcome. Although the focus is clearly on Data Science, this is also just part of the current massive changes we experience by the digital epoch we entered. We will therefore have a diverse programme including many perspectives, covering various topics and aspects of our digital, geo-/cosmochemical everyday life. We will have presentations from (inter)national leading experts covering e.g., the following topics: Databases, Repositories & Co. – are these different, or is it all the same? Digital Identity: Orcid, Researchgate & Co. – what is it, do I need it, and if yes, what? Publishing done right: Paper, Data only, Software, GitHub, Open Source – and all the rest. Copyright, Right of Use & Licences: all just stolen, or what am I allowed to do? Not just Data Science: Programming complex processes.\nLanguage & Requirements The online part is available in German and English, the presence part will be in English. You should have an M.Sc. degree, in exceptions, a B.Sc. degree might be sufficient. Programming knowledge is advantageous, but not a requirement.\nRegistration until 1. June to dominik.hezel=at=em.uni-frankfurt.de\nStart Online-Part Mo, 24. July 2023\nPresence Part Wed, 02. – Fr, 04. August 2023 at the Institut für Geowissenschaften in Frankfurt\nNumber of Participants 20\nCost Participation is free, however, travel and accommodation are not covered. A a social dinner is planned. Non-resident student members of the DMG are eligible to receive a 100 Euro travel allowance.\nECTS-Points 6\nContact & Questions to PD Dr. Dominik Hezel (dominik.hezel=at=em.uni-frankfurt.de), Goethe Universität Frankfurt, Institut für Geowissenschaften.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
-  },
-  {
-    "objectID": "misc/x old/ifg_data_processing-1/index.html",
-    "href": "misc/x old/ifg_data_processing-1/index.html",
-    "title": "DMG Data Science Short Course 2023@ Goethe University Frankurt",
-    "section": "",
-    "text": "The preparations for the course are now in full swing, and we are very much looking forward seeing you all soon in Frankfurt. You will find all relevant information for this short course on this webpage, so you only need to bookmark this link. The contents of this webpage are contiously updated, according to the following schedule:\n\n’14. June: webpage & preliminary program online\nEarly July: final program online\n’20. July: Material for online part online\n’01. August: Material for presence part online\n\nAnd if any questions remain – please contact me: dominik.hezel=at=em.uni-frankfurt.de\nSee you soon in Frankfurt!\nDominik, Thomas, Miguel, Thibault, Marthe, Kirsten, Alex & Kerstin\nLast Update: 12.06.2023\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
-  },
-  {
-    "objectID": "misc/x old/ifg_data_processing-1/index.html#welcome",
-    "href": "misc/x old/ifg_data_processing-1/index.html#welcome",
-    "title": "DMG Data Science Short Course 2023@ Goethe University Frankurt",
-    "section": "",
-    "text": "The preparations for the course are now in full swing, and we are very much looking forward seeing you all soon in Frankfurt. You will find all relevant information for this short course on this webpage, so you only need to bookmark this link. The contents of this webpage are contiously updated, according to the following schedule:\n\n’14. June: webpage & preliminary program online\nEarly July: final program online\n’20. July: Material for online part online\n’01. August: Material for presence part online\n\nAnd if any questions remain – please contact me: dominik.hezel=at=em.uni-frankfurt.de\nSee you soon in Frankfurt!\nDominik, Thomas, Miguel, Thibault, Marthe, Kirsten, Alex & Kerstin\nLast Update: 12.06.2023\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
-  },
-  {
-    "objectID": "misc/x old/ifg_data_processing-1/venue.html",
-    "href": "misc/x old/ifg_data_processing-1/venue.html",
-    "title": "Venue",
-    "section": "",
-    "text": "Goethe-Universität Frankfurt\nCampus Riedberg\nAltenhöferallee 1\n60438 Frankfurt am Main\nwww.geowissenschaften.uni-frankfurt.de"
-  },
-  {
-    "objectID": "misc/x old/ifg_data_processing-1/venue.html#address",
-    "href": "misc/x old/ifg_data_processing-1/venue.html#address",
-    "title": "Venue",
-    "section": "",
-    "text": "Goethe-Universität Frankfurt\nCampus Riedberg\nAltenhöferallee 1\n60438 Frankfurt am Main\nwww.geowissenschaften.uni-frankfurt.de"
-  },
-  {
-    "objectID": "misc/x old/ifg_data_processing-1/venue.html#how-to-get-there",
-    "href": "misc/x old/ifg_data_processing-1/venue.html#how-to-get-there",
-    "title": "Venue",
-    "section": "How to get there",
-    "text": "How to get there\nVia public transport\nArriving at main train station (“Hauptbahnhof”)\n\nTake the “U-Bahn” U4 direction “Seckbacher Landstraße” or U5 direction “Preungesheim”. Get off directly at the next stop called “Willy Brandt-Platz”.\nChange to U8 direction “Riedberg” and step off on exit “Uni Campus Riedberg”.\nForm there you can walk in about 5 minutes along the “Alfred-Wegener-Straße” or along the “Altenhöferallee” to the “Geowissenschaften”-building. The main entrance is on the west side. Arriving at Frankfurt Airport (“Frankfurter Flughafen”)\nTake the “S-Bahn” S8 or S9 direction “Hanau Hauptbahnhof” until “Hauptwache”.\nChange to U8 direction “Riedberg” and step off on exit “Uni Campus Riedberg”.\nForm there you can walk in about 5 minutes along the “Alfred-Wegener-Straße” or along the “Altenhöferallee” to the “Geowissenschaften”-building. The main entrance is on the west side.\n\nBy car\nThe ”Institut für Geowissenschaften” is situated in the northwest of Frankfurt on the “Niederurseler Hang” between the “Autobahn 661” and freeway “Rosa-Luxemburg-Straße” (see map for more details).\n\nLeave the Autobahn 661 on exit ”Heddernheim-Nordweststadt-Riedberg-Mertonviertel”, drive along “Marie-Curie Straße” then turn right onto “Altenhöferallee”.\nComing from A66 or Frankfurt city center: From the Autobahn exit “Frankfurt-Miquelallee”, drive towards “Nordweststadt-Eschersheim-Ginnheim” (“Rosa-Luxemburg-Straße”) until you reach the exit “Mertonviertel”. Drive along “Marie-Curie-Straße” then turn left onto “Altenhöferallee”.\nThe “Geowissenschaften”-building is located directly on the corner (see photo).\nFind the parking area (highlighted in orange on site plan) near the institute. The main entrance is on the west side."
-  },
-  {
-    "objectID": "misc/x old/ifg_data_processing-1/venue.html#map-of-the-area",
-    "href": "misc/x old/ifg_data_processing-1/venue.html#map-of-the-area",
-    "title": "Venue",
-    "section": "Map of the area",
-    "text": "Map of the area\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
-  },
-  {
-    "objectID": "misc/x old/ifg_data_processing-1/program.html",
-    "href": "misc/x old/ifg_data_processing-1/program.html",
-    "title": "DMG Data Science Short Course 2023",
-    "section": "",
-    "text": "Last Update: 12.06.2023"
-  },
-  {
-    "objectID": "misc/x old/ifg_data_processing-1/program.html#preliminary-program",
-    "href": "misc/x old/ifg_data_processing-1/program.html#preliminary-program",
-    "title": "DMG Data Science Short Course 2023",
-    "section": "(Preliminary) Program",
-    "text": "(Preliminary) Program\n\nOnline-Part\n The program of the online part, including dates are fixed\n\n\n\n\n\n\n\n\n\nDate\nTime\nTopic\n\n\n\n\nDo, 20. July 2023\n09:00 – 11:00\n1. Introduction to Python & Jupyter Notebooks\n\n\nDi, 25. July 2023\n09:00 – 11:00\n2. Basic functions: loops, conditionals & creating own commands\n\n\nDo, 27. July 2023\n09:00 – 11:00\n3. Plotting with Matplotlib & interactively with Plotly/Bokeh\n\n\n\n\n\nPreliminary Presence-Part\nMinor changes to the presence program are possible. The final presence program will be released in early July.\nCoffee breaks are essential, and will be taken in regular intervals of 1.5-2 hours on short notice during the day, as the time slots are not as fixed as they appear below.\n\n\nMi, 02. August\n08:30 Venue open\n08:50 – 09:00 Welcome\n09:00 – 10:45 Programming Exercises\n10:45 – 11:30 Alex Prent: MetaData, Vocabularies, AusGeochem & OneGeochemistry\n11:30 – 13:00 Programming Exercises\n\n13:00 – 14:00 lunch break\n\n14:00 – 14:30 Thomas Rose: Richtig publizieren: Paper, Daten only, Software, GitHub, Open Source – und der ganze Rest\n14:30 – 16:15 Programming Exercises\n16:15 – 17:00 Urheberrechte, Nutzungsrechte & Lizenzen: alles nur geklaut, oder was darf ich eigentlich?\n17:00 – 18:00 Programming Exercises\n18:00 Closing\n\n\nDo, 03. August\n09:00 – 10:30 Programming Exercises\n10:30 – 10:45 Coffee-Break\n10:45 – 11:30 Kirsten Elger: IGSN, Digitale Identität: Orcid, Researchgate & Co. – was ist das, brauche ich das – und wenn ja: was?\n11:30 – 11:45 Coffee-Break\n11:45 – 13:00 Programming Exercises\n\n13:00 – 14:00 lunch break\n\n14:00 – 14:30 Thibault Duretz: 1D Diffusion, 2 hours with 15 min break, send 1-2 papers to Thibault, e.g., from Dohmen or Sumit\n14:30 – 16:00 Programming Exercises\n16:00 – 16:15 Coffee-Break\n16:15 – 17:00 Kerstin Lehnert: EarthChem\n17:00 – 18:00 Programming Exercises\n18:00 Uhr Ende\n19:00 Social Evening – likely at Lahmer Esel\n\n\nFr, 04. August\n09:00 – 10:45 Streamlit\nGlobaID 30 min\n10:45 – 11:30 Marthe Klöcking: Datenbanken, Repositorien & Co. – gibt es da Unterschiede, oder ist das alles dasselbe?, GEOROC\n11:30 – 11:45 Coffee-Break\n11:45 – 13:00 Quarto\n\n13:00 – 14:00 lunch break\n\n14:00 – 14:30 Dominik Hezel: NFDI4Earth\n14:30 – 16:00 Programming Exercises\n\nClosing?\n16:00 – 16:15 Kaffee-Pause\n16:15 – 17:00 Kerstin Lehnert: EarthChem oder was darf ich eigentlich?\n17:00 – 18:00 Programming Exercises\n18:00 Uhr Ende\n\nMiguel Bernecker (GU Frankfurt), json, parser, binäre Dateien – halber Nachmittag Thomas Rose: GlobalID? Uzun ELN"
-  },
-  {
-    "objectID": "misc/x old/ifg_data_processing-1/program.html#general-information",
-    "href": "misc/x old/ifg_data_processing-1/program.html#general-information",
-    "title": "DMG Data Science Short Course 2023",
-    "section": "General Information",
-    "text": "General Information\nPlease bring your computer for the exercises \n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
-  },
-  {
     "objectID": "resources/visualising-geochemical-databases.html",
     "href": "resources/visualising-geochemical-databases.html",
     "title": "Visualise Geochemical Databases",
@@ -782,111 +712,111 @@
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi-upload.html",
-    "href": "microprobe/data-access/kadi-upload.html",
-    "title": "Kadi Data Upload",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html",
+    "title": "Kadi4Mat backend ELN",
     "section": "",
-    "text": "Each record starts with ‘GUF IfG EPMA’\nA single measurement session, i.e., the session of one party with a single set of samples can make use of different measurement programs, i.e., different measurement setups and parameters. For example, when first silicates and then sulphides are measured. In this case, the results have all the same name, but for each specific measurement program a separate record is created, with a lettered postfix in the form of: -a, -b, -c, … The first record with the postfix -a contains files that are similar for all records with this name, e.g., overview images.\nRecords of a single measurement session might be all put in a Kadi Collection.",
+    "text": "This section describes and documents the Electronic Lab Notebook (ELN) backend used for the epmatools frontend that allows users to access data of the JEOL JXA-8530F Plus electron-probe micro-analyser (EPMA) at the Institut für Geowissenschaften, Goethe Universität Frankfurt am Main.",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "Kadi Data Upload"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi-upload.html#types-of-kadi-records",
-    "href": "microprobe/data-access/kadi-upload.html#types-of-kadi-records",
-    "title": "Kadi Data Upload",
-    "section": "Types of Kadi records",
-    "text": "Types of Kadi records\nThere are 3 different categories: quantitative, element maps, qualitative. Each category requires its specific measurement setup. Therefore, each category requires is separate Kadi record.",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Must contain",
+    "text": "Must contain\nsummary{date}.csv\nThe output from: summary, all, to excel, save as .csv\nnormal.txt\nThe output from: summary, normal, type out\nsummary standard.txt\nThe output from: summary, standard, type out\nquick standard.txt\nThe output from: quick menu, right click recipe, ??",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "Kadi Data Upload"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi-upload.html#quantitative-analyses",
-    "href": "microprobe/data-access/kadi-upload.html#quantitative-analyses",
-    "title": "Kadi Data Upload",
-    "section": "Quantitative Analyses",
-    "text": "Quantitative Analyses\nMust contain\nsummary{date}.csv\nThe output from: summary, all, to excel, save as .csv\nnormal.txt\nThe output from: summary, normal, type out\nsummary standard.txt\nThe output from: summary, standard, type out\nquick standard.txt\nThe output from: quick menu, right click recipe, ??\nCan contain\nstandard measurements.xlsx\nFile with the results from the standard measurements, with colour results, therefore an excel file\n-&gt; This file can (in rare cases) be missing, so it might be sensible to test for its availability and not if it is not available.\nImage files as .jpg, .tif, .bmp",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Can contain",
+    "text": "Can contain\n\nstandard meausrements\nstandard measurements.xlsx File with the results from the standard measurements, with colour results, therefore an excel file\n-&gt; This file can (in rare cases) be missing, so it might be sensible to test for its availability and not if it is not available.\n\n\n\nExample of a standard.xlsx file.\n\n\n\n\nImages\nFiles as .jpg, .tif, .bmp",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "Kadi Data Upload"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi-upload.html#map-analyses",
-    "href": "microprobe/data-access/kadi-upload.html#map-analyses",
-    "title": "Kadi Data Upload",
-    "section": "Map Analyses",
-    "text": "Map Analyses\nMust contain\nquick standard.txt\nThe output from: quick menu, right click recipe, ??\n{map file}.csv\nThe naming of {map file} is as follows:\nmap {nr} {Eds}{internal designation} {element name} {measured characteristic line}.csv\ne.g.:\nmap 2 data004 Mg Ka.csv\nnote that ‘Eds’ only occurs when the element was measured with EDS, when ‘Eds’ is missing, the element was measured with WDS\nCan contain\n1 or 2 more map files labelled “data{nr} COMPO.csv” or “data{nr} SE.csv”, which are maps of BSE- and/or SE-signals, i.e., essentially BSE- and SE-images. Image files as .jpg, .tif, .bmp",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorial",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorial",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Video Tutorial",
+    "text": "Video Tutorial\nsomething",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "Kadi Data Upload"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi-upload.html#qualitative-analyses",
-    "href": "microprobe/data-access/kadi-upload.html#qualitative-analyses",
-    "title": "Kadi Data Upload",
-    "section": "Qualitative Analyses",
-    "text": "Qualitative Analyses\nMust contain\nsummary{date}.csv\nThe output from: summary, all, to excel, save as .csv\nnormal.txt\nThe output from: summary, normal, type out\nsummary standard.txt\nThe output from: summary, standard, type out\nquick standard.txt\nThe output from: quick menu, right click recipe, ??",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-1",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-1",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Must contain",
+    "text": "Must contain\nquick standard.txt\nThe output from: quick menu, right click recipe, ??\n{map file}.csv\nThe naming of {map file} is as follows:\nmap {nr} {Eds}{internal designation} {element name} {measured characteristic line}.csv\ne.g.:\nmap 2 data004 Mg Ka.csv\nnote that ‘Eds’ only occurs when the element was measured with EDS, when ‘Eds’ is missing, the element was measured with WDS",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "Kadi Data Upload"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi-upload.html#measurement-conditions",
-    "href": "microprobe/data-access/kadi-upload.html#measurement-conditions",
-    "title": "Kadi Data Upload",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain-1",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain-1",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Can contain",
+    "text": "Can contain\n1 or 2 more map files labelled “data{nr} COMPO.csv” or “data{nr} SE.csv”, which are maps of BSE- and/or SE-signals, i.e., essentially BSE- and SE-images. Image files as .jpg, .tif, .bmp",
+    "crumbs": [
+      "Microprobe",
+      "Data Access",
+      "Kadi4Mat backend ELN"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-2",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-2",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Must contain",
+    "text": "Must contain\nsummary{date}.csv\nThe output from: summary, all, to excel, save as .csv\nnormal.txt\nThe output from: summary, normal, type out\nsummary standard.txt\nThe output from: summary, standard, type out\nquick standard.txt\nThe output from: quick menu, right click recipe, ??",
+    "crumbs": [
+      "Microprobe",
+      "Data Access",
+      "Kadi4Mat backend ELN"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#measurement-conditions",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#measurement-conditions",
+    "title": "Kadi4Mat backend ELN",
     "section": "Measurement Conditions",
     "text": "Measurement Conditions\nDetection limits (d.l.) are calculated by the machine software for each measurement point. The output in the webinterface is the median of all measurements togehter with the standard deviation.",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "Kadi Data Upload"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi-upload.html#organise-quantitative-measurements",
-    "href": "microprobe/data-access/kadi-upload.html#organise-quantitative-measurements",
-    "title": "Kadi Data Upload",
-    "section": "Organise Quantitative Measurements",
-    "text": "Organise Quantitative Measurements",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorials",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorials",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Video Tutorials",
+    "text": "Video Tutorials\nPreparing files for Kadi upload\n\nUpload to Kadi\n\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "Kadi Data Upload"
-    ]
-  },
-  {
-    "objectID": "microprobe/data-access/kadi-upload.html#preparing-files-for-kadi-upload",
-    "href": "microprobe/data-access/kadi-upload.html#preparing-files-for-kadi-upload",
-    "title": "Kadi Data Upload",
-    "section": "Preparing files for Kadi upload",
-    "text": "Preparing files for Kadi upload",
-    "crumbs": [
-      "Microprobe",
-      "Data Access",
-      "Kadi Data Upload"
-    ]
-  },
-  {
-    "objectID": "microprobe/data-access/kadi-upload.html#upload-to-kadi",
-    "href": "microprobe/data-access/kadi-upload.html#upload-to-kadi",
-    "title": "Kadi Data Upload",
-    "section": "Upload to Kadi",
-    "text": "Upload to Kadi\n\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
-    "crumbs": [
-      "Microprobe",
-      "Data Access",
-      "Kadi Data Upload"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
