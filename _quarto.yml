@@ -38,7 +38,7 @@ website:
           - text: 'Kosmochemie'
             href: courses/cosmochemistry.qmd
           - text: 'Mikroanalytik'
-            href: courses/microanalytic.qmd
+            href: https://hezel2000.quarto.pub/mikroanalytik/
           - text: 'Geochemie I - Kosmochemie-Teil'
             href: https://hezel2000.quarto.pub/geochemie-1/
           - text: 'Umweltwissenschaften - Mikroanalytik-Teil'
