@@ -310,7 +310,7 @@
     "href": "microprobe/measurement-request/provide-info.html",
     "title": "Request Time",
     "section": "",
-    "text": "Please fill out the form below.\nWhy this form?\nFor good reasons.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Sample names\n\n Description\n\n Comment\n\n Are the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nDanke für Deinen Beitrag.\n\n\n\n\nRoom temperature is at a constant 20ºC\nPower sockets are available\nWiFi or Eduroam is not\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "text": "Please fill out the form below.\nWhy this form?\nFor good reasons.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Elements to be measured\n\n Description\n\n Comment\n\n Are the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nDanke für Deinen Beitrag.\n\n\n\n\nRoom temperature is at a constant 20ºC\nPower sockets are available\nWiFi or Eduroam is not\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
     "crumbs": [
       "Microprobe",
       "Request Time"
@@ -321,7 +321,7 @@
     "href": "microprobe/measurement-request/provide-info.html#epma-measurement-session-info",
     "title": "Request Time",
     "section": "",
-    "text": "Please fill out the form below.\nWhy this form?\nFor good reasons.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Sample names\n\n Description\n\n Comment\n\n Are the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nDanke für Deinen Beitrag.",
+    "text": "Please fill out the form below.\nWhy this form?\nFor good reasons.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Elements to be measured\n\n Description\n\n Comment\n\n Are the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nDanke für Deinen Beitrag.",
     "crumbs": [
       "Microprobe",
       "Request Time"
