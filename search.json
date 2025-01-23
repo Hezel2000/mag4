@@ -294,15 +294,15 @@
     "text": ":::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::"
   },
   {
-    "objectID": "microprobe/data-access/thekadi4mateln.html",
-    "href": "microprobe/data-access/thekadi4mateln.html",
-    "title": "The Kadi4Mat ELN",
+    "objectID": "microprobe/data-access/epmatools-data-access.html",
+    "href": "microprobe/data-access/epmatools-data-access.html",
+    "title": "EPMA tools",
     "section": "",
-    "text": "What is Kadi4Mat?\nKadi4Mat – or in short Kadi – is an Electronic Lab Notebook (ELN) that we use for EPMA results management and making data FAIR. Kadi is an online system that can be accessed with only a browser. A login is might be possible through your university email (if the Shibboleth AAI is connected to Kadi) or by applying for an account. However, we use the Kadi Python API for our tools, and with these, no login to Kadi is necessary.\nFor a sneak peak into the data processing application, check this out.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "text": "EPMA tools\nThis section provides a brief manual and description for the epmatools to access data of the JEOL JXA-8530F Plus electron-probe micro-analyser (EPMA) at the Institut für Geowissenschaften, Goethe Universität Frankfurt am Main.\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "The Kadi4Mat ELN"
+      "EPMA tools"
     ]
   },
   {
@@ -310,18 +310,18 @@
     "href": "microprobe/measurement-request/provide-info.html",
     "title": "Request Time",
     "section": "",
-    "text": "Please fill out the form below.\nWhy this form?\nFor good reasons.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Elements to be measured\n\n Description\n\n Comment\n\n Are the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nDanke für Deinen Beitrag.\n\n\n\n\nRoom temperature is at a constant 20ºC\nPower sockets are available\nWiFi or Eduroam is not\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "text": "Please fill out the form below.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Elements to be measured\n\n Description\n\n Comment\n\n Are the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nDanke für Deinen Beitrag.\n\n\n\n\nBring your documentation where and what you want to measure\nRoom temperature is at a constant 20ºC\nPower sockets are available\nThere is neither WiFi nor Eduroam\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
     "crumbs": [
       "Microprobe",
       "Request Time"
     ]
   },
   {
-    "objectID": "microprobe/measurement-request/provide-info.html#epma-measurement-session-info",
-    "href": "microprobe/measurement-request/provide-info.html#epma-measurement-session-info",
+    "objectID": "microprobe/measurement-request/provide-info.html#epma-measurement-request-info",
+    "href": "microprobe/measurement-request/provide-info.html#epma-measurement-request-info",
     "title": "Request Time",
     "section": "",
-    "text": "Please fill out the form below.\nWhy this form?\nFor good reasons.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Elements to be measured\n\n Description\n\n Comment\n\n Are the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nDanke für Deinen Beitrag.",
+    "text": "Please fill out the form below.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Elements to be measured\n\n Description\n\n Comment\n\n Are the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nDanke für Deinen Beitrag.",
     "crumbs": [
       "Microprobe",
       "Request Time"
@@ -332,7 +332,7 @@
     "href": "microprobe/measurement-request/provide-info.html#plan-your-sessions",
     "title": "Request Time",
     "section": "",
-    "text": "Room temperature is at a constant 20ºC\nPower sockets are available\nWiFi or Eduroam is not\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
+    "text": "Bring your documentation where and what you want to measure\nRoom temperature is at a constant 20ºC\nPower sockets are available\nThere is neither WiFi nor Eduroam\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
     "crumbs": [
       "Microprobe",
       "Request Time"
@@ -712,111 +712,111 @@
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi-upload.html",
-    "href": "microprobe/data-access/kadi-upload.html",
-    "title": "Kadi Data Upload",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html",
+    "title": "Kadi4Mat backend ELN",
     "section": "",
-    "text": "Each record starts with ‘GUF IfG EPMA’\nA single measurement session, i.e., the session of one party with a single set of samples can make use of different measurement programs, i.e., different measurement setups and parameters. For example, when first silicates and then sulphides are measured. In this case, the results have all the same name, but for each specific measurement program a separate record is created, with a lettered postfix in the form of: -a, -b, -c, … The first record with the postfix -a contains files that are similar for all records with this name, e.g., overview images.\nRecords of a single measurement session might be all put in a Kadi Collection.",
+    "text": "This section describes and documents the Electronic Lab Notebook (ELN) backend used for the epmatools frontend that allows users to access data of the JEOL JXA-8530F Plus electron-probe micro-analyser (EPMA) at the Institut für Geowissenschaften, Goethe Universität Frankfurt am Main.",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "Kadi Data Upload"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi-upload.html#types-of-kadi-records",
-    "href": "microprobe/data-access/kadi-upload.html#types-of-kadi-records",
-    "title": "Kadi Data Upload",
-    "section": "Types of Kadi records",
-    "text": "Types of Kadi records\nThere are 3 different categories: quantitative, element maps, qualitative. Each category requires its specific measurement setup. Therefore, each category requires is separate Kadi record.",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Must contain",
+    "text": "Must contain\nsummary{date}.csv\nThe output from: summary, all, to excel, save as .csv\nnormal.txt\nThe output from: summary, normal, type out\nsummary standard.txt\nThe output from: summary, standard, type out\nquick standard.txt\nThe output from: quick menu, right click recipe, ??",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "Kadi Data Upload"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi-upload.html#quantitative-analyses",
-    "href": "microprobe/data-access/kadi-upload.html#quantitative-analyses",
-    "title": "Kadi Data Upload",
-    "section": "Quantitative Analyses",
-    "text": "Quantitative Analyses\nMust contain\nsummary{date}.csv\nThe output from: summary, all, to excel, save as .csv\nnormal.txt\nThe output from: summary, normal, type out\nsummary standard.txt\nThe output from: summary, standard, type out\nquick standard.txt\nThe output from: quick menu, right click recipe, ??\nCan contain\nstandard measurements.xlsx\nFile with the results from the standard measurements, with colour results, therefore an excel file\n-&gt; This file can (in rare cases) be missing, so it might be sensible to test for its availability and not if it is not available.\nImage files as .jpg, .tif, .bmp",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Can contain",
+    "text": "Can contain\n\nstandard meausrements\nstandard measurements.xlsx File with the results from the standard measurements, with colour results, therefore an excel file\n-&gt; This file can (in rare cases) be missing, so it might be sensible to test for its availability and not if it is not available.\n\n\n\nExample of a standard.xlsx file.\n\n\n\n\nImages\nFiles as .jpg, .tif, .bmp",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "Kadi Data Upload"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi-upload.html#map-analyses",
-    "href": "microprobe/data-access/kadi-upload.html#map-analyses",
-    "title": "Kadi Data Upload",
-    "section": "Map Analyses",
-    "text": "Map Analyses\nMust contain\nquick standard.txt\nThe output from: quick menu, right click recipe, ??\n{map file}.csv\nThe naming of {map file} is as follows:\nmap {nr} {Eds}{internal designation} {element name} {measured characteristic line}.csv\ne.g.:\nmap 2 data004 Mg Ka.csv\nnote that ‘Eds’ only occurs when the element was measured with EDS, when ‘Eds’ is missing, the element was measured with WDS\nCan contain\n1 or 2 more map files labelled “data{nr} COMPO.csv” or “data{nr} SE.csv”, which are maps of BSE- and/or SE-signals, i.e., essentially BSE- and SE-images. Image files as .jpg, .tif, .bmp",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorial",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorial",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Video Tutorial",
+    "text": "Video Tutorial\nsomething",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "Kadi Data Upload"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi-upload.html#qualitative-analyses",
-    "href": "microprobe/data-access/kadi-upload.html#qualitative-analyses",
-    "title": "Kadi Data Upload",
-    "section": "Qualitative Analyses",
-    "text": "Qualitative Analyses\nMust contain\nsummary{date}.csv\nThe output from: summary, all, to excel, save as .csv\nnormal.txt\nThe output from: summary, normal, type out\nsummary standard.txt\nThe output from: summary, standard, type out\nquick standard.txt\nThe output from: quick menu, right click recipe, ??",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-1",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-1",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Must contain",
+    "text": "Must contain\nquick standard.txt\nThe output from: quick menu, right click recipe, ??\n{map file}.csv\nThe naming of {map file} is as follows:\nmap {nr} {Eds}{internal designation} {element name} {measured characteristic line}.csv\ne.g.:\nmap 2 data004 Mg Ka.csv\nnote that ‘Eds’ only occurs when the element was measured with EDS, when ‘Eds’ is missing, the element was measured with WDS",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "Kadi Data Upload"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi-upload.html#measurement-conditions",
-    "href": "microprobe/data-access/kadi-upload.html#measurement-conditions",
-    "title": "Kadi Data Upload",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain-1",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain-1",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Can contain",
+    "text": "Can contain\n1 or 2 more map files labelled “data{nr} COMPO.csv” or “data{nr} SE.csv”, which are maps of BSE- and/or SE-signals, i.e., essentially BSE- and SE-images. Image files as .jpg, .tif, .bmp",
+    "crumbs": [
+      "Microprobe",
+      "Data Access",
+      "Kadi4Mat backend ELN"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-2",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-2",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Must contain",
+    "text": "Must contain\nsummary{date}.csv\nThe output from: summary, all, to excel, save as .csv\nnormal.txt\nThe output from: summary, normal, type out\nsummary standard.txt\nThe output from: summary, standard, type out\nquick standard.txt\nThe output from: quick menu, right click recipe, ??",
+    "crumbs": [
+      "Microprobe",
+      "Data Access",
+      "Kadi4Mat backend ELN"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#measurement-conditions",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#measurement-conditions",
+    "title": "Kadi4Mat backend ELN",
     "section": "Measurement Conditions",
     "text": "Measurement Conditions\nDetection limits (d.l.) are calculated by the machine software for each measurement point. The output in the webinterface is the median of all measurements togehter with the standard deviation.",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "Kadi Data Upload"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi-upload.html#organise-quantitative-measurements",
-    "href": "microprobe/data-access/kadi-upload.html#organise-quantitative-measurements",
-    "title": "Kadi Data Upload",
-    "section": "Organise Quantitative Measurements",
-    "text": "Organise Quantitative Measurements",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorials",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorials",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Video Tutorials",
+    "text": "Video Tutorials\nPreparing files for Kadi upload\n\nUpload to Kadi\n\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
     "crumbs": [
       "Microprobe",
       "Data Access",
-      "Kadi Data Upload"
-    ]
-  },
-  {
-    "objectID": "microprobe/data-access/kadi-upload.html#preparing-files-for-kadi-upload",
-    "href": "microprobe/data-access/kadi-upload.html#preparing-files-for-kadi-upload",
-    "title": "Kadi Data Upload",
-    "section": "Preparing files for Kadi upload",
-    "text": "Preparing files for Kadi upload",
-    "crumbs": [
-      "Microprobe",
-      "Data Access",
-      "Kadi Data Upload"
-    ]
-  },
-  {
-    "objectID": "microprobe/data-access/kadi-upload.html#upload-to-kadi",
-    "href": "microprobe/data-access/kadi-upload.html#upload-to-kadi",
-    "title": "Kadi Data Upload",
-    "section": "Upload to Kadi",
-    "text": "Upload to Kadi\n\n\n\n:::{.hidden .quarto-markdown-envelope-contents render-id=“footer-center-Manage cookie preferences”} Manage cookie preferences\n:::\n\nLegal information\n\n:::",
-    "crumbs": [
-      "Microprobe",
-      "Data Access",
-      "Kadi Data Upload"
+      "Kadi4Mat backend ELN"
     ]
   },
   {

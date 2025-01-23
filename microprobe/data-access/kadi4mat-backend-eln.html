@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Kadi Data Upload – mag4</title>
+<title>Kadi4Mat backend ELN – mag4</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -145,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Kosmochemie</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../courses/microanalytic.html">
+    <a class="dropdown-item" href="https://hezel2000.quarto.pub/mikroanalytik/">
  <span class="dropdown-text">Mikroanalytik</span></a>
   </li>  
         <li>
@@ -173,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../microprobe/data-access/thekadi4mateln.html">Data Access</a></li><li class="breadcrumb-item"><a href="../../microprobe/data-access/kadi-upload.html">Kadi Data Upload</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../microprobe/data-access/epmatools-data-access.html">Data Access</a></li><li class="breadcrumb-item"><a href="../../microprobe/data-access/kadi4mat-backend-eln.html">Kadi4Mat backend ELN</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -202,14 +202,14 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../microprobe/data-access/thekadi4mateln.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">The Kadi4Mat ELN</span></a>
+  <a href="../../microprobe/data-access/epmatools-data-access.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">EPMA tools</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../microprobe/data-access/kadi-upload.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Kadi Data Upload</span></a>
+  <a href="../../microprobe/data-access/kadi4mat-backend-eln.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Kadi4Mat backend ELN</span></a>
   </div>
 </li>
       </ul>
@@ -289,25 +289,36 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#naming-of-kadi-records" id="toc-naming-of-kadi-records" class="nav-link active" data-scroll-target="#naming-of-kadi-records">Naming of Kadi records</a></li>
-  <li><a href="#entries-in-kadi-records" id="toc-entries-in-kadi-records" class="nav-link" data-scroll-target="#entries-in-kadi-records">Entries in Kadi records</a>
+  <li><a href="#what-is-an-eln" id="toc-what-is-an-eln" class="nav-link active" data-scroll-target="#what-is-an-eln">What is an ELN?</a></li>
+  <li><a href="#what-is-kadi4mat" id="toc-what-is-kadi4mat" class="nav-link" data-scroll-target="#what-is-kadi4mat">What is Kadi4Mat?</a></li>
+  <li><a href="#naming-a-kadi-record" id="toc-naming-a-kadi-record" class="nav-link" data-scroll-target="#naming-a-kadi-record">Naming a Kadi record</a></li>
+  <li><a href="#quantitative-analyses" id="toc-quantitative-analyses" class="nav-link" data-scroll-target="#quantitative-analyses">Quantitative Analyses</a>
   <ul class="collapse">
-  <li><a href="#types-of-kadi-records" id="toc-types-of-kadi-records" class="nav-link" data-scroll-target="#types-of-kadi-records">Types of Kadi records</a></li>
-  <li><a href="#quantitative-analyses" id="toc-quantitative-analyses" class="nav-link" data-scroll-target="#quantitative-analyses">Quantitative Analyses</a></li>
-  <li><a href="#map-analyses" id="toc-map-analyses" class="nav-link" data-scroll-target="#map-analyses">Map Analyses</a></li>
-  <li><a href="#qualitative-analyses" id="toc-qualitative-analyses" class="nav-link" data-scroll-target="#qualitative-analyses">Qualitative Analyses</a></li>
+  <li><a href="#must-contain" id="toc-must-contain" class="nav-link" data-scroll-target="#must-contain">Must contain</a></li>
+  <li><a href="#can-contain" id="toc-can-contain" class="nav-link" data-scroll-target="#can-contain">Can contain</a>
+  <ul class="collapse">
+  <li><a href="#standard-meausrements" id="toc-standard-meausrements" class="nav-link" data-scroll-target="#standard-meausrements">standard meausrements</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a></li>
+  </ul></li>
+  <li><a href="#video-tutorial" id="toc-video-tutorial" class="nav-link" data-scroll-target="#video-tutorial">Video Tutorial</a></li>
+  </ul></li>
+  <li><a href="#map-analyses" id="toc-map-analyses" class="nav-link" data-scroll-target="#map-analyses">Map Analyses</a>
+  <ul class="collapse">
+  <li><a href="#must-contain-1" id="toc-must-contain-1" class="nav-link" data-scroll-target="#must-contain-1">Must contain</a></li>
+  <li><a href="#can-contain-1" id="toc-can-contain-1" class="nav-link" data-scroll-target="#can-contain-1">Can contain</a></li>
+  </ul></li>
+  <li><a href="#qualitative-analyses" id="toc-qualitative-analyses" class="nav-link" data-scroll-target="#qualitative-analyses">Qualitative Analyses</a>
+  <ul class="collapse">
+  <li><a href="#must-contain-2" id="toc-must-contain-2" class="nav-link" data-scroll-target="#must-contain-2">Must contain</a></li>
   </ul></li>
   <li><a href="#output" id="toc-output" class="nav-link" data-scroll-target="#output">Output</a>
   <ul class="collapse">
   <li><a href="#measurement-conditions" id="toc-measurement-conditions" class="nav-link" data-scroll-target="#measurement-conditions">Measurement Conditions</a></li>
   </ul></li>
   <li><a href="#flank-method-data" id="toc-flank-method-data" class="nav-link" data-scroll-target="#flank-method-data">Flank Method Data</a></li>
-  <li><a href="#upload" id="toc-upload" class="nav-link" data-scroll-target="#upload">Upload</a></li>
-  <li><a href="#videos" id="toc-videos" class="nav-link" data-scroll-target="#videos">Videos</a>
+  <li><a href="#upload" id="toc-upload" class="nav-link" data-scroll-target="#upload">Upload</a>
   <ul class="collapse">
-  <li><a href="#organise-quantitative-measurements" id="toc-organise-quantitative-measurements" class="nav-link" data-scroll-target="#organise-quantitative-measurements">Organise Quantitative Measurements</a></li>
-  <li><a href="#preparing-files-for-kadi-upload" id="toc-preparing-files-for-kadi-upload" class="nav-link" data-scroll-target="#preparing-files-for-kadi-upload">Preparing files for Kadi upload</a></li>
-  <li><a href="#upload-to-kadi" id="toc-upload-to-kadi" class="nav-link" data-scroll-target="#upload-to-kadi">Upload to Kadi</a></li>
+  <li><a href="#video-tutorials" id="toc-video-tutorials" class="nav-link" data-scroll-target="#video-tutorials">Video Tutorials</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -315,9 +326,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../microprobe/data-access/thekadi4mateln.html">Data Access</a></li><li class="breadcrumb-item"><a href="../../microprobe/data-access/kadi-upload.html">Kadi Data Upload</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../microprobe/data-access/epmatools-data-access.html">Data Access</a></li><li class="breadcrumb-item"><a href="../../microprobe/data-access/kadi4mat-backend-eln.html">Kadi4Mat backend ELN</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Kadi Data Upload</h1>
+<h1 class="title">Kadi4Mat backend ELN</h1>
 </div>
 
 
@@ -334,21 +345,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="naming-of-kadi-records" class="level1">
-<h1>Naming of Kadi records</h1>
+<p>This section describes and documents the Electronic Lab Notebook (ELN) backend used for the <a href="https://epmatools.streamlit.app/">epmatools</a> frontend that allows users to access data of the JEOL JXA-8530F Plus electron-probe micro-analyser (EPMA) at the Institut für Geowissenschaften, Goethe Universität Frankfurt am Main.</p>
+<section id="what-is-an-eln" class="level1">
+<h1>What is an ELN?</h1>
+<p>xxx</p>
+</section>
+<section id="what-is-kadi4mat" class="level1">
+<h1>What is Kadi4Mat?</h1>
+<p>Kadi4Mat –&nbsp;or in short <em>Kadi</em> – is an Electronic Lab Notebook (ELN) that we use for EPMA results management and making data FAIR. Kadi is an online system that can be accessed with only a browser. A login is might be possible through your university email (if the Shibboleth AAI is connected to Kadi) or by applying for an account. However, we use the Kadi Python API for our tools, and with these, no login to Kadi is necessary.</p>
+</section>
+<section id="naming-a-kadi-record" class="level1">
+<h1>Naming a Kadi record</h1>
 <p>Each record starts with ‘GUF IfG EPMA’<br>
 A single measurement session, i.e., the session of one party with a single set of samples can make use of different measurement programs, i.e., different measurement setups and parameters. For example, when first silicates and then sulphides are measured. In this case, the results have all the same name, but for each specific measurement program a separate record is created, with a lettered postfix in the form of: -a, -b, -c, … The first record with the postfix -a contains files that are similar for all records with this name, e.g., overview images.<br>
 Records of a single measurement session might be all put in a Kadi Collection.</p>
 </section>
-<section id="entries-in-kadi-records" class="level1">
-<h1>Entries in Kadi records</h1>
-<section id="types-of-kadi-records" class="level2">
-<h2 class="anchored" data-anchor-id="types-of-kadi-records">Types of Kadi records</h2>
-<p>There are 3 different categories: quantitative, element maps, qualitative. Each category requires its specific measurement setup. Therefore, each category requires is separate Kadi record.</p>
-</section>
-<section id="quantitative-analyses" class="level2">
-<h2 class="anchored" data-anchor-id="quantitative-analyses">Quantitative Analyses</h2>
-<p><strong>Must contain</strong></p>
+<section id="quantitative-analyses" class="level1">
+<h1>Quantitative Analyses</h1>
+<section id="must-contain" class="level2">
+<h2 class="anchored" data-anchor-id="must-contain">Must contain</h2>
 <p><em>summary{date}.csv</em><br>
 The output from: summary, all, to excel, save as .csv</p>
 <p><em>normal.txt</em><br>
@@ -357,15 +372,35 @@ The output from: summary, normal, type out</p>
 The output from: summary, standard, type out</p>
 <p><em>quick standard.txt</em><br>
 The output from: quick menu, right click recipe, ??</p>
-<p><strong>Can contain</strong></p>
-<p><em>standard measurements.xlsx</em><br>
-File with the results from the standard measurements, with colour results, therefore an excel file<br>
--&gt; This file can (in rare cases) be missing, so it might be sensible to test for its availability and not if it is not available.</p>
-<p>Image files as .jpg, .tif, .bmp</p>
 </section>
-<section id="map-analyses" class="level2">
-<h2 class="anchored" data-anchor-id="map-analyses">Map Analyses</h2>
-<p><strong>Must contain</strong></p>
+<section id="can-contain" class="level2">
+<h2 class="anchored" data-anchor-id="can-contain">Can contain</h2>
+<section id="standard-meausrements" class="level3">
+<h3 class="anchored" data-anchor-id="standard-meausrements">standard meausrements</h3>
+<p>standard measurements.xlsx File with the results from the standard measurements, with colour results, therefore an excel file<br>
+-&gt; This file can (in rare cases) be missing, so it might be sensible to test for its availability and not if it is not available.</p>
+<div id="standard-xlsx" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/epma-tools-standards-xlsx.png" class="img-fluid figure-img"></p>
+<figcaption>Example of a standard.xlsx file.</figcaption>
+</figure>
+</div>
+</section>
+<section id="images" class="level3">
+<h3 class="anchored" data-anchor-id="images">Images</h3>
+<p>Files as .jpg, .tif, .bmp</p>
+</section>
+</section>
+<section id="video-tutorial" class="level2">
+<h2 class="anchored" data-anchor-id="video-tutorial">Video Tutorial</h2>
+<p><strong>something</strong></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/954306014" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+</section>
+<section id="map-analyses" class="level1">
+<h1>Map Analyses</h1>
+<section id="must-contain-1" class="level2">
+<h2 class="anchored" data-anchor-id="must-contain-1">Must contain</h2>
 <p><em>quick standard.txt</em><br>
 The output from: quick menu, right click recipe, ??</p>
 <p><em>{map file}.csv</em><br>
@@ -374,12 +409,16 @@ map {nr} {Eds}{internal designation} {element name} {measured characteristic lin
 e.g.:<br>
 map 2 data004 Mg Ka.csv<br>
 note that ‘Eds’ only occurs when the element was measured with EDS, when ‘Eds’ is missing, the element was measured with WDS</p>
-<p><strong>Can contain</strong></p>
+</section>
+<section id="can-contain-1" class="level2">
+<h2 class="anchored" data-anchor-id="can-contain-1">Can contain</h2>
 <p>1 or 2 more map files labelled “data{nr} COMPO.csv” or “data{nr} SE.csv”, which are maps of BSE- and/or SE-signals, i.e., essentially BSE- and SE-images. Image files as .jpg, .tif, .bmp</p>
 </section>
-<section id="qualitative-analyses" class="level2">
-<h2 class="anchored" data-anchor-id="qualitative-analyses">Qualitative Analyses</h2>
-<p><strong>Must contain</strong></p>
+</section>
+<section id="qualitative-analyses" class="level1">
+<h1>Qualitative Analyses</h1>
+<section id="must-contain-2" class="level2">
+<h2 class="anchored" data-anchor-id="must-contain-2">Must contain</h2>
 <p><em>summary{date}.csv</em><br>
 The output from: summary, all, to excel, save as .csv</p>
 <p><em>normal.txt</em><br>
@@ -405,19 +444,11 @@ The output from: quick menu, right click recipe, ??</p>
 <h1>Upload</h1>
 <p>Upload all files to <a href="https://kadi4mat.iam-cms.kit.edu/login">Kadi4Mat</a>.</p>
 <p>Provide additional, sensible info. Inivite the person to the respective group. Include the Kadi record in other, sensible groups.</p>
-</section>
-<section id="videos" class="level1">
-<h1>Videos</h1>
-<section id="organise-quantitative-measurements" class="level2">
-<h2 class="anchored" data-anchor-id="organise-quantitative-measurements">Organise Quantitative Measurements</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/954306014" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-<section id="preparing-files-for-kadi-upload" class="level2">
-<h2 class="anchored" data-anchor-id="preparing-files-for-kadi-upload">Preparing files for Kadi upload</h2>
+<section id="video-tutorials" class="level2">
+<h2 class="anchored" data-anchor-id="video-tutorials">Video Tutorials</h2>
+<p><strong>Preparing files for Kadi upload</strong></p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/954342011" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
-</section>
-<section id="upload-to-kadi" class="level2">
-<h2 class="anchored" data-anchor-id="upload-to-kadi">Upload to Kadi</h2>
+<p><strong>Upload to Kadi</strong></p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/954341524" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
 <!-- # Definitions & Naming Conventions
 ## Campaign
