@@ -42,6 +42,8 @@ For good reasons.
 
   <label for="sample_names">Sample names</label><br>
   <textarea id="sample_names" name="sample_names" rows="4" cols="50" placeholder="List of sample names separated by commas." required=""></textarea><br>
+  <label for="elements">Elements to be measured</label><br>
+  <textarea id="elements" name="elements" rows="4" cols="50" placeholder="List of elements separated by commas." required=""></textarea><br>
   <label for="description">Description</label><br>
   <textarea id="description" name="description" rows="4" cols="50" placeholder="This descripiton will be included in the ELN (electronic lab notebook) record."  required=""></textarea><br>
   <label for="comment">Comment</label><br>

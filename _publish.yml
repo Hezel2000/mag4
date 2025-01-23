@@ -4,4 +4,4 @@
       url: 'https://quartopub.com/sites/hezel2000/mag4'
 
 
-#  I need to to do: quarto publish gh-pages
+#  For publishing, write in the Terminal: quarto publish gh-pages
