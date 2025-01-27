@@ -1,6 +1,0 @@
----
-title: 'Welcome'
----
-
-## Tutorials
-Check out the sidebar.

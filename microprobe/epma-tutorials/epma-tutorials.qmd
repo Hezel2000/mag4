@@ -1,5 +1,5 @@
 ---
-title: 'EPMA'
+title: 'EPMA tutorials'
 ---
 
 ## The Electron-Probe Micro-Analyser (EPMA)

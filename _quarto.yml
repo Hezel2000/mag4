@@ -11,23 +11,16 @@ website:
       #   file: index.qmd
       - text: "Microprobe"
         file: microprobe/epma-intro.qmd
+      - text: "SEM"
+        file: sem/sem-intro.qmd
+      - text: "µ.XRF"
+        file: mu_xrf/mu_xrf-intro.qmd
+      - text: "Periphery"
+        file: periphery/periphery-intro.qmd
       - text: "Mass Spectrometry"
         file: mass-spec/mass-spec-intro.qmd
       - text: "Resources"
         file: resources/resources-intro.qmd
-      - text: "Tutorials"
-        menu:
-            # tutorials/tutorials-intro.qmd  
-          - text: Sample Preparation
-            href: tutorials/preparation.qmd
-          - text: Electron Microprobe
-            href: tutorials/epma.qmd
-          - text: Scanning Electron Microscope
-            href: tutorials/sem.qmd
-          - text: EBSD @SEM
-            href: tutorials/ebsd.qmd
-          - text: µ.XRF
-            href: tutorials/micro-XRF.qmd 
       - text: "Courses"
         menu:
           # - courses/courses-intro.qmd
@@ -65,8 +58,40 @@ website:
           - microprobe/flank-method/code.qmd
           - microprobe/flank-method/glossary.qmd
         - microprobe/tools/resources.qmd
+        - microprobe/epma-tutorials/epma-tutorials.qmd
         - microprobe/measurement-request/provide-info.qmd
     
+    - title: 'SEM'
+      collapse-level: 1
+      contents:
+        - section: 'Introduction'
+          contents:
+            - sem/sem-intro.qmd
+        - section: 'SEM Tutorials'
+          contents:
+            - sem/sem-tutorials/sem-tutorial.qmd
+            - sem/sem-tutorials/ebsd-tutorial.qmd
+
+    - title: "µ.XRF"
+      collapse-level: 1
+      contents:
+        - section: 'Introduction'
+          contents:
+            - mu_xrf/mu_xrf-intro.qmd
+        - section: 'µ.XRF Tutorials'
+          contents:
+            - mu_xrf/mu_xrf-tutorials/mu_xrf-tutorial.qmd
+
+    - title: "Periphery"
+      collapse-level: 1
+      contents:
+        - section: 'Introduction'
+          contents:
+          - periphery/periphery-intro.qmd
+        - section: 'periphery tutorials'
+          contents:
+            - periphery/periphery-tutorials/preparation-tutorial.qmd
+
     - title: "Mass-Spectrometry"
       collapse-level: 1
       contents:
@@ -82,15 +107,6 @@ website:
      #       - mass-spec/iron/basics.qmd
      #       - mass-spec/iron/data reduction.qmd
     
-    # - title: "Tutorials"
-    #   collapse-level: 1
-    #   contents:
-    #     - tutorials/tutorials-intro.qmd
-    #     - tutorials/preparation.qmd
-    #     - tutorials/epma.qmd
-    #     - tutorials/sem.qmd
-    #     - tutorials/ebsd.qmd
-    #     - tutorials/micro-XRF.qmd
     
     - title: "Resources"
       collapse-level: 1
