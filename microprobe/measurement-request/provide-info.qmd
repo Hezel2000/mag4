@@ -43,8 +43,11 @@ Please fill out the form below.
   <textarea id="elements" name="elements" rows="4" cols="50" placeholder="List of elements separated by commas." required=""></textarea><br>
   <label for="description">Description</label><br>
   <textarea id="description" name="description" rows="4" cols="50" placeholder="This descripiton will be included in the ELN (electronic lab notebook) record."  required=""></textarea><br>
+  <label for="preferred_date">Preferred Date(s)</label><br>
+  <textarea id="preferred_date" name="preferred_date" rows="4" cols="50" placeholder="Should I get data protection right for the calender below, this could be used as a guideline."></textarea><br>
   <label for="comment">Comment</label><br>
   <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Anything else I should know for your measurement session? Measurement parameter preferences? Dietary needs?"></textarea><br>
+
   <label>Are the samples coated?</label><br>
   <label for="all_coated">
   <label for="yes" style="display: inline-block; margin-right: 20px;">
@@ -73,7 +76,10 @@ Please fill out the form below.
     I accept the <a href="https://gdpr-info.eu" target="_blank">GDPR terms and conditions</a>.
   </label><br>
 
-  <input type="submit" value="Submit">
+  <!-- <input type="submit" value="Submit"> -->
+  <form action="/your-action-url" method="post">
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 </form>
 
 <p id="thankYouMessage" style="display:none;">Danke für Deinen Beitrag.</p>
@@ -84,6 +90,9 @@ Room temperature is at a constant 20ºC
 Power sockets are available  
 There is neither WiFi nor Eduroam  
 
+## Calendar
+Currently not active.
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Africa%2FCeuta&showPrint=0&showTz=0&src=ZTkxYjFhYjUxY2U4MmFmOGNjNDkwMWFhOWQ5MTk5NTc4YzIwY2E3YzM4YTJhNDM1NDM0ZGEzMmNmYzg0NzZlNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%234285F4&color=%23E67C73" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
   <!--
   Dropdown menu
