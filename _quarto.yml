@@ -34,7 +34,7 @@ website:
           - text: 'Data Science'
             href: courses/data_science.qmd
           - text: 'Data Science Short Course'
-            href: https://datascienceshortcourse.streamlit.app
+            href: https://hezel2000.quarto.pub/dmg-data-science-short-course # https://datascienceshortcourse.streamlit.app
           - text: 'Kosmochemie'
             href: courses/cosmochemistry.qmd
           - text: 'Mikroanalytik'
