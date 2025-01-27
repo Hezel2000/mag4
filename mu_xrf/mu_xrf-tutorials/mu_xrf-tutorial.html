@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Operation – mag4</title>
+<title>µ.XRF tutorials – mag4</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,7 +92,7 @@ cookieconsent.run({
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -118,7 +118,7 @@ cookieconsent.run({
 <span class="menu-text">SEM</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../mu_xrf/mu_xrf-intro.html"> 
+    <a class="nav-link active" href="../../mu_xrf/mu_xrf-intro.html" aria-current="page"> 
 <span class="menu-text">µ.XRF</span></a>
   </li>  
   <li class="nav-item">
@@ -174,27 +174,85 @@ cookieconsent.run({
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../mu_xrf/mu_xrf-tutorials/mu_xrf-tutorial.html">µ.XRF Tutorials</a></li><li class="breadcrumb-item"><a href="../../mu_xrf/mu_xrf-tutorials/mu_xrf-tutorial.html">µ.XRF tutorials</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Introduction</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../mu_xrf/mu_xrf-intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">µ.XRF</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">µ.XRF Tutorials</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../mu_xrf/mu_xrf-tutorials/mu_xrf-tutorial.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">µ.XRF tutorials</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#standards" id="toc-standards" class="nav-link active" data-scroll-target="#standards">Standards</a></li>
-  <li><a href="#samples" id="toc-samples" class="nav-link" data-scroll-target="#samples">Samples</a></li>
+  <li><a href="#the-micro-x-ray-flourescense-µ.xrf" id="toc-the-micro-x-ray-flourescense-µ.xrf" class="nav-link active" data-scroll-target="#the-micro-x-ray-flourescense-µ.xrf">The micro X-ray flourescense (µ.XRF)</a></li>
+  <li><a href="#switch-on-the-machine" id="toc-switch-on-the-machine" class="nav-link" data-scroll-target="#switch-on-the-machine">Switch on the Machine</a></li>
+  <li><a href="#loading-the-sample" id="toc-loading-the-sample" class="nav-link" data-scroll-target="#loading-the-sample">Loading the Sample</a></li>
+  <li><a href="#point-analysis-with-the-eds" id="toc-point-analysis-with-the-eds" class="nav-link" data-scroll-target="#point-analysis-with-the-eds">Point Analysis with the EDS</a></li>
+  <li><a href="#focusing-the-sample" id="toc-focusing-the-sample" class="nav-link" data-scroll-target="#focusing-the-sample">Focusing the sample</a></li>
+  <li><a href="#acquiring-a-montage-image-of-the-sample" id="toc-acquiring-a-montage-image-of-the-sample" class="nav-link" data-scroll-target="#acquiring-a-montage-image-of-the-sample">Acquiring a Montage Image of the Sample</a></li>
+  <li><a href="#element-maps-with-the-eds" id="toc-element-maps-with-the-eds" class="nav-link" data-scroll-target="#element-maps-with-the-eds">Element Maps with the EDS</a></li>
+  <li><a href="#display-the-results-of-an-element-map" id="toc-display-the-results-of-an-element-map" class="nav-link" data-scroll-target="#display-the-results-of-an-element-map">Display the Results of an Element Map</a></li>
+  <li><a href="#unload-the-sample-and-switch-off-the-machine" id="toc-unload-the-sample-and-switch-off-the-machine" class="nav-link" data-scroll-target="#unload-the-sample-and-switch-off-the-machine">Unload the Sample and Switch Off the Machine</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../mu_xrf/mu_xrf-tutorials/mu_xrf-tutorial.html">µ.XRF Tutorials</a></li><li class="breadcrumb-item"><a href="../../mu_xrf/mu_xrf-tutorials/mu_xrf-tutorial.html">µ.XRF tutorials</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Operation</h1>
+<h1 class="title">µ.XRF tutorials</h1>
 </div>
 
 
@@ -211,13 +269,41 @@ cookieconsent.run({
 </header>
 
 
-<section id="standards" class="level3">
-<h3 class="anchored" data-anchor-id="standards">Standards</h3>
-<p>A standard folder called <em>std</em> in which the results of standard control measurements are stored.</p>
+<section id="the-micro-x-ray-flourescense-µ.xrf" class="level2">
+<h2 class="anchored" data-anchor-id="the-micro-x-ray-flourescense-µ.xrf">The micro X-ray flourescense (µ.XRF)</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/541030264" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="samples" class="level3">
-<h3 class="anchored" data-anchor-id="samples">Samples</h3>
-<p>The sample folder called <em>whatever</em> in which the sample results are stored.</p>
+<section id="switch-on-the-machine" class="level2">
+<h2 class="anchored" data-anchor-id="switch-on-the-machine">Switch on the Machine</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/566706719" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="loading-the-sample" class="level2">
+<h2 class="anchored" data-anchor-id="loading-the-sample">Loading the Sample</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/566700261" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="point-analysis-with-the-eds" class="level2">
+<h2 class="anchored" data-anchor-id="point-analysis-with-the-eds">Point Analysis with the EDS</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/566697766" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="focusing-the-sample" class="level2">
+<h2 class="anchored" data-anchor-id="focusing-the-sample">Focusing the sample</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/566711373" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="acquiring-a-montage-image-of-the-sample" class="level2">
+<h2 class="anchored" data-anchor-id="acquiring-a-montage-image-of-the-sample">Acquiring a Montage Image of the Sample</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/566707832" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="element-maps-with-the-eds" class="level2">
+<h2 class="anchored" data-anchor-id="element-maps-with-the-eds">Element Maps with the EDS</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/566703279" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="display-the-results-of-an-element-map" class="level2">
+<h2 class="anchored" data-anchor-id="display-the-results-of-an-element-map">Display the Results of an Element Map</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/566965014" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="unload-the-sample-and-switch-off-the-machine" class="level2">
+<h2 class="anchored" data-anchor-id="unload-the-sample-and-switch-off-the-machine">Unload the Sample and Switch Off the Machine</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/566709937" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
 </section>

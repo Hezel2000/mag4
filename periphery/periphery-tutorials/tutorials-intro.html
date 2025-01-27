@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Operation – mag4</title>
+<title>Welcome – mag4</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -184,8 +184,7 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#standards" id="toc-standards" class="nav-link active" data-scroll-target="#standards">Standards</a></li>
-  <li><a href="#samples" id="toc-samples" class="nav-link" data-scroll-target="#samples">Samples</a></li>
+  <li><a href="#tutorials" id="toc-tutorials" class="nav-link active" data-scroll-target="#tutorials">Tutorials</a></li>
   </ul>
 </nav>
     </div>
@@ -194,7 +193,7 @@ cookieconsent.run({
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Operation</h1>
+<h1 class="title">Welcome</h1>
 </div>
 
 
@@ -211,13 +210,9 @@ cookieconsent.run({
 </header>
 
 
-<section id="standards" class="level3">
-<h3 class="anchored" data-anchor-id="standards">Standards</h3>
-<p>A standard folder called <em>std</em> in which the results of standard control measurements are stored.</p>
-</section>
-<section id="samples" class="level3">
-<h3 class="anchored" data-anchor-id="samples">Samples</h3>
-<p>The sample folder called <em>whatever</em> in which the sample results are stored.</p>
+<section id="tutorials" class="level2">
+<h2 class="anchored" data-anchor-id="tutorials">Tutorials</h2>
+<p>Check out the sidebar.</p>
 
 
 </section>
@@ -315,7 +310,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/Hezel2000\.github\.io\/mag4\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

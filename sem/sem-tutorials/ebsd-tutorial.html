@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Operation – mag4</title>
+<title>EBSD – mag4</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,7 +92,7 @@ cookieconsent.run({
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -114,7 +114,7 @@ cookieconsent.run({
 <span class="menu-text">Microprobe</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../sem/sem-intro.html"> 
+    <a class="nav-link active" href="../../sem/sem-intro.html" aria-current="page"> 
 <span class="menu-text">SEM</span></a>
   </li>  
   <li class="nav-item">
@@ -174,27 +174,106 @@ cookieconsent.run({
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sem/sem-tutorials/sem-tutorial.html">SEM Tutorials</a></li><li class="breadcrumb-item"><a href="../../sem/sem-tutorials/ebsd-tutorial.html">EBSD</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Introduction</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sem/sem-intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">SEM</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">SEM Tutorials</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sem/sem-tutorials/sem-tutorial.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">SEM</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sem/sem-tutorials/ebsd-tutorial.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">EBSD</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#standards" id="toc-standards" class="nav-link active" data-scroll-target="#standards">Standards</a></li>
-  <li><a href="#samples" id="toc-samples" class="nav-link" data-scroll-target="#samples">Samples</a></li>
+  <li><a href="#vorbereitungen-0925" id="toc-vorbereitungen-0925" class="nav-link active" data-scroll-target="#vorbereitungen-0925">Vorbereitungen [09:25]</a>
+  <ul class="collapse">
+  <li><a href="#einbau-der-probe-sicherheitsabstand-einstellen-409" id="toc-einbau-der-probe-sicherheitsabstand-einstellen-409" class="nav-link" data-scroll-target="#einbau-der-probe-sicherheitsabstand-einstellen-409">Einbau der Probe &amp; Sicherheitsabstand einstellen [4:09]</a></li>
+  <li><a href="#verzerrung-durch-die-70º-neigung-der-probe-korrigieren-133" id="toc-verzerrung-durch-die-70º-neigung-der-probe-korrigieren-133" class="nav-link" data-scroll-target="#verzerrung-durch-die-70º-neigung-der-probe-korrigieren-133">Verzerrung durch die 70º Neigung der Probe korrigieren [1:33]</a></li>
+  <li><a href="#arbeitsabstand-einstellen-103" id="toc-arbeitsabstand-einstellen-103" class="nav-link" data-scroll-target="#arbeitsabstand-einstellen-103">Arbeitsabstand einstellen [1:03]</a></li>
+  <li><a href="#detektor-einschalten-einfahren-241" id="toc-detektor-einschalten-einfahren-241" class="nav-link" data-scroll-target="#detektor-einschalten-einfahren-241">Detektor einschalten &amp; einfahren [2:41]</a></li>
+  </ul></li>
+  <li><a href="#messungen-1806" id="toc-messungen-1806" class="nav-link" data-scroll-target="#messungen-1806">Messungen [18:06]</a>
+  <ul class="collapse">
+  <li><a href="#ebsd-analysen-mit-flamenco-947" id="toc-ebsd-analysen-mit-flamenco-947" class="nav-link" data-scroll-target="#ebsd-analysen-mit-flamenco-947">EBSD-Analysen mit Flamenco [9:47]</a></li>
+  <li><a href="#maps-aufnehmen-mit-flamenco-819" id="toc-maps-aufnehmen-mit-flamenco-819" class="nav-link" data-scroll-target="#maps-aufnehmen-mit-flamenco-819">Maps aufnehmen mit Flamenco [8:19]</a></li>
+  </ul></li>
+  <li><a href="#auswertungen-2433" id="toc-auswertungen-2433" class="nav-link" data-scroll-target="#auswertungen-2433">Auswertungen [24:33]</a>
+  <ul class="collapse">
+  <li><a href="#maps-bearbeiten-mit-tango-1149" id="toc-maps-bearbeiten-mit-tango-1149" class="nav-link" data-scroll-target="#maps-bearbeiten-mit-tango-1149">Maps bearbeiten mit Tango [11:49]</a></li>
+  <li><a href="#pol-figuren-mit-mambo-637" id="toc-pol-figuren-mit-mambo-637" class="nav-link" data-scroll-target="#pol-figuren-mit-mambo-637">Pol-Figuren mit Mambo [6:37]</a></li>
+  <li><a href="#mit-twist-eigene-daten-hinzufügen-454" id="toc-mit-twist-eigene-daten-hinzufügen-454" class="nav-link" data-scroll-target="#mit-twist-eigene-daten-hinzufügen-454">Mit Twist eigene Daten hinzufügen [4:54]</a></li>
+  <li><a href="#maps-mit-stitch-zusammen-fügen-113" id="toc-maps-mit-stitch-zusammen-fügen-113" class="nav-link" data-scroll-target="#maps-mit-stitch-zusammen-fügen-113">Maps mit Stitch zusammen fügen [1:13]</a></li>
+  </ul></li>
+  <li><a href="#abschluss-0038" id="toc-abschluss-0038" class="nav-link" data-scroll-target="#abschluss-0038">Abschluss [00:38]</a>
+  <ul class="collapse">
+  <li><a href="#detektor-heraus-fahren-038" id="toc-detektor-heraus-fahren-038" class="nav-link" data-scroll-target="#detektor-heraus-fahren-038">Detektor heraus fahren [0:38]</a></li>
+  <li><a href="#verzerrungskorrektur-zurück-stellen" id="toc-verzerrungskorrektur-zurück-stellen" class="nav-link" data-scroll-target="#verzerrungskorrektur-zurück-stellen">Verzerrungskorrektur zurück stellen</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sem/sem-tutorials/sem-tutorial.html">SEM Tutorials</a></li><li class="breadcrumb-item"><a href="../../sem/sem-tutorials/ebsd-tutorial.html">EBSD</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Operation</h1>
+<h1 class="title">EBSD</h1>
 </div>
 
 
@@ -211,15 +290,78 @@ cookieconsent.run({
 </header>
 
 
-<section id="standards" class="level3">
-<h3 class="anchored" data-anchor-id="standards">Standards</h3>
-<p>A standard folder called <em>std</em> in which the results of standard control measurements are stored.</p>
+<section id="vorbereitungen-0925" class="level1">
+<h1>Vorbereitungen [09:25]</h1>
+<section id="einbau-der-probe-sicherheitsabstand-einstellen-409" class="level2">
+<h2 class="anchored" data-anchor-id="einbau-der-probe-sicherheitsabstand-einstellen-409">Einbau der Probe &amp; Sicherheitsabstand einstellen [4:09]</h2>
+<p>Die Probe muss bedampft sein, und ausreichend leitend über Kupfer-Band mit dem Halter verbunden sein –&nbsp;wie im Video zu sehen. Anschließend wird die Probe eingebaut, wobei aufgrund der großen Höhe des Halters unbedingt ein Sicherheitsabstand eingestellt werden muss.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/Z6StuZMDuo4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="samples" class="level3">
-<h3 class="anchored" data-anchor-id="samples">Samples</h3>
-<p>The sample folder called <em>whatever</em> in which the sample results are stored.</p>
+<section id="verzerrung-durch-die-70º-neigung-der-probe-korrigieren-133" class="level2">
+<h2 class="anchored" data-anchor-id="verzerrung-durch-die-70º-neigung-der-probe-korrigieren-133">Verzerrung durch die 70º Neigung der Probe korrigieren [1:33]</h2>
+<p>Die Probe ist um 70º geneigt, damit gebeugten Elektronen auf den Detektor auftreffen können. Allerdings verzerrt diese Neigung das Elektronen-Bild enorm. Das kann und sollte in jedem Fall durch die Software korrigiert werden. Nicht vergessen, diese Korrektur am Ende des Messtages wieder auf normal zurück zu stellen!</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/YTtqO7hvNoE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="arbeitsabstand-einstellen-103" class="level2">
+<h2 class="anchored" data-anchor-id="arbeitsabstand-einstellen-103">Arbeitsabstand einstellen [1:03]</h2>
+<p>Der Arbeitsabstand für EBSD-Messungen muss zunächst eingestellt werden, und sollte zwischen 16 und 21 mm liegen. Wir nehmen häufig 17 oder 20 mm.!</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/2AZ08PVZBDY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="detektor-einschalten-einfahren-241" class="level2">
+<h2 class="anchored" data-anchor-id="detektor-einschalten-einfahren-241">Detektor einschalten &amp; einfahren [2:41]</h2>
+<p>Der Detektor muss zunächst eingeschaltet und eingefahren werden. Das Video zeigt das in voller Länge –&nbsp;da darf vorsichtig ein wenig nach vorne gespult werden.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/gV9PL0qkNlM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+</section>
+<section id="messungen-1806" class="level1">
+<h1>Messungen [18:06]</h1>
+<section id="ebsd-analysen-mit-flamenco-947" class="level2">
+<h2 class="anchored" data-anchor-id="ebsd-analysen-mit-flamenco-947">EBSD-Analysen mit Flamenco [9:47]</h2>
+<p>Die EBSD-Programme –&nbsp;für Analysen wie Auswertungen –&nbsp;scheinen von irgendwelchen Tanz-Verrückten programmiert, zumindest heißen sie alle nach Tänzen. Mit dem ersten Programm –&nbsp;Flamenco –&nbsp;werden die eigentlichen EBSD-Analysen gemacht. Wir schauen uns zunächst an, wie einzelne Punkte mit Flamenco gemessen werden, d.h. wie bestimmen die Orientierung eines einzelnen Minerals. Dazu wählt man aus einer Liste zunächst die Minerale aus, welche man in der Probe erwartet, d.h., man sollt wissen, welche Minerale man untersuchen möchte.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/1aplDNKy1wo" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="maps-aufnehmen-mit-flamenco-819" class="level2">
+<h2 class="anchored" data-anchor-id="maps-aufnehmen-mit-flamenco-819">Maps aufnehmen mit Flamenco [8:19]</h2>
+<p>Sehr häufig möchte man die Verteilung aller Mineralorientierungen in einem Gestein, d.h. in einem Schliff wissen. Dazu nimmt man automatisiert ein Raster von Punkten über einen Ausschnitt der Probe, oder die gesamte Probe auf. Diese EBSD-Maps können wieder sehr einfach mit Flamenco programmiert und aufgenommen werden.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/oy94IKkPbZI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+</section>
+<section id="auswertungen-2433" class="level1">
+<h1>Auswertungen [24:33]</h1>
+<section id="maps-bearbeiten-mit-tango-1149" class="level2">
+<h2 class="anchored" data-anchor-id="maps-bearbeiten-mit-tango-1149">Maps bearbeiten mit Tango [11:49]</h2>
+<p>Die Orientierungen der Minerale lassen sich mit dem Programm Tango farbcodiert darstellen. Es können eine Vielzahl unterschiedlicher Parameter ausgewählt und auf Maps wiedergegeben werden.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/amw6yzRRwQI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="pol-figuren-mit-mambo-637" class="level2">
+<h2 class="anchored" data-anchor-id="pol-figuren-mit-mambo-637">Pol-Figuren mit Mambo [6:37]</h2>
+<p>Mit dem Programm Mambo können dann die Mineralorientierungen in Pol-Figuren dargestellt werden. Besonders elegant ist die Verbindung mit Tango, sodass die Farbcodierung der Polfiguren in Mambo den Farbcodierungen der Maps in Tango entspricht.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/g8F_IAOqpLs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="mit-twist-eigene-daten-hinzufügen-454" class="level2">
+<h2 class="anchored" data-anchor-id="mit-twist-eigene-daten-hinzufügen-454">Mit Twist eigene Daten hinzufügen [4:54]</h2>
+<p>Möglicherweise möchte man ein Mineral untersuchen, das in keiner der angebotenen Datenbanken existiert. Dann kann mit dem Programm Twist das zu untersuchende Mineral manuell hinzugefügt werden. Dazu müssen allerdings die kristallgraphischen Parameter des Minerals bekannt sein, welche über eine Eingabemaske dem Programm mitgeteilt werden müssen.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/Rd5ekqxuzy8" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="maps-mit-stitch-zusammen-fügen-113" class="level2">
+<h2 class="anchored" data-anchor-id="maps-mit-stitch-zusammen-fügen-113">Maps mit Stitch zusammen fügen [1:13]</h2>
+<p>Hat man mehrere benachbarte Maps gemessen, können diese mit dem Programm Stitch zusammen gefügt werden, allerdings nur, wenn die Maps mit derselben Step-Size aufgenommen wurden –&nbsp;darauf sollte man entsprechend bei der Erstellung der Maps achten. Nachdem eine solche kombinierte Map erstellt wurde, kann diese mit den oben erklärten Programm als Gesamtmap ausgewertet werden.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/xyP3CYE4Oig" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+</section>
+<section id="abschluss-0038" class="level1">
+<h1>Abschluss [00:38]</h1>
+<section id="detektor-heraus-fahren-038" class="level2">
+<h2 class="anchored" data-anchor-id="detektor-heraus-fahren-038">Detektor heraus fahren [0:38]</h2>
+<p>Zum Abschluss in jedem Fall den Detektor heraus fahren, die Probe entnehmen, Probenkammer wieder evakuieren, alles aufräumen –&nbsp;und die Probe am Besten gleich wieder mitnehmen.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/I0pjV1mEfSc" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="verzerrungskorrektur-zurück-stellen" class="level2">
+<h2 class="anchored" data-anchor-id="verzerrungskorrektur-zurück-stellen">Verzerrungskorrektur zurück stellen</h2>
+<p>Siehe Kapitel 1.2: die Software-Korrektur für die Elektronen-Bilder wieder zurück stellen.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
