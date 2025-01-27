@@ -7,6 +7,7 @@ website:
     background: primary
     search: true
     left:
+      - OLAT Wiki Einträge.qmd
       # - text: "Home"
       #   file: index.qmd
       - text: "Microprobe"
@@ -44,9 +45,10 @@ website:
       collapse-level: 1
       contents:
         - microprobe/epma-intro.qmd
-        - section: 'Data Access'
+        - section: 'Measurements'
           contents:
-          - microprobe/data-access/epmatools-data-access.qmd
+          - microprobe/data-access/request-time.qmd
+          - microprobe/data-access/access-data.qmd
           - microprobe/data-access/kadi4mat-backend-eln.qmd
         - section: 'Flank Method'
           contents:
@@ -57,9 +59,8 @@ website:
           - microprobe/flank-method/publications.qmd
           - microprobe/flank-method/code.qmd
           - microprobe/flank-method/glossary.qmd
-        - microprobe/tools/resources.qmd
         - microprobe/epma-tutorials/epma-tutorials.qmd
-        - microprobe/measurement-request/provide-info.qmd
+        - microprobe/tools/resources.qmd
     
     - title: 'SEM'
       collapse-level: 1
@@ -67,7 +68,7 @@ website:
         - section: 'Introduction'
           contents:
             - sem/sem-intro.qmd
-        - section: 'SEM Tutorials'
+        - section: 'Tutorials'
           contents:
             - sem/sem-tutorials/sem-tutorial.qmd
             - sem/sem-tutorials/ebsd-tutorial.qmd

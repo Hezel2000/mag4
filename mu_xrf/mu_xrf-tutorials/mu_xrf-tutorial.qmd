@@ -1,5 +1,5 @@
 ---
-title: 'µ.XRF tutorials'
+title: 'Tutorials'
 ---
 
 ## The micro X-ray flourescense (µ.XRF)

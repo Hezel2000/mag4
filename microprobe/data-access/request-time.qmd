@@ -1,4 +1,4 @@
-# Request Time
+# Requesting Time
 
 ## EPMA measurement request & info
 Please fill out the form below.

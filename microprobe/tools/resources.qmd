@@ -1,4 +1,4 @@
-# Misc
+# Apps
 
 ## This app contains the following, handy tools:
 - Searchable standards of the IfG EPMA  
