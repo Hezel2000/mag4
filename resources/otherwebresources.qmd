@@ -11,6 +11,27 @@ https://pyrolite.readthedocs.io/en/main/#
 
 http://onegeochemistry.org
 
+## Societies & Journals
+[MAS – Microanalysis Society](https://the-mas.org)  
+[EMAS – European Microbeam Analysis Society](https://www.microbeamanalysis.eu)  
+[IAG – International Association of Geoanalysts](http://www.geoanalyst.org)  
+[DGE – Deutsche Gesellschaft für Elektronenmikroskopie](https://www.dge-homepage.de)  
+[Weitere](https://www.dge-homepage.de/gesellschaften.html)  
+[Microscopy and Microanalysis](https://www.cambridge.org/core/journals/microscopy-and-microanalysis)
+
+## Monte Carlo
+Das Programm zeigt u. a. wie sich Elektronen nach Beschuss in einem Material ausbreiten, wo Röntgenstrahlung entsteht, wie viel absorbiert wird, etc.  
+[Casino Software](https://www.gel.usherbrooke.ca/casino/What.html)
+[Hier habe ich ein kurzes Erklärvideo dazu gemacht.](https://vimeo.com/545430511)
+
+**Elektronen-Bindungsenergien: Webseite, Datenbank und PSE**  
+[Die sehr gute Webseite von Gwyn P. Williams](https://userweb.jlab.org/~gwyn/)  
+[PSE mit den Bindungsenergien](https://userweb.jlab.org/~gwyn/ElectronBindingChart-1.pdf)
+
+**Elektronenübergangsenergien**  
+[NIST Standard Reference Database 128: X-Ray Transition Energies](https://www.nist.gov/pml/x-ray-transition-energies-database)  
+[X-Ray Transition Energies Database](https://physics.nist.gov/PhysRefData/XrayTrans/Html/search.html/)
+
 # Misc
 https://topomap.streamlit.app
 https://worm-portal.asu.edu

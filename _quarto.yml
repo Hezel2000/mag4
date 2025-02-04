@@ -60,6 +60,10 @@ website:
           - microprobe/flank-method/code.qmd
           - microprobe/flank-method/glossary.qmd
         - microprobe/epma-tutorials/epma-tutorials.qmd
+<<<<<<< HEAD
+=======
+        - microprobe/trouble-shooting/trouble-shooting.qmd
+>>>>>>> 586ce05 (updates)
         - microprobe/tools/resources.qmd
     
     - title: 'SEM'
@@ -86,12 +90,11 @@ website:
     - title: "Periphery"
       collapse-level: 1
       contents:
-        - section: 'Introduction'
-          contents:
-          - periphery/periphery-intro.qmd
-        - section: 'periphery tutorials'
+        - periphery/periphery-intro.qmd
+        - section: 'Some Section'
           contents:
             - periphery/periphery-tutorials/preparation-tutorial.qmd
+        - periphery/periphery-tutorials/preparation-tutorial.qmd
 
     - title: "Mass-Spectrometry"
       collapse-level: 1
@@ -115,6 +118,7 @@ website:
         - resources/resources-intro.qmd
         - resources/visualising-geochemical-databases.qmd
         - resources/powder-standards.qmd
+        - resources/glossary.qmd
     
     # - title: "Courses"
     #   collapse-level: 1

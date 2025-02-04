@@ -2,4 +2,4 @@
 title: 'SEM'
 ---
 
-JEOL ...
+JEOL JSM-6490

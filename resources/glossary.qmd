@@ -1,0 +1,19 @@
+---
+title: 'Glossary' 
+---
+
+**BSE** **B**ack**s**cattered **E**lectrons (Rückstreu-Elektronen) – mit diesen wird ein grauskaliertes, relieffreies Bild aufgenommen  
+**CL** **C**athodo**l**uminescence (Kathonden-Lumineszenz)  
+**EDS** **E**nergie **D**ispersives **S**pektrometer – mittels eines Halbleiter-Detektors. Früher mussten diese mit Stickstoff gekühlt werden, heutige, z.B. Si-Driftdetektoren brauchen das nicht mehr.  
+**EPMA** **E**lectron **P**robe **M**icro-**A**nalszer (Elektronenstrahl-Mikrosonde)  
+**Faraday-Cup** Zum Delektieren des Probenstroms (-> PCD) und/oder unterbrechen des Elektronenstrahls  
+**OM/OML** **O**ptical-**M**icroscopy **L**amp  
+**PAP** Eine Rechenvorschrift zur Korrektur der gemessenen Counts eine Elements, die von der Zusammensetzung (= Matrix) der Probe abhängt. Diese spezielle Korrektur wurde von J. L. Pouchou & F. Pichoir entwickelt. Die beiden haben darüber mehrere Artikel geschrieben, z.B.: [https://link.springer.com/chapter/10.1007%2F978-1-4899-2617-3_4 Pouchou, J.L. & Pichoir, F (1991)]  
+**PCD** **P**robe **C**urrent **D**etector (= Faraday Cup) – Zum Delektieren des Probenstroms (-> PCD) und/oder unterbrechen des Elektronenstrahls  
+**PHA** **P**ulse **H**ight **A**nalysis  
+**REM** **R**aster-**E**lektronen**m**ikroskop (im Englischen SEM für **S**canning **E**lectron **M**icroscope)  
+**SCA** **S**ingle **C**hannel **A**nalyser  
+**SE** **S**econdary **E**lectrons (Sekundär-Elektronen) – mit diesen wird grauskaliertes Bild aufgenommen, auf dem 3D Strukturen sehr gut erkennbar sind.  
+**SEM** für **S**canning **E**lectron **M**icroscope (deutsch: REM für **R**aster-**E**lektronen**m**ikroskop)  
+**WDS** **W**ellenlängen **D**ispersives **S**pektrometer – mittels Analysator-Kristallen wird über die Bragg-Reflexion nur eine Wellenlänge reflektiert und anschließend im Detektor gezählt.  
+**ZAF** Eine Rechenvorschrift zur Korrektur der gemessenen Counts eine Elements, die von der Zusammensetzung (= Matrix) der Probe abhängt: **Z**: Ordnungszahl der Elemente in der Probe, **A**: Absorption in der Probe, **F**: Fluoreszenz in der Probe.
