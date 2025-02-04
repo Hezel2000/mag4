@@ -2,8 +2,50 @@
 title: 'Welcome'
 ---
 
-# Electron Microprobe Data Processing
+# Electronprobe Micro-Analyser (EPMA)
 
-The flank data reduction application, including all documentation is up and running – check it out from the sidebar.
+Die Elektronenstrahl-Mikrosonde ist ein JEOL JXA-8530F Plus Hyperprobe mit Feldemissionskathode (FEG – Field Emission Gun) und wurde am 25. Februar 2019 installiert.
 
-The data processing application is in development, a sneak peak is available.
+Die Sonde ist ausgestattet mit:</br>
+
+*5 Wellenlängen-Dispersiven Spektrometern (WDS)
+*Einem Energiedispersiven Spektrometer (EDS)
+*Schwarz-Weiß Kathodolumineszenz (CL)
+*Einer Kühlfalle plus Airjet, im Besonderne für leichte Elemente
+
+## Vorbereitung
+
+*Routinemäßig polierte Dünn- oder Anschliffe im Rechteckformat (ca. 28 mm x 48 mm) oder rund (Durchmesser 25,4 mm)
+*Beliebig geformte Proben (max. 100 mm x 100 mm x 50 mm) mit unebener Oberfläche; maximal erlaubte Höhenunterschiede der Probenoberfläche: 2 mm. Bitte beachten: bei unebener Oberfläche ist keine verlässliche quantitative Analyse möglich. Maximal analysierbare Fläche: 90 mm x 90 mm.
+*Die Probenoberfläche muss in jedem Fall elektrisch leitend sein, d.h. sie wird in der Regel vor der Mikrosondenanalyse bedampft (z.B. mit C).
+
+## Spektrometer-Belegung
+
+| Spektrometer | Kristalle                           | Zähler                           | Spalt                      | Rowland-Kreis (Radius) | mm-Bereich        |
+|--------------|-------------------------------------|----------------------------------|----------------------------|------------------------|-------------------|
+| 1, N-type    | TAP, PET, LDE1 ([C], N, O, F), LDE2 (B, C, N) | gas-flow Ar(90)CH4(10)          | 300 µm, offen für Multilayer | 140 mm                | 69.701 - 259.951  |
+| 2, L-type    | TAPL, PETL                         | gas-flow Ar(90)CH4(10)          | 300 µm                    | 140 mm                | 69.561 - 259.766  |
+| 3, L-type    | LiFL, PETL                         | geschlossener Xe                | 300 µm                    | 140 mm                | 69.621 - 259.686  |
+| 4, L-type    | TAPL, LDE6L (B, C)                 | gas-flow Ar(90)CH4(10)          | 300 µm                    | 140 mm                | 69.371 - 259.631  |
+| 5, H-type    | LiFH, PETH                         | geschlossener Xe                | 500 µm                    | 100 mm                | 85.281 - 240.295  |
+
+### Kristall-Typen
+
+- **TAP**: Thallium-Phthalat-Säure, 2d = 25.757 Å  
+- **LiF**: Lithium-Fluorid, 2d = 4.0267 Å  
+- **PET**: Penta-Erythritol, 2d = 8.742 Å  
+- **LDE**: künstliche *layered dispersive element* Kristalle (Multilayer), LDE1: 2d = 60 Å, LDE6: 2d = xx Å  
+
+### Hinweise
+
+- **N**: Normal große Kristalle. Davon passen 4 Stück auf den Kristallwechsler.  
+- **L**: Large Crystals: Die Analysator-Kristalle sind größer und ergeben höhere Intensitäten. Davon passen max. 2 Stück auf den Kristallwechsler.  
+- **H**: High intensity  
+
+[[Category:Rasterelektronen-Mikroskop, REM (JEOL JSM-6490)]]
+
+![image](images/REM_Spektrometer_Konfiguration.png)
+
+## Ti in Zircon Method
+
+Electron-probe (EPMA) measurements followed a similar protocol as described in Baldwin et al. 2007. We used a JEOL JXA-8530F Plus EPMA at the Institut für Geowissenschaften, Goethe Universität Frankfurt, and with the following setup (Channel, Analyser-Crystal, Standard): Si (Ch-1, TAP, Zircon 91500), Y (Ch-2, PETL, YPO4), Ti (Ch-3, PETL, SrTiO3), Hf (Ch-4, TAPL, ), Zr (Ch-5, PETH, Zircon 91500). We used differential mode for most elements to cut off higher order interferences that are a particular problem for Ti (e.g., Hf Lb(2)(this needs to be re-checked, only from what I remember) on Ti Ka). Individual points were measured at 15 kV and 150 nA. Ti was measured for 200 s on the peak and 100 on the backgrounds, resulting in a detection limit of approx. 25 wt-ppm. Other elements were measured between 20 and 60 s on the peak half the peak time on the backgrounds. The spot-size was set to a circle of 3 µm for all measurements. Data reduction was performed using the build-in the ZAF (oxide) algorithm.
