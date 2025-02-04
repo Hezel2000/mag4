@@ -4,7 +4,7 @@ title: 'Tutorials'
 
 # Carbon Coating
 
-## Die Proben-Vorbereitung (Präparation)
+## Lab-Tour through the sample preparation
 {{< video https://vimeo.com/541034667 >}}
 
 ## Preparing the Sample
