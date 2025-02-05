@@ -347,24 +347,14 @@
     "href": "mass-spec/mass-spec-intro.html",
     "title": "Mass-Spectrometry Data Processing",
     "section": "",
-    "text": "The boron data reduction application is up and running, check it out from the sidebar.\nMore, in particular Fe-isotope applicatinos are coming later inn 2023.",
-    "crumbs": [
-      "Mass Spectrometry",
-      "Introduction",
-      "Mass-Spectrometry Data Processing"
-    ]
+    "text": "The boron data reduction application is up and running, check it out from the sidebar.\nMore, in particular Fe-isotope applicatinos are coming later inn 2023."
   },
   {
     "objectID": "mass-spec/boron/application.html",
     "href": "mass-spec/boron/application.html",
     "title": "Application",
     "section": "",
-    "text": "This way to the boron data reduction application.",
-    "crumbs": [
-      "Mass Spectrometry",
-      "B-isotopes",
-      "Application"
-    ]
+    "text": "This way to the boron data reduction application."
   },
   {
     "objectID": "mass-spec/iron/basics.html",
@@ -812,31 +802,42 @@
     "href": "resources/otherwebresources.html",
     "title": "Other Great Web Resources",
     "section": "",
-    "text": "https://pyrolite.readthedocs.io/en/main/#"
+    "text": "https://pyrolite.readthedocs.io/en/main/#",
+    "crumbs": [
+      "Resources",
+      "Other Great Web Resources"
+    ]
   },
   {
     "objectID": "resources/otherwebresources.html#societies-journals",
     "href": "resources/otherwebresources.html#societies-journals",
     "title": "Other Great Web Resources",
     "section": "Societies & Journals",
-    "text": "Societies & Journals\nMAS – Microanalysis Society\nEMAS – European Microbeam Analysis Society\nIAG – International Association of Geoanalysts\nDGE – Deutsche Gesellschaft für Elektronenmikroskopie\nWeitere\nMicroscopy and Microanalysis"
+    "text": "Societies & Journals\nMAS – Microanalysis Society\nEMAS – European Microbeam Analysis Society\nIAG – International Association of Geoanalysts\nDGE – Deutsche Gesellschaft für Elektronenmikroskopie\nWeitere\nMicroscopy and Microanalysis",
+    "crumbs": [
+      "Resources",
+      "Other Great Web Resources"
+    ]
   },
   {
     "objectID": "resources/otherwebresources.html#monte-carlo",
     "href": "resources/otherwebresources.html#monte-carlo",
     "title": "Other Great Web Resources",
     "section": "Monte Carlo",
-    "text": "Monte Carlo\nDas Programm zeigt u. a. wie sich Elektronen nach Beschuss in einem Material ausbreiten, wo Röntgenstrahlung entsteht, wie viel absorbiert wird, etc.\nCasino Software Hier habe ich ein kurzes Erklärvideo dazu gemacht.\nElektronen-Bindungsenergien: Webseite, Datenbank und PSE\nDie sehr gute Webseite von Gwyn P. Williams\nPSE mit den Bindungsenergien\nElektronenübergangsenergien\nNIST Standard Reference Database 128: X-Ray Transition Energies\nX-Ray Transition Energies Database"
+    "text": "Monte Carlo\nDas Programm zeigt u. a. wie sich Elektronen nach Beschuss in einem Material ausbreiten, wo Röntgenstrahlung entsteht, wie viel absorbiert wird, etc.\nCasino Software Hier habe ich ein kurzes Erklärvideo dazu gemacht.\nElektronen-Bindungsenergien: Webseite, Datenbank und PSE\nDie sehr gute Webseite von Gwyn P. Williams\nPSE mit den Bindungsenergien\nElektronenübergangsenergien\nNIST Standard Reference Database 128: X-Ray Transition Energies\nX-Ray Transition Energies Database",
+    "crumbs": [
+      "Resources",
+      "Other Great Web Resources"
+    ]
   },
   {
     "objectID": "resources/resources-intro.html",
     "href": "resources/resources-intro.html",
-    "title": "Welcome",
+    "title": "Resources",
     "section": "",
-    "text": "The first available tool lets you explore our availabe epma and powder standards.",
+    "text": "This is a currently lose selection of resources we built, which are continously expanded.",
     "crumbs": [
-      "Resources",
-      "Welcome"
+      "Resources"
     ]
   },
   {
