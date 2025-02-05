@@ -110,8 +110,9 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../OLAT Wiki Einträge.html"> 
-<span class="menu-text">Intro</span></a>
+    <span class="nav-link">
+<span class="menu-text">OLAT Wiki Einträge.qmd</span>
+    </span>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../microprobe/epma-intro.html" aria-current="page"> 
@@ -290,6 +291,9 @@ cookieconsent.run({
   </div>
 </li>
         <li class="sidebar-item">
+ <span class="menu-text">microprobe/trouble-shooting/trouble-shooting.qmd</span>
+  </li>
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../microprobe/tools/resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Apps</span></a>
@@ -305,7 +309,16 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#electron-microprobe-data-processing" id="toc-electron-microprobe-data-processing" class="nav-link active" data-scroll-target="#electron-microprobe-data-processing">Electron Microprobe Data Processing</a></li>
+  <li><a href="#electronprobe-micro-analyser-epma" id="toc-electronprobe-micro-analyser-epma" class="nav-link active" data-scroll-target="#electronprobe-micro-analyser-epma">Electronprobe Micro-Analyser (EPMA)</a>
+  <ul class="collapse">
+  <li><a href="#vorbereitung" id="toc-vorbereitung" class="nav-link" data-scroll-target="#vorbereitung">Vorbereitung</a></li>
+  <li><a href="#spektrometer-belegung" id="toc-spektrometer-belegung" class="nav-link" data-scroll-target="#spektrometer-belegung">Spektrometer-Belegung</a>
+  <ul class="collapse">
+  <li><a href="#kristall-typen" id="toc-kristall-typen" class="nav-link" data-scroll-target="#kristall-typen">Kristall-Typen</a></li>
+  <li><a href="#hinweise" id="toc-hinweise" class="nav-link" data-scroll-target="#hinweise">Hinweise</a></li>
+  </ul></li>
+  <li><a href="#ti-in-zircon-method" id="toc-ti-in-zircon-method" class="nav-link" data-scroll-target="#ti-in-zircon-method">Ti in Zircon Method</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -331,12 +344,115 @@ cookieconsent.run({
 </header>
 
 
-<section id="electron-microprobe-data-processing" class="level1">
-<h1>Electron Microprobe Data Processing</h1>
-<p>The flank data reduction application, including all documentation is up and running – check it out from the sidebar.</p>
-<p>The data processing application is in development, a sneak peak is available.</p>
+<section id="electronprobe-micro-analyser-epma" class="level1">
+<h1>Electronprobe Micro-Analyser (EPMA)</h1>
+<p>Die Elektronenstrahl-Mikrosonde ist ein JEOL JXA-8530F Plus Hyperprobe mit Feldemissionskathode (FEG –&nbsp;Field Emission Gun) und wurde am 25. Februar 2019 installiert.</p>
+<p>Die Sonde ist ausgestattet mit:<br></p>
+<p><em>5 Wellenlängen-Dispersiven Spektrometern (WDS) </em>Einem Energiedispersiven Spektrometer (EDS) <em>Schwarz-Weiß Kathodolumineszenz (CL) </em>Einer Kühlfalle plus Airjet, im Besonderne für leichte Elemente</p>
+<section id="vorbereitung" class="level2">
+<h2 class="anchored" data-anchor-id="vorbereitung">Vorbereitung</h2>
+<p><em>Routinemäßig polierte Dünn- oder Anschliffe im Rechteckformat (ca. 28 mm x 48 mm) oder rund (Durchmesser 25,4 mm) </em>Beliebig geformte Proben (max. 100 mm x 100 mm x 50 mm) mit unebener Oberfläche; maximal erlaubte Höhenunterschiede der Probenoberfläche: 2 mm. Bitte beachten: bei unebener Oberfläche ist keine verlässliche quantitative Analyse möglich. Maximal analysierbare Fläche: 90 mm x 90 mm. *Die Probenoberfläche muss in jedem Fall elektrisch leitend sein, d.h. sie wird in der Regel vor der Mikrosondenanalyse bedampft (z.B. mit C).</p>
+</section>
+<section id="spektrometer-belegung" class="level2">
+<h2 class="anchored" data-anchor-id="spektrometer-belegung">Spektrometer-Belegung</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 23%">
+<col style="width: 21%">
+<col style="width: 17%">
+<col style="width: 15%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Spektrometer</th>
+<th>Kristalle</th>
+<th>Zähler</th>
+<th>Spalt</th>
+<th>Rowland-Kreis (Radius)</th>
+<th>mm-Bereich</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1, N-type</td>
+<td>TAP, PET, LDE1 ([C], N, O, F), LDE2 (B, C, N)</td>
+<td>gas-flow Ar(90)CH4(10)</td>
+<td>300 µm, offen für Multilayer</td>
+<td>140 mm</td>
+<td>69.701 - 259.951</td>
+</tr>
+<tr class="even">
+<td>2, L-type</td>
+<td>TAPL, PETL</td>
+<td>gas-flow Ar(90)CH4(10)</td>
+<td>300 µm</td>
+<td>140 mm</td>
+<td>69.561 - 259.766</td>
+</tr>
+<tr class="odd">
+<td>3, L-type</td>
+<td>LiFL, PETL</td>
+<td>geschlossener Xe</td>
+<td>300 µm</td>
+<td>140 mm</td>
+<td>69.621 - 259.686</td>
+</tr>
+<tr class="even">
+<td>4, L-type</td>
+<td>TAPL, LDE6L (B, C)</td>
+<td>gas-flow Ar(90)CH4(10)</td>
+<td>300 µm</td>
+<td>140 mm</td>
+<td>69.371 - 259.631</td>
+</tr>
+<tr class="odd">
+<td>5, H-type</td>
+<td>LiFH, PETH</td>
+<td>geschlossener Xe</td>
+<td>500 µm</td>
+<td>100 mm</td>
+<td>85.281 - 240.295</td>
+</tr>
+</tbody>
+</table>
+<section id="kristall-typen" class="level3">
+<h3 class="anchored" data-anchor-id="kristall-typen">Kristall-Typen</h3>
+<ul>
+<li><strong>TAP</strong>: Thallium-Phthalat-Säure, 2d = 25.757 Å<br>
+</li>
+<li><strong>LiF</strong>: Lithium-Fluorid, 2d = 4.0267 Å<br>
+</li>
+<li><strong>PET</strong>: Penta-Erythritol, 2d = 8.742 Å<br>
+</li>
+<li><strong>LDE</strong>: künstliche <em>layered dispersive element</em> Kristalle (Multilayer), LDE1: 2d = 60 Å, LDE6: 2d = xx Å</li>
+</ul>
+</section>
+<section id="hinweise" class="level3">
+<h3 class="anchored" data-anchor-id="hinweise">Hinweise</h3>
+<ul>
+<li><strong>N</strong>: Normal große Kristalle. Davon passen 4 Stück auf den Kristallwechsler.<br>
+</li>
+<li><strong>L</strong>: Large Crystals: Die Analysator-Kristalle sind größer und ergeben höhere Intensitäten. Davon passen max. 2 Stück auf den Kristallwechsler.<br>
+</li>
+<li><strong>H</strong>: High intensity</li>
+</ul>
+<p>[[Category:Rasterelektronen-Mikroskop, REM (JEOL JSM-6490)]]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/REM_Spektrometer_Konfiguration.png" class="img-fluid figure-img"></p>
+<figcaption>image</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="ti-in-zircon-method" class="level2">
+<h2 class="anchored" data-anchor-id="ti-in-zircon-method">Ti in Zircon Method</h2>
+<p>Electron-probe (EPMA) measurements followed a similar protocol as described in Baldwin et al.&nbsp;2007. We used a JEOL JXA-8530F Plus EPMA at the Institut für Geowissenschaften, Goethe Universität Frankfurt, and with the following setup (Channel, Analyser-Crystal, Standard): Si (Ch-1, TAP, Zircon 91500), Y (Ch-2, PETL, YPO4), Ti (Ch-3, PETL, SrTiO3), Hf (Ch-4, TAPL, ), Zr (Ch-5, PETH, Zircon 91500). We used differential mode for most elements to cut off higher order interferences that are a particular problem for Ti (e.g., Hf Lb(2)(this needs to be re-checked, only from what I remember) on Ti Ka). Individual points were measured at 15 kV and 150 nA. Ti was measured for 200 s on the peak and 100 on the backgrounds, resulting in a detection limit of approx. 25 wt-ppm. Other elements were measured between 20 and 60 s on the peak half the peak time on the backgrounds. The spot-size was set to a circle of 3 µm for all measurements. Data reduction was performed using the build-in the ZAF (oxide) algorithm.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
