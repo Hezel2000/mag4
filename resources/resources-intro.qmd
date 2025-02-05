@@ -1,5 +1,7 @@
 ---
-title: 'Welcome'
+title: 'Resources'
 ---
 
-The first available tool lets you explore our availabe epma and powder standards.
+This is a currently lose selection of resources we built, which are continously expanded.
+
+![](images/resources.jpg)

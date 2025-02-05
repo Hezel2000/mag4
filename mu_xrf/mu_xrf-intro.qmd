@@ -1,5 +1,8 @@
 ---
-title: µ.XRF
+title: µ.XRF Lab
 ---
 
-Eagle III
+The Eagle III in room GW 0.307 is mainly used for EDX element maps, but point analyses are also possible.  
+Tutorials how to operate the SEM are provided here in the respective section.
+
+![(Eagle III µ.XRF Lab)](images/micro-XRF-lab.jpg)

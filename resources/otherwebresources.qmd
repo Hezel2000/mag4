@@ -1,5 +1,5 @@
 ---
-title: 'Other Great Web Resources' 
+title: 'Other Web Resources' 
 ---
 
 # Pyrolite

@@ -1,5 +1,5 @@
 ---
-title: 'Welcome'
+title: 'EPMA Lab'
 ---
 
 # Electronprobe Micro-Analyser (EPMA)
@@ -12,6 +12,8 @@ Die Sonde ist ausgestattet mit:</br>
 *Einem Energiedispersiven Spektrometer (EDS)
 *Schwarz-Weiß Kathodolumineszenz (CL)
 *Einer Kühlfalle plus Airjet, im Besonderne für leichte Elemente
+
+![(JEOL JXA-8530F Plus Hyperprobe Lab)](images/epma-lab.jpg)
 
 ## Vorbereitung
 

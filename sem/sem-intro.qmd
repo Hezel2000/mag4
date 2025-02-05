@@ -1,5 +1,8 @@
 ---
-title: 'SEM'
+title: SEM Lab
 ---
 
-JEOL JSM-6490
+The JEOL JSM-6490 SEM in room GW 0.302 is equipped with a GATAN–CL, colour-CL Oxford–EDX with Inca software, and a EBSD unit.  
+Tutorials how to operate the SEM are provided here in the respective section.
+
+![(JEOL JSM-6490 SEM Lab)](images/sem_lab.jpg)

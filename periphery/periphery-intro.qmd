@@ -1,5 +1,8 @@
 ---
-title: 'Introduction'
+title: Preparation & Periphery Lab
 ---
 
-About this sub-page.
+The preparation with its periphery in room GW 0.303 offers a combined Pt-/Au-sputter and C-coating unit, an ion slicer, a cross-section polisher, a vacuum-dry oven and a fume hood.  
+Tutorials how to operate the SEM are provided here in the respective section.
+
+![(Preparation & Periphery Lab)](images/preparation-periphery-lab.jpg)

@@ -7,7 +7,6 @@ website:
     background: primary
     search: true
     left:
-      - OLAT Wiki Einträge.qmd
       # - text: "Home"
       #   file: index.qmd
       - text: "Microprobe"
@@ -18,8 +17,8 @@ website:
         file: mu_xrf/mu_xrf-intro.qmd
       - text: "Periphery"
         file: periphery/periphery-intro.qmd
-      - text: "Mass Spectrometry"
-        file: mass-spec/mass-spec-intro.qmd
+      # - text: "Mass Spectrometry"
+      #   file: mass-spec/mass-spec-intro.qmd
       - text: "Resources"
         file: resources/resources-intro.qmd
       - text: "Courses"
@@ -66,9 +65,7 @@ website:
     - title: 'SEM'
       collapse-level: 1
       contents:
-        - section: 'Introduction'
-          contents:
-            - sem/sem-intro.qmd
+        - sem/sem-intro.qmd
         - section: 'Tutorials'
           contents:
             - sem/sem-tutorials/sem-tutorial.qmd
@@ -77,10 +74,8 @@ website:
     - title: "µ.XRF"
       collapse-level: 1
       contents:
-        - section: 'Introduction'
-          contents:
-            - mu_xrf/mu_xrf-intro.qmd
-        - section: 'µ.XRF Tutorials'
+        - mu_xrf/mu_xrf-intro.qmd
+        - section: 'Tutorials'
           contents:
             - mu_xrf/mu_xrf-tutorials/mu_xrf-tutorial.qmd
 
@@ -88,21 +83,20 @@ website:
       collapse-level: 1
       contents:
         - periphery/periphery-intro.qmd
-        - section: 'Some Section'
+        - section: 'Tutorials'
           contents:
             - periphery/periphery-tutorials/preparation-tutorial.qmd
-        - periphery/periphery-tutorials/preparation-tutorial.qmd
 
-    - title: "Mass-Spectrometry"
-      collapse-level: 1
-      contents:
-        - section: 'Introduction'
-          contents:
-            - mass-spec/mass-spec-intro.qmd
-        - section: 'B-isotopes'
-          contents:
-        #    - mass-spec/boron/documentation.qmd
-            - mass-spec/boron/application.qmd
+    # - title: "Mass-Spectrometry"
+    #   collapse-level: 1
+    #   contents:
+    #     - section: 'Introduction'
+    #       contents:
+    #         - mass-spec/mass-spec-intro.qmd
+    #     - section: 'B-isotopes'
+    #       contents:
+    #     #    - mass-spec/boron/documentation.qmd
+    #         - mass-spec/boron/application.qmd
      #   - section: 'Fe-isotopes'
      #     contents:
      #       - mass-spec/iron/basics.qmd
@@ -115,6 +109,7 @@ website:
         - resources/resources-intro.qmd
         - resources/visualising-geochemical-databases.qmd
         - resources/powder-standards.qmd
+        - resources/otherwebresources.qmd
         - resources/glossary.qmd
     
     # - title: "Courses"
