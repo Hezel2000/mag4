@@ -35,302 +35,209 @@
     "text": "IfG\n\n\n\n\nPowder Standards"
   },
   {
-    "objectID": "courses/courses-intro.html",
-    "href": "courses/courses-intro.html",
-    "title": "Courses",
+    "objectID": "courses/data_science.html",
+    "href": "courses/data_science.html",
+    "title": "Data Science",
     "section": "",
-    "text": "Three courses are currenlty available:\n1. Data Science (german only, english coming later 2023)\n2. Cosmochemistry (german & english)\n3. Microanalytic (german only, english coming in 2024)\n\nWie zu schauen ist – oder zumindest: wie geschaut werden kann\nAnhalten, nachvollziehen, eventuell zurückspulen und dazu eigen Skizzen oder Mitschriebe anfertigen\nEinige wenige Videos haben aus rechtlichen Gründen ein Passwort, das erhaltet Ihr von mir.\n\n\n\n\n\nGeochemie I: Kosmochemie-Teil\n\n\n\nUmweltwissenschaften: Mikroanalytik-Teil"
+    "text": "Click here to go to the Data Science course.\nDie Veranstaltung besteht aus\n- ca. 100 Seiten Skript, aufgeteilt in die 3 Teilskripte - ca. 50 Videos mit insgesamt über 7 Stunden Material - über 100 Jupyter Notebooks mit &gt;100 Fragen, Aufgaben & Beispielen - &gt; 00 Selbstlern-Fragen mit Antworten - &gt;20 Aufgaben zur gemeinsamen Lösung in den Präsenzphasen und den Semester-Projekten - zahlreiche zusätzlicher Dateien für verschiedene Aufgaben"
   },
   {
-    "objectID": "courses/courses-intro.html#allgemeines",
-    "href": "courses/courses-intro.html#allgemeines",
-    "title": "Courses",
+    "objectID": "courses/data_science.html#einführung-installation-ein-erstes-programm-1.1-1.4-1142",
+    "href": "courses/data_science.html#einführung-installation-ein-erstes-programm-1.1-1.4-1142",
+    "title": "Data Science",
+    "section": "1 Einführung, Installation & ein erstes Programm: 1.1 – 1.4 [11:42]",
+    "text": "1 Einführung, Installation & ein erstes Programm: 1.1 – 1.4 [11:42]\nIn der ersten Stunde starten wir gemeinsam mit mit der Installation von Jupyter Notebooks, bzw. Anaconda. Wir lernen das Interface ein wenig kennen und schreiben ein erstes kleines Programm. Außerdem erkläre ich wie dieser Kurs im Flipped Classroom Format abläuft."
+  },
+  {
+    "objectID": "courses/data_science.html#rufe-eine-selbst-geschriebene-mischungs-funktion-auf-2.1-2.5-3917",
+    "href": "courses/data_science.html#rufe-eine-selbst-geschriebene-mischungs-funktion-auf-2.1-2.5-3917",
+    "title": "Data Science",
+    "section": "2 Rufe eine selbst geschriebene Mischungs-Funktion auf: 2.1 – 2.5 [39:17]",
+    "text": "2 Rufe eine selbst geschriebene Mischungs-Funktion auf: 2.1 – 2.5 [39:17]\nZum Programmieren verwenden wir Befehle, das sollte recht einleuchtend sein. Nun hat Python natürlich keine Befehle für die Geochemie, um mit so einem beispielsweise direkt auszurechnen wie die neue Zusammensetzung einer Schmelze ist, nachdem sie sich mit einer anderen gemischt hat. Praktisch wäre es aber schon. Nicht nur in der Geochemie, sondern für sehr vieles. Daher ist es möglich eigenen Befehle zu definieren – etwas zur Mischung von Magmen – um diese anschließend immer wieder zu verwenden. Es ist sogar möglich mehrere Befehle in einer Datei zu speichern, und aus dieser ›Bibliothek‹ immer wieder aufzurufen. Wie das geht lernen wir in dieser Einheit."
+  },
+  {
+    "objectID": "courses/data_science.html#erste-schritte-in-data-science-3.1-3.5-4321",
+    "href": "courses/data_science.html#erste-schritte-in-data-science-3.1-3.5-4321",
+    "title": "Data Science",
+    "section": "3 Erste Schritte in ›Data Science‹: 3.1 – 3.5 [43:21]",
+    "text": "3 Erste Schritte in ›Data Science‹: 3.1 – 3.5 [43:21]\nst.write(’In den vergangenen Jahren werden immer mehr Daten publiziert, deren Menge zukünftig noch schneller anwachsen wird. Es ist nicht leicht, all den Publikationen dieser erfreulich großen Mengen immer neuer Informationen zu folgen. Jupyter Notebooks wurden gerade auch dafür entwickelt, auf große Mengen an Daten zuzugreifen, diese zu visualisieren, analysieren und auf Problemstellungen anzuwenden. Natürlich ist das nur möglich, wenn die Daten in entsprechenden Formaten vorliegen. Oftmals ist daher im ersten Schritt ein ›Daten clean-up‹ notwendig. Seit 2020 gibt es nun endlich mehrere Initiativen, darunter so große wie die Nationale Forschungsdatenbank Initiative (NFDI) der DFG, GWK und anderer, die versuchen gemeinsam mit internationalen Partnern Daten besser verfügbar zu machen. Schon bestehende Datenbanken wie GeoROC, EarthChem oder auch MetBase erlauben schon seit langer Zeit solchen Zugang, und damit Data Science in z.B. der Geo- und Kosmochemie. In dieser Einheit steigen wir in das neue Feld der Data Science in der Mineralogie ein."
+  },
+  {
+    "objectID": "courses/data_science.html#interaktive-elemente-erste-programme-4.1-4.5-4142",
+    "href": "courses/data_science.html#interaktive-elemente-erste-programme-4.1-4.5-4142",
+    "title": "Data Science",
+    "section": "4 Interaktive Elemente & erste Programme: 4.1 – 4.5 [41:42]",
+    "text": "4 Interaktive Elemente & erste Programme: 4.1 – 4.5 [41:42]\nNun fehlt uns nur noch wenig Rüstzeug, um erste, leistungsfähige Programme zu schreiben. Dieses Verbleibende lernen wir in dieser Einheit, um dann tatsächlich 2 Programme zu bauen, welche Datenbank-Daten effektiv darstellen. Vor allem lernen wir hier interaktive Möglichkeiten kennen die es uns ermöglichen, mit den Daten über eine graphische Benutzeroberfläche direkt zu interagieren, diese zu manipulieren und immer wieder neu darzustellen."
+  },
+  {
+    "objectID": "courses/data_science.html#data-science-mit-api-requests-daten-auswertung-5.1-5.5-10322",
+    "href": "courses/data_science.html#data-science-mit-api-requests-daten-auswertung-5.1-5.5-10322",
+    "title": "Data Science",
+    "section": "5 Data Science mit API Requests & Daten-Auswertung 5.1 – 5.5 [1:03:22]",
+    "text": "5 Data Science mit API Requests & Daten-Auswertung 5.1 – 5.5 [1:03:22]\nEine besonders effektive und interessante Art auf Daten zuzugreifen ist über ›Application Programming Interfaces‹ – kurz: API. Der Begriff API ist sehr weit verbreitet, und sollte man sich in jedem Fall merken. In einer idealen Welt hätte man gar keine eigenen Datenbanken mehr, sondern würde nur noch über APIs auf Datenbanken zugreifen, sich die gewünschten Daten herunter laden, und diese dann auf dem eigenen Computer auswerten. Ein Großteil des Internets, und viele der erfolgreichsten Apps auf dem Smartphone funktionieren genau so: über ein API werden die gewünschten Daten geladen, und die App macht letztlich nicht mehr als ein Interface zur verfügung zu stellen, um diese Daten entsprechend auszuwählen und darzustellen. Das Interface ist dabei ein Graphical User Interface – kurz GUI. Ebenfalls ein Begriff, den man kennen sollte. Eine GUI ist letztlich nichts anders als das, was wir mit ›Interact‹ kennen gelernt haben. D.h., mit einer API und einer GUI machen wir exakt das, was fast jede unserer App auf dem Smartphone macht. Das hört sich alles großartig an – und ist es auch! Wäre da nicht das eine Problem: viele geowissenschaftliche Datenbanken haben – noch – keine vernünftige API. Glücklicherweise ändert sich daran gerade viel. Fun Fact Wir hier in Frankfurt sind an dieser Änderung recht zentral beteiligt."
+  },
+  {
+    "objectID": "courses/cosmochemistry.html",
+    "href": "courses/cosmochemistry.html",
+    "title": "Cosmochemistry",
     "section": "",
-    "text": "Three courses are currenlty available:\n1. Data Science (german only, english coming later 2023)\n2. Cosmochemistry (german & english)\n3. Microanalytic (german only, english coming in 2024)\n\nWie zu schauen ist – oder zumindest: wie geschaut werden kann\nAnhalten, nachvollziehen, eventuell zurückspulen und dazu eigen Skizzen oder Mitschriebe anfertigen\nEinige wenige Videos haben aus rechtlichen Gründen ein Passwort, das erhaltet Ihr von mir."
+    "text": "Course Link\nClick here to go to the Cosmochemistry course.\nHier geht es zum Kosmochemie Kurs.\n\n\nReihenfolge der zu schauenden Videos\n\n\n\nSollte selbst erklärend sein."
   },
   {
-    "objectID": "courses/courses-intro.html#kurse-courses",
-    "href": "courses/courses-intro.html#kurse-courses",
-    "title": "Courses",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello Stranger ",
     "section": "",
-    "text": "Geochemie I: Kosmochemie-Teil\n\n\n\nUmweltwissenschaften: Mikroanalytik-Teil"
+    "text": "This site contains mainly tools and courses for data science, cosmochemistry, and microanalytic. The ‘Courses’ drop-down contains all available teaching resources, and the ‘All Apps’ tab all available tools. As there are continuous updates and additions, the site still experiences some regular re-organisation.\n\n\n\nIf you are looking for the new visualisation or teaching tools, these will be released in early 2025. Until then, the original MetBase site remains online and available at metbase.org.\n\n\n\n\nIf you are looking for the flank method, go to ‘Microprobe’ and then ‘Flank Method’, or click here.\n\n\n\nDominik Hezel\nPremkumar Elangovan\nMara Hochstein\nHeidi Höfer\nAndreas Fichtner\nLea Schnapp\nJie Xu\nLara Friedrichs\nLea Ruckes \n\n\n\n\n\n\n\nDominik Hezel\nBüro: +49 (0)69 798 40122\nemail: dominik.hezel - at - em.uni-frankfurt.de\nZimmer-Nr: 1.334\nMikrosonde +49 (0)69 798 40284\nREM +49 (0)69 798 40283\nµRFA +49 (0)69 798 xxx"
   },
   {
-    "objectID": "courses/microanalytic.html",
-    "href": "courses/microanalytic.html",
-    "title": "Microanalytic",
+    "objectID": "index.html#mag4-contributors",
+    "href": "index.html#mag4-contributors",
+    "title": "Hello Stranger ",
     "section": "",
-    "text": "Hier geht es zum Kurs Mikroanalytik.\nDie Veranstaltung besteht aus ca. 100 Seiten Skript, aufgeteilt in die 3 Teilskripte ca. 70 Videos mit &gt;10 Stunden Material &gt;300 Selbstlern-Fragen mit Antworten &gt;20 Aufgaben zur gemeinsamen Lösung in den Präsenzphasen ca. 10 zusätzlicher Dateien für verschiedene Aufgaben"
+    "text": "Dominik Hezel\nPremkumar Elangovan\nMara Hochstein\nHeidi Höfer\nAndreas Fichtner\nLea Schnapp\nJie Xu\nLara Friedrichs\nLea Ruckes"
   },
   {
-    "objectID": "courses/microanalytic.html#labor-tour-1.1.-1.5.-3300",
-    "href": "courses/microanalytic.html#labor-tour-1.1.-1.5.-3300",
-    "title": "Microanalytic",
-    "section": "1. Labor-Tour: 1.1. – 1.5. [33:00]",
-    "text": "1. Labor-Tour: 1.1. – 1.5. [33:00]\nIn der ersten Veranstaltung lernen wir die verschiedenen Labore und Geräte kennen. Studiert dafür das gesamte erste Kapitel ›Labor-Tour‹."
-  },
-  {
-    "objectID": "courses/microanalytic.html#atomaufbau-elektronen-konfigurationen-2.1.-2.5.-11116",
-    "href": "courses/microanalytic.html#atomaufbau-elektronen-konfigurationen-2.1.-2.5.-11116",
-    "title": "Microanalytic",
-    "section": "2. Atomaufbau & Elektronen-Konfigurationen: 2.1. – 2.5. [1:11:16]",
-    "text": "2. Atomaufbau & Elektronen-Konfigurationen: 2.1. – 2.5. [1:11:16]\nDiese fast noch erste Einheit wird Dir etwas abverlangen – allerdings: je besser wir die atomphysikalischen Grundlagen verstehen, sowie die dazu gehörigen Beschreibungen und das dafür verwendete Vokabular beherrschen, umso leichter wird es uns anschließend fallen, das zentrale Prinzip der Element-Bestimmung mit EDS und WDS an Mikrosonde, Raster, RFA – sowie verwandter Geräte wie das Transmissionselektronen-Mikroskop (TEM) zu verstehen. Nicht alle Details müssen über die Zeit hängen bleiben. Wenn man aber einmal verstanden hat, wie es funktioniert, lässt man sich später nicht mehr so leicht verwirren. Und das ist viel wert. Also, dran bleiben wenn es heißt sich durch diese etwas längere Einheit mit den Kapiteln 2.1. bis 2.5. durchzuarbeiten. Die nächsten werden dafür wieder kürzer. Versprochen."
-  },
-  {
-    "objectID": "courses/microanalytic.html#interaktion-von-elektronen-mit-material-2.6.-3.1.-3622",
-    "href": "courses/microanalytic.html#interaktion-von-elektronen-mit-material-2.6.-3.1.-3622",
-    "title": "Microanalytic",
-    "section": "3. Interaktion von Elektronen mit Material: 2.6. – 3.1. [36:22]",
-    "text": "3. Interaktion von Elektronen mit Material: 2.6. – 3.1. [36:22]\nDas vorige Thema setzt sich noch etwas fort, denn bei der Interaktion der Elektronen mit Materie gibt es noch allerlei weitere Effekte, die wir kennen müssen. Viele dieser Themen sind wichtig, um später die quantitative Analyse zu verstehen. Das Wissen gegen Ende von Kapitel 2 benötigen wir Grundlage für bildgebende Verfahren, die der Inhalt von Kapitel 3 sind, und mit denen wir hier schon ein wenig beginnen."
-  },
-  {
-    "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-3.2.-4.2.3.-5855",
-    "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-3.2.-4.2.3.-5855",
-    "title": "Microanalytic",
-    "section": "4. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 3.2. – 4.2.3. [58:55]",
-    "text": "4. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 3.2. – 4.2.3. [58:55]\nWir lernen die beiden verbleibenden, wichtigen bildgebenden Verfahren kennen: SE- und CL-Bilder. Anschließend geht es mit einem neuen Thema los: der Charakteristischen Röntgenstrahlung als analytisches Werkzeug. Mit dem zuvor gewonnen Rüstzeug lernen wir nun, wie wir die Zusammensetzung von Proben bestimmen können. In einem zunächst kurzen Kapitel wird das Energie-Dispersive Spektrometer (EDS) vorgestellt. Anschließend lernen wir die wichtigste und zentrale Grundlage der Winkel-Dispersiven Spektrometerie: die Selektion der Röntgenstrahlung eines Elements mit Hilfe der Bragg-Bedingung, sowie der Rowland-Kreis Geometrie."
-  },
-  {
-    "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.4.-4.2.6.-4704",
-    "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.4.-4.2.6.-4704",
-    "title": "Microanalytic",
-    "section": "5. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.4. – 4.2.6. [47:04]",
-    "text": "5. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.4. – 4.2.6. [47:04]\nDiese Einheit beschäftigt sich mit dem Röntgendetektor. Diese Gaszähler erlauben es Röntgenstrahlung höherer Ordnung auszuschließen, was sehr praktisch ist, um damit Interferenzen zu unterdrücken. Das Thema ist nicht ganz unkomplex, daher ist die Gesamtzeit der Videos zwar etwas kürzer, jedoch müssen besonders die beiden Kapitel/Videos 4.2.4 & 4.2.6 sehr gut studiert werden, um das Thema wirklich zu verstehen. Es wäre nicht erstaunlich, wenn es diesmal im Besondern nötig wäre, zwischendurch anzuhalten, und sich die Dinge durch z.B. eigene Skizzen selbst noch einmal klar zu machen."
-  },
-  {
-    "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.7.-4.3.5.5152",
-    "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.7.-4.3.5.5152",
-    "title": "Microanalytic",
-    "section": "6. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.7. – 4.3.5.[51:52]",
-    "text": "6. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.7. – 4.3.5.[51:52]\nEin zentrales Element um Proben zu messen, ist die Standardisierung, welche wir in dieser Einheit kennen lernen. Wir lernen außerdem erste, konkrete Parameter und Bedingungen kennen, mit denen eine Probe gemessen werden kann, und einige Dinge wie Matrix-Korrektur, Nachweisgrenze, etc. die für eine erfolgreiche Messung beachtet werden müssen."
-  },
-  {
-    "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.3.6.-4.5.-5149",
-    "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.3.6.-4.5.-5149",
-    "title": "Microanalytic",
-    "section": "7. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.3.6. – 4.5. [51:49]",
-    "text": "7. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.3.6. – 4.5. [51:49]\nIm letzten Teil von Kapitel 4 schauen wir uns noch Interferenzen und den Chemical Peak Shift, welche die Messung beeinflussen können. Dann wollen wir jedoch wissen, was und wie wir mit der Mikrosonde oder dem Rasterelektronen-Mikroskop messen können. Schließlich gibt es ein wichtiges Video dazu, was man überlegen sollte oder muss, bevor man am Messtag im Labor steht. Wichtig ist das Video, da es Dir hilft eine erfolgreiche Mess-Kampagne durchführen."
-  },
-  {
-    "objectID": "courses/microanalytic.html#daten-auswertung--darstellung-5.1.-5.3.-5155",
-    "href": "courses/microanalytic.html#daten-auswertung--darstellung-5.1.-5.3.-5155",
-    "title": "Microanalytic",
-    "section": "8. Daten-Auswertung & -Darstellung: 5.1. – 5.3. [51:55]",
-    "text": "8. Daten-Auswertung & -Darstellung: 5.1. – 5.3. [51:55]\nWir können nun erfolgreich an der Mikrosonde und eigentlich auch dem REM messen. Aber was tun mit all den Daten? Zunächst müssen wir wissen, wie wir sie vom Gerät auf unseren Computer transferieren. Als erstes wollen wir dann natürlich wissen, wie genau wir gemessen haben, bzw. mit welchem Vokabular wir diese Genauigkeit kommunizieren. Dann sind wir natürlich neugierig, wie denn nun die gemessenen Minerale und andere Phasen genau zusammen gesetzt sind. Das erfahren wir, indem wir deren Mineral- und Strukturformel berechnen. Um all das geht es in diesen Kapiteln."
-  },
-  {
-    "objectID": "courses/microanalytic.html#daten-auswertung--darstellung-5.4.1.-5.4.4.-5908",
-    "href": "courses/microanalytic.html#daten-auswertung--darstellung-5.4.1.-5.4.4.-5908",
-    "title": "Microanalytic",
-    "section": "9. Daten-Auswertung & -Darstellung: 5.4.1. – 5.4.4. [59:08]",
-    "text": "9. Daten-Auswertung & -Darstellung: 5.4.1. – 5.4.4. [59:08]\nEin wichtiger Teil der Analytik ist die Darstellung der Daten in aussagekräftigen und übersichtlichen Diagramme und Tabellen. Dazu schauen wir uns zunächst an, wie die Daten für typische Diagramme aufbereitet werden – nämlich als Element-Konzentrationen oder normiert. Dann arbeiten wir uns ein wenig durch typische Diagramm-Typen, um zu lernen und zu verstehen, was das eigentlich für Diagramme sind, die wir da häufig sehen, und regelmäßig selbst nutzen. Schließlich lernen wir ein wenig welche Elemente bei Diagrammen und Tabellen wichtig sind, und wie diese genutzt werden können und sollten."
-  },
-  {
-    "objectID": "courses/microanalytic.html#rem-rfa-kapitel-6-2726",
-    "href": "courses/microanalytic.html#rem-rfa-kapitel-6-2726",
-    "title": "Microanalytic",
-    "section": "10. REM & RFA: Kapitel 6 [27:26]",
-    "text": "10. REM & RFA: Kapitel 6 [27:26]\nIn dieser vergleichsweise kurzen Einheit lernen wir den Unterschied zwischen EPMA und REM etwas genauer kennen, und weshalb das REM sehr viel mehr ein Mikroskop ist. An unserem REM haben wir außerdem einen EBSD-Detektor, der vorgestellt wird, und was man damit anstellen kann. Im zweiten Teil wird die RFA vorgestellt, worin sich diese von der EPMA unterscheidet, und welche unterschiedlichen Einsatzgebiete es für die RFA gibt, und damit, in welch unterschiedlichen Ausführungen RFAs gebaut werden."
-  },
-  {
-    "objectID": "courses/microanalytic.html#vorbereitung-auf-den-praktischen-teil-kapitel-7-10846",
-    "href": "courses/microanalytic.html#vorbereitung-auf-den-praktischen-teil-kapitel-7-10846",
-    "title": "Microanalytic",
-    "section": "11. Vorbereitung auf den praktischen Teil: Kapitel 7 [1:08:46]",
-    "text": "11. Vorbereitung auf den praktischen Teil: Kapitel 7 [1:08:46]\nIn Vorbereitung auf den praktischen Teil gibt es zunächst Video-Trockenübungen. Diese sind sehr hilfreich, um am Gerät nicht gleich verloren zu sein, sondern schon mit Vorkenntnis zu starten. Daher zum Bingen und immer wieder schauen ein paar Videos mit Einblicken von der Sonde wie diese bedient wird. Abgerundet durch ein paar kurze Impressionen rund um und aus der Sonde."
-  },
-  {
-    "objectID": "courses/microanalytic.html#probe-klausur",
-    "href": "courses/microanalytic.html#probe-klausur",
-    "title": "Microanalytic",
-    "section": "12. Probe-Klausur",
-    "text": "12. Probe-Klausur\nDie Probe-Klausur ist ähnlich der tatsächlichen Klausur. Der Umfang ist etwas kürzer, da Du im Anschluss noch die Klausur einer Kommilitonin eins Kommilitonen korrigieren wirst."
-  },
-  {
-    "objectID": "courses/microanalytic.html#sinn-und-zweck-dieser-übung",
-    "href": "courses/microanalytic.html#sinn-und-zweck-dieser-übung",
-    "title": "Microanalytic",
-    "section": "Sinn und Zweck dieser Übung",
-    "text": "Sinn und Zweck dieser Übung\nEs gibt diese Probeklausur, damit Du eine Idee davon bekommst, was Dich bei der echten Klausur erwartet. Als Vorbereitung dafür gibt es keine weiteren Inhalte oder Videos – sondern wiederhole alles, das wir bislang durchgegangen sind und geübt haben."
-  },
-  {
-    "objectID": "courses/microanalytic.html#ablauf",
-    "href": "courses/microanalytic.html#ablauf",
-    "title": "Microanalytic",
-    "section": "Ablauf",
-    "text": "Ablauf\nDie Klausur dauert ca. 50 min., also etwas länger oder kürzer als im Modul vorgegeben, je nachdem ob Du Dir den Kurs für BSc (30 min als möglicher Teil einer kumulativen Modulabschlussklausur; max. Punktzahl: 33) oder MSc (90 min als mögliche exemplarische Modulabschlussklausur; max. Punktzahl: 100) anrechnen lässt. Du schreibst die Klausur für Dich allein. Schummeln wird nicht kontrolliert, diese Probeklausur dient allein Deiner eigenen Einschätzung. Anschließend kommst Du in eine 2er oder 3er Gruppe, erhältst die Lösung für die Klausur, und Ihr korrigiert gegenseitig Eure Klausuren. Das sollte ca. 15 min dauern."
-  },
-  {
-    "objectID": "courses/microanalytic.html#halb-finale",
-    "href": "courses/microanalytic.html#halb-finale",
-    "title": "Microanalytic",
-    "section": "Halb-Finale",
-    "text": "Halb-Finale\nZum Abschluss haben wir knapp 30 min. Zeit die Klausur gemeinsam durchzusprechen, allgemeine Fragen zu stellen und zu beantworten, oder letzte Unklarheiten auszuräumen."
-  },
-  {
-    "objectID": "courses/microanalytic.html#fünf-beispiel-fragen-für-die-vorbereitung-gesamtpunktzahl-33",
-    "href": "courses/microanalytic.html#fünf-beispiel-fragen-für-die-vorbereitung-gesamtpunktzahl-33",
-    "title": "Microanalytic",
-    "section": "Fünf Beispiel-Fragen für die Vorbereitung (Gesamtpunktzahl: 33)",
-    "text": "Fünf Beispiel-Fragen für die Vorbereitung (Gesamtpunktzahl: 33)\nNotwendige Unterlagen wie z.B. Tabellen zum Nachschlagen werden zur Verfügung gestellt.\nFrage 1 (5 Punkte)\nNenne 2 Elementpaare (also 2 x 2 Elemente) deren charakteristische Röntgenstrahlung möglicherweise eine Linienüberlagerung zeigen könnten.\nFrage 2 (5 Punkte)\nWorin können sich Proben ähneln und/oder unterscheiden die mit der EPMA oder mit dem REM untersucht werden.\nFrage 3 (8 Punkte / 3 Punkte)\nErkläre schematisch die Funktionsweise des Gaszählers. Wozu wird dieser verwendet?\nFrage 4 (4 Punkte)\nWie hoch sollte die Beschleunigungsspannung sein um Hf,Lα anzuregen? Und wie hoch der Strom?\nFrage 5 (8 Punkte)\nElemente mit charakteristischer Linien höherer Ordnung können die charakteristischen Linien anderer Elementen überlagern. (i) An welcher Stelle in der EPMA, und (ii) wie können diese Linien höherer Ordnung von der Zählung ausgeschlossen werden."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Legal information",
+    "objectID": "index.html#kontakt",
+    "href": "index.html#kontakt",
+    "title": "Hello Stranger ",
     "section": "",
-    "text": "Dominik Hezel\nBerliner Str. 52\n61449 Steinbach (Ts.)\nGermany\nPhone +49 6171 8669169\nE-Mail: dominik.hezel xx em.uni-frankfurt.de\n\n\n\nThe website is hosted by Quarto Inc. using https://quartopub.com.\nThis webpage embeds third-party content that uses cookies. The respective providers are listed below.\n\n\nThe website uses plugins from YouTube operated by Google. The operator of the plug-ins is YouTube, LLC, 901 Cherry Ave, San Bruno, CA 94066, USA.\nWhen you visit one of our pages equipped with a YouTube plugin, a connection to the YouTube servers is established. All videos are embedded with the privacy-enhanced mode of Youtube enabled to minimise tracking.\nIf you are logged into your YouTube account, you enable YouTube to assign your surfing behaviour directly to your personal profile. You can prevent this by logging out of your YouTube account.\nThe use of YouTube is in the interest of an appealing presentation of our online offers. This constitutes a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR.\nFurther information on the handling of user data can be found in YouTube’s privacy policy at: https://www.google.de/intl/de/policies/privacy.\n\n\n\nSome third-party elements on this website, such as the YouTube plugin, uses Google Fonts. When you load a page containing such elements, your browser connects to Google Fonts and loads the required web fonts into your browser cache in order to display texts and fonts correctly.\nFor this purpose, the browser you are using must connect to Google’s servers. This informs Google that the website has been accessed via your IP address. The use of Google Web Fonts is in the interest of a uniform and appealing presentation of our online offers. This constitutes a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR.\nIf your browser does not support web fonts, a standard font will be used by your computer.\nFurther information on Google Web Fonts can be found at https://developers.google.com/fonts/faq and in Google’s privacy policy: https://www.google.com/policies/privacy/.\n\n\n\n\n\n\n\n\n\n\nUnless otherwise stated, material on this website is licensed under a Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0) license.\n\n\n\n\n\n\nThis license allows you to:\n\nShare — copy and redistribute the material in any medium or format\nAdapt — remix, transform, and build upon the material\nfor any purpose\n\nif you\n\nprovide proper attribution and\nindicate any changes to the material you made.\ndistribute your contributions under the same license as the original."
+    "text": "Dominik Hezel\nBüro: +49 (0)69 798 40122\nemail: dominik.hezel - at - em.uni-frankfurt.de\nZimmer-Nr: 1.334\nMikrosonde +49 (0)69 798 40284\nREM +49 (0)69 798 40283\nµRFA +49 (0)69 798 xxx"
   },
   {
-    "objectID": "about.html#provider-according-to-5-tmg",
-    "href": "about.html#provider-according-to-5-tmg",
-    "title": "Legal information",
+    "objectID": "microprobe/data-access/request-time.html",
+    "href": "microprobe/data-access/request-time.html",
+    "title": "Requesting Time",
     "section": "",
-    "text": "Dominik Hezel\nBerliner Str. 52\n61449 Steinbach (Ts.)\nGermany\nPhone +49 6171 8669169\nE-Mail: dominik.hezel xx em.uni-frankfurt.de"
-  },
-  {
-    "objectID": "about.html#privacy",
-    "href": "about.html#privacy",
-    "title": "Legal information",
-    "section": "",
-    "text": "The website is hosted by Quarto Inc. using https://quartopub.com.\nThis webpage embeds third-party content that uses cookies. The respective providers are listed below.\n\n\nThe website uses plugins from YouTube operated by Google. The operator of the plug-ins is YouTube, LLC, 901 Cherry Ave, San Bruno, CA 94066, USA.\nWhen you visit one of our pages equipped with a YouTube plugin, a connection to the YouTube servers is established. All videos are embedded with the privacy-enhanced mode of Youtube enabled to minimise tracking.\nIf you are logged into your YouTube account, you enable YouTube to assign your surfing behaviour directly to your personal profile. You can prevent this by logging out of your YouTube account.\nThe use of YouTube is in the interest of an appealing presentation of our online offers. This constitutes a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR.\nFurther information on the handling of user data can be found in YouTube’s privacy policy at: https://www.google.de/intl/de/policies/privacy.\n\n\n\nSome third-party elements on this website, such as the YouTube plugin, uses Google Fonts. When you load a page containing such elements, your browser connects to Google Fonts and loads the required web fonts into your browser cache in order to display texts and fonts correctly.\nFor this purpose, the browser you are using must connect to Google’s servers. This informs Google that the website has been accessed via your IP address. The use of Google Web Fonts is in the interest of a uniform and appealing presentation of our online offers. This constitutes a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR.\nIf your browser does not support web fonts, a standard font will be used by your computer.\nFurther information on Google Web Fonts can be found at https://developers.google.com/fonts/faq and in Google’s privacy policy: https://www.google.com/policies/privacy/."
-  },
-  {
-    "objectID": "about.html#license",
-    "href": "about.html#license",
-    "title": "Legal information",
-    "section": "",
-    "text": "Unless otherwise stated, material on this website is licensed under a Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0) license.\n\n\n\n\n\n\nThis license allows you to:\n\nShare — copy and redistribute the material in any medium or format\nAdapt — remix, transform, and build upon the material\nfor any purpose\n\nif you\n\nprovide proper attribution and\nindicate any changes to the material you made.\ndistribute your contributions under the same license as the original."
-  },
-  {
-    "objectID": "periphery/periphery-intro.html",
-    "href": "periphery/periphery-intro.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "About this sub-page.",
-    "crumbs": [
-      "Periphery",
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "microprobe/data-access/access-data.html",
-    "href": "microprobe/data-access/access-data.html",
-    "title": "Accessing Data",
-    "section": "",
-    "text": "EPMA tools\nThis section provides a brief manual and description for the epmatools to access data of the JEOL JXA-8530F Plus electron-probe micro-analyser (EPMA) at the Institut für Geowissenschaften, Goethe Universität Frankfurt am Main.",
+    "text": "Please fill out the form below.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Elements to be measured\n\n Description\n\n Preferred Date(s)\n\n Comment\n\n\nAre the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nSubmit\n\n\n\n\nDanke für Deinen Beitrag.\n\n\n\n\nBring your documentation where and what you want to measure\nRoom temperature is at a constant 20ºC\nPower sockets are available\nThere is neither WiFi nor Eduroam\n\n\n\nCurrently not active.",
     "crumbs": [
       "Microprobe",
       "Measurements",
-      "Accessing Data"
+      "Requesting Time"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html",
-    "href": "microprobe/data-access/kadi4mat-backend-eln.html",
-    "title": "Kadi4Mat backend ELN",
+    "objectID": "microprobe/data-access/request-time.html#epma-measurement-request-info",
+    "href": "microprobe/data-access/request-time.html#epma-measurement-request-info",
+    "title": "Requesting Time",
     "section": "",
-    "text": "This section describes and documents the Electronic Lab Notebook (ELN) backend used for the epmatools frontend that allows users to access data of the JEOL JXA-8530F Plus electron-probe micro-analyser (EPMA) at the Institut für Geowissenschaften, Goethe Universität Frankfurt am Main.",
+    "text": "Please fill out the form below.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Elements to be measured\n\n Description\n\n Preferred Date(s)\n\n Comment\n\n\nAre the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nSubmit\n\n\n\n\nDanke für Deinen Beitrag.",
     "crumbs": [
       "Microprobe",
       "Measurements",
-      "Kadi4Mat backend ELN"
+      "Requesting Time"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain",
-    "href": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain",
-    "title": "Kadi4Mat backend ELN",
-    "section": "Must contain",
-    "text": "Must contain\nsummary{date}.csv\nThe output from: summary, all, to excel, save as .csv\nnormal.txt\nThe output from: summary, normal, type out\nsummary standard.txt\nThe output from: summary, standard, type out\nquick standard.txt\nThe output from: quick menu, right click recipe, ??",
+    "objectID": "microprobe/data-access/request-time.html#plan-your-sessions",
+    "href": "microprobe/data-access/request-time.html#plan-your-sessions",
+    "title": "Requesting Time",
+    "section": "",
+    "text": "Bring your documentation where and what you want to measure\nRoom temperature is at a constant 20ºC\nPower sockets are available\nThere is neither WiFi nor Eduroam",
     "crumbs": [
       "Microprobe",
       "Measurements",
-      "Kadi4Mat backend ELN"
+      "Requesting Time"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain",
-    "href": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain",
-    "title": "Kadi4Mat backend ELN",
-    "section": "Can contain",
-    "text": "Can contain\n\nstandard meausrements\nstandard measurements.xlsx File with the results from the standard measurements, with colour results, therefore an excel file\n-&gt; This file can (in rare cases) be missing, so it might be sensible to test for its availability and not if it is not available.\n\n\n\nExample of a standard.xlsx file.\n\n\n\n\nImages\nFiles as .jpg, .tif, .bmp",
+    "objectID": "microprobe/data-access/request-time.html#calendar",
+    "href": "microprobe/data-access/request-time.html#calendar",
+    "title": "Requesting Time",
+    "section": "",
+    "text": "Currently not active.",
     "crumbs": [
       "Microprobe",
       "Measurements",
-      "Kadi4Mat backend ELN"
+      "Requesting Time"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorial",
-    "href": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorial",
-    "title": "Kadi4Mat backend ELN",
-    "section": "Video Tutorial",
-    "text": "Video Tutorial\nsomething",
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html",
+    "title": "Trouble Shooting",
+    "section": "",
+    "text": "Wenn im ‘Maintenance’ Fenster der Punkt ‘Check Pressure of N2 Gas’ rot ist, muss die N2-Gasflasche getauscht werden. Möglicherweise brennt auch die Lampe ‘Air Pressure’ vorn an der Sonder hinter der dunklen Rauchglasscheibe.\nEs kann sein, dass nach dem N2-Flaschen Tausch der Punkt ‘Check Pressure of N2 Gas’ weiterhin rot ist, und auch die ‘Air Pressure’ Lampe weiter leuchtet.\nLösung\nZunächst nachschauen, ob der Druck der N2-Flasche, sowie des Reduktionsventils an der rechten Wand hinter der Sonde auf etwas mehr als 5 bar stehen. Wenn das nicht der Fall ist, den Durch darauf erhöhen.\nWenn die Warnungen noch immer an sind, auf dem Panel vorn an der Sonder hinter der dunklen Rauchglasscheibe ‘Vacuum Power’ ausschalten und kurz darauf wieder einschalten.\nIm Maintenance Fenster werden nacheinander ein paar der Punkte auf rot springen, während verschiedene Ventile auf und zu gehen. Der Vorgang dauert einige Minuten.\nSobald das vorbei ist, sollte man min. 1 Stunde warten, bis die Sonde wieder vollständig betriebsbereit ist.\n\n\n\n(sss)",
     "crumbs": [
       "Microprobe",
-      "Measurements",
-      "Kadi4Mat backend ELN"
+      "Trouble Shooting"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-1",
-    "href": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-1",
-    "title": "Kadi4Mat backend ELN",
-    "section": "Must contain",
-    "text": "Must contain\nquick standard.txt\nThe output from: quick menu, right click recipe, ??\n{map file}.csv\nThe naming of {map file} is as follows:\nmap {nr} {Eds}{internal designation} {element name} {measured characteristic line}.csv\ne.g.:\nmap 2 data004 Mg Ka.csv\nnote that ‘Eds’ only occurs when the element was measured with EDS, when ‘Eds’ is missing, the element was measured with WDS",
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung",
+    "title": "Trouble Shooting",
+    "section": "",
+    "text": "Wenn im ‘Maintenance’ Fenster der Punkt ‘Check Pressure of N2 Gas’ rot ist, muss die N2-Gasflasche getauscht werden. Möglicherweise brennt auch die Lampe ‘Air Pressure’ vorn an der Sonder hinter der dunklen Rauchglasscheibe.\nEs kann sein, dass nach dem N2-Flaschen Tausch der Punkt ‘Check Pressure of N2 Gas’ weiterhin rot ist, und auch die ‘Air Pressure’ Lampe weiter leuchtet.\nLösung\nZunächst nachschauen, ob der Druck der N2-Flasche, sowie des Reduktionsventils an der rechten Wand hinter der Sonde auf etwas mehr als 5 bar stehen. Wenn das nicht der Fall ist, den Durch darauf erhöhen.\nWenn die Warnungen noch immer an sind, auf dem Panel vorn an der Sonder hinter der dunklen Rauchglasscheibe ‘Vacuum Power’ ausschalten und kurz darauf wieder einschalten.\nIm Maintenance Fenster werden nacheinander ein paar der Punkte auf rot springen, während verschiedene Ventile auf und zu gehen. Der Vorgang dauert einige Minuten.\nSobald das vorbei ist, sollte man min. 1 Stunde warten, bis die Sonde wieder vollständig betriebsbereit ist.\n\n\n\n(sss)",
     "crumbs": [
       "Microprobe",
-      "Measurements",
-      "Kadi4Mat backend ELN"
+      "Trouble Shooting"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain-1",
-    "href": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain-1",
-    "title": "Kadi4Mat backend ELN",
-    "section": "Can contain",
-    "text": "Can contain\n1 or 2 more map files labelled “data{nr} COMPO.csv” or “data{nr} SE.csv”, which are maps of BSE- and/or SE-signals, i.e., essentially BSE- and SE-images. Image files as .jpg, .tif, .bmp",
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-1",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-1",
+    "title": "Trouble Shooting",
+    "section": "Problembeschreibung",
+    "text": "Problembeschreibung\nBei Ausfall der Messung durch den Fehler „check water flow“ wird eine laufende Messung gestoppt oder der Start einer neuen Messung nicht zugelassen.\nLösung\nDer erste Schritt ist es den Wasserkühler im Nebenraum (Präparation) zu kontrollieren, ob dieser noch läuft. Wenn dieser intakt ist, sollte die Einstellung des Wasserdurchflusses an der Sonde kontrolliert werden (rote Anzeige hinter der Mikrosonde). Die Summer der beiden Werte muss dem Durchfluss (in l/min) am Wasserkühler entsprechen.\nSollte der Durchfluss in Ordnung sein, muss die schwarze Klappe vorne rechts an der Mikrosonde geöffnet werden und mit einem dünnen Stab (z.B. Inbus) die ERROR RESET- Taste gedrückt werden (2 sec).\nDie gelbe Lampe sollte anschließend aus gehen und in der Maintenance-Condition alle Parameter grün leuchten.",
     "crumbs": [
       "Microprobe",
-      "Measurements",
-      "Kadi4Mat backend ELN"
+      "Trouble Shooting"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-2",
-    "href": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-2",
-    "title": "Kadi4Mat backend ELN",
-    "section": "Must contain",
-    "text": "Must contain\nsummary{date}.csv\nThe output from: summary, all, to excel, save as .csv\nnormal.txt\nThe output from: summary, normal, type out\nsummary standard.txt\nThe output from: summary, standard, type out\nquick standard.txt\nThe output from: quick menu, right click recipe, ??",
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-2",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-2",
+    "title": "Trouble Shooting",
+    "section": "Problembeschreibung",
+    "text": "Problembeschreibung\nWenn man die Datenpunkte in das falsche Programm abgespeichert hat (z.B. Qualitativ statt Quantitative Analyse) kann man sie nicht einfach kopieren und einfügen.\nLösung\nMan kann die eingegebenen Datenpunkte in dem falschen Programm markieren und dann mit “rechts Klick” und “copy” kopieren. Man geht in das gewünschte Programm und fügt die Punkte wieder mit “rechts Klick” und “paste” ein.\n[[Category:Troubleshooting für die EPMA]]\nBemerkt die Sonde einen Fehler, sollte sich automatisch das Maintenance-Fenster öffnen und das entsprechende System mit einem roten Status markiert sein. Einige der Fehler sind links im LED-Panel hinter der Rauchglas-Blende vorn an der Sonde gespiegelt (in grün …).\nWichtig: Es ist möglich, dass der Fehler nur temporär auftrat (z.B. der Kühlwasserdruck kurzzeitig zu niedrig war). Die Fehlermeldung wird nicht automatisch gelöscht, damit die Nutzerin weiß, dass es einen Fehler gab. Um die Fehlermeldung zu löschen gibt es ebenfalls im LED-Panel hinter der Rauchglas-Abdeckung vorn an der Sonde rechts unten ein kleines Löchlein mit einem Reset-Knopf, der mit einem schmalen Stift/Inbus/… für ca. 2-3 Sekunden tief eingedrückt werden muss – es klickt kurz. Ist die Fehlermeldung gelöscht, sollte wieder alles in Ordnung sein. Ansonsten sollte der Fehler erneut angezeigt werden. Dann muss noch mal (nach)behoben werden.\n\n\n\nimage",
     "crumbs": [
       "Microprobe",
-      "Measurements",
-      "Kadi4Mat backend ELN"
+      "Trouble Shooting"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#measurement-conditions",
-    "href": "microprobe/data-access/kadi4mat-backend-eln.html#measurement-conditions",
-    "title": "Kadi4Mat backend ELN",
-    "section": "Measurement Conditions",
-    "text": "Measurement Conditions\nDetection limits (d.l.) are calculated by the machine software for each measurement point. The output in the webinterface is the median of all measurements togehter with the standard deviation.",
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-3",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-3",
+    "title": "Trouble Shooting",
+    "section": "Problembeschreibung",
+    "text": "Problembeschreibung\nEines der Fenster PC-SEM oder PC-EPMA – oder beim reagieren nicht, hängen, zeigen falsches an, etc.\nLösung\nBeide Fenster schließen, z.B. unten über die Taskleiste. Programm ‘JEOL EPMA’ neu starten über den Shortcut ganz links auf dem Desktop. ’’‘(noch Bild einfügen)’’‘. Wenn das nicht geht, Rechtsklick auf das Symbol und ’Run as Administrator’ anklicken. Wenn das nicht geht das Symbol ‘Restart EPMA’ anklicken. ’’‘(noch Bild einfügen)’’’ Dann das Programm neu starten. Sollte alles nicht helfen, Dominik anrufen. Evtl. muss der Computer neu gestartet werden. Das sollte aber abgesprochen werden.",
     "crumbs": [
       "Microprobe",
-      "Measurements",
-      "Kadi4Mat backend ELN"
+      "Trouble Shooting"
     ]
   },
   {
-    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorials",
-    "href": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorials",
-    "title": "Kadi4Mat backend ELN",
-    "section": "Video Tutorials",
-    "text": "Video Tutorials\nPreparing files for Kadi upload\n\nUpload to Kadi",
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-4",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-4",
+    "title": "Trouble Shooting",
+    "section": "Problembeschreibung",
+    "text": "Problembeschreibung\nDie PCD-Taste oder die Freeze-Taste auf dem Schaltpanel reagieren nicht mehr.\nLösung Der Stecker des Schaltpanels muss von der Mikrosonde abgeschraubt werden. Hierzu muss man hinter die Mikrosonde bzw. hinter den Bildschirm gehen und den Stecker mit der Aufschrift „OPN2“ (ganz links) für kurze Zeit lösen. Anschließend muss die Software neu gestartet werden. Dafür schließt man das EPMA-Menu und klickt mit rechts auf den Icon „Reset EPMA-Shortcut“ auf dem Desktophintergrund. Anschließend wählt man „Rund as admin“ und bestätigt mit „Yes“. Anschließend kann man wieder die EPMA Software öffnen.",
     "crumbs": [
       "Microprobe",
-      "Measurements",
-      "Kadi4Mat backend ELN"
+      "Trouble Shooting"
+    ]
+  },
+  {
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-5",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-5",
+    "title": "Trouble Shooting",
+    "section": "Problembeschreibung",
+    "text": "Problembeschreibung\nDer Schleusenstab lässt sich nicht mehr waagrecht kippen und steht daher schief. Ein Probenwechsel und das belüften der Schleusenkammer ist auch nicht mehr möglich. In der Software wird der Probenshuttle in der Probenkammer angezeigt.\n\n’‘’Nur von eingewiesenem Personal durchzuführen’’’\n\n Diese finden sich in “Telefon-Email-Kontakte”\nLösung Unter dem Menüpunkt „Maintenance“ öffnet man zuerst das Fenster „Self diagnosis (Y)“ um den Status der Ventile überprüfen zu können. Man lässt anschließend die Probe vorerst in der Probenkammer und klappt den Schleusenstab herunter (vertikal). Über das Fenster „Self diagnosis (Y)“ überprüft man den Status der Ventile, anschließend belüftet man über die Software des SEM-Monitors.\nDie Schleuse kann geöffnet und der Pin zurückgezogen werden. Anschließend bewegt man den Stab bzw. dreht ihn vorsichtig quer der Längsachse hin und her oder man kann ihn auch in fast waagrechten Zustand vorschieben.\nSobald der Stab sich wieder in die waagrechte Position bringen lässt ist der Pin wieder eingerastet. Das bedeutet man kann die Probenkammer wieder evakuieren und die Probe wie gewohnt schleusen.",
+    "crumbs": [
+      "Microprobe",
+      "Trouble Shooting"
+    ]
+  },
+  {
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-6",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-6",
+    "title": "Trouble Shooting",
+    "section": "Problembeschreibung",
+    "text": "Problembeschreibung\nDas Fenster des Specimen Navigator ist nicht mehr auf dem Monitor zu finden, wird der noch in der Menüleiste als offen angezeigt.\nLösung\nZuerst muss der Specimen Navigator mit geschlossen werden (rechter Mausklick auf den Icon in der Menüleiste). Anschließend muss man in dem Windowsmenu das XML Notepad öffnen. Hier klickt man auf den rechten Pfeil für den Pfad „cNavigator…Nav… .xml“. Daraufhin öffnet man den Pfad „Windows Position“ und danach „Main Window“. Bei „Left“ gibt man eine 0 ein ebenso wie bei „Top“, anschließend speichert man die eingabe. Der Specimen Navigator lässt sich nun wieder öffnen.\n\n\n\nimage\n\n\n[[Category:Elektronenstrahl-Mikrosonde, EPMA (JEOL JXA-8530F Plus)]]\n\n\n\nimage_1\n\n\n\n\n\nimage_2",
+    "crumbs": [
+      "Microprobe",
+      "Trouble Shooting"
     ]
   },
   {
@@ -1205,191 +1112,302 @@
     ]
   },
   {
-    "objectID": "microprobe/data-access/request-time.html",
-    "href": "microprobe/data-access/request-time.html",
-    "title": "Requesting Time",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html",
+    "title": "Kadi4Mat backend ELN",
     "section": "",
-    "text": "Please fill out the form below.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Elements to be measured\n\n Description\n\n Preferred Date(s)\n\n Comment\n\n\nAre the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nSubmit\n\n\n\n\nDanke für Deinen Beitrag.\n\n\n\n\nBring your documentation where and what you want to measure\nRoom temperature is at a constant 20ºC\nPower sockets are available\nThere is neither WiFi nor Eduroam\n\n\n\nCurrently not active.",
+    "text": "This section describes and documents the Electronic Lab Notebook (ELN) backend used for the epmatools frontend that allows users to access data of the JEOL JXA-8530F Plus electron-probe micro-analyser (EPMA) at the Institut für Geowissenschaften, Goethe Universität Frankfurt am Main.",
     "crumbs": [
       "Microprobe",
       "Measurements",
-      "Requesting Time"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/request-time.html#epma-measurement-request-info",
-    "href": "microprobe/data-access/request-time.html#epma-measurement-request-info",
-    "title": "Requesting Time",
-    "section": "",
-    "text": "Please fill out the form below.\n\nName  Email Address \nrectangular standard sample(s)  1” round mount(s)  1” round section(s)  other \nI want to do   point analyses    line analyses    element maps    CL images \nSample names\n\n Elements to be measured\n\n Description\n\n Preferred Date(s)\n\n Comment\n\n\nAre the samples coated?    All samples are coated    All or some samples need coating \nIs it clear what you want to measure, or does this need to be discussed beforehand?    It is clear    It is not clear, needs to be discussed \n  I accept the GDPR terms and conditions. \n\n\n\nSubmit\n\n\n\n\nDanke für Deinen Beitrag.",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Must contain",
+    "text": "Must contain\nsummary{date}.csv\nThe output from: summary, all, to excel, save as .csv\nnormal.txt\nThe output from: summary, normal, type out\nsummary standard.txt\nThe output from: summary, standard, type out\nquick standard.txt\nThe output from: quick menu, right click recipe, ??",
     "crumbs": [
       "Microprobe",
       "Measurements",
-      "Requesting Time"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/request-time.html#plan-your-sessions",
-    "href": "microprobe/data-access/request-time.html#plan-your-sessions",
-    "title": "Requesting Time",
-    "section": "",
-    "text": "Bring your documentation where and what you want to measure\nRoom temperature is at a constant 20ºC\nPower sockets are available\nThere is neither WiFi nor Eduroam",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Can contain",
+    "text": "Can contain\n\nstandard meausrements\nstandard measurements.xlsx File with the results from the standard measurements, with colour results, therefore an excel file\n-&gt; This file can (in rare cases) be missing, so it might be sensible to test for its availability and not if it is not available.\n\n\n\nExample of a standard.xlsx file.\n\n\n\n\nImages\nFiles as .jpg, .tif, .bmp",
     "crumbs": [
       "Microprobe",
       "Measurements",
-      "Requesting Time"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "microprobe/data-access/request-time.html#calendar",
-    "href": "microprobe/data-access/request-time.html#calendar",
-    "title": "Requesting Time",
-    "section": "",
-    "text": "Currently not active.",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorial",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorial",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Video Tutorial",
+    "text": "Video Tutorial\nsomething",
     "crumbs": [
       "Microprobe",
       "Measurements",
-      "Requesting Time"
+      "Kadi4Mat backend ELN"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hello Stranger ",
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-1",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-1",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Must contain",
+    "text": "Must contain\nquick standard.txt\nThe output from: quick menu, right click recipe, ??\n{map file}.csv\nThe naming of {map file} is as follows:\nmap {nr} {Eds}{internal designation} {element name} {measured characteristic line}.csv\ne.g.:\nmap 2 data004 Mg Ka.csv\nnote that ‘Eds’ only occurs when the element was measured with EDS, when ‘Eds’ is missing, the element was measured with WDS",
+    "crumbs": [
+      "Microprobe",
+      "Measurements",
+      "Kadi4Mat backend ELN"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain-1",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#can-contain-1",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Can contain",
+    "text": "Can contain\n1 or 2 more map files labelled “data{nr} COMPO.csv” or “data{nr} SE.csv”, which are maps of BSE- and/or SE-signals, i.e., essentially BSE- and SE-images. Image files as .jpg, .tif, .bmp",
+    "crumbs": [
+      "Microprobe",
+      "Measurements",
+      "Kadi4Mat backend ELN"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-2",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#must-contain-2",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Must contain",
+    "text": "Must contain\nsummary{date}.csv\nThe output from: summary, all, to excel, save as .csv\nnormal.txt\nThe output from: summary, normal, type out\nsummary standard.txt\nThe output from: summary, standard, type out\nquick standard.txt\nThe output from: quick menu, right click recipe, ??",
+    "crumbs": [
+      "Microprobe",
+      "Measurements",
+      "Kadi4Mat backend ELN"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#measurement-conditions",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#measurement-conditions",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Measurement Conditions",
+    "text": "Measurement Conditions\nDetection limits (d.l.) are calculated by the machine software for each measurement point. The output in the webinterface is the median of all measurements togehter with the standard deviation.",
+    "crumbs": [
+      "Microprobe",
+      "Measurements",
+      "Kadi4Mat backend ELN"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorials",
+    "href": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorials",
+    "title": "Kadi4Mat backend ELN",
+    "section": "Video Tutorials",
+    "text": "Video Tutorials\nPreparing files for Kadi upload\n\nUpload to Kadi",
+    "crumbs": [
+      "Microprobe",
+      "Measurements",
+      "Kadi4Mat backend ELN"
+    ]
+  },
+  {
+    "objectID": "microprobe/data-access/access-data.html",
+    "href": "microprobe/data-access/access-data.html",
+    "title": "Accessing Data",
     "section": "",
-    "text": "This site contains mainly tools and courses for data science, cosmochemistry, and microanalytic. The ‘Courses’ drop-down contains all available teaching resources, and the ‘All Apps’ tab all available tools. As there are continuous updates and additions, the site still experiences some regular re-organisation.\n\n\n\nIf you are looking for the new visualisation or teaching tools, these will be released in early 2025. Until then, the original MetBase site remains online and available at metbase.org.\n\n\n\n\nIf you are looking for the flank method, go to ‘Microprobe’ and then ‘Flank Method’, or click here.\n\n\n\nDominik Hezel\nPremkumar Elangovan\nMara Hochstein\nHeidi Höfer\nAndreas Fichtner\nLea Schnapp\nJie Xu\nLara Friedrichs\nLea Ruckes \n\n\n\n\n\n\n\nDominik Hezel\nBüro: +49 (0)69 798 40122\nemail: dominik.hezel - at - em.uni-frankfurt.de\nZimmer-Nr: 1.334\nMikrosonde +49 (0)69 798 40284\nREM +49 (0)69 798 40283\nµRFA +49 (0)69 798 xxx"
+    "text": "EPMA tools\nThis section provides a brief manual and description for the epmatools to access data of the JEOL JXA-8530F Plus electron-probe micro-analyser (EPMA) at the Institut für Geowissenschaften, Goethe Universität Frankfurt am Main.",
+    "crumbs": [
+      "Microprobe",
+      "Measurements",
+      "Accessing Data"
+    ]
   },
   {
-    "objectID": "index.html#mag4-contributors",
-    "href": "index.html#mag4-contributors",
-    "title": "Hello Stranger ",
+    "objectID": "periphery/periphery-intro.html",
+    "href": "periphery/periphery-intro.html",
+    "title": "Introduction",
     "section": "",
-    "text": "Dominik Hezel\nPremkumar Elangovan\nMara Hochstein\nHeidi Höfer\nAndreas Fichtner\nLea Schnapp\nJie Xu\nLara Friedrichs\nLea Ruckes"
+    "text": "About this sub-page.",
+    "crumbs": [
+      "Periphery",
+      "Introduction"
+    ]
   },
   {
-    "objectID": "index.html#kontakt",
-    "href": "index.html#kontakt",
-    "title": "Hello Stranger ",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Legal information",
     "section": "",
-    "text": "Dominik Hezel\nBüro: +49 (0)69 798 40122\nemail: dominik.hezel - at - em.uni-frankfurt.de\nZimmer-Nr: 1.334\nMikrosonde +49 (0)69 798 40284\nREM +49 (0)69 798 40283\nµRFA +49 (0)69 798 xxx"
+    "text": "Dominik Hezel\nBerliner Str. 52\n61449 Steinbach (Ts.)\nGermany\nPhone +49 6171 8669169\nE-Mail: dominik.hezel xx em.uni-frankfurt.de\n\n\n\nThe website is hosted by Quarto Inc. using https://quartopub.com.\nThis webpage embeds third-party content that uses cookies. The respective providers are listed below.\n\n\nThe website uses plugins from YouTube operated by Google. The operator of the plug-ins is YouTube, LLC, 901 Cherry Ave, San Bruno, CA 94066, USA.\nWhen you visit one of our pages equipped with a YouTube plugin, a connection to the YouTube servers is established. All videos are embedded with the privacy-enhanced mode of Youtube enabled to minimise tracking.\nIf you are logged into your YouTube account, you enable YouTube to assign your surfing behaviour directly to your personal profile. You can prevent this by logging out of your YouTube account.\nThe use of YouTube is in the interest of an appealing presentation of our online offers. This constitutes a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR.\nFurther information on the handling of user data can be found in YouTube’s privacy policy at: https://www.google.de/intl/de/policies/privacy.\n\n\n\nSome third-party elements on this website, such as the YouTube plugin, uses Google Fonts. When you load a page containing such elements, your browser connects to Google Fonts and loads the required web fonts into your browser cache in order to display texts and fonts correctly.\nFor this purpose, the browser you are using must connect to Google’s servers. This informs Google that the website has been accessed via your IP address. The use of Google Web Fonts is in the interest of a uniform and appealing presentation of our online offers. This constitutes a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR.\nIf your browser does not support web fonts, a standard font will be used by your computer.\nFurther information on Google Web Fonts can be found at https://developers.google.com/fonts/faq and in Google’s privacy policy: https://www.google.com/policies/privacy/.\n\n\n\n\n\n\n\n\n\n\nUnless otherwise stated, material on this website is licensed under a Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0) license.\n\n\n\n\n\n\nThis license allows you to:\n\nShare — copy and redistribute the material in any medium or format\nAdapt — remix, transform, and build upon the material\nfor any purpose\n\nif you\n\nprovide proper attribution and\nindicate any changes to the material you made.\ndistribute your contributions under the same license as the original."
   },
   {
-    "objectID": "courses/cosmochemistry.html",
-    "href": "courses/cosmochemistry.html",
-    "title": "Cosmochemistry",
+    "objectID": "about.html#provider-according-to-5-tmg",
+    "href": "about.html#provider-according-to-5-tmg",
+    "title": "Legal information",
     "section": "",
-    "text": "Course Link\nClick here to go to the Cosmochemistry course.\nHier geht es zum Kosmochemie Kurs.\n\n\nReihenfolge der zu schauenden Videos\n\n\n\nSollte selbst erklärend sein."
+    "text": "Dominik Hezel\nBerliner Str. 52\n61449 Steinbach (Ts.)\nGermany\nPhone +49 6171 8669169\nE-Mail: dominik.hezel xx em.uni-frankfurt.de"
   },
   {
-    "objectID": "courses/data_science.html",
-    "href": "courses/data_science.html",
-    "title": "Data Science",
+    "objectID": "about.html#privacy",
+    "href": "about.html#privacy",
+    "title": "Legal information",
     "section": "",
-    "text": "Click here to go to the Data Science course.\nDie Veranstaltung besteht aus\n- ca. 100 Seiten Skript, aufgeteilt in die 3 Teilskripte - ca. 50 Videos mit insgesamt über 7 Stunden Material - über 100 Jupyter Notebooks mit &gt;100 Fragen, Aufgaben & Beispielen - &gt; 00 Selbstlern-Fragen mit Antworten - &gt;20 Aufgaben zur gemeinsamen Lösung in den Präsenzphasen und den Semester-Projekten - zahlreiche zusätzlicher Dateien für verschiedene Aufgaben"
+    "text": "The website is hosted by Quarto Inc. using https://quartopub.com.\nThis webpage embeds third-party content that uses cookies. The respective providers are listed below.\n\n\nThe website uses plugins from YouTube operated by Google. The operator of the plug-ins is YouTube, LLC, 901 Cherry Ave, San Bruno, CA 94066, USA.\nWhen you visit one of our pages equipped with a YouTube plugin, a connection to the YouTube servers is established. All videos are embedded with the privacy-enhanced mode of Youtube enabled to minimise tracking.\nIf you are logged into your YouTube account, you enable YouTube to assign your surfing behaviour directly to your personal profile. You can prevent this by logging out of your YouTube account.\nThe use of YouTube is in the interest of an appealing presentation of our online offers. This constitutes a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR.\nFurther information on the handling of user data can be found in YouTube’s privacy policy at: https://www.google.de/intl/de/policies/privacy.\n\n\n\nSome third-party elements on this website, such as the YouTube plugin, uses Google Fonts. When you load a page containing such elements, your browser connects to Google Fonts and loads the required web fonts into your browser cache in order to display texts and fonts correctly.\nFor this purpose, the browser you are using must connect to Google’s servers. This informs Google that the website has been accessed via your IP address. The use of Google Web Fonts is in the interest of a uniform and appealing presentation of our online offers. This constitutes a legitimate interest within the meaning of Art. 6 para. 1 lit. f GDPR.\nIf your browser does not support web fonts, a standard font will be used by your computer.\nFurther information on Google Web Fonts can be found at https://developers.google.com/fonts/faq and in Google’s privacy policy: https://www.google.com/policies/privacy/."
   },
   {
-    "objectID": "courses/data_science.html#einführung-installation-ein-erstes-programm-1.1-1.4-1142",
-    "href": "courses/data_science.html#einführung-installation-ein-erstes-programm-1.1-1.4-1142",
-    "title": "Data Science",
-    "section": "1 Einführung, Installation & ein erstes Programm: 1.1 – 1.4 [11:42]",
-    "text": "1 Einführung, Installation & ein erstes Programm: 1.1 – 1.4 [11:42]\nIn der ersten Stunde starten wir gemeinsam mit mit der Installation von Jupyter Notebooks, bzw. Anaconda. Wir lernen das Interface ein wenig kennen und schreiben ein erstes kleines Programm. Außerdem erkläre ich wie dieser Kurs im Flipped Classroom Format abläuft."
-  },
-  {
-    "objectID": "courses/data_science.html#rufe-eine-selbst-geschriebene-mischungs-funktion-auf-2.1-2.5-3917",
-    "href": "courses/data_science.html#rufe-eine-selbst-geschriebene-mischungs-funktion-auf-2.1-2.5-3917",
-    "title": "Data Science",
-    "section": "2 Rufe eine selbst geschriebene Mischungs-Funktion auf: 2.1 – 2.5 [39:17]",
-    "text": "2 Rufe eine selbst geschriebene Mischungs-Funktion auf: 2.1 – 2.5 [39:17]\nZum Programmieren verwenden wir Befehle, das sollte recht einleuchtend sein. Nun hat Python natürlich keine Befehle für die Geochemie, um mit so einem beispielsweise direkt auszurechnen wie die neue Zusammensetzung einer Schmelze ist, nachdem sie sich mit einer anderen gemischt hat. Praktisch wäre es aber schon. Nicht nur in der Geochemie, sondern für sehr vieles. Daher ist es möglich eigenen Befehle zu definieren – etwas zur Mischung von Magmen – um diese anschließend immer wieder zu verwenden. Es ist sogar möglich mehrere Befehle in einer Datei zu speichern, und aus dieser ›Bibliothek‹ immer wieder aufzurufen. Wie das geht lernen wir in dieser Einheit."
-  },
-  {
-    "objectID": "courses/data_science.html#erste-schritte-in-data-science-3.1-3.5-4321",
-    "href": "courses/data_science.html#erste-schritte-in-data-science-3.1-3.5-4321",
-    "title": "Data Science",
-    "section": "3 Erste Schritte in ›Data Science‹: 3.1 – 3.5 [43:21]",
-    "text": "3 Erste Schritte in ›Data Science‹: 3.1 – 3.5 [43:21]\nst.write(’In den vergangenen Jahren werden immer mehr Daten publiziert, deren Menge zukünftig noch schneller anwachsen wird. Es ist nicht leicht, all den Publikationen dieser erfreulich großen Mengen immer neuer Informationen zu folgen. Jupyter Notebooks wurden gerade auch dafür entwickelt, auf große Mengen an Daten zuzugreifen, diese zu visualisieren, analysieren und auf Problemstellungen anzuwenden. Natürlich ist das nur möglich, wenn die Daten in entsprechenden Formaten vorliegen. Oftmals ist daher im ersten Schritt ein ›Daten clean-up‹ notwendig. Seit 2020 gibt es nun endlich mehrere Initiativen, darunter so große wie die Nationale Forschungsdatenbank Initiative (NFDI) der DFG, GWK und anderer, die versuchen gemeinsam mit internationalen Partnern Daten besser verfügbar zu machen. Schon bestehende Datenbanken wie GeoROC, EarthChem oder auch MetBase erlauben schon seit langer Zeit solchen Zugang, und damit Data Science in z.B. der Geo- und Kosmochemie. In dieser Einheit steigen wir in das neue Feld der Data Science in der Mineralogie ein."
-  },
-  {
-    "objectID": "courses/data_science.html#interaktive-elemente-erste-programme-4.1-4.5-4142",
-    "href": "courses/data_science.html#interaktive-elemente-erste-programme-4.1-4.5-4142",
-    "title": "Data Science",
-    "section": "4 Interaktive Elemente & erste Programme: 4.1 – 4.5 [41:42]",
-    "text": "4 Interaktive Elemente & erste Programme: 4.1 – 4.5 [41:42]\nNun fehlt uns nur noch wenig Rüstzeug, um erste, leistungsfähige Programme zu schreiben. Dieses Verbleibende lernen wir in dieser Einheit, um dann tatsächlich 2 Programme zu bauen, welche Datenbank-Daten effektiv darstellen. Vor allem lernen wir hier interaktive Möglichkeiten kennen die es uns ermöglichen, mit den Daten über eine graphische Benutzeroberfläche direkt zu interagieren, diese zu manipulieren und immer wieder neu darzustellen."
-  },
-  {
-    "objectID": "courses/data_science.html#data-science-mit-api-requests-daten-auswertung-5.1-5.5-10322",
-    "href": "courses/data_science.html#data-science-mit-api-requests-daten-auswertung-5.1-5.5-10322",
-    "title": "Data Science",
-    "section": "5 Data Science mit API Requests & Daten-Auswertung 5.1 – 5.5 [1:03:22]",
-    "text": "5 Data Science mit API Requests & Daten-Auswertung 5.1 – 5.5 [1:03:22]\nEine besonders effektive und interessante Art auf Daten zuzugreifen ist über ›Application Programming Interfaces‹ – kurz: API. Der Begriff API ist sehr weit verbreitet, und sollte man sich in jedem Fall merken. In einer idealen Welt hätte man gar keine eigenen Datenbanken mehr, sondern würde nur noch über APIs auf Datenbanken zugreifen, sich die gewünschten Daten herunter laden, und diese dann auf dem eigenen Computer auswerten. Ein Großteil des Internets, und viele der erfolgreichsten Apps auf dem Smartphone funktionieren genau so: über ein API werden die gewünschten Daten geladen, und die App macht letztlich nicht mehr als ein Interface zur verfügung zu stellen, um diese Daten entsprechend auszuwählen und darzustellen. Das Interface ist dabei ein Graphical User Interface – kurz GUI. Ebenfalls ein Begriff, den man kennen sollte. Eine GUI ist letztlich nichts anders als das, was wir mit ›Interact‹ kennen gelernt haben. D.h., mit einer API und einer GUI machen wir exakt das, was fast jede unserer App auf dem Smartphone macht. Das hört sich alles großartig an – und ist es auch! Wäre da nicht das eine Problem: viele geowissenschaftliche Datenbanken haben – noch – keine vernünftige API. Glücklicherweise ändert sich daran gerade viel. Fun Fact Wir hier in Frankfurt sind an dieser Änderung recht zentral beteiligt."
-  },
-  {
-    "objectID": "OLAT material.html",
-    "href": "OLAT material.html",
-    "title": "Resources",
+    "objectID": "about.html#license",
+    "href": "about.html#license",
+    "title": "Legal information",
     "section": "",
-    "text": "MAS – Microanalysis Society\nEMAS – European Microbeam Analysis Society\nIAG – International Association of Geoanalysts\nDGE – Deutsche Gesellschaft für Elektronenmikroskopie\nWeitere\nMicroscopy and Microanalysis\n\n\n\nDas Programm zeigt u. a. wie sich Elektronen nach Beschuss in einem Material ausbreiten, wo Röntgenstrahlung entsteht, wie viel absorbiert wird, etc.\nCasino Software Hier habe ich ein kurzes Erklärvideo dazu gemacht.\nElektronen-Bindungsenergien: Webseite, Datenbank und PSE\nDie sehr gute Webseite von Gwyn P. Williams\nPSE mit den Bindungsenergien\nElektronenübergangsenergien\nNIST Standard Reference Database 128: X-Ray Transition Energies\nX-Ray Transition Energies Database"
+    "text": "Unless otherwise stated, material on this website is licensed under a Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0) license.\n\n\n\n\n\n\nThis license allows you to:\n\nShare — copy and redistribute the material in any medium or format\nAdapt — remix, transform, and build upon the material\nfor any purpose\n\nif you\n\nprovide proper attribution and\nindicate any changes to the material you made.\ndistribute your contributions under the same license as the original."
   },
   {
-    "objectID": "OLAT material.html#societies-journals",
-    "href": "OLAT material.html#societies-journals",
-    "title": "Resources",
+    "objectID": "courses/microanalytic.html",
+    "href": "courses/microanalytic.html",
+    "title": "Microanalytic",
     "section": "",
-    "text": "MAS – Microanalysis Society\nEMAS – European Microbeam Analysis Society\nIAG – International Association of Geoanalysts\nDGE – Deutsche Gesellschaft für Elektronenmikroskopie\nWeitere\nMicroscopy and Microanalysis"
+    "text": "Hier geht es zum Kurs Mikroanalytik.\nDie Veranstaltung besteht aus ca. 100 Seiten Skript, aufgeteilt in die 3 Teilskripte ca. 70 Videos mit &gt;10 Stunden Material &gt;300 Selbstlern-Fragen mit Antworten &gt;20 Aufgaben zur gemeinsamen Lösung in den Präsenzphasen ca. 10 zusätzlicher Dateien für verschiedene Aufgaben"
   },
   {
-    "objectID": "OLAT material.html#monte-carlo",
-    "href": "OLAT material.html#monte-carlo",
-    "title": "Resources",
+    "objectID": "courses/microanalytic.html#labor-tour-1.1.-1.5.-3300",
+    "href": "courses/microanalytic.html#labor-tour-1.1.-1.5.-3300",
+    "title": "Microanalytic",
+    "section": "1. Labor-Tour: 1.1. – 1.5. [33:00]",
+    "text": "1. Labor-Tour: 1.1. – 1.5. [33:00]\nIn der ersten Veranstaltung lernen wir die verschiedenen Labore und Geräte kennen. Studiert dafür das gesamte erste Kapitel ›Labor-Tour‹."
+  },
+  {
+    "objectID": "courses/microanalytic.html#atomaufbau-elektronen-konfigurationen-2.1.-2.5.-11116",
+    "href": "courses/microanalytic.html#atomaufbau-elektronen-konfigurationen-2.1.-2.5.-11116",
+    "title": "Microanalytic",
+    "section": "2. Atomaufbau & Elektronen-Konfigurationen: 2.1. – 2.5. [1:11:16]",
+    "text": "2. Atomaufbau & Elektronen-Konfigurationen: 2.1. – 2.5. [1:11:16]\nDiese fast noch erste Einheit wird Dir etwas abverlangen – allerdings: je besser wir die atomphysikalischen Grundlagen verstehen, sowie die dazu gehörigen Beschreibungen und das dafür verwendete Vokabular beherrschen, umso leichter wird es uns anschließend fallen, das zentrale Prinzip der Element-Bestimmung mit EDS und WDS an Mikrosonde, Raster, RFA – sowie verwandter Geräte wie das Transmissionselektronen-Mikroskop (TEM) zu verstehen. Nicht alle Details müssen über die Zeit hängen bleiben. Wenn man aber einmal verstanden hat, wie es funktioniert, lässt man sich später nicht mehr so leicht verwirren. Und das ist viel wert. Also, dran bleiben wenn es heißt sich durch diese etwas längere Einheit mit den Kapiteln 2.1. bis 2.5. durchzuarbeiten. Die nächsten werden dafür wieder kürzer. Versprochen."
+  },
+  {
+    "objectID": "courses/microanalytic.html#interaktion-von-elektronen-mit-material-2.6.-3.1.-3622",
+    "href": "courses/microanalytic.html#interaktion-von-elektronen-mit-material-2.6.-3.1.-3622",
+    "title": "Microanalytic",
+    "section": "3. Interaktion von Elektronen mit Material: 2.6. – 3.1. [36:22]",
+    "text": "3. Interaktion von Elektronen mit Material: 2.6. – 3.1. [36:22]\nDas vorige Thema setzt sich noch etwas fort, denn bei der Interaktion der Elektronen mit Materie gibt es noch allerlei weitere Effekte, die wir kennen müssen. Viele dieser Themen sind wichtig, um später die quantitative Analyse zu verstehen. Das Wissen gegen Ende von Kapitel 2 benötigen wir Grundlage für bildgebende Verfahren, die der Inhalt von Kapitel 3 sind, und mit denen wir hier schon ein wenig beginnen."
+  },
+  {
+    "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-3.2.-4.2.3.-5855",
+    "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-3.2.-4.2.3.-5855",
+    "title": "Microanalytic",
+    "section": "4. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 3.2. – 4.2.3. [58:55]",
+    "text": "4. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 3.2. – 4.2.3. [58:55]\nWir lernen die beiden verbleibenden, wichtigen bildgebenden Verfahren kennen: SE- und CL-Bilder. Anschließend geht es mit einem neuen Thema los: der Charakteristischen Röntgenstrahlung als analytisches Werkzeug. Mit dem zuvor gewonnen Rüstzeug lernen wir nun, wie wir die Zusammensetzung von Proben bestimmen können. In einem zunächst kurzen Kapitel wird das Energie-Dispersive Spektrometer (EDS) vorgestellt. Anschließend lernen wir die wichtigste und zentrale Grundlage der Winkel-Dispersiven Spektrometerie: die Selektion der Röntgenstrahlung eines Elements mit Hilfe der Bragg-Bedingung, sowie der Rowland-Kreis Geometrie."
+  },
+  {
+    "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.4.-4.2.6.-4704",
+    "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.4.-4.2.6.-4704",
+    "title": "Microanalytic",
+    "section": "5. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.4. – 4.2.6. [47:04]",
+    "text": "5. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.4. – 4.2.6. [47:04]\nDiese Einheit beschäftigt sich mit dem Röntgendetektor. Diese Gaszähler erlauben es Röntgenstrahlung höherer Ordnung auszuschließen, was sehr praktisch ist, um damit Interferenzen zu unterdrücken. Das Thema ist nicht ganz unkomplex, daher ist die Gesamtzeit der Videos zwar etwas kürzer, jedoch müssen besonders die beiden Kapitel/Videos 4.2.4 & 4.2.6 sehr gut studiert werden, um das Thema wirklich zu verstehen. Es wäre nicht erstaunlich, wenn es diesmal im Besondern nötig wäre, zwischendurch anzuhalten, und sich die Dinge durch z.B. eigene Skizzen selbst noch einmal klar zu machen."
+  },
+  {
+    "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.7.-4.3.5.5152",
+    "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.2.7.-4.3.5.5152",
+    "title": "Microanalytic",
+    "section": "6. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.7. – 4.3.5.[51:52]",
+    "text": "6. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.2.7. – 4.3.5.[51:52]\nEin zentrales Element um Proben zu messen, ist die Standardisierung, welche wir in dieser Einheit kennen lernen. Wir lernen außerdem erste, konkrete Parameter und Bedingungen kennen, mit denen eine Probe gemessen werden kann, und einige Dinge wie Matrix-Korrektur, Nachweisgrenze, etc. die für eine erfolgreiche Messung beachtet werden müssen."
+  },
+  {
+    "objectID": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.3.6.-4.5.-5149",
+    "href": "courses/microanalytic.html#charakteristische-röntgenstrahlung-als-analytisches-werkzeug-4.3.6.-4.5.-5149",
+    "title": "Microanalytic",
+    "section": "7. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.3.6. – 4.5. [51:49]",
+    "text": "7. Charakteristische Röntgenstrahlung als analytisches Werkzeug: 4.3.6. – 4.5. [51:49]\nIm letzten Teil von Kapitel 4 schauen wir uns noch Interferenzen und den Chemical Peak Shift, welche die Messung beeinflussen können. Dann wollen wir jedoch wissen, was und wie wir mit der Mikrosonde oder dem Rasterelektronen-Mikroskop messen können. Schließlich gibt es ein wichtiges Video dazu, was man überlegen sollte oder muss, bevor man am Messtag im Labor steht. Wichtig ist das Video, da es Dir hilft eine erfolgreiche Mess-Kampagne durchführen."
+  },
+  {
+    "objectID": "courses/microanalytic.html#daten-auswertung--darstellung-5.1.-5.3.-5155",
+    "href": "courses/microanalytic.html#daten-auswertung--darstellung-5.1.-5.3.-5155",
+    "title": "Microanalytic",
+    "section": "8. Daten-Auswertung & -Darstellung: 5.1. – 5.3. [51:55]",
+    "text": "8. Daten-Auswertung & -Darstellung: 5.1. – 5.3. [51:55]\nWir können nun erfolgreich an der Mikrosonde und eigentlich auch dem REM messen. Aber was tun mit all den Daten? Zunächst müssen wir wissen, wie wir sie vom Gerät auf unseren Computer transferieren. Als erstes wollen wir dann natürlich wissen, wie genau wir gemessen haben, bzw. mit welchem Vokabular wir diese Genauigkeit kommunizieren. Dann sind wir natürlich neugierig, wie denn nun die gemessenen Minerale und andere Phasen genau zusammen gesetzt sind. Das erfahren wir, indem wir deren Mineral- und Strukturformel berechnen. Um all das geht es in diesen Kapiteln."
+  },
+  {
+    "objectID": "courses/microanalytic.html#daten-auswertung--darstellung-5.4.1.-5.4.4.-5908",
+    "href": "courses/microanalytic.html#daten-auswertung--darstellung-5.4.1.-5.4.4.-5908",
+    "title": "Microanalytic",
+    "section": "9. Daten-Auswertung & -Darstellung: 5.4.1. – 5.4.4. [59:08]",
+    "text": "9. Daten-Auswertung & -Darstellung: 5.4.1. – 5.4.4. [59:08]\nEin wichtiger Teil der Analytik ist die Darstellung der Daten in aussagekräftigen und übersichtlichen Diagramme und Tabellen. Dazu schauen wir uns zunächst an, wie die Daten für typische Diagramme aufbereitet werden – nämlich als Element-Konzentrationen oder normiert. Dann arbeiten wir uns ein wenig durch typische Diagramm-Typen, um zu lernen und zu verstehen, was das eigentlich für Diagramme sind, die wir da häufig sehen, und regelmäßig selbst nutzen. Schließlich lernen wir ein wenig welche Elemente bei Diagrammen und Tabellen wichtig sind, und wie diese genutzt werden können und sollten."
+  },
+  {
+    "objectID": "courses/microanalytic.html#rem-rfa-kapitel-6-2726",
+    "href": "courses/microanalytic.html#rem-rfa-kapitel-6-2726",
+    "title": "Microanalytic",
+    "section": "10. REM & RFA: Kapitel 6 [27:26]",
+    "text": "10. REM & RFA: Kapitel 6 [27:26]\nIn dieser vergleichsweise kurzen Einheit lernen wir den Unterschied zwischen EPMA und REM etwas genauer kennen, und weshalb das REM sehr viel mehr ein Mikroskop ist. An unserem REM haben wir außerdem einen EBSD-Detektor, der vorgestellt wird, und was man damit anstellen kann. Im zweiten Teil wird die RFA vorgestellt, worin sich diese von der EPMA unterscheidet, und welche unterschiedlichen Einsatzgebiete es für die RFA gibt, und damit, in welch unterschiedlichen Ausführungen RFAs gebaut werden."
+  },
+  {
+    "objectID": "courses/microanalytic.html#vorbereitung-auf-den-praktischen-teil-kapitel-7-10846",
+    "href": "courses/microanalytic.html#vorbereitung-auf-den-praktischen-teil-kapitel-7-10846",
+    "title": "Microanalytic",
+    "section": "11. Vorbereitung auf den praktischen Teil: Kapitel 7 [1:08:46]",
+    "text": "11. Vorbereitung auf den praktischen Teil: Kapitel 7 [1:08:46]\nIn Vorbereitung auf den praktischen Teil gibt es zunächst Video-Trockenübungen. Diese sind sehr hilfreich, um am Gerät nicht gleich verloren zu sein, sondern schon mit Vorkenntnis zu starten. Daher zum Bingen und immer wieder schauen ein paar Videos mit Einblicken von der Sonde wie diese bedient wird. Abgerundet durch ein paar kurze Impressionen rund um und aus der Sonde."
+  },
+  {
+    "objectID": "courses/microanalytic.html#probe-klausur",
+    "href": "courses/microanalytic.html#probe-klausur",
+    "title": "Microanalytic",
+    "section": "12. Probe-Klausur",
+    "text": "12. Probe-Klausur\nDie Probe-Klausur ist ähnlich der tatsächlichen Klausur. Der Umfang ist etwas kürzer, da Du im Anschluss noch die Klausur einer Kommilitonin eins Kommilitonen korrigieren wirst."
+  },
+  {
+    "objectID": "courses/microanalytic.html#sinn-und-zweck-dieser-übung",
+    "href": "courses/microanalytic.html#sinn-und-zweck-dieser-übung",
+    "title": "Microanalytic",
+    "section": "Sinn und Zweck dieser Übung",
+    "text": "Sinn und Zweck dieser Übung\nEs gibt diese Probeklausur, damit Du eine Idee davon bekommst, was Dich bei der echten Klausur erwartet. Als Vorbereitung dafür gibt es keine weiteren Inhalte oder Videos – sondern wiederhole alles, das wir bislang durchgegangen sind und geübt haben."
+  },
+  {
+    "objectID": "courses/microanalytic.html#ablauf",
+    "href": "courses/microanalytic.html#ablauf",
+    "title": "Microanalytic",
+    "section": "Ablauf",
+    "text": "Ablauf\nDie Klausur dauert ca. 50 min., also etwas länger oder kürzer als im Modul vorgegeben, je nachdem ob Du Dir den Kurs für BSc (30 min als möglicher Teil einer kumulativen Modulabschlussklausur; max. Punktzahl: 33) oder MSc (90 min als mögliche exemplarische Modulabschlussklausur; max. Punktzahl: 100) anrechnen lässt. Du schreibst die Klausur für Dich allein. Schummeln wird nicht kontrolliert, diese Probeklausur dient allein Deiner eigenen Einschätzung. Anschließend kommst Du in eine 2er oder 3er Gruppe, erhältst die Lösung für die Klausur, und Ihr korrigiert gegenseitig Eure Klausuren. Das sollte ca. 15 min dauern."
+  },
+  {
+    "objectID": "courses/microanalytic.html#halb-finale",
+    "href": "courses/microanalytic.html#halb-finale",
+    "title": "Microanalytic",
+    "section": "Halb-Finale",
+    "text": "Halb-Finale\nZum Abschluss haben wir knapp 30 min. Zeit die Klausur gemeinsam durchzusprechen, allgemeine Fragen zu stellen und zu beantworten, oder letzte Unklarheiten auszuräumen."
+  },
+  {
+    "objectID": "courses/microanalytic.html#fünf-beispiel-fragen-für-die-vorbereitung-gesamtpunktzahl-33",
+    "href": "courses/microanalytic.html#fünf-beispiel-fragen-für-die-vorbereitung-gesamtpunktzahl-33",
+    "title": "Microanalytic",
+    "section": "Fünf Beispiel-Fragen für die Vorbereitung (Gesamtpunktzahl: 33)",
+    "text": "Fünf Beispiel-Fragen für die Vorbereitung (Gesamtpunktzahl: 33)\nNotwendige Unterlagen wie z.B. Tabellen zum Nachschlagen werden zur Verfügung gestellt.\nFrage 1 (5 Punkte)\nNenne 2 Elementpaare (also 2 x 2 Elemente) deren charakteristische Röntgenstrahlung möglicherweise eine Linienüberlagerung zeigen könnten.\nFrage 2 (5 Punkte)\nWorin können sich Proben ähneln und/oder unterscheiden die mit der EPMA oder mit dem REM untersucht werden.\nFrage 3 (8 Punkte / 3 Punkte)\nErkläre schematisch die Funktionsweise des Gaszählers. Wozu wird dieser verwendet?\nFrage 4 (4 Punkte)\nWie hoch sollte die Beschleunigungsspannung sein um Hf,Lα anzuregen? Und wie hoch der Strom?\nFrage 5 (8 Punkte)\nElemente mit charakteristischer Linien höherer Ordnung können die charakteristischen Linien anderer Elementen überlagern. (i) An welcher Stelle in der EPMA, und (ii) wie können diese Linien höherer Ordnung von der Zählung ausgeschlossen werden."
+  },
+  {
+    "objectID": "courses/courses-intro.html",
+    "href": "courses/courses-intro.html",
+    "title": "Courses",
     "section": "",
-    "text": "Das Programm zeigt u. a. wie sich Elektronen nach Beschuss in einem Material ausbreiten, wo Röntgenstrahlung entsteht, wie viel absorbiert wird, etc.\nCasino Software Hier habe ich ein kurzes Erklärvideo dazu gemacht.\nElektronen-Bindungsenergien: Webseite, Datenbank und PSE\nDie sehr gute Webseite von Gwyn P. Williams\nPSE mit den Bindungsenergien\nElektronenübergangsenergien\nNIST Standard Reference Database 128: X-Ray Transition Energies\nX-Ray Transition Energies Database"
+    "text": "Three courses are currenlty available:\n1. Data Science (german only, english coming later 2023)\n2. Cosmochemistry (german & english)\n3. Microanalytic (german only, english coming in 2024)\n\nWie zu schauen ist – oder zumindest: wie geschaut werden kann\nAnhalten, nachvollziehen, eventuell zurückspulen und dazu eigen Skizzen oder Mitschriebe anfertigen\nEinige wenige Videos haben aus rechtlichen Gründen ein Passwort, das erhaltet Ihr von mir.\n\n\n\n\n\nGeochemie I: Kosmochemie-Teil\n\n\n\nUmweltwissenschaften: Mikroanalytik-Teil"
   },
   {
-    "objectID": "OLAT material.html#problembeschreibung",
-    "href": "OLAT material.html#problembeschreibung",
-    "title": "Resources",
-    "section": "Problembeschreibung",
-    "text": "Problembeschreibung\nWenn im ‘Maintenance’ Fenster der Punkt ‘Check Pressure of N2 Gas’ rot ist, muss die N2-Gasflasche getauscht werden. Möglicherweise brennt auch die Lampe ‘Air Pressure’ vorn an der Sonder hinter der dunklen Rauchglasscheibe.\nEs kann sein, dass nach dem N2-Flaschen Tausch der Punkt ‘Check Pressure of N2 Gas’ weiterhin rot ist, und auch die ‘Air Pressure’ Lampe weiter leuchtet.\nLösung\nZunächst nachschauen, ob der Druck der N2-Flasche, sowie des Reduktionsventils an der rechten Wand hinter der Sonde auf etwas mehr als 5 bar stehen. Wenn das nicht der Fall ist, den Durch darauf erhöhen.\nWenn die Warnungen noch immer an sind, auf dem Panel vorn an der Sonder hinter der dunklen Rauchglasscheibe ‘Vacuum Power’ ausschalten und kurz darauf wieder einschalten.\nIm Maintenance Fenster werden nacheinander ein paar der Punkte auf rot springen, während verschiedene Ventile auf und zu gehen. Der Vorgang dauert einige Minuten.\nSobald das vorbei ist, sollte man min. 1 Stunde warten, bis die Sonde wieder vollständig betriebsbereit ist.\n\n\n\n(sss)"
+    "objectID": "courses/courses-intro.html#allgemeines",
+    "href": "courses/courses-intro.html#allgemeines",
+    "title": "Courses",
+    "section": "",
+    "text": "Three courses are currenlty available:\n1. Data Science (german only, english coming later 2023)\n2. Cosmochemistry (german & english)\n3. Microanalytic (german only, english coming in 2024)\n\nWie zu schauen ist – oder zumindest: wie geschaut werden kann\nAnhalten, nachvollziehen, eventuell zurückspulen und dazu eigen Skizzen oder Mitschriebe anfertigen\nEinige wenige Videos haben aus rechtlichen Gründen ein Passwort, das erhaltet Ihr von mir."
   },
   {
-    "objectID": "OLAT material.html#problembeschreibung-1",
-    "href": "OLAT material.html#problembeschreibung-1",
-    "title": "Resources",
-    "section": "Problembeschreibung",
-    "text": "Problembeschreibung\nBei Ausfall der Messung durch den Fehler „check water flow“ wird eine laufende Messung gestoppt oder der Start einer neuen Messung nicht zugelassen.\nLösung\nDer erste Schritt ist es den Wasserkühler im Nebenraum (Präparation) zu kontrollieren, ob dieser noch läuft. Wenn dieser intakt ist, sollte die Einstellung des Wasserdurchflusses an der Sonde kontrolliert werden (rote Anzeige hinter der Mikrosonde). Die Summer der beiden Werte muss dem Durchfluss (in l/min) am Wasserkühler entsprechen.\nSollte der Durchfluss in Ordnung sein, muss die schwarze Klappe vorne rechts an der Mikrosonde geöffnet werden und mit einem dünnen Stab (z.B. Inbus) die ERROR RESET- Taste gedrückt werden (2 sec).\nDie gelbe Lampe sollte anschließend aus gehen und in der Maintenance-Condition alle Parameter grün leuchten."
-  },
-  {
-    "objectID": "OLAT material.html#problembeschreibung-2",
-    "href": "OLAT material.html#problembeschreibung-2",
-    "title": "Resources",
-    "section": "Problembeschreibung",
-    "text": "Problembeschreibung\nWenn man die Datenpunkte in das falsche Programm abgespeichert hat (z.B. Qualitativ statt Quantitative Analyse) kann man sie nicht einfach kopieren und einfügen.\nLösung\nMan kann die eingegebenen Datenpunkte in dem falschen Programm markieren und dann mit “rechts Klick” und “copy” kopieren. Man geht in das gewünschte Programm und fügt die Punkte wieder mit “rechts Klick” und “paste” ein.\n[[Category:Troubleshooting für die EPMA]]\nBemerkt die Sonde einen Fehler, sollte sich automatisch das Maintenance-Fenster öffnen und das entsprechende System mit einem roten Status markiert sein. Einige der Fehler sind links im LED-Panel hinter der Rauchglas-Blende vorn an der Sonde gespiegelt (in grün …).\nWichtig: Es ist möglich, dass der Fehler nur temporär auftrat (z.B. der Kühlwasserdruck kurzzeitig zu niedrig war). Die Fehlermeldung wird nicht automatisch gelöscht, damit die Nutzerin weiß, dass es einen Fehler gab. Um die Fehlermeldung zu löschen gibt es ebenfalls im LED-Panel hinter der Rauchglas-Abdeckung vorn an der Sonde rechts unten ein kleines Löchlein mit einem Reset-Knopf, der mit einem schmalen Stift/Inbus/… für ca. 2-3 Sekunden tief eingedrückt werden muss – es klickt kurz. Ist die Fehlermeldung gelöscht, sollte wieder alles in Ordnung sein. Ansonsten sollte der Fehler erneut angezeigt werden. Dann muss noch mal (nach)behoben werden.\n\n\n\nimage"
-  },
-  {
-    "objectID": "OLAT material.html#problembeschreibung-3",
-    "href": "OLAT material.html#problembeschreibung-3",
-    "title": "Resources",
-    "section": "Problembeschreibung",
-    "text": "Problembeschreibung\nEines der Fenster PC-SEM oder PC-EPMA – oder beim reagieren nicht, hängen, zeigen falsches an, etc.\nLösung\nBeide Fenster schließen, z.B. unten über die Taskleiste. Programm ‘JEOL EPMA’ neu starten über den Shortcut ganz links auf dem Desktop. ’’‘(noch Bild einfügen)’’‘. Wenn das nicht geht, Rechtsklick auf das Symbol und ’Run as Administrator’ anklicken. Wenn das nicht geht das Symbol ‘Restart EPMA’ anklicken. ’’‘(noch Bild einfügen)’’’ Dann das Programm neu starten. Sollte alles nicht helfen, Dominik anrufen. Evtl. muss der Computer neu gestartet werden. Das sollte aber abgesprochen werden."
-  },
-  {
-    "objectID": "OLAT material.html#problembeschreibung-4",
-    "href": "OLAT material.html#problembeschreibung-4",
-    "title": "Resources",
-    "section": "Problembeschreibung",
-    "text": "Problembeschreibung\nDie PCD-Taste oder die Freeze-Taste auf dem Schaltpanel reagieren nicht mehr.\nLösung Der Stecker des Schaltpanels muss von der Mikrosonde abgeschraubt werden. Hierzu muss man hinter die Mikrosonde bzw. hinter den Bildschirm gehen und den Stecker mit der Aufschrift „OPN2“ (ganz links) für kurze Zeit lösen. Anschließend muss die Software neu gestartet werden. Dafür schließt man das EPMA-Menu und klickt mit rechts auf den Icon „Reset EPMA-Shortcut“ auf dem Desktophintergrund. Anschließend wählt man „Rund as admin“ und bestätigt mit „Yes“. Anschließend kann man wieder die EPMA Software öffnen."
-  },
-  {
-    "objectID": "OLAT material.html#problembeschreibung-5",
-    "href": "OLAT material.html#problembeschreibung-5",
-    "title": "Resources",
-    "section": "Problembeschreibung",
-    "text": "Problembeschreibung\nDer Schleusenstab lässt sich nicht mehr waagrecht kippen und steht daher schief. Ein Probenwechsel und das belüften der Schleusenkammer ist auch nicht mehr möglich. In der Software wird der Probenshuttle in der Probenkammer angezeigt.\n\n’‘’Nur von eingewiesenem Personal durchzuführen’’’\n\n Diese finden sich in “Telefon-Email-Kontakte”\nLösung Unter dem Menüpunkt „Maintenance“ öffnet man zuerst das Fenster „Self diagnosis (Y)“ um den Status der Ventile überprüfen zu können. Man lässt anschließend die Probe vorerst in der Probenkammer und klappt den Schleusenstab herunter (vertikal). Über das Fenster „Self diagnosis (Y)“ überprüft man den Status der Ventile, anschließend belüftet man über die Software des SEM-Monitors.\nDie Schleuse kann geöffnet und der Pin zurückgezogen werden. Anschließend bewegt man den Stab bzw. dreht ihn vorsichtig quer der Längsachse hin und her oder man kann ihn auch in fast waagrechten Zustand vorschieben.\nSobald der Stab sich wieder in die waagrechte Position bringen lässt ist der Pin wieder eingerastet. Das bedeutet man kann die Probenkammer wieder evakuieren und die Probe wie gewohnt schleusen."
-  },
-  {
-    "objectID": "OLAT material.html#problembeschreibung-6",
-    "href": "OLAT material.html#problembeschreibung-6",
-    "title": "Resources",
-    "section": "Problembeschreibung",
-    "text": "Problembeschreibung\nDas Fenster des Specimen Navigator ist nicht mehr auf dem Monitor zu finden, wird der noch in der Menüleiste als offen angezeigt.\nLösung\nZuerst muss der Specimen Navigator mit geschlossen werden (rechter Mausklick auf den Icon in der Menüleiste). Anschließend muss man in dem Windowsmenu das XML Notepad öffnen. Hier klickt man auf den rechten Pfeil für den Pfad „cNavigator…Nav… .xml“. Daraufhin öffnet man den Pfad „Windows Position“ und danach „Main Window“. Bei „Left“ gibt man eine 0 ein ebenso wie bei „Top“, anschließend speichert man die eingabe. Der Specimen Navigator lässt sich nun wieder öffnen.\n\n\n\nimage\n\n\n[[Category:Elektronenstrahl-Mikrosonde, EPMA (JEOL JXA-8530F Plus)]]\n\n\n\nimage_1\n\n\n\n\n\nimage_2"
+    "objectID": "courses/courses-intro.html#kurse-courses",
+    "href": "courses/courses-intro.html#kurse-courses",
+    "title": "Courses",
+    "section": "",
+    "text": "Geochemie I: Kosmochemie-Teil\n\n\n\nUmweltwissenschaften: Mikroanalytik-Teil"
   }
 ]
