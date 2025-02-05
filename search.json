@@ -243,45 +243,45 @@
   {
     "objectID": "microprobe/epma-intro.html",
     "href": "microprobe/epma-intro.html",
-    "title": "Welcome",
+    "title": "EPMA Lab",
     "section": "",
-    "text": "Die Elektronenstrahl-Mikrosonde ist ein JEOL JXA-8530F Plus Hyperprobe mit Feldemissionskathode (FEG – Field Emission Gun) und wurde am 25. Februar 2019 installiert.\nDie Sonde ist ausgestattet mit:\n5 Wellenlängen-Dispersiven Spektrometern (WDS) Einem Energiedispersiven Spektrometer (EDS) Schwarz-Weiß Kathodolumineszenz (CL) Einer Kühlfalle plus Airjet, im Besonderne für leichte Elemente\n\n\nRoutinemäßig polierte Dünn- oder Anschliffe im Rechteckformat (ca. 28 mm x 48 mm) oder rund (Durchmesser 25,4 mm) Beliebig geformte Proben (max. 100 mm x 100 mm x 50 mm) mit unebener Oberfläche; maximal erlaubte Höhenunterschiede der Probenoberfläche: 2 mm. Bitte beachten: bei unebener Oberfläche ist keine verlässliche quantitative Analyse möglich. Maximal analysierbare Fläche: 90 mm x 90 mm. *Die Probenoberfläche muss in jedem Fall elektrisch leitend sein, d.h. sie wird in der Regel vor der Mikrosondenanalyse bedampft (z.B. mit C).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpektrometer\nKristalle\nZähler\nSpalt\nRowland-Kreis (Radius)\nmm-Bereich\n\n\n\n\n1, N-type\nTAP, PET, LDE1 ([C], N, O, F), LDE2 (B, C, N)\ngas-flow Ar(90)CH4(10)\n300 µm, offen für Multilayer\n140 mm\n69.701 - 259.951\n\n\n2, L-type\nTAPL, PETL\ngas-flow Ar(90)CH4(10)\n300 µm\n140 mm\n69.561 - 259.766\n\n\n3, L-type\nLiFL, PETL\ngeschlossener Xe\n300 µm\n140 mm\n69.621 - 259.686\n\n\n4, L-type\nTAPL, LDE6L (B, C)\ngas-flow Ar(90)CH4(10)\n300 µm\n140 mm\n69.371 - 259.631\n\n\n5, H-type\nLiFH, PETH\ngeschlossener Xe\n500 µm\n100 mm\n85.281 - 240.295\n\n\n\n\n\n\nTAP: Thallium-Phthalat-Säure, 2d = 25.757 Å\n\nLiF: Lithium-Fluorid, 2d = 4.0267 Å\n\nPET: Penta-Erythritol, 2d = 8.742 Å\n\nLDE: künstliche layered dispersive element Kristalle (Multilayer), LDE1: 2d = 60 Å, LDE6: 2d = xx Å\n\n\n\n\n\nN: Normal große Kristalle. Davon passen 4 Stück auf den Kristallwechsler.\n\nL: Large Crystals: Die Analysator-Kristalle sind größer und ergeben höhere Intensitäten. Davon passen max. 2 Stück auf den Kristallwechsler.\n\nH: High intensity\n\n[[Category:Rasterelektronen-Mikroskop, REM (JEOL JSM-6490)]]\n\n\n\nimage\n\n\n\n\n\n\nElectron-probe (EPMA) measurements followed a similar protocol as described in Baldwin et al. 2007. We used a JEOL JXA-8530F Plus EPMA at the Institut für Geowissenschaften, Goethe Universität Frankfurt, and with the following setup (Channel, Analyser-Crystal, Standard): Si (Ch-1, TAP, Zircon 91500), Y (Ch-2, PETL, YPO4), Ti (Ch-3, PETL, SrTiO3), Hf (Ch-4, TAPL, ), Zr (Ch-5, PETH, Zircon 91500). We used differential mode for most elements to cut off higher order interferences that are a particular problem for Ti (e.g., Hf Lb(2)(this needs to be re-checked, only from what I remember) on Ti Ka). Individual points were measured at 15 kV and 150 nA. Ti was measured for 200 s on the peak and 100 on the backgrounds, resulting in a detection limit of approx. 25 wt-ppm. Other elements were measured between 20 and 60 s on the peak half the peak time on the backgrounds. The spot-size was set to a circle of 3 µm for all measurements. Data reduction was performed using the build-in the ZAF (oxide) algorithm.",
+    "text": "Die Elektronenstrahl-Mikrosonde ist ein JEOL JXA-8530F Plus Hyperprobe mit Feldemissionskathode (FEG – Field Emission Gun) und wurde am 25. Februar 2019 installiert.\nDie Sonde ist ausgestattet mit:\n5 Wellenlängen-Dispersiven Spektrometern (WDS) Einem Energiedispersiven Spektrometer (EDS) Schwarz-Weiß Kathodolumineszenz (CL) Einer Kühlfalle plus Airjet, im Besonderne für leichte Elemente\n\n\n\n(JEOL JXA-8530F Plus Hyperprobe Lab)\n\n\n\n\nRoutinemäßig polierte Dünn- oder Anschliffe im Rechteckformat (ca. 28 mm x 48 mm) oder rund (Durchmesser 25,4 mm) Beliebig geformte Proben (max. 100 mm x 100 mm x 50 mm) mit unebener Oberfläche; maximal erlaubte Höhenunterschiede der Probenoberfläche: 2 mm. Bitte beachten: bei unebener Oberfläche ist keine verlässliche quantitative Analyse möglich. Maximal analysierbare Fläche: 90 mm x 90 mm. *Die Probenoberfläche muss in jedem Fall elektrisch leitend sein, d.h. sie wird in der Regel vor der Mikrosondenanalyse bedampft (z.B. mit C).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpektrometer\nKristalle\nZähler\nSpalt\nRowland-Kreis (Radius)\nmm-Bereich\n\n\n\n\n1, N-type\nTAP, PET, LDE1 ([C], N, O, F), LDE2 (B, C, N)\ngas-flow Ar(90)CH4(10)\n300 µm, offen für Multilayer\n140 mm\n69.701 - 259.951\n\n\n2, L-type\nTAPL, PETL\ngas-flow Ar(90)CH4(10)\n300 µm\n140 mm\n69.561 - 259.766\n\n\n3, L-type\nLiFL, PETL\ngeschlossener Xe\n300 µm\n140 mm\n69.621 - 259.686\n\n\n4, L-type\nTAPL, LDE6L (B, C)\ngas-flow Ar(90)CH4(10)\n300 µm\n140 mm\n69.371 - 259.631\n\n\n5, H-type\nLiFH, PETH\ngeschlossener Xe\n500 µm\n100 mm\n85.281 - 240.295\n\n\n\n\n\n\nTAP: Thallium-Phthalat-Säure, 2d = 25.757 Å\n\nLiF: Lithium-Fluorid, 2d = 4.0267 Å\n\nPET: Penta-Erythritol, 2d = 8.742 Å\n\nLDE: künstliche layered dispersive element Kristalle (Multilayer), LDE1: 2d = 60 Å, LDE6: 2d = xx Å\n\n\n\n\n\nN: Normal große Kristalle. Davon passen 4 Stück auf den Kristallwechsler.\n\nL: Large Crystals: Die Analysator-Kristalle sind größer und ergeben höhere Intensitäten. Davon passen max. 2 Stück auf den Kristallwechsler.\n\nH: High intensity\n\n[[Category:Rasterelektronen-Mikroskop, REM (JEOL JSM-6490)]]\n\n\n\nimage\n\n\n\n\n\n\nElectron-probe (EPMA) measurements followed a similar protocol as described in Baldwin et al. 2007. We used a JEOL JXA-8530F Plus EPMA at the Institut für Geowissenschaften, Goethe Universität Frankfurt, and with the following setup (Channel, Analyser-Crystal, Standard): Si (Ch-1, TAP, Zircon 91500), Y (Ch-2, PETL, YPO4), Ti (Ch-3, PETL, SrTiO3), Hf (Ch-4, TAPL, ), Zr (Ch-5, PETH, Zircon 91500). We used differential mode for most elements to cut off higher order interferences that are a particular problem for Ti (e.g., Hf Lb(2)(this needs to be re-checked, only from what I remember) on Ti Ka). Individual points were measured at 15 kV and 150 nA. Ti was measured for 200 s on the peak and 100 on the backgrounds, resulting in a detection limit of approx. 25 wt-ppm. Other elements were measured between 20 and 60 s on the peak half the peak time on the backgrounds. The spot-size was set to a circle of 3 µm for all measurements. Data reduction was performed using the build-in the ZAF (oxide) algorithm.",
     "crumbs": [
       "Microprobe",
-      "Welcome"
+      "EPMA Lab"
     ]
   },
   {
     "objectID": "microprobe/epma-intro.html#vorbereitung",
     "href": "microprobe/epma-intro.html#vorbereitung",
-    "title": "Welcome",
+    "title": "EPMA Lab",
     "section": "",
     "text": "Routinemäßig polierte Dünn- oder Anschliffe im Rechteckformat (ca. 28 mm x 48 mm) oder rund (Durchmesser 25,4 mm) Beliebig geformte Proben (max. 100 mm x 100 mm x 50 mm) mit unebener Oberfläche; maximal erlaubte Höhenunterschiede der Probenoberfläche: 2 mm. Bitte beachten: bei unebener Oberfläche ist keine verlässliche quantitative Analyse möglich. Maximal analysierbare Fläche: 90 mm x 90 mm. *Die Probenoberfläche muss in jedem Fall elektrisch leitend sein, d.h. sie wird in der Regel vor der Mikrosondenanalyse bedampft (z.B. mit C).",
     "crumbs": [
       "Microprobe",
-      "Welcome"
+      "EPMA Lab"
     ]
   },
   {
     "objectID": "microprobe/epma-intro.html#spektrometer-belegung",
     "href": "microprobe/epma-intro.html#spektrometer-belegung",
-    "title": "Welcome",
+    "title": "EPMA Lab",
     "section": "",
     "text": "Spektrometer\nKristalle\nZähler\nSpalt\nRowland-Kreis (Radius)\nmm-Bereich\n\n\n\n\n1, N-type\nTAP, PET, LDE1 ([C], N, O, F), LDE2 (B, C, N)\ngas-flow Ar(90)CH4(10)\n300 µm, offen für Multilayer\n140 mm\n69.701 - 259.951\n\n\n2, L-type\nTAPL, PETL\ngas-flow Ar(90)CH4(10)\n300 µm\n140 mm\n69.561 - 259.766\n\n\n3, L-type\nLiFL, PETL\ngeschlossener Xe\n300 µm\n140 mm\n69.621 - 259.686\n\n\n4, L-type\nTAPL, LDE6L (B, C)\ngas-flow Ar(90)CH4(10)\n300 µm\n140 mm\n69.371 - 259.631\n\n\n5, H-type\nLiFH, PETH\ngeschlossener Xe\n500 µm\n100 mm\n85.281 - 240.295\n\n\n\n\n\n\nTAP: Thallium-Phthalat-Säure, 2d = 25.757 Å\n\nLiF: Lithium-Fluorid, 2d = 4.0267 Å\n\nPET: Penta-Erythritol, 2d = 8.742 Å\n\nLDE: künstliche layered dispersive element Kristalle (Multilayer), LDE1: 2d = 60 Å, LDE6: 2d = xx Å\n\n\n\n\n\nN: Normal große Kristalle. Davon passen 4 Stück auf den Kristallwechsler.\n\nL: Large Crystals: Die Analysator-Kristalle sind größer und ergeben höhere Intensitäten. Davon passen max. 2 Stück auf den Kristallwechsler.\n\nH: High intensity\n\n[[Category:Rasterelektronen-Mikroskop, REM (JEOL JSM-6490)]]\n\n\n\nimage",
     "crumbs": [
       "Microprobe",
-      "Welcome"
+      "EPMA Lab"
     ]
   },
   {
     "objectID": "microprobe/epma-intro.html#ti-in-zircon-method",
     "href": "microprobe/epma-intro.html#ti-in-zircon-method",
-    "title": "Welcome",
+    "title": "EPMA Lab",
     "section": "",
     "text": "Electron-probe (EPMA) measurements followed a similar protocol as described in Baldwin et al. 2007. We used a JEOL JXA-8530F Plus EPMA at the Institut für Geowissenschaften, Goethe Universität Frankfurt, and with the following setup (Channel, Analyser-Crystal, Standard): Si (Ch-1, TAP, Zircon 91500), Y (Ch-2, PETL, YPO4), Ti (Ch-3, PETL, SrTiO3), Hf (Ch-4, TAPL, ), Zr (Ch-5, PETH, Zircon 91500). We used differential mode for most elements to cut off higher order interferences that are a particular problem for Ti (e.g., Hf Lb(2)(this needs to be re-checked, only from what I remember) on Ti Ka). Individual points were measured at 15 kV and 150 nA. Ti was measured for 200 s on the peak and 100 on the backgrounds, resulting in a detection limit of approx. 25 wt-ppm. Other elements were measured between 20 and 60 s on the peak half the peak time on the backgrounds. The spot-size was set to a circle of 3 µm for all measurements. Data reduction was performed using the build-in the ZAF (oxide) algorithm.",
     "crumbs": [
       "Microprobe",
-      "Welcome"
+      "EPMA Lab"
     ]
   },
   {
@@ -525,13 +525,12 @@
   {
     "objectID": "sem/sem-intro.html",
     "href": "sem/sem-intro.html",
-    "title": "SEM",
+    "title": "SEM Lab",
     "section": "",
-    "text": "JEOL JSM-6490",
+    "text": "The JEOL JSM-6490 SEM in room GW 0.302 is equipped with a GATAN–CL, colour-CL Oxford–EDX with Inca software, and a EBSD unit.\nTutorials how to operate the SEM are provided here in the respective section.\n\n\n\n(JEOL JSM-6490 SEM Lab)",
     "crumbs": [
       "SEM",
-      "Introduction",
-      "SEM"
+      "SEM Lab"
     ]
   },
   {
@@ -542,7 +541,7 @@
     "text": "Switch on the Machine",
     "crumbs": [
       "µ.XRF",
-      "µ.XRF Tutorials",
+      "Tutorials",
       "Tutorials"
     ]
   },
@@ -554,7 +553,7 @@
     "text": "Loading the Sample",
     "crumbs": [
       "µ.XRF",
-      "µ.XRF Tutorials",
+      "Tutorials",
       "Tutorials"
     ]
   },
@@ -566,7 +565,7 @@
     "text": "Point Analysis with the EDS",
     "crumbs": [
       "µ.XRF",
-      "µ.XRF Tutorials",
+      "Tutorials",
       "Tutorials"
     ]
   },
@@ -578,7 +577,7 @@
     "text": "Focusing the sample",
     "crumbs": [
       "µ.XRF",
-      "µ.XRF Tutorials",
+      "Tutorials",
       "Tutorials"
     ]
   },
@@ -590,7 +589,7 @@
     "text": "Acquiring a Montage Image of the Sample",
     "crumbs": [
       "µ.XRF",
-      "µ.XRF Tutorials",
+      "Tutorials",
       "Tutorials"
     ]
   },
@@ -602,7 +601,7 @@
     "text": "Element Maps with the EDS",
     "crumbs": [
       "µ.XRF",
-      "µ.XRF Tutorials",
+      "Tutorials",
       "Tutorials"
     ]
   },
@@ -614,7 +613,7 @@
     "text": "Display the Results of an Element Map",
     "crumbs": [
       "µ.XRF",
-      "µ.XRF Tutorials",
+      "Tutorials",
       "Tutorials"
     ]
   },
@@ -626,20 +625,19 @@
     "text": "Unload the Sample and Switch Off the Machine",
     "crumbs": [
       "µ.XRF",
-      "µ.XRF Tutorials",
+      "Tutorials",
       "Tutorials"
     ]
   },
   {
     "objectID": "mu_xrf/mu_xrf-intro.html",
     "href": "mu_xrf/mu_xrf-intro.html",
-    "title": "µ.XRF",
+    "title": "µ.XRF Lab",
     "section": "",
-    "text": "Eagle III",
+    "text": "The Eagle III in room GW 0.307 is mainly used for EDX element maps, but point analyses are also possible.\nTutorials how to operate the SEM are provided here in the respective section.\n\n\n\n(Eagle III µ.XRF Lab)",
     "crumbs": [
       "µ.XRF",
-      "Introduction",
-      "µ.XRF"
+      "µ.XRF Lab"
     ]
   },
   {
@@ -1234,12 +1232,12 @@
   {
     "objectID": "periphery/periphery-intro.html",
     "href": "periphery/periphery-intro.html",
-    "title": "Introduction",
+    "title": "Preparation & Periphery Lab",
     "section": "",
-    "text": "About this sub-page.",
+    "text": "The preparation with its periphery in room GW 0.303 offers a combined Pt-/Au-sputter and C-coating unit, an ion slicer, a cross-section polisher, a vacuum-dry oven and a fume hood.\nTutorials how to operate the SEM are provided here in the respective section.\n\n\n\n(Preparation & Periphery Lab)",
     "crumbs": [
       "Periphery",
-      "Introduction"
+      "Preparation & Periphery Lab"
     ]
   },
   {
