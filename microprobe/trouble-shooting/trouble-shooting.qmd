@@ -1,30 +1,6 @@
-
-# Resources
-
-## Societies & Journals
-[MAS – Microanalysis Society](https://the-mas.org)  
-[EMAS – European Microbeam Analysis Society](https://www.microbeamanalysis.eu)  
-[IAG – International Association of Geoanalysts](http://www.geoanalyst.org)  
-[DGE – Deutsche Gesellschaft für Elektronenmikroskopie](https://www.dge-homepage.de)  
-[Weitere](https://www.dge-homepage.de/gesellschaften.html)  
-[Microscopy and Microanalysis](https://www.cambridge.org/core/journals/microscopy-and-microanalysis)
-
-## Monte Carlo
-Das Programm zeigt u. a. wie sich Elektronen nach Beschuss in einem Material ausbreiten, wo Röntgenstrahlung entsteht, wie viel absorbiert wird, etc.  
-[Casino Software](https://www.gel.usherbrooke.ca/casino/What.html)
-[Hier habe ich ein kurzes Erklärvideo dazu gemacht.](https://vimeo.com/545430511)
-
-**Elektronen-Bindungsenergien: Webseite, Datenbank und PSE**  
-[Die sehr gute Webseite von Gwyn P. Williams](https://userweb.jlab.org/~gwyn/)  
-[PSE mit den Bindungsenergien](https://userweb.jlab.org/~gwyn/ElectronBindingChart-1.pdf)
-
-**Elektronenübergangsenergien**  
-[NIST Standard Reference Database 128: X-Ray Transition Energies](https://www.nist.gov/pml/x-ray-transition-energies-database)  
-[X-Ray Transition Energies Database](https://physics.nist.gov/PhysRefData/XrayTrans/Html/search.html/)
-
-
-
-# Troubleshooting
+---
+Trouble Shooting
+---
 
 ## Problembeschreibung
 Wenn im 'Maintenance' Fenster der Punkt 'Check Pressure of N2 Gas' rot ist, muss die N2-Gasflasche getauscht werden. Möglicherweise brennt auch die Lampe 'Air Pressure' vorn an der Sonder hinter der dunklen Rauchglasscheibe.</br>
@@ -110,35 +86,3 @@ Zuerst muss der Specimen Navigator mit geschlossen werden (rechter Mausklick auf
 ![image_1](images/kleines_Pad.png)
 
 ![image_2](images/Grosses_Pad.png)
-
-
-
-# Intern
-
-**Allgemein**  
-- Literaturverzeichnis über Elektronenmikroskopie (Bücher, Paper)  
-
-**EPMA**  
--	Toubleshooting (Check Water Flow + Algenmittel, PCD-Taste hängt etc.)  
--	Erklärung der verschiedenen Messmethoden: Quantitative, Qualitative, Maps  
--	Wie ist eine summary einer quantitativen Messung aufgebaut? Bedeutungen der einzelnen summary-„Kategorien“ (mass-%, atom-%, current, ...)  
--	Erstellung von Messprogrammen (wie ist ein Messprogramm aufgebaut; Bsp.: Silikate_15kV – Programm)  
--	Peaksearches, „Aussehen“ von Peaks auf den verschiedenen Kristallen (Erklärung, warum manche Spektrometer empfindlicher gegenüber Schwankungen sind u.ä.)  
--	Spezialwissen: PHA, spezielle Messmethoden (Metalle, Sulfide, trace elements,...)
-
-**REM**  
--	Probenschleusen  
--	Filamentsättigung  
--	W-Modus vs. LaB6-Modus  
--	Konfiguration: EDS, CL, EBSD, SE- + BSE-Detektor  (Bedienung der einzelnen Elemente: INCA, Flamenco u.ä.)  
--   EBSD  
--	Unterschiedliche Messhalter (R4, E2, EBSD)  
--	Troubleshooting  
--	Standardisierung  
--	Quant Optimization
-
-**Unterschiede REM vs. EPMA (vs. µ-RFA)**  
-- Nachweisgrenzen  
-- Genauigkeiten Messungen  
-- Anregungsvolumen  
-- Insgesamt: Was ist möglich und was nicht?

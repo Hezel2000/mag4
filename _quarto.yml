@@ -60,10 +60,7 @@ website:
           - microprobe/flank-method/code.qmd
           - microprobe/flank-method/glossary.qmd
         - microprobe/epma-tutorials/epma-tutorials.qmd
-<<<<<<< HEAD
-=======
         - microprobe/trouble-shooting/trouble-shooting.qmd
->>>>>>> 586ce05 (updates)
         - microprobe/tools/resources.qmd
     
     - title: 'SEM'
