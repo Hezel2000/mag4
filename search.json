@@ -88,7 +88,7 @@
     "href": "index.html",
     "title": "Hello Stranger ",
     "section": "",
-    "text": "This site contains mainly tools and courses for data science, cosmochemistry, and microanalytic. The ‘Courses’ drop-down contains all available teaching resources, and the ‘All Apps’ tab all available tools. As there are continuous updates and additions, the site still experiences some regular re-organisation.\n\n\n\nIf you are looking for the new visualisation or teaching tools, these will be released in early 2025. Until then, the original MetBase site remains online and available at metbase.org.\n\n\n\n\nIf you are looking for the flank method, go to ‘Microprobe’ and then ‘Flank Method’, or click here.\n\n\n\nDominik Hezel\nPremkumar Elangovan\nMara Hochstein\nHeidi Höfer\nAndreas Fichtner\nLea Schnapp\nJie Xu\nLara Friedrichs\nLea Ruckes \n\n\n\n\n\n\n\nDominik Hezel\nBüro: +49 (0)69 798 40122\nemail: dominik.hezel - at - em.uni-frankfurt.de\nZimmer-Nr: 1.334\nMikrosonde +49 (0)69 798 40284\nREM +49 (0)69 798 40283\nµRFA +49 (0)69 798 xxx"
+    "text": "This site contains mainly tools and courses for data science, cosmochemistry, and microanalytic. The ‘Courses’ drop-down contains all available teaching resources, and the ‘All Apps’ tab all available tools. As there are continuous updates and additions, the site still experiences some regular re-organisation.\n\n\n\nIf you are looking for the new visualisation or teaching tools, these will be released in early 2025. Until then, the original MetBase site remains online and available at metbase.org.\n\n\n\n\nIf you are looking for the flank method, go to ‘Microprobe’ and then ‘Flank Method’, or click here.\n\n\n\nDominik Hezel\nPremkumar Elangovan\nMara Hochstein\nHeidi Höfer\nAndreas Fichtner\nLea Schnapp\nJie Xu\nLara Friedrichs\nLea Ruckes \n\n\n\n\n\n\n\nDominik Hezel\nBüro: +49 (0)69 798 40122\nemail: dominik.hezel - at - em.uni-frankfurt.de\nZimmer-Nr: 1.334\nMikrosonde +49 (0)69 798 40284\nREM +49 (0)69 798 40283\nµRFA +49 (0)69 798 xxx\nLegal information"
   },
   {
     "objectID": "index.html#mag4-contributors",
@@ -102,7 +102,7 @@
     "href": "index.html#kontakt",
     "title": "Hello Stranger ",
     "section": "",
-    "text": "Dominik Hezel\nBüro: +49 (0)69 798 40122\nemail: dominik.hezel - at - em.uni-frankfurt.de\nZimmer-Nr: 1.334\nMikrosonde +49 (0)69 798 40284\nREM +49 (0)69 798 40283\nµRFA +49 (0)69 798 xxx"
+    "text": "Dominik Hezel\nBüro: +49 (0)69 798 40122\nemail: dominik.hezel - at - em.uni-frankfurt.de\nZimmer-Nr: 1.334\nMikrosonde +49 (0)69 798 40284\nREM +49 (0)69 798 40283\nµRFA +49 (0)69 798 xxx\nLegal information"
   },
   {
     "objectID": "microprobe/data-access/request-time.html",
@@ -800,34 +800,34 @@
   {
     "objectID": "resources/otherwebresources.html",
     "href": "resources/otherwebresources.html",
-    "title": "Other Great Web Resources",
+    "title": "Other Web Resources",
     "section": "",
     "text": "https://pyrolite.readthedocs.io/en/main/#",
     "crumbs": [
       "Resources",
-      "Other Great Web Resources"
+      "Other Web Resources"
     ]
   },
   {
     "objectID": "resources/otherwebresources.html#societies-journals",
     "href": "resources/otherwebresources.html#societies-journals",
-    "title": "Other Great Web Resources",
+    "title": "Other Web Resources",
     "section": "Societies & Journals",
     "text": "Societies & Journals\nMAS – Microanalysis Society\nEMAS – European Microbeam Analysis Society\nIAG – International Association of Geoanalysts\nDGE – Deutsche Gesellschaft für Elektronenmikroskopie\nWeitere\nMicroscopy and Microanalysis",
     "crumbs": [
       "Resources",
-      "Other Great Web Resources"
+      "Other Web Resources"
     ]
   },
   {
     "objectID": "resources/otherwebresources.html#monte-carlo",
     "href": "resources/otherwebresources.html#monte-carlo",
-    "title": "Other Great Web Resources",
+    "title": "Other Web Resources",
     "section": "Monte Carlo",
     "text": "Monte Carlo\nDas Programm zeigt u. a. wie sich Elektronen nach Beschuss in einem Material ausbreiten, wo Röntgenstrahlung entsteht, wie viel absorbiert wird, etc.\nCasino Software Hier habe ich ein kurzes Erklärvideo dazu gemacht.\nElektronen-Bindungsenergien: Webseite, Datenbank und PSE\nDie sehr gute Webseite von Gwyn P. Williams\nPSE mit den Bindungsenergien\nElektronenübergangsenergien\nNIST Standard Reference Database 128: X-Ray Transition Energies\nX-Ray Transition Energies Database",
     "crumbs": [
       "Resources",
-      "Other Great Web Resources"
+      "Other Web Resources"
     ]
   },
   {
