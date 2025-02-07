@@ -7,8 +7,6 @@ website:
     background: primary
     search: true
     left:
-      # - text: "Home"
-      #   file: index.qmd
       - text: "Microprobe"
         file: microprobe/epma-intro.qmd
       - text: "SEM"
@@ -23,7 +21,6 @@ website:
         file: resources/resources-intro.qmd
       - text: "Courses"
         menu:
-          # - courses/courses-intro.qmd
           - text: 'Data Science'
             href: courses/data_science.qmd
           - text: 'Data Science Short Course'
@@ -111,32 +108,6 @@ website:
         - resources/powder-standards.qmd
         - resources/otherwebresources.qmd
         - resources/glossary.qmd
-    
-    # - title: "Courses"
-    #   collapse-level: 1
-    #   contents:
-    #     - courses/courses-intro.qmd
-    #     - courses/data_science.qmd
-    #     - courses/cosmochemistry.qmd
-    #     - courses/microanalytic.qmd
-    
-    # - title: "All Apps"
-    #   collapse-level: 1
-    #   contents:
-    #     - allapps/allapps.qmd
-    
-
-  # page-footer: 
-  #   left: 
-  #     - text: Built with <a href="https://quarto.org/">Quarto</a>.
-  #   center:
-  #     - text: |
-  #         <a href="javascript:void(0)" data-cc="c-settings" class="cc-link">
-  #           Manage cookie preferences
-  #         </a>
-  #   right: 
-  #     - text: "Legal information"
-  #       href: about.qmd
 
   cookie-consent:
     type: express
@@ -160,33 +131,3 @@ format:
       - text: |
           <script defer src="gdpr/cookieconsent-3.0.1/cookieconsent.umd.js"></script>
           <script defer src="gdpr/cookieconsent-3.0.1/cookieconsent-init.js"></script>
-
-
-
-# format:
-#   html:
-#     theme: cosmo
-#     toc: true
-
-#     # cookie banner
-#     include-in-header:
-#       - text: |
-#           <link rel="stylesheet" href="gdpr/cookieconsent-2.9.2/cookieconsent.css" media="print" onload="this.media='all'">
-#     include-after-body: 
-#       - text: |
-#           <script defer src="gdpr/cookieconsent-2.9.2/cookieconsent.js"></script>
-#           <script defer src="gdpr/cookieconsent-init.js"></script>
-
-
-
-
-    # This was previously for whatever reason in the 'resources' folder. If it has to be named like this, reactive this part and rename the folder
-    # Otherwise I'd like to use this name for a folder I need, and would rever to this as the 'gdpr' folder.
-    # # cookie banner
-    # include-in-header:
-    #   - text: |
-    #       <link rel="stylesheet" href="resources/cookieconsent-2.9.2/cookieconsent.css" media="print" onload="this.media='all'">
-    # include-after-body: 
-    #   - text: |
-    #       <script defer src="resources/cookieconsent-2.9.2/cookieconsent.js"></script>
-    #       <script defer src="resources/cookieconsent-init.js"></script>
