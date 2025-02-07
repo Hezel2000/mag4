@@ -3,6 +3,7 @@ project:
 
 website:
   title: mag4
+  favicon: images/favicon.png
   navbar:
     background: primary
     search: true
