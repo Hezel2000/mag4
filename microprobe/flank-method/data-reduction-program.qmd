@@ -3,7 +3,7 @@ title: "Data Reduction"
 ---
 
 This way to flank metheod data reduction:\
-<a href="https://flankmethod.streamlit.app">flank method data reduction program</a>
+<a href="https://hezel2000-flank-method.share.connect.posit.cloud/">flank method data reduction program</a>
 
 
 # Datasets
