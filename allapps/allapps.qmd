@@ -1,5 +1,5 @@
 ---
-title: "All Apps"
+title: "App Library"
 # format: html
 css: allapps_styles.css  # bootstrap.min.css
 ---
@@ -7,15 +7,9 @@ css: allapps_styles.css  # bootstrap.min.css
 **Click on an app icon to directly go to the respective app**
 
 ## Electron Microprobe (EPMA)
-<!-- <div class="image-grid">
-  [![EPMA Data Access](/images/epma_data_tools-logo.png)](https://epmatools.streamlit.app)
-  [![Flank Method](/microprobe/flank-method/images/flank-method-logo.png)](https://hezel2000-flank-method.share.connect.posit.cloud/)
-  [![EPMA Tools](/images/epma-tools-logo.png)](https://tools-epma.streamlit.app)
-</div> -->
-
 ::: {.image-grid}
 [![EPMA Data Access](/images/epma_data_tools-logo.png)](https://epmatools.streamlit.app)
-[![Flank Method](/microprobe/flank-method/images/flank-method-logo.png)](https://flankmethod.streamlit.app)
+[![Flank Method](/microprobe/flank-method/images/flank-method-logo.png)](https://hezel2000-flank-method.share.connect.posit.cloud)
 [![EPMA Tools](/images/epma-tools-logo.png)](https://tools-epma.streamlit.app)
 :::
 
@@ -24,6 +18,7 @@ css: allapps_styles.css  # bootstrap.min.css
 [![The mag4 Database](/images/mag4-database-logo.png)](https://mag4datasharing-app.streamlit.app)
 [![Visualising Geochemical Databases](/images/geoaccess-logo.png)](https://geoaccess.streamlit.app)
 [![Mineral Info](/images/mineral-info-logo.png)](https://testauswahlminerale-bcybf6tgb5maialzhvrcv7.streamlit.app)
+[![Mineral Info](/images/2d3d-model-logo.png)](https://chondrule-2d3d-model.streamlit.app)
 [![B-Isotope Data Reduction](/images/boron-reduction-logo.png)](https://boron-reduction.streamlit.app)
 :::
 
