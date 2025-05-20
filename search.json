@@ -828,7 +828,29 @@
     "href": "resources/otherwebresources.html",
     "title": "Other Web Resources",
     "section": "",
-    "text": "https://pyrolite.readthedocs.io/en/main/#",
+    "text": "Pyrolite",
+    "crumbs": [
+      "Resources",
+      "Other Web Resources"
+    ]
+  },
+  {
+    "objectID": "resources/otherwebresources.html#pyrolite",
+    "href": "resources/otherwebresources.html#pyrolite",
+    "title": "Other Web Resources",
+    "section": "",
+    "text": "Pyrolite",
+    "crumbs": [
+      "Resources",
+      "Other Web Resources"
+    ]
+  },
+  {
+    "objectID": "resources/otherwebresources.html#onegeochemistry",
+    "href": "resources/otherwebresources.html#onegeochemistry",
+    "title": "Other Web Resources",
+    "section": "OneGeochemistry",
+    "text": "OneGeochemistry\nOneGeochemistry",
     "crumbs": [
       "Resources",
       "Other Web Resources"
