@@ -22,14 +22,8 @@ css: allapps_styles.css  # bootstrap.min.css
 [![B-Isotope Data Reduction](/images/boron-reduction-logo.png)](https://boron-reduction.streamlit.app)
 :::
 
-## Courses
-::: {.image-grid}
-  [![Data Science Course](/images/data_science-course-logo.png)](https://geocourses.streamlit.app/Data_Science)
-  [![Cosmochemistry Course](/images/cosmochemistry-course-logo.png)](https://geocourses.streamlit.app/Cosmochemistry)
-  [![Microanalysis Course](/images/microanalysis-course-logo.png)](https://geocourses.streamlit.app/Microanalysis)
-:::
-
 ## IfG
 ::: {.image-grid}
 [![Powder Standards](/images/powder_standards-logo.png)](https://ifgpowderstandards.streamlit.app)
+[![IfG Modulhandbuch](/images/ifg-modulhandbuch-logo.png)](https://hezel2000-ifg-modulhandbuch.share.connect.posit.cloud)
 :::
