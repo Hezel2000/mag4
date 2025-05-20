@@ -23,7 +23,7 @@ website:
       - text: "Courses"
         menu:
           - text: 'Data Science'
-            href: courses/data_science.qmd
+            href: https://hezel2000.quarto.pub/data-science/
           - text: 'Data Science Short Course'
             href: https://hezel2000.quarto.pub/dmg-data-science-short-course # https://datascienceshortcourse.streamlit.app
           - text: 'Kosmochemie'
