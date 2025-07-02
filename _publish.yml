@@ -3,4 +3,4 @@
     - id: b42e8757-a206-4114-b6d9-d817dba12ecb
       url: 'https://hezel2000.quarto.pub/mag4'
 
-# needs to be: publish quarto gh-pages
+# needs to be: quarto publish gh-pages
