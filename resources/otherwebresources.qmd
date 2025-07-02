@@ -2,14 +2,11 @@
 title: 'Other Web Resources' 
 ---
 
-# Pyrolite
+## Pyrolite
+[Pyrolite](https://pyrolite.readthedocs.io/en/main/#)
 
-https://pyrolite.readthedocs.io/en/main/#
-
-
-# OneGeochemistry
-
-http://onegeochemistry.org
+## OneGeochemistry
+[OneGeochemistry](http://onegeochemistry.org)
 
 ## Societies & Journals
 [MAS – Microanalysis Society](https://the-mas.org)  
