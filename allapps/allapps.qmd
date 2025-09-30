@@ -19,8 +19,8 @@ css: allapps_styles.css  # bootstrap.min.css
 [![Visualising Geochemical Databases](/images/geoaccess-logo.png)](https://geoaccess.streamlit.app)
 [![Mineral Info](/images/mineral-info-logo.png)](https://testauswahlminerale-bcybf6tgb5maialzhvrcv7.streamlit.app)
 [![Mineral Info](/images/2d3d-model-logo.png)](https://chondrule-2d3d-model.streamlit.app)
-[![B-Isotope Data Reduction](/images/boron-reduction-logo.png)](https://boron-reduction.streamlit.app)
 [![ML TAS classification](/images/ml-tas-classification-logo.png)](https://01999b10-5d23-9a78-8113-2232a28cd5c6.share.connect.posit.cloud)
+[![B-Isotope Data Reduction](/images/boron-reduction-logo.png)](https://boron-reduction.streamlit.app)
 :::
 
 ## IfG
