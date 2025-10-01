@@ -36,6 +36,8 @@ website:
             href: https://hezel2000.quarto.pub/geochemie-1/
           - text: 'Umweltwissenschaften - Mikroanalytik-Teil'
             href: https://hezel2000.quarto.pub/umweltwissenschaften-mikroanalytik/
+          - text: 'Highlights'
+            href: https://hezel2000.quarto.pub/highlights/
       - text: "App Library"
         file: allapps/allapps.qmd
     # right:
