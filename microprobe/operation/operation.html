@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Reduction – mag4</title>
+<title>Operation – mag4</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -218,7 +184,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../microprobe/flank-method/welcome.html">Flank Method</a></li><li class="breadcrumb-item"><a href="../../microprobe/flank-method/data-reduction-program.html">Data Reduction</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../microprobe/operation/operation.html">Operation</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -267,13 +233,13 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
  <span class="menu-text">Flank Method</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../microprobe/flank-method/welcome.html" class="sidebar-item-text sidebar-link">
@@ -288,7 +254,7 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../microprobe/flank-method/data-reduction-program.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../microprobe/flank-method/data-reduction-program.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Reduction</span></a>
   </div>
 </li>
@@ -320,7 +286,7 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../microprobe/operation/operation.html" class="sidebar-item-text sidebar-link">
+  <a href="../../microprobe/operation/operation.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Operation</span></a>
   </div>
 </li>
@@ -346,35 +312,21 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#datasets" id="toc-datasets" class="nav-link active" data-scroll-target="#datasets">Datasets</a>
+  <li><a href="#inserting-in-and-taking-the-sample-out-of-the-epma" id="toc-inserting-in-and-taking-the-sample-out-of-the-epma" class="nav-link active" data-scroll-target="#inserting-in-and-taking-the-sample-out-of-the-epma">Inserting in and taking the sample out of the EPMA</a>
   <ul class="collapse">
-  <li><a href="#preparing-the-sample-file" id="toc-preparing-the-sample-file" class="nav-link" data-scroll-target="#preparing-the-sample-file">Preparing the Sample File</a></li>
-  <li><a href="#the-test-dataset" id="toc-the-test-dataset" class="nav-link" data-scroll-target="#the-test-dataset">The Test Dataset</a></li>
+  <li><a href="#inserting-the-sample-into-the-epma-in-german" id="toc-inserting-the-sample-into-the-epma-in-german" class="nav-link" data-scroll-target="#inserting-the-sample-into-the-epma-in-german">Inserting the sample into the EPMA (in german)</a></li>
+  <li><a href="#taking-the-sample-out-of-the-epma-in-german" id="toc-taking-the-sample-out-of-the-epma-in-german" class="nav-link" data-scroll-target="#taking-the-sample-out-of-the-epma-in-german">Taking the sample out of the EPMA (in german)</a></li>
   </ul></li>
-  <li><a href="#moessbauer-standard-file" id="toc-moessbauer-standard-file" class="nav-link" data-scroll-target="#moessbauer-standard-file">Moessbauer Standard File</a>
+  <li><a href="#calibrating-the-epma" id="toc-calibrating-the-epma" class="nav-link" data-scroll-target="#calibrating-the-epma">Calibrating the EPMA</a>
   <ul class="collapse">
-  <li><a href="#adding-new-standards" id="toc-adding-new-standards" class="nav-link" data-scroll-target="#adding-new-standards">Adding new Standards</a></li>
-  <li><a href="#the-moessbauer-standard-file" id="toc-the-moessbauer-standard-file" class="nav-link" data-scroll-target="#the-moessbauer-standard-file">The Moessbauer Standard File</a></li>
+  <li><a href="#setting-the-eos-conditions-and-focusing" id="toc-setting-the-eos-conditions-and-focusing" class="nav-link" data-scroll-target="#setting-the-eos-conditions-and-focusing">Setting the EOS conditions and focusing</a></li>
+  <li><a href="#element-calibration" id="toc-element-calibration" class="nav-link" data-scroll-target="#element-calibration">Element calibration</a></li>
   </ul></li>
-  <li><a href="#test-datasets-for-download" id="toc-test-datasets-for-download" class="nav-link" data-scroll-target="#test-datasets-for-download">Test Datasets for Download</a></li>
-  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation">Documentation</a>
+  <li><a href="#producing-the-files-for-the-eln" id="toc-producing-the-files-for-the-eln" class="nav-link" data-scroll-target="#producing-the-files-for-the-eln">Producing the files for the ELN</a>
   <ul class="collapse">
-  <li><a href="#start-data-upload" id="toc-start-data-upload" class="nav-link" data-scroll-target="#start-data-upload">Start &amp; Data Upload</a></li>
-  <li><a href="#data-reduction" id="toc-data-reduction" class="nav-link" data-scroll-target="#data-reduction">Data Reduction</a></li>
-  <li><a href="#results-tables" id="toc-results-tables" class="nav-link" data-scroll-target="#results-tables">Results Tables</a>
-  <ul class="collapse">
-  <li><a href="#fe3sfe-in-standard" id="toc-fe3sfe-in-standard" class="nav-link" data-scroll-target="#fe3sfe-in-standard">Fe3+/SFe in Standard</a></li>
-  <li><a href="#fe3sfe-in-drift" id="toc-fe3sfe-in-drift" class="nav-link" data-scroll-target="#fe3sfe-in-drift">Fe3+/SFe in Drift</a></li>
-  <li><a href="#fe3sfe-in-samples" id="toc-fe3sfe-in-samples" class="nav-link" data-scroll-target="#fe3sfe-in-samples">Fe3+/SFe in Samples</a></li>
-  </ul></li>
-  <li><a href="#visualisations" id="toc-visualisations" class="nav-link" data-scroll-target="#visualisations">Visualisations</a>
-  <ul class="collapse">
-  <li><a href="#select-your-detail" id="toc-select-your-detail" class="nav-link" data-scroll-target="#select-your-detail">Select your Detail</a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#github" id="toc-github" class="nav-link" data-scroll-target="#github">GitHub</a>
-  <ul class="collapse">
-  <li><a href="#readme" id="toc-readme" class="nav-link" data-scroll-target="#readme">readme</a></li>
+  <li><a href="#collecting-the-4-files-for-quantitativ-point-analyses" id="toc-collecting-the-4-files-for-quantitativ-point-analyses" class="nav-link" data-scroll-target="#collecting-the-4-files-for-quantitativ-point-analyses">Collecting the 4 files for quantitativ point analyses</a></li>
+  <li><a href="#document-the-measurement-points-on-image-files" id="toc-document-the-measurement-points-on-image-files" class="nav-link" data-scroll-target="#document-the-measurement-points-on-image-files">Document the measurement points on image files</a></li>
+  <li><a href="#recipe-structure" id="toc-recipe-structure" class="nav-link" data-scroll-target="#recipe-structure">Recipe Structure</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -382,9 +334,9 @@ cookieconsent.run({
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../microprobe/flank-method/welcome.html">Flank Method</a></li><li class="breadcrumb-item"><a href="../../microprobe/flank-method/data-reduction-program.html">Data Reduction</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Reduction</h1>
+<h1 class="title">Operation</h1>
 </div>
 
 
@@ -401,148 +353,78 @@ cookieconsent.run({
 </header>
 
 
-<p>This way to flank metheod data reduction:<br>
-<a href="https://hezel2000-flank-method.share.connect.posit.cloud/">flank method data reduction program</a></p>
-<section id="datasets" class="level1">
-<h1>Datasets</h1>
-<section id="preparing-the-sample-file" class="level2">
-<h2 class="anchored" data-anchor-id="preparing-the-sample-file">Preparing the Sample File</h2>
-<p><strong>File Type</strong><br>
-The file needs to be a csv file saved in the UTF-8 format. Some Excel versions have problems saving to UTF-8. Apple Numbers allows simple export to csv UTF-8.</p>
-<p><strong>General Spreadsheet Layout</strong><br>
-The first row needs to be the categories, and there must not be any additional rows after the final sample row.</p>
-<p><strong>Sample Naming Conventions</strong><br>
-drift standard –&nbsp;which are also in the sample file?! sample</p>
-<p><strong>Required Categories</strong><br>
-The spreadsheet needs to have the following categories (=column headers). Some of the categories are automatically renamed by the program. The categories can be sorted in any order.</p>
-<p><em>Point</em><br>
-Will be renamed to: Point Nr.<br>
-This category is used in a number of plots on the x-axis, thereby allowing the quick identification of a sample that might have a bad analyses, and one might wants to not include.</p>
-<p><em>Comment</em><br>
-Will be renamed to: Name<br>
-Provides the name of the sample.</p>
-<p><em>Inspected</em><br>
-Will not be renamed<br>
-This needs to be added manually by simply duplicating the ‘Comment’ column (= copy&amp;paste a second ‘Comment’ column next to it) and then renaming the duplicated ‘Comment’ column to ‘Inspected’.</p>
-<p><em>oxide_name(Mass%)</em><br>
-Will be renamed to: oxide_name (wt%)<br>
-For example, categories need to be: SiO2(Mass%), Al2O3(Mass%), and so on. These are renamed to the common&gt; SiO2 (wt%), Al2O3 (wt%), and so on. There is no need for specific oxides, except for, of course, FeO(Mass%).</p>
-<p><em>Bi(Net), Ar(Net), Br(Net), As(Net)</em><br>
-Will be renamed to: Lb (2TAPL), La (2TAPL), Lb (4TAPL), Ls (4TAPL)<br>
-These are the fake elements in the measurement program of the EPMA. It is assumed that in the measurement program Bi and Ar are measured on channel 2, crystal TAPL, and Br and As are measured on channel 4 and also crystal TAPL. This is, because of the renaming of these categories as given above.</p>
-<p><em>Additionnal Categories</em><br>
-It is possible to have as many other categories as wanted in the file. These are simply ignored. It might be sensible to include an addtional ‘Comment’ category to add specific notes.</p>
-</section>
-<section id="the-test-dataset" class="level2">
-<h2 class="anchored" data-anchor-id="the-test-dataset">The Test Dataset</h2>
-<div id="tbl-sample-file" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="1">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-sample-file-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: The layout of a sample file
-</figcaption>
-<div aria-describedby="tbl-sample-file-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="sourceCode cell-code anchored" id="tbl-sample-file" data-execution_count="1"><pre class="sourceCode python cell code-with-copy"><code class="sourceCode python"><span id="tbl-sample-file-1"><a href="#tbl-sample-file-1" aria-hidden="true" tabindex="-1"></a><span class="co">#import pandas as pd</span></span>
-<span id="tbl-sample-file-2"><a href="#tbl-sample-file-2" aria-hidden="true" tabindex="-1"></a><span class="co">#df = pd.read_csv('data/moessbauer standard data.csv')</span></span>
-<span id="tbl-sample-file-3"><a href="#tbl-sample-file-3" aria-hidden="true" tabindex="-1"></a><span class="co">#df</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="inserting-in-and-taking-the-sample-out-of-the-epma" class="level1">
+<h1>Inserting in and taking the sample out of the EPMA</h1>
+<section id="inserting-the-sample-into-the-epma-in-german" class="level2">
+<h2 class="anchored" data-anchor-id="inserting-the-sample-into-the-epma-in-german">Inserting the sample into the EPMA (in german)</h2>
+<div class="columns">
+<div class="column">
+<p>tbd</p>
+</div><div class="column">
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/503073263" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
 </div>
-</figure>
+</div>
+</section>
+<section id="taking-the-sample-out-of-the-epma-in-german" class="level2">
+<h2 class="anchored" data-anchor-id="taking-the-sample-out-of-the-epma-in-german">Taking the sample out of the EPMA (in german)</h2>
+<div class="columns">
+<div class="column">
+<p>tbd</p>
+</div><div class="column">
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/500187437" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
 </div>
 </section>
 </section>
-<section id="moessbauer-standard-file" class="level1">
-<h1>Moessbauer Standard File</h1>
-<p>The file contains standards for currenlty garnet and pyroxene. Any standard used for the flank method must be in the Moessbauer standard file. The file contains the name, mineral type, Fe3+/FeT (atom-ratio), Fe2+/FeT (atom-ratio), soure where the standard comes from, an opitional comment, the total no. of measurements, and the oxide composition of the standard in wt%. The Fe3+/FeT ratios of some standards have been measured by different techniques or laboratories, and the Fe3+/FeT values from the various techniques/laboratories are given, and can be choosen from in the flank data reduction program.</p>
-<section id="adding-new-standards" class="level2">
-<h2 class="anchored" data-anchor-id="adding-new-standards">Adding new Standards</h2>
-<p>Each new standard that needs to be used for the flank method needs to be added to the Moessbauer stanard file. Should you wish to add a new standard, drop me an email with the required details and I will update the file with this new standard.</p>
-</section>
-<section id="the-moessbauer-standard-file" class="level2">
-<h2 class="anchored" data-anchor-id="the-moessbauer-standard-file">The Moessbauer Standard File</h2>
-<p>Fe3+/FeT is an atom-ratio. Oxide-Concentrations are in wt%.</p>
-<div id="tbl-moessbauer" class="cell quarto-float quarto-figure quarto-figure-center anchored" data-execution_count="2">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-moessbauer-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;2: The standard file used in the flank method program
-</figcaption>
-<div aria-describedby="tbl-moessbauer-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="sourceCode cell-code anchored" id="tbl-moessbauer" data-execution_count="2"><pre class="sourceCode python cell code-with-copy"><code class="sourceCode python"><span id="tbl-moessbauer-1"><a href="#tbl-moessbauer-1" aria-hidden="true" tabindex="-1"></a><span class="co">#import pandas as pd</span></span>
-<span id="tbl-moessbauer-2"><a href="#tbl-moessbauer-2" aria-hidden="true" tabindex="-1"></a><span class="co">#pd.read_csv('data/moessbauer standard data.csv')</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="calibrating-the-epma" class="level1">
+<h1>Calibrating the EPMA</h1>
+<section id="setting-the-eos-conditions-and-focusing" class="level2">
+<h2 class="anchored" data-anchor-id="setting-the-eos-conditions-and-focusing">Setting the EOS conditions and focusing</h2>
+<div class="columns">
+<div class="column">
+<p>The first thing to do is setting the correct kV and nA, and focusing the machine, which is done with the EOS parameters such as focusing and stigmators.</p>
+</div><div class="column">
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/Qlb-edi-5iY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </div>
-</figure>
 </div>
 </section>
-</section>
-<section id="test-datasets-for-download" class="level1">
-<h1>Test Datasets for Download</h1>
-<p>Should you want to test the flank method data reduction program, but have no dataset available, below are one dataset for the flank method and one to determine the crystal positions provided for download.</p>
-<section id="flank-method" class="level4">
-<h4 class="anchored" data-anchor-id="flank-method">Flank Method</h4>
-<p>Download the flank method test-dataset from the following GitHub repo:<br>
-<a href="">Flank Method Test-Dataset</a><br>
-This csv file can directly be used for upload in the flank method data reduction program:<br>
-<a href="https://flankmethod.streamlit.app">-&gt;flank method data reduction program</a></p>
-</section>
-<section id="spectra-for-crystal-positioning" class="level4">
-<h4 class="anchored" data-anchor-id="spectra-for-crystal-positioning">Spectra for Crystal Positioning</h4>
-<p>Download the spectra test-dataset from the following GitHub repo:<br>
-<a href="https://github.com/Hezel2000/flank_method/blob/31aedff128e8a89696a072d20805dd275130fc50/flank%20method%20documentation/test_data/Fe%20Spectra.csv">Flank Method Test-Dataset</a> This csv file can directly be used for upload in the flank method data reduction program, section ‘crystal positioning’:<br>
-<a href="https://flankmethod.streamlit.app">-&gt;flank method data reduction program</a></p>
+<section id="element-calibration" class="level2">
+<h2 class="anchored" data-anchor-id="element-calibration">Element calibration</h2>
+<div class="columns">
+<div class="column">
+<p>This illustrates how EOS conditions are read in, points are set on a standard, peak search is executed, the PHA of the detector is determined, and how this is done for all the elements in a measurement recipe using a serial analysis.</p>
+</div><div class="column">
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/fnd39-GBa5M" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+</div>
 </section>
 </section>
-<section id="documentation" class="level1">
-<h1>Documentation</h1>
-<section id="start-data-upload" class="level2">
-<h2 class="anchored" data-anchor-id="start-data-upload">Start &amp; Data Upload</h2>
-<p>Form of the data</p>
+<section id="producing-the-files-for-the-eln" class="level1">
+<h1>Producing the files for the ELN</h1>
+<section id="collecting-the-4-files-for-quantitativ-point-analyses" class="level2">
+<h2 class="anchored" data-anchor-id="collecting-the-4-files-for-quantitativ-point-analyses">Collecting the 4 files for quantitativ point analyses</h2>
+<div class="columns">
+<div class="column">
+<p>Our data are stored in an electronic lab notebook (ELN). This video shows how to produce and store the 4 files required for the ELN.</p>
+</div><div class="column">
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/0g8-DLxOVcU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+</div>
 </section>
-<section id="data-reduction" class="level2">
-<h2 class="anchored" data-anchor-id="data-reduction">Data Reduction</h2>
-<p>And so</p>
+<section id="document-the-measurement-points-on-image-files" class="level2">
+<h2 class="anchored" data-anchor-id="document-the-measurement-points-on-image-files">Document the measurement points on image files</h2>
+<div class="columns">
+<div class="column">
+<p>Measured points can be dragged onto images taken from the sample to automatically document their position. This video shows how to do this.</p>
+</div><div class="column">
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/xVLQ3T4srnk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+</div>
+<!--  -->
 </section>
-<section id="results-tables" class="level2">
-<h2 class="anchored" data-anchor-id="results-tables">Results Tables</h2>
-<section id="fe3sfe-in-standard" class="level3">
-<h3 class="anchored" data-anchor-id="fe3sfe-in-standard">Fe3+/SFe in Standard</h3>
-</section>
-<section id="fe3sfe-in-drift" class="level3">
-<h3 class="anchored" data-anchor-id="fe3sfe-in-drift">Fe3+/SFe in Drift</h3>
-</section>
-<section id="fe3sfe-in-samples" class="level3">
-<h3 class="anchored" data-anchor-id="fe3sfe-in-samples">Fe3+/SFe in Samples</h3>
-</section>
-</section>
-<section id="visualisations" class="level2">
-<h2 class="anchored" data-anchor-id="visualisations">Visualisations</h2>
-<section id="select-your-detail" class="level3">
-<h3 class="anchored" data-anchor-id="select-your-detail">Select your Detail</h3>
-<section id="drift-inspection" class="level4">
-<h4 class="anchored" data-anchor-id="drift-inspection">Drift Inspection</h4>
-</section>
-<section id="comparing-la-lb" class="level4">
-<h4 class="anchored" data-anchor-id="comparing-la-lb">Comparing La &amp; Lb</h4>
-</section>
-<section id="parametrisation" class="level4">
-<h4 class="anchored" data-anchor-id="parametrisation">Parametrisation</h4>
-</section>
-<section id="sample-inspection" class="level4">
-<h4 class="anchored" data-anchor-id="sample-inspection">Sample Inspection</h4>
-</section>
-<section id="error-considerations" class="level4">
-<h4 class="anchored" data-anchor-id="error-considerations">Error Considerations</h4>
-</section>
-<section id="results-inspection" class="level4">
-<h4 class="anchored" data-anchor-id="results-inspection">Results Inspection</h4>
-</section>
-</section>
-</section>
-</section>
-<section id="github" class="level1">
-<h1>GitHub</h1>
-<p>The entire code etc. can be found in the following GitHub repository:</p>
-<p><a href="https://github.com/Hezel2000/flank_method">Hezel2000/flank_method</a></p>
-<section id="readme" class="level2">
-<h2 class="anchored" data-anchor-id="readme">readme</h2>
-<p>The readme.md file from GitHub:&nbsp; <a href="https://github.com/Hezel2000/flank_method/blob/28ff8bf7e7ea99d6f0858168bb618b9bbb007c24/readme.md">flank method github readme</a></p>
+<section id="recipe-structure" class="level2">
+<h2 class="anchored" data-anchor-id="recipe-structure">Recipe Structure</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/573043920" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
 </section>
