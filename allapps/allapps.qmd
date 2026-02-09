@@ -10,7 +10,7 @@ css: allapps_styles.css  # bootstrap.min.css
 ::: {.image-grid}
 [![EPMA Data Access](/images/epma_data_tools-logo.png)](https://epmatools.streamlit.app)
 [![Flank Method](/microprobe/flank-method/images/flank-method-logo.png)](https://hezel2000-flank-method.share.connect.posit.cloud)
-[![EPMA Tools](/images/epma-tools-logo.png)](https://tools-epma.streamlit.app)
+[![EPMA Tools](/images/epma-tools-logo.png)](https://hezel2000-tools-epma.share.connect.posit.cloud/)
 :::
 
 ## Tools
@@ -20,13 +20,6 @@ css: allapps_styles.css  # bootstrap.min.css
 [![Mineral Info](/images/mineral-info-logo.png)](https://testauswahlminerale-bcybf6tgb5maialzhvrcv7.streamlit.app)
 [![Mineral Info](/images/2d3d-model-logo.png)](https://chondrule-2d3d-model.streamlit.app)
 [![B-Isotope Data Reduction](/images/boron-reduction-logo.png)](https://boron-reduction.streamlit.app)
-:::
-
-## Courses
-::: {.image-grid}
-  [![Data Science Course](/images/data_science-course-logo.png)](https://geocourses.streamlit.app/Data_Science)
-  [![Cosmochemistry Course](/images/cosmochemistry-course-logo.png)](https://geocourses.streamlit.app/Cosmochemistry)
-  [![Microanalysis Course](/images/microanalysis-course-logo.png)](https://geocourses.streamlit.app/Microanalysis)
 :::
 
 ## IfG
