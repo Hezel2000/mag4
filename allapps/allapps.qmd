@@ -19,7 +19,7 @@ css: allapps_styles.css  # bootstrap.min.css
 [![The mag4 Database](/images/mag4-database-logo.png)](https://mag4datasharing-app.streamlit.app)
 [![Visualising Geochemical Databases](/images/geoaccess-logo.png)](https://geoaccess.streamlit.app)
 [![Mineral Info](/images/mineral-info-logo.png)](https://testauswahlminerale-bcybf6tgb5maialzhvrcv7.streamlit.app)
-[![Mineral Info](/images/2d3d-model-logo.png)](https://chondrule-2d3d-model.streamlit.app)
+[![2D 3D model](/images/2d3d-model-logo.png)](https://chondrule-2d3d-model.streamlit.app)
 [![B-Isotope Data Reduction](/images/boron-reduction-logo.png)](https://boron-reduction.streamlit.app)
 :::
 
