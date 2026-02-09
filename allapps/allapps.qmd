@@ -15,6 +15,7 @@ css: allapps_styles.css  # bootstrap.min.css
 
 ## Tools
 ::: {.image-grid}
+[![ML TAS classification](/images/ml-tas-classification-logo.png)](https://01999b10-5d23-9a78-8113-2232a28cd5c6.share.connect.posit.cloud)
 [![The mag4 Database](/images/mag4-database-logo.png)](https://mag4datasharing-app.streamlit.app)
 [![Visualising Geochemical Databases](/images/geoaccess-logo.png)](https://geoaccess.streamlit.app)
 [![Mineral Info](/images/mineral-info-logo.png)](https://testauswahlminerale-bcybf6tgb5maialzhvrcv7.streamlit.app)
@@ -25,4 +26,5 @@ css: allapps_styles.css  # bootstrap.min.css
 ## IfG
 ::: {.image-grid}
 [![Powder Standards](/images/powder_standards-logo.png)](https://ifgpowderstandards.streamlit.app)
+[![IfG Modulhandbuch](/images/ifg-modulhandbuch-logo.png)](https://hezel2000-ifg-modulhandbuch.share.connect.posit.cloud)
 :::

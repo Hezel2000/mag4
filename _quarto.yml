@@ -36,8 +36,14 @@ website:
             href: https://hezel2000.quarto.pub/geochemie-1/
           - text: 'Umweltwissenschaften - Mikroanalytik-Teil'
             href: https://hezel2000.quarto.pub/umweltwissenschaften-mikroanalytik/
+          - text: 'Highlights'
+            href: https://hezel2000.quarto.pub/highlights/
       - text: "App Library"
         file: allapps/allapps.qmd
+    # right:
+    #   - href: /
+    #     text: "<img src='images/geolibrary-logo.jpg' style='height: 34px; max-height: 100%; display: inline-block; vertical-align: middle; margin-right: 10px;'>"
+    #   - icon: search
   
   sidebar:    
     - title: "Welcome"

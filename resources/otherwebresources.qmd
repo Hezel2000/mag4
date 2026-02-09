@@ -2,14 +2,11 @@
 title: 'Other Web Resources' 
 ---
 
-# Pyrolite
+## Pyrolite
+[Pyrolite](https://pyrolite.readthedocs.io/en/main/#)
 
-https://pyrolite.readthedocs.io/en/main/#
-
-
-# OneGeochemistry
-
-http://onegeochemistry.org
+## OneGeochemistry
+[OneGeochemistry](http://onegeochemistry.org)
 
 ## Societies & Journals
 [MAS – Microanalysis Society](https://the-mas.org)  
@@ -32,12 +29,13 @@ Das Programm zeigt u. a. wie sich Elektronen nach Beschuss in einem Material aus
 [NIST Standard Reference Database 128: X-Ray Transition Energies](https://www.nist.gov/pml/x-ray-transition-energies-database)  
 [X-Ray Transition Energies Database](https://physics.nist.gov/PhysRefData/XrayTrans/Html/search.html/)
 
+
 # Misc
-https://topomap.streamlit.app
-https://worm-portal.asu.edu
-https://www.mindat.org
-https://melts.ofm-research.org
-https://figmas.org
+[topomap](https://topomap.streamlit.app)  
+[worm-portal](https://worm-portal.asu.edu)  
+[mindat](https://www.mindat.org)  
+[ofm-research](https://melts.ofm-research.org)  
+[figmas](https://figmas.org)
 
 <!-- 
 https://course.fast.ai 
