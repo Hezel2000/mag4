@@ -25,7 +25,7 @@
     "href": "allapps/allapps.html#ifg",
     "title": "App Library",
     "section": "IfG",
-    "text": "IfG"
+    "text": "IfG\n\n\n\n\nPowder Standards"
   },
   {
     "objectID": "courses/data_science.html",
@@ -150,284 +150,190 @@
     "href": "microprobe/trouble-shooting/trouble-shooting.html",
     "title": "Trouble Shooting",
     "section": "",
-    "text": "image_1",
+    "text": "Wenn im ‘Maintenance’ Fenster der Punkt ‘Check Pressure of N2 Gas’ rot ist, muss die N2-Gasflasche getauscht werden. Möglicherweise brennt auch die Lampe ‘Air Pressure’ vorn an der Sonder hinter der dunklen Rauchglasscheibe.\nEs kann sein, dass nach dem N2-Flaschen Tausch der Punkt ‘Check Pressure of N2 Gas’ weiterhin rot ist, und auch die ‘Air Pressure’ Lampe weiter leuchtet.\nLösung\nZunächst nachschauen, ob der Druck der N2-Flasche, sowie des Reduktionsventils an der rechten Wand hinter der Sonde auf etwas mehr als 5 bar stehen. Wenn das nicht der Fall ist, den Durch darauf erhöhen.\nWenn die Warnungen noch immer an sind, auf dem Panel vorn an der Sonder hinter der dunklen Rauchglasscheibe ‘Vacuum Power’ ausschalten und kurz darauf wieder einschalten.\nIm Maintenance Fenster werden nacheinander ein paar der Punkte auf rot springen, während verschiedene Ventile auf und zu gehen. Der Vorgang dauert einige Minuten.\nSobald das vorbei ist, sollte man min. 1 Stunde warten, bis die Sonde wieder vollständig betriebsbereit ist.\n\n\n\n(sss)",
     "crumbs": [
       "Microprobe",
       "Trouble Shooting"
     ]
   },
   {
-    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#beschreibung-des-kleinen-bedien-panels-vor-dem-monitor",
-    "href": "microprobe/trouble-shooting/trouble-shooting.html#beschreibung-des-kleinen-bedien-panels-vor-dem-monitor",
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung",
     "title": "Trouble Shooting",
     "section": "",
-    "text": "image_1",
+    "text": "Wenn im ‘Maintenance’ Fenster der Punkt ‘Check Pressure of N2 Gas’ rot ist, muss die N2-Gasflasche getauscht werden. Möglicherweise brennt auch die Lampe ‘Air Pressure’ vorn an der Sonder hinter der dunklen Rauchglasscheibe.\nEs kann sein, dass nach dem N2-Flaschen Tausch der Punkt ‘Check Pressure of N2 Gas’ weiterhin rot ist, und auch die ‘Air Pressure’ Lampe weiter leuchtet.\nLösung\nZunächst nachschauen, ob der Druck der N2-Flasche, sowie des Reduktionsventils an der rechten Wand hinter der Sonde auf etwas mehr als 5 bar stehen. Wenn das nicht der Fall ist, den Durch darauf erhöhen.\nWenn die Warnungen noch immer an sind, auf dem Panel vorn an der Sonder hinter der dunklen Rauchglasscheibe ‘Vacuum Power’ ausschalten und kurz darauf wieder einschalten.\nIm Maintenance Fenster werden nacheinander ein paar der Punkte auf rot springen, während verschiedene Ventile auf und zu gehen. Der Vorgang dauert einige Minuten.\nSobald das vorbei ist, sollte man min. 1 Stunde warten, bis die Sonde wieder vollständig betriebsbereit ist.\n\n\n\n(sss)",
     "crumbs": [
       "Microprobe",
       "Trouble Shooting"
     ]
   },
   {
-    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#beschreibung-des-gro-en-bedien-panels-vor-dem-monitor",
-    "href": "microprobe/trouble-shooting/trouble-shooting.html#beschreibung-des-gro-en-bedien-panels-vor-dem-monitor",
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-1",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-1",
     "title": "Trouble Shooting",
-    "section": "Beschreibung des gro-en Bedien-Panels vor dem Monitor",
-    "text": "Beschreibung des gro-en Bedien-Panels vor dem Monitor\n\n\n\nimage_2",
+    "section": "Problembeschreibung",
+    "text": "Problembeschreibung\nBei Ausfall der Messung durch den Fehler „check water flow“ wird eine laufende Messung gestoppt oder der Start einer neuen Messung nicht zugelassen.\nLösung\nDer erste Schritt ist es den Wasserkühler im Nebenraum (Präparation) zu kontrollieren, ob dieser noch läuft. Wenn dieser intakt ist, sollte die Einstellung des Wasserdurchflusses an der Sonde kontrolliert werden (rote Anzeige hinter der Mikrosonde). Die Summer der beiden Werte muss dem Durchfluss (in l/min) am Wasserkühler entsprechen.\nSollte der Durchfluss in Ordnung sein, muss die schwarze Klappe vorne rechts an der Mikrosonde geöffnet werden und mit einem dünnen Stab (z.B. Inbus) die ERROR RESET- Taste gedrückt werden (2 sec).\nDie gelbe Lampe sollte anschließend aus gehen und in der Maintenance-Condition alle Parameter grün leuchten.",
     "crumbs": [
       "Microprobe",
       "Trouble Shooting"
     ]
   },
   {
-    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#fehleranzeige-unter-dem-rauchglas-panel",
-    "href": "microprobe/trouble-shooting/trouble-shooting.html#fehleranzeige-unter-dem-rauchglas-panel",
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-2",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-2",
     "title": "Trouble Shooting",
-    "section": "Fehleranzeige unter dem Rauchglas-Panel",
-    "text": "Fehleranzeige unter dem Rauchglas-Panel\nBemerkt die Sonde einen Fehler, sollte sich automatisch das Maintenance-Fenster öffnen und das entsprechende System mit einem roten Status markiert sein. Einige der Fehler sind links im LED-Panel hinter der Rauchglas-Blende vorn an der Sonde gespiegelt (in grün …).\nWichtig: Es ist möglich, dass der Fehler nur temporär auftrat (z.B. der Kühlwasserdruck kurzzeitig zu niedrig war). Die Fehlermeldung wird nicht automatisch gelöscht, damit die Nutzerin weiß, dass es einen Fehler gab. Um die Fehlermeldung zu löschen gibt es ebenfalls im LED-Panel hinter der Rauchglas-Abdeckung vorn an der Sonde rechts unten ein kleines Löchlein mit einem Reset-Knopf, der mit einem schmalen Stift/Inbus/… für ca. 2-3 Sekunden tief eingedrückt werden muss – es klickt kurz. Ist die Fehlermeldung gelöscht, sollte wieder alles in Ordnung sein. Ansonsten sollte der Fehler erneut angezeigt werden. Dann muss noch mal (nach)behoben werden.\n\n\n\nimage",
+    "section": "Problembeschreibung",
+    "text": "Problembeschreibung\nWenn man die Datenpunkte in das falsche Programm abgespeichert hat (z.B. Qualitativ statt Quantitative Analyse) kann man sie nicht einfach kopieren und einfügen.\nLösung\nMan kann die eingegebenen Datenpunkte in dem falschen Programm markieren und dann mit “rechts Klick” und “copy” kopieren. Man geht in das gewünschte Programm und fügt die Punkte wieder mit “rechts Klick” und “paste” ein.\n[[Category:Troubleshooting für die EPMA]]\nBemerkt die Sonde einen Fehler, sollte sich automatisch das Maintenance-Fenster öffnen und das entsprechende System mit einem roten Status markiert sein. Einige der Fehler sind links im LED-Panel hinter der Rauchglas-Blende vorn an der Sonde gespiegelt (in grün …).\nWichtig: Es ist möglich, dass der Fehler nur temporär auftrat (z.B. der Kühlwasserdruck kurzzeitig zu niedrig war). Die Fehlermeldung wird nicht automatisch gelöscht, damit die Nutzerin weiß, dass es einen Fehler gab. Um die Fehlermeldung zu löschen gibt es ebenfalls im LED-Panel hinter der Rauchglas-Abdeckung vorn an der Sonde rechts unten ein kleines Löchlein mit einem Reset-Knopf, der mit einem schmalen Stift/Inbus/… für ca. 2-3 Sekunden tief eingedrückt werden muss – es klickt kurz. Ist die Fehlermeldung gelöscht, sollte wieder alles in Ordnung sein. Ansonsten sollte der Fehler erneut angezeigt werden. Dann muss noch mal (nach)behoben werden.\n\n\n\nimage",
     "crumbs": [
       "Microprobe",
       "Trouble Shooting"
     ]
   },
   {
-    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#water-pressure-lampe-unter-dem-rauchglas-panel-leuchtet",
-    "href": "microprobe/trouble-shooting/trouble-shooting.html#water-pressure-lampe-unter-dem-rauchglas-panel-leuchtet",
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-3",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-3",
     "title": "Trouble Shooting",
-    "section": "Water Pressure Lampe unter dem Rauchglas-Panel leuchtet",
-    "text": "Water Pressure Lampe unter dem Rauchglas-Panel leuchtet\nBei Ausfall der Messung durch den Fehler „check water flow“ wird eine laufende Messung gestoppt oder der Start einer neuen Messung nicht zugelassen.\nLösung\nDer erste Schritt ist es den Wasserkühler im Nebenraum (Präparation) zu kontrollieren, ob dieser noch läuft. Wenn dieser intakt ist, sollte die Einstellung des Wasserdurchflusses an der Sonde kontrolliert werden (rote Anzeige hinter der Mikrosonde). Die Summer der beiden Werte muss dem Durchfluss (in l/min) am Wasserkühler entsprechen.\nSollte der Durchfluss in Ordnung sein, muss die schwarze Klappe vorne rechts an der Mikrosonde geöffnet werden und mit einem dünnen Stab (z.B. Inbus) die ERROR RESET- Taste gedrückt werden (2 sec).\nDie gelbe Lampe sollte anschließend aus gehen und in der Maintenance-Condition alle Parameter grün leuchten.",
+    "section": "Problembeschreibung",
+    "text": "Problembeschreibung\nEines der Fenster PC-SEM oder PC-EPMA – oder beim reagieren nicht, hängen, zeigen falsches an, etc.\nLösung\nBeide Fenster schließen, z.B. unten über die Taskleiste. Programm ‘JEOL EPMA’ neu starten über den Shortcut ganz links auf dem Desktop. ’’‘(noch Bild einfügen)’’‘. Wenn das nicht geht, Rechtsklick auf das Symbol und ’Run as Administrator’ anklicken. Wenn das nicht geht das Symbol ‘Restart EPMA’ anklicken. ’’‘(noch Bild einfügen)’’’ Dann das Programm neu starten. Sollte alles nicht helfen, Dominik anrufen. Evtl. muss der Computer neu gestartet werden. Das sollte aber abgesprochen werden.",
     "crumbs": [
       "Microprobe",
       "Trouble Shooting"
     ]
   },
   {
-    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#check-pressure-n2-lampe-leuchtet",
-    "href": "microprobe/trouble-shooting/trouble-shooting.html#check-pressure-n2-lampe-leuchtet",
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-4",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-4",
     "title": "Trouble Shooting",
-    "section": "Check Pressure N2 Lampe leuchtet",
-    "text": "Check Pressure N2 Lampe leuchtet\nWenn im ‘Maintenance’ Fenster der Punkt ‘Check Pressure of N2 Gas’ rot ist, muss die N2-Gasflasche getauscht werden. Möglicherweise brennt auch die Lampe ‘Air Pressure’ vorn an der Sonder hinter der dunklen Rauchglasscheibe.\nEs kann sein, dass nach dem N2-Flaschen Tausch der Punkt ‘Check Pressure of N2 Gas’ weiterhin rot ist, und auch die ‘Air Pressure’ Lampe weiter leuchtet.\nLösung\nZunächst nachschauen, ob der Druck der N2-Flasche, sowie des Reduktionsventils an der rechten Wand hinter der Sonde auf etwas mehr als 5 bar stehen. Wenn das nicht der Fall ist, den Durch darauf erhöhen.\nWenn die Warnungen noch immer an sind, auf dem Panel vorn an der Sonder hinter der dunklen Rauchglasscheibe ‘Vacuum Power’ ausschalten und kurz darauf wieder einschalten.\nIm Maintenance Fenster werden nacheinander ein paar der Punkte auf rot springen, während verschiedene Ventile auf und zu gehen. Der Vorgang dauert einige Minuten.\nSobald das vorbei ist, sollte man min. 1 Stunde warten, bis die Sonde wieder vollständig betriebsbereit ist.\n\n\n\n(sss)",
+    "section": "Problembeschreibung",
+    "text": "Problembeschreibung\nDie PCD-Taste oder die Freeze-Taste auf dem Schaltpanel reagieren nicht mehr.\nLösung Der Stecker des Schaltpanels muss von der Mikrosonde abgeschraubt werden. Hierzu muss man hinter die Mikrosonde bzw. hinter den Bildschirm gehen und den Stecker mit der Aufschrift „OPN2“ (ganz links) für kurze Zeit lösen. Anschließend muss die Software neu gestartet werden. Dafür schließt man das EPMA-Menu und klickt mit rechts auf den Icon „Reset EPMA-Shortcut“ auf dem Desktophintergrund. Anschließend wählt man „Rund as admin“ und bestätigt mit „Yes“. Anschließend kann man wieder die EPMA Software öffnen.",
     "crumbs": [
       "Microprobe",
       "Trouble Shooting"
     ]
   },
   {
-    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#pc-sem-oder-pc-epma-fenster-wollen-nicht-wie-man-selbst",
-    "href": "microprobe/trouble-shooting/trouble-shooting.html#pc-sem-oder-pc-epma-fenster-wollen-nicht-wie-man-selbst",
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-5",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-5",
     "title": "Trouble Shooting",
-    "section": "PC-SEM oder PC-EPMA Fenster wollen nicht wie man selbst",
-    "text": "PC-SEM oder PC-EPMA Fenster wollen nicht wie man selbst\nEines der Fenster PC-SEM oder PC-EPMA – oder beim reagieren nicht, hängen, zeigen falsches an, etc.\nLösung\nBeide Fenster schließen, z.B. unten über die Taskleiste. Programm ‘JEOL EPMA’ neu starten über den Shortcut ganz links auf dem Desktop. ’’‘(noch Bild einfügen)’’‘. Wenn das nicht geht, Rechtsklick auf das Symbol und ’Run as Administrator’ anklicken. Wenn das nicht geht das Symbol ‘Restart EPMA’ anklicken. ’’‘(noch Bild einfügen)’’’ Dann das Programm neu starten. Sollte alles nicht helfen, Dominik anrufen. Evtl. muss der Computer neu gestartet werden. Das sollte aber abgesprochen werden.",
+    "section": "Problembeschreibung",
+    "text": "Problembeschreibung\nDer Schleusenstab lässt sich nicht mehr waagrecht kippen und steht daher schief. Ein Probenwechsel und das belüften der Schleusenkammer ist auch nicht mehr möglich. In der Software wird der Probenshuttle in der Probenkammer angezeigt.\n\n’‘’Nur von eingewiesenem Personal durchzuführen’’’\n\n Diese finden sich in “Telefon-Email-Kontakte”\nLösung Unter dem Menüpunkt „Maintenance“ öffnet man zuerst das Fenster „Self diagnosis (Y)“ um den Status der Ventile überprüfen zu können. Man lässt anschließend die Probe vorerst in der Probenkammer und klappt den Schleusenstab herunter (vertikal). Über das Fenster „Self diagnosis (Y)“ überprüft man den Status der Ventile, anschließend belüftet man über die Software des SEM-Monitors.\nDie Schleuse kann geöffnet und der Pin zurückgezogen werden. Anschließend bewegt man den Stab bzw. dreht ihn vorsichtig quer der Längsachse hin und her oder man kann ihn auch in fast waagrechten Zustand vorschieben.\nSobald der Stab sich wieder in die waagrechte Position bringen lässt ist der Pin wieder eingerastet. Das bedeutet man kann die Probenkammer wieder evakuieren und die Probe wie gewohnt schleusen.",
     "crumbs": [
       "Microprobe",
       "Trouble Shooting"
     ]
   },
   {
-    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#pcd--oder-freeze-taste-auf-dem-schaltpanel-reagieren-nicht",
-    "href": "microprobe/trouble-shooting/trouble-shooting.html#pcd--oder-freeze-taste-auf-dem-schaltpanel-reagieren-nicht",
+    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-6",
+    "href": "microprobe/trouble-shooting/trouble-shooting.html#problembeschreibung-6",
     "title": "Trouble Shooting",
-    "section": "PCD- oder Freeze-Taste auf dem Schaltpanel reagieren nicht",
-    "text": "PCD- oder Freeze-Taste auf dem Schaltpanel reagieren nicht\nDie PCD-Taste oder die Freeze-Taste auf dem Schaltpanel reagieren nicht mehr.\nLösung Der Stecker des Schaltpanels muss von der Mikrosonde abgeschraubt werden. Hierzu muss man hinter die Mikrosonde bzw. hinter den Bildschirm gehen und den Stecker mit der Aufschrift „OPN2“ (ganz links) für kurze Zeit lösen. Anschließend muss die Software neu gestartet werden. Dafür schließt man das EPMA-Menu und klickt mit rechts auf den Icon „Reset EPMA-Shortcut“ auf dem Desktophintergrund. Anschließend wählt man „Rund as admin“ und bestätigt mit „Yes“. Anschließend kann man wieder die EPMA Software öffnen.",
+    "section": "Problembeschreibung",
+    "text": "Problembeschreibung\nDas Fenster des Specimen Navigator ist nicht mehr auf dem Monitor zu finden, wird der noch in der Menüleiste als offen angezeigt.\nLösung\nZuerst muss der Specimen Navigator mit geschlossen werden (rechter Mausklick auf den Icon in der Menüleiste). Anschließend muss man in dem Windowsmenu das XML Notepad öffnen. Hier klickt man auf den rechten Pfeil für den Pfad „cNavigator…Nav… .xml“. Daraufhin öffnet man den Pfad „Windows Position“ und danach „Main Window“. Bei „Left“ gibt man eine 0 ein ebenso wie bei „Top“, anschließend speichert man die eingabe. Der Specimen Navigator lässt sich nun wieder öffnen.\n\n\n\nimage\n\n\n[[Category:Elektronenstrahl-Mikrosonde, EPMA (JEOL JXA-8530F Plus)]]\n\n\n\nimage_1\n\n\n\n\n\nimage_2",
     "crumbs": [
       "Microprobe",
       "Trouble Shooting"
     ]
   },
   {
-    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#schleusenstab",
-    "href": "microprobe/trouble-shooting/trouble-shooting.html#schleusenstab",
-    "title": "Trouble Shooting",
-    "section": "Schleusenstab",
-    "text": "Schleusenstab\nDer Schleusenstab lässt sich nicht mehr waagrecht kippen und steht daher schief. Ein Probenwechsel und das belüften der Schleusenkammer ist auch nicht mehr möglich. In der Software wird der Probenshuttle in der Probenkammer angezeigt.\n\n’‘’Nur von eingewiesenem Personal durchzuführen’’’\n\n Diese finden sich in “Telefon-Email-Kontakte”\nLösung Unter dem Menüpunkt „Maintenance“ öffnet man zuerst das Fenster „Self diagnosis (Y)“ um den Status der Ventile überprüfen zu können. Man lässt anschließend die Probe vorerst in der Probenkammer und klappt den Schleusenstab herunter (vertikal). Über das Fenster „Self diagnosis (Y)“ überprüft man den Status der Ventile, anschließend belüftet man über die Software des SEM-Monitors.\nDie Schleuse kann geöffnet und der Pin zurückgezogen werden. Anschließend bewegt man den Stab bzw. dreht ihn vorsichtig quer der Längsachse hin und her oder man kann ihn auch in fast waagrechten Zustand vorschieben.\nSobald der Stab sich wieder in die waagrechte Position bringen lässt ist der Pin wieder eingerastet. Das bedeutet man kann die Probenkammer wieder evakuieren und die Probe wie gewohnt schleusen.",
-    "crumbs": [
-      "Microprobe",
-      "Trouble Shooting"
-    ]
-  },
-  {
-    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#specimen-navigator-fenster-nicht-mehr-sichtbar",
-    "href": "microprobe/trouble-shooting/trouble-shooting.html#specimen-navigator-fenster-nicht-mehr-sichtbar",
-    "title": "Trouble Shooting",
-    "section": "Specimen Navigator Fenster nicht mehr sichtbar",
-    "text": "Specimen Navigator Fenster nicht mehr sichtbar\nDas Fenster des Specimen Navigator ist nicht mehr auf dem Monitor zu finden, wird der noch in der Menüleiste als offen angezeigt.\nLösung\nZuerst muss der Specimen Navigator mit geschlossen werden (rechter Mausklick auf den Icon in der Menüleiste). Anschließend muss man in dem Windowsmenu das XML Notepad öffnen. Hier klickt man auf den rechten Pfeil für den Pfad „cNavigator…Nav… .xml“. Daraufhin öffnet man den Pfad „Windows Position“ und danach „Main Window“. Bei „Left“ gibt man eine 0 ein ebenso wie bei „Top“, anschließend speichert man die eingabe. Der Specimen Navigator lässt sich nun wieder öffnen.\n\n\n\nimage",
-    "crumbs": [
-      "Microprobe",
-      "Trouble Shooting"
-    ]
-  },
-  {
-    "objectID": "microprobe/trouble-shooting/trouble-shooting.html#datenpunkte-falsch-abgespeichert",
-    "href": "microprobe/trouble-shooting/trouble-shooting.html#datenpunkte-falsch-abgespeichert",
-    "title": "Trouble Shooting",
-    "section": "Datenpunkte falsch abgespeichert",
-    "text": "Datenpunkte falsch abgespeichert\nWenn man die Datenpunkte in das falsche Programm abgespeichert hat (z.B. Qualitativ statt Quantitative Analyse) kann man sie nicht einfach kopieren und einfügen.\nLösung\nMan kann die eingegebenen Datenpunkte in dem falschen Programm markieren und dann mit “rechts Klick” und “copy” kopieren. Man geht in das gewünschte Programm und fügt die Punkte wieder mit “rechts Klick” und “paste” ein.",
-    "crumbs": [
-      "Microprobe",
-      "Trouble Shooting"
-    ]
-  },
-  {
-    "objectID": "microprobe/flank-method/basics.html",
-    "href": "microprobe/flank-method/basics.html",
-    "title": "Basics",
+    "objectID": "microprobe/epma-intro.html",
+    "href": "microprobe/epma-intro.html",
+    "title": "EPMA Lab",
     "section": "",
-    "text": "Introduction\nThe members of the garnet group have a large variety of chemical compositions with the general formula A2+3B3+2(SiO4)3. A is a distorted octahedral site and B a normal octahedral site. Here we focus on the two garnets almandine and andradite, which differ in their chemical composition and the valence state of Fe. Almandine has the chemical formula Fe2+3Al2(SiO4)3, with Fe as Fe2+ in the distorted octahedral A site, and andradite has the chemical formula Ca3Fe3+2(SiO4)3, with Fe as Fe3+ in the octahedral B site. There is a general, large immiscibility gap between almandine and andradite, however, almandine can have up to ~10% Fe3+ and andradite up to ~10% Fe2+. This amount is expressed in the atomic ratio Fe3+/FeT, with FeT meaning total Fe. The amount of Fe3+/FeT can be directly used to calculate the amount of free oxygen, i.e., the oxygen fugacity (\\(\\rightarrow\\) fO2) while the garnet formed.\n\n\n\n\n\n\nSummary\n\n\n\n\n\nAlmandine: Fe2+3Al2(SiO4)3, up to ~10% Fe3+/FeT\nAndradite: Ca3Fe3+2(SiO4)3, down to ~90% Fe3+/FeT\nThe amount of Fe3+/FeT is used to calculate the fO2.\n\n\n\n\n\nPrinciple\nThe energies of the FeL\\(\\alpha\\) and FeL\\(\\beta\\) lines are close together at 0.7049 and 0.7183 keV, respectively. These energies translate to analyser crystal positions, i.e., L-values on a JEOL microprobe of 191.218 and 187.631 mm. The relative intensities of the lines are 80 and 20, respectively, on a normalised scale of 100. Figure 1 shows the FeLa and FeLb peaks of an almandine spectra. The vertical lines indicate the tabulated values for FeLa and FeLb. A single tabulated and measured values need not to coincide, as this depends on the mechanical build. The distance of FeLa and FeLb, on the other, should be the same between the tabulated and measured peaks. However, this is not the case as already visible in Figure 1 by the naked eye.\n\n\n\n\n\n\nFigure 1: An Almandine Fe spectra with the Fe La and Lb lines. Taken with 2 µm steps, 1 s dwell time, 3 accumulations at 100 nA and 15 kV in Diff mode to suppress the FeKa 9. order peak at 189.417 mm (0.7116 keV). Spectra obtained with the GU Frankfurt IfG JEOL EPMA.\n\n\n\nThis means, at least one peak is not where it theoretically should be. The reason is the crystal field in which an atom, in this case the Fe atom, sits. This crystal fields slightly changes the electron energy levels around the Fe atom, and therewith the differences between the electron energy levels. Figure 2 illustrates this effect. The lengths of the arrows represent the energy differences when an electron from a higher shell transitions down to a lower shell, thereby emitting the characteristic X-rays with the same energies as these energy difference. The comparison of the arrow lengths on the right illustrate the change in energy difference between the two characteristic lines La and Lb.\n\n\n\n\n\n\nFigure 2: Schematic comparison of tabulated Fe energy levels with energy levels that are slightly changed by the crystal field.\n\n\n\nThese differences define the energies of the characteristic X-rays of the Lb and La lines. This effect is called chemical peak shift, and is the fundamental effect, upon which the flank method builds. :red[And finally, this effect also changes the relative intensities of the Lb and La lines.]\nNow, the Fe2+ in pure almandine occupies the distorted octahedral site, while the Fe3+ in pure andradite occupies the normal octahedral site. These two different crystal fields result in slightly different energy levels, and therewith in different energies of the characteristic La and Lb lines and different peak intensities. Hence, almandine and andradite are discriminated by the location and height of their La and Lb peaks. The goal is, however, not to simply discriminate two minerals, Further, most garnets in mantle and metamorphic rocks are solid solutions between almandine and pyrope with the general formula (Mg,Fe)3Al2(SiO4)3. These garnets contain, as outlined above, small amounts of Fe3+, which is a function of the ambient fO2 during garnet formation. But even small variations of Fe3+ shift the positions and increase/decrease the intensities of the La and Lb peaks. We cannot sensibly quantify an entire spectrum such as the one shown in Figure 1, and obtaining such spectra would cost way too much time. We therefore position the analyser crystal at a certain L-value, and measure the counts at this position in a standard and then in the sample. Because the peak shifted and in- or decreased its intensity depending on the sample’s Fe3+/FeT ratio, the counts in the sample will be either lower or higher than in the standard. As these count differences will be small, it is important to move the analyser crystal to a position with maximum count differences between standard and sample. As is seen from the schematic Figure 3, this position is at around the middle of a peak’s flank (now guess how this method earned its name). Each measurement position results in another count difference between the standard and sample peak. Note that peak means somewhere on the peak, not the peak maximum – which would not possible for both peaks at the same time when the measurement position is fixed, but the peak maximum of the samples is shifted from the peak maximum of the standard.\n\n\n\n\n\n\nFigure 3: Schematic FeL peak in a standard and a sample. The peak of the sample shifted its position and changed its intensity due to a different amount of Fe3+/FeT. Three coloured, dashed, vertical measurement positions (Pos) (\\(\\rightarrow\\) L-values) are indicated.\n\n\n\nThe maximum counts difference between the two spectra can be identified when the counts of spectra, e.g., almandine are subtracted from the counts of the other spectra, which would then be andradite. The positions of the maxima and minima of the resulting difference spectra (orange line in Figure 4) indicate the positions, where the two spectra have their maximum counts differences.\nThe counts differences between a single, e.g., FeLa standard and sample would insufficiently sensitive to correlate these with Fe3+/FeT difference between the standard and the sample. Therefore the counts differences between both, the FeLa and FeLb are determined. To obtain maximum changes in counts, for FeLa the position is chosen, where the difference spectra has its maxima, which will decrease with changing Fe3+/FeT, while for FeLb the position is chosen, where the difference spectra has its minima, which will increase with changing Fe3+/FeT. The change of counts at these two positions is then expressed by dividing the counts at these two positions, specifically by dividing the counts at the FeLb flank through the counts of the FeLa flank, in short: FeLb/FeLa. This provides a dimensionless number, which is preferable instead of the counts difference, which would be a dimensional number, and depend on measurement conditions.\nThe two analyser crystal positions should not be too close to their respective peaks, i.e., good analyser crystal positions in case of Figure 4 would be at 188.07 mm for FeLb and at 190.67 for FeLa, as drawn in the figure by the dashed, grey, vertical lines.\n\n\n\n\n\n\nFigure 4: FeLa and FeLb spectra for almandine and andradite, and the difference spectra of andradite minus almandine. Dashed, grey, vertical lines indicate ideal measurement positions for the TAPL analyser crystal positions. Measurement conditions are the same as for Figure 1.\n\n\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\nFe3+/FeT-poor (e.g., almandine) and Fe3+/FeT-rich (andradite) garnets have different chemical peak shifts. The extent of this chemical peak shift is a function of the garnet’s Fe3+/FeT and FeT. Count rates are measured on the FeLa and FeLb flanks and from these the dimensionless FeLb/FeLa-ratio is calculated. This ratio together with the FeT of a granet is used to determine its Fe3+/FeT.\n\n\n\n\n\nApplication\nThe FeLb/FeLa of a garnet not only depends on its Fe3+/FeT, but also on its Fe-content. Figure 5 illustrates this dependency, with the total Fe on the x/ and the FeLb/FeLa ratio on the y-axis. Standards with an ideally wide range of FeT concentrations are therefore imperative. This parametrisation plot and how it is calculated is explained in the next section.\nThe spread of the iso-Fe3+/FeT lines depends on the chosen standards. If only Fe3+/FeT-poor garnets are chosen (Figure 5 (a)), the spread is large, and the resolution, i.e., the precision of the Fe3+/FeT becomes better. The addition of an andradite standard decreases the spread of the iso-Fe3+/FeT lines, and reduces the Fe3+/FeT resolution (Figure 5 (b)). Finally, the precision of determining the Fe3+/FeT becomes increasingly better with increasing FeT, which correlates with a significant increase in the iso-Fe3+/FeT lines spread. And vice versa, the lower the FeT in garnet, the more imprecise it becomes to determine its iso-Fe3+/FeT.\n\n\n\n\n\n\n\n\n\n\n\n(a) Only pyrope-alamandine standards\n\n\n\n\n\n\n\n\n\n\n\n(b) Almandine and one andradite standard\n\n\n\n\n\n\n\nFigure 5: The FeLb/FeLa ratio depends on the Fe3+/FeT and the FeT concentration of a garnet. The blue and orange lines represent lines of the same Fe3+/FeT content, with high FeLb/FeLa represent high Fe3+/FeT and vice versa. Standards: large, black-rimmed symbols. Samples: small symbols.\n\n\n\n\n\nParametrisation\nRegression formulas, in which the parameters are used:\n\\(Fe^{2+} = A + B \\times \\frac{L\\beta}{L\\alpha} + C \\times \\Sigma Fe + D \\times \\Sigma Fe \\times \\frac{L\\beta}{L\\alpha}\\)\n\\(Fe^{3+} = -A - B \\times \\frac{L\\beta}{L\\alpha} - C \\times \\Sigma Fe - D \\times \\Sigma Fe \\times \\frac{L\\beta}{L\\alpha} + Fe_{tot}\\)\nx = \\(L\\beta/L\\alpha\\)\ny = \\(Fe_{tot}\\)\nz = \\(Fe^{2+}\\)\nA = [\n[n, \\(\\Sigma x\\), \\(\\Sigma y\\), \\(\\Sigma(x \\times y)\\)],\n[\\(\\Sigma x\\), \\(\\Sigma x^2\\), \\(\\Sigma(x \\times y)\\), \\(\\Sigma (y \\times x^2)\\)],\n[\\(\\Sigma y\\), \\(\\Sigma(x \\times y)\\), \\(\\Sigma(y^2)\\), \\(\\Sigma(x \\times y^ 2)\\)],\n[\\((x \\times y)\\), \\(\\Sigma((x^2) \\times y)\\),\n\\(\\Sigma(x \\times y^2)\\), \\(\\Sigma((x^2) \\times (y^2)\\)]\n]\nv = [\\(z\\), \\(\\Sigma(z \\times x)\\), \\(\\Sigma(z \\times y)\\), \\(\\Sigma(x \\times y \\times z)\\)]\nregression parameters:\nrfp = np.linalg.inv(A) @ v\nres = rfp[0] + rfp[1] * \\(L\\beta/L\\alpha\\) + rfp[2] * \\(Fe_{tot}\\) + rfp[3] * (\\(Fe_{tot}\\) * \\(L\\beta/L\\alpha\\))\nresultsFe3FP = (\\(Fe_{tot}\\) - res)/\\(Fe_{tot}\\)\n\n\nConclusion\nThe flank method is an elegant, cost efficient high resolution technique to determine Fe3+/FeT, and at the same time the chemical composition of the garnet. It has the potential to be used in a wide range of minerals. The main drawback is the tedious effort to setup the flank method for a new mineral type, which requires a range of minerals with variable FeO-concentrations and known Fe3+/FeT, as e.g., determined using Mössbauer quadrupole splitting.\n\n\nAlternatives\nAlternative methods to determine Fe3+/FeT are Mössbauer spectroscopy or XANES (X-ray absorption near edge structure). Mössbauer spectroscopy has a low resolution in the typical range of tens of µm, while XANES requires a synchrotron and is therefore costly and laborious. These methods can, however, determine Fe3+/FeT in basically all types of material.\n\n\nDetermining Analyser Crystal Positions\nThe flank method requires measurements on the FeLa and FeLb flanks rather than on their respective peaks. The ideal positions of the analyser crystals are best determined using a difference spectra, as described in the previous section. For garnet, this is best produced from a qualitative almandine and and andradite scan. It is, however, not required to record full spectra, as small intervals across the expected minima and maxima of the difference spectra are sufficient. Sufficient step size and dwell time – i.e., the counting time at each step – can be comparatively small, e.g., a step size of 3 µm and a dwell time of 300 ms. Figure 6 shows such segmented spectra with an interval for FeLa from 187.5 to 188. 5 mm, and for FeLb from 190 to 191 mm, as well as the resulting difference spectra. A high current of e.g., 300 nA is advisable, to obtain higher count rates. The sole measurement time will then be approx. 7 min, i.e., recording the required spectra should take about 10 min, if predefined measurement recipes are used.\n\n\n\n\n\n\nFigure 6: A segmented Fe spectra for fast determination of the FeLa and FeLb analyser crystal positions.\n\n\n\nThe flank data reduction program has a tool to determine analyser crystal positions (‘Crystal Positioning’ in ‘Tools’). Figure 7 shows how a csv table needs to be prepared for this tool. The ‘Datasets’ section further provides a test dataset for download that also serves as a template.\n\n\n\n\n\n\nFigure 7: Required header row and layout for csv tables to be used with the crystal positioning tool of the data reduction program.\n\n\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\nSegmented Fe spectra are sufficient to determine analyser crystal positions, e.g., using the one from the Tools section in the data reduction program.\n\n\n\n\n\nEPMA Set-Up\nThe flank method requires measuring the FeLa, FeLb flanks, as well as the Fe-concentration, e.g., on FeKa. The FeLa and FeLb flank measurement positions need to be input manually, after these have been determined as described above. The flank measurement set-ups in the EPMA measurement program might be labelled with element names that are never or only very rarely used. For the FeLb line, this could be Bi or Br and vor La Ar or As.\nThe FeLa and FeLb lines can be measured using a TAP-crystal, ideally a large-type TAPL cyrstal for better count rates, as the Fe L-lines are comparatively weak. Figure 8 shows a possible EPMA flank measurement set-up, in which the FeLa and FeLb lines are measured using the TAPL crystal of spectrometer 2 (2TAPL), and redundantly also on 4TAPL, to validate the results obtained with 2TAPL (or vice versa).\n\n\n\n\n\n\nFigure 8: The EPMA-measurement program and set-up for the FeLa and FeLb flanks. The flanks are measured on 2 spectrometers for cross-validation.\n\n\n\nThe selected Bi in Figure 8 represents the FeLb flank. The X-ray line as well as the order are as random as the selected Bi for labelling the measurement conditions of the actual FeLb line that is measured with this set-up. The peak position is input manually as determined using e.g., the data reduction program crystal positioning tool. The PHA conditions are determined as usual. The measurement time on all flanks is 100 s. No backgrounds are measured, i.e., the net count rates will be used to determine Fe3+ abundances.\nThe remaining spectrometers can be used for normal element analyses. Measuring Fe is mandatory, as it is required to determine Fe3+ abundances. It is, hence, also mandatory to at least measure all main elements, as these are required for accurate matrix corrected Fe concentrations. As the measurement of the flanks takes a little longer than 200 s (considering movement times of the analyser crystals), there might be time for further elements. Figure 9 displays a measurement set-up frequently used at the Institut für Geowissenschaften JEOL EPMA at the Goethe Universität Frankfurt.\n\n\n\n\n\n\nFigure 9: A full IfG GU Frankfurt EPMA flank measurement set-up.\n\n\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\nThe FeLa & FeLb measurement set-ups are labelled with fake elements, and measured for cross-validation on two spectrometers using TAPL crystals. Fe and main elements need to be measured for accurate Fe concentrations, further elements can be added.",
+    "text": "Die Elektronenstrahl-Mikrosonde ist ein JEOL JXA-8530F Plus Hyperprobe mit Feldemissionskathode (FEG – Field Emission Gun) und wurde am 25. Februar 2019 installiert.\nDie Sonde ist ausgestattet mit:\n5 Wellenlängen-Dispersiven Spektrometern (WDS) Einem Energiedispersiven Spektrometer (EDS) Schwarz-Weiß Kathodolumineszenz (CL) Einer Kühlfalle plus Airjet, im Besonderne für leichte Elemente\n\n\n\n(JEOL JXA-8530F Plus Hyperprobe Lab)\n\n\n\n\nRoutinemäßig polierte Dünn- oder Anschliffe im Rechteckformat (ca. 28 mm x 48 mm) oder rund (Durchmesser 25,4 mm) Beliebig geformte Proben (max. 100 mm x 100 mm x 50 mm) mit unebener Oberfläche; maximal erlaubte Höhenunterschiede der Probenoberfläche: 2 mm. Bitte beachten: bei unebener Oberfläche ist keine verlässliche quantitative Analyse möglich. Maximal analysierbare Fläche: 90 mm x 90 mm. *Die Probenoberfläche muss in jedem Fall elektrisch leitend sein, d.h. sie wird in der Regel vor der Mikrosondenanalyse bedampft (z.B. mit C).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpektrometer\nKristalle\nZähler\nSpalt\nRowland-Kreis (Radius)\nmm-Bereich\n\n\n\n\n1, N-type\nTAP, PET, LDE1 ([C], N, O, F), LDE2 (B, C, N)\ngas-flow Ar(90)CH4(10)\n300 µm, offen für Multilayer\n140 mm\n69.701 - 259.951\n\n\n2, L-type\nTAPL, PETL\ngas-flow Ar(90)CH4(10)\n300 µm\n140 mm\n69.561 - 259.766\n\n\n3, L-type\nLiFL, PETL\ngeschlossener Xe\n300 µm\n140 mm\n69.621 - 259.686\n\n\n4, L-type\nTAPL, LDE6L (B, C)\ngas-flow Ar(90)CH4(10)\n300 µm\n140 mm\n69.371 - 259.631\n\n\n5, H-type\nLiFH, PETH\ngeschlossener Xe\n500 µm\n100 mm\n85.281 - 240.295\n\n\n\n\n\n\nTAP: Thallium-Phthalat-Säure, 2d = 25.757 Å\n\nLiF: Lithium-Fluorid, 2d = 4.0267 Å\n\nPET: Penta-Erythritol, 2d = 8.742 Å\n\nLDE: künstliche layered dispersive element Kristalle (Multilayer), LDE1: 2d = 60 Å, LDE6: 2d = xx Å\n\n\n\n\n\nN: Normal große Kristalle. Davon passen 4 Stück auf den Kristallwechsler.\n\nL: Large Crystals: Die Analysator-Kristalle sind größer und ergeben höhere Intensitäten. Davon passen max. 2 Stück auf den Kristallwechsler.\n\nH: High intensity\n\n[[Category:Rasterelektronen-Mikroskop, REM (JEOL JSM-6490)]]\n\n\n\nimage\n\n\n\n\n\n\nElectron-probe (EPMA) measurements followed a similar protocol as described in Baldwin et al. 2007. We used a JEOL JXA-8530F Plus EPMA at the Institut für Geowissenschaften, Goethe Universität Frankfurt, and with the following setup (Channel, Analyser-Crystal, Standard): Si (Ch-1, TAP, Zircon 91500), Y (Ch-2, PETL, YPO4), Ti (Ch-3, PETL, SrTiO3), Hf (Ch-4, TAPL, ), Zr (Ch-5, PETH, Zircon 91500). We used differential mode for most elements to cut off higher order interferences that are a particular problem for Ti (e.g., Hf Lb(2)(this needs to be re-checked, only from what I remember) on Ti Ka). Individual points were measured at 15 kV and 150 nA. Ti was measured for 200 s on the peak and 100 on the backgrounds, resulting in a detection limit of approx. 25 wt-ppm. Other elements were measured between 20 and 60 s on the peak half the peak time on the backgrounds. The spot-size was set to a circle of 3 µm for all measurements. Data reduction was performed using the build-in the ZAF (oxide) algorithm.",
     "crumbs": [
       "Microprobe",
-      "Flank Method",
-      "Basics"
+      "EPMA Lab"
     ]
   },
   {
-    "objectID": "microprobe/flank-method/publications.html",
-    "href": "microprobe/flank-method/publications.html",
-    "title": "Publications",
+    "objectID": "microprobe/epma-intro.html#vorbereitung",
+    "href": "microprobe/epma-intro.html#vorbereitung",
+    "title": "EPMA Lab",
     "section": "",
-    "text": "Method Section For Publications\nThe atomic Fe3+/Fetot proportions in garnets were determined with the flank method as developed and refined by Höfer et al. (1994) and Höfer and Brey (2007). Measurements were conducted with a JEOL JXA-8530F Plus electron microprobe at the Institute für Geowissenschaften, GU Frankfurt am Main. The flank method and the quantitative elemental analyses were simultaneously conducted using WDS at 15 kV and 120 nA, with a beam diameter of 1 μm. Two spectrometers with TAPL crystals for high intensities and the smallest detector slit (300 μm) were used, with 100 s counting time for FeLα and FeLβ. The Fe3+/Fetot of garnets were determined by applying the correction for self-absorption using natural and synthetic garnets with variable total Fe and Fe3+/Fetot known from Mössbauer ›milliprobe‹ (Höfer and Brey, 2007). The remaining 3 spectrometers carried out the simultaneous elemental analyses of Si, Ti, Al, Cr, Fe, Mn, Ni, Mg, Ca, Na, K and P. Appropriate silicates (pyrope (Mg, Al, Si), albite (Na), CaSiO3 (Ca)), phosphate (KTiOPO4 (Ti, K, P)), and metals or metal oxides (iron metal (Fe), NiO (Ni), MnTiO3 (Mn), Cr2O3 (Cr)) were used as standards, and a PRZ routine was used for the matrix correction (REF). The uncertainty in Fe3+/Fetot analyses is about ± 0.01 (1σ), while garnets with higher FeO have smaller errors than garnets with lower FeO.\nReferences\nHöfer H. E. and Brey G. P. (2007) The iron oxidation state of garnet by electron microprobe: Its determination with the flank method combined with major-element analysis. Am Mineral 92, 873–885. Höfer, H. E., Brey, G. P., Schulz-Dobrick, B., and Oberhänsli, R. (1994) The determination of the oxidation state of iron by the electron microprobe. European Journal of Mineralogy, 6, 407-418. PRZ REF\nAdditional References are listed in the according section in the sidebar on the left.\n\n\nLiterature\nHöfer H. E. and Brey G. P. (2007) The iron oxidation state of garnet by electron microprobe: Its determination with the flank method combined with major-element analysis. Am Mineral 92, 873–885.\nHöfer H. E. (2002) Quantification of Fe2+/Fe3+ by Electron Microprobe Analysis – New Developments. Hyperfine Interact 144–145, 239–248.\nHöfer H. E., Brey, G. P., and Hibberson, W. O. (2004) Iron oxidation state determination in synthetic pyroxenes by electron microprobe. Lithos, 73, 551.\nHöfer H. E., Weinbruch S., Mccammon C. A. and Brey G. P. (2000) Comparison of two electron probe microanalysis techniques to determine ferric iron in synthetic wüstite samples. Eur J Mineral 12, 63–71.\nHöfer, H. E., Brey, G. P., and Oberhänsli, R. (1996) The determination of the oxidation state of iron in synthetic garnets by X-ray spectroscopy with the electron microprobe. Physics and Chemistry of Minerals, 23, 241.\nHöfer, H. E., Brey, G. P., Schulz-Dobrick, B., and Oberhänsli, R. (1994) The determination of the oxidation state of iron by the electron microprobe. European Journal of Mineralogy, 6, 407-418.\n\n\nHow to Cite Flank Reduction\nIf you are using the flank method reduction website, please cite the following publication: Hezel, DC, Höfer, H, Fichtner A (2024) A fast open data reduction workflow for the electron microprobe flank method to determine Fe3+/SFe contents in minerals. American Mineralogist resubmitted.",
+    "text": "Routinemäßig polierte Dünn- oder Anschliffe im Rechteckformat (ca. 28 mm x 48 mm) oder rund (Durchmesser 25,4 mm) Beliebig geformte Proben (max. 100 mm x 100 mm x 50 mm) mit unebener Oberfläche; maximal erlaubte Höhenunterschiede der Probenoberfläche: 2 mm. Bitte beachten: bei unebener Oberfläche ist keine verlässliche quantitative Analyse möglich. Maximal analysierbare Fläche: 90 mm x 90 mm. *Die Probenoberfläche muss in jedem Fall elektrisch leitend sein, d.h. sie wird in der Regel vor der Mikrosondenanalyse bedampft (z.B. mit C).",
     "crumbs": [
       "Microprobe",
-      "Flank Method",
-      "Publications"
+      "EPMA Lab"
     ]
   },
   {
-    "objectID": "microprobe/flank-method/video-tutorials.html",
-    "href": "microprobe/flank-method/video-tutorials.html",
-    "title": "Video Tutorials",
+    "objectID": "microprobe/epma-intro.html#spektrometer-belegung",
+    "href": "microprobe/epma-intro.html#spektrometer-belegung",
+    "title": "EPMA Lab",
     "section": "",
-    "text": "The video tutorials are currently being updated and new one produced, and will go live towards autum 2024. Otherwise please ask for assistance.",
+    "text": "Spektrometer\nKristalle\nZähler\nSpalt\nRowland-Kreis (Radius)\nmm-Bereich\n\n\n\n\n1, N-type\nTAP, PET, LDE1 ([C], N, O, F), LDE2 (B, C, N)\ngas-flow Ar(90)CH4(10)\n300 µm, offen für Multilayer\n140 mm\n69.701 - 259.951\n\n\n2, L-type\nTAPL, PETL\ngas-flow Ar(90)CH4(10)\n300 µm\n140 mm\n69.561 - 259.766\n\n\n3, L-type\nLiFL, PETL\ngeschlossener Xe\n300 µm\n140 mm\n69.621 - 259.686\n\n\n4, L-type\nTAPL, LDE6L (B, C)\ngas-flow Ar(90)CH4(10)\n300 µm\n140 mm\n69.371 - 259.631\n\n\n5, H-type\nLiFH, PETH\ngeschlossener Xe\n500 µm\n100 mm\n85.281 - 240.295\n\n\n\n\n\n\nTAP: Thallium-Phthalat-Säure, 2d = 25.757 Å\n\nLiF: Lithium-Fluorid, 2d = 4.0267 Å\n\nPET: Penta-Erythritol, 2d = 8.742 Å\n\nLDE: künstliche layered dispersive element Kristalle (Multilayer), LDE1: 2d = 60 Å, LDE6: 2d = xx Å\n\n\n\n\n\nN: Normal große Kristalle. Davon passen 4 Stück auf den Kristallwechsler.\n\nL: Large Crystals: Die Analysator-Kristalle sind größer und ergeben höhere Intensitäten. Davon passen max. 2 Stück auf den Kristallwechsler.\n\nH: High intensity\n\n[[Category:Rasterelektronen-Mikroskop, REM (JEOL JSM-6490)]]\n\n\n\nimage",
     "crumbs": [
       "Microprobe",
-      "Flank Method",
-      "Video Tutorials"
+      "EPMA Lab"
     ]
   },
   {
-    "objectID": "microprobe/flank-method/data-reduction-program.html",
-    "href": "microprobe/flank-method/data-reduction-program.html",
-    "title": "Data Reduction",
+    "objectID": "microprobe/epma-intro.html#ti-in-zircon-method",
+    "href": "microprobe/epma-intro.html#ti-in-zircon-method",
+    "title": "EPMA Lab",
     "section": "",
-    "text": "This way to flank metheod data reduction:\nflank method data reduction program",
+    "text": "Electron-probe (EPMA) measurements followed a similar protocol as described in Baldwin et al. 2007. We used a JEOL JXA-8530F Plus EPMA at the Institut für Geowissenschaften, Goethe Universität Frankfurt, and with the following setup (Channel, Analyser-Crystal, Standard): Si (Ch-1, TAP, Zircon 91500), Y (Ch-2, PETL, YPO4), Ti (Ch-3, PETL, SrTiO3), Hf (Ch-4, TAPL, ), Zr (Ch-5, PETH, Zircon 91500). We used differential mode for most elements to cut off higher order interferences that are a particular problem for Ti (e.g., Hf Lb(2)(this needs to be re-checked, only from what I remember) on Ti Ka). Individual points were measured at 15 kV and 150 nA. Ti was measured for 200 s on the peak and 100 on the backgrounds, resulting in a detection limit of approx. 25 wt-ppm. Other elements were measured between 20 and 60 s on the peak half the peak time on the backgrounds. The spot-size was set to a circle of 3 µm for all measurements. Data reduction was performed using the build-in the ZAF (oxide) algorithm.",
     "crumbs": [
       "Microprobe",
-      "Flank Method",
-      "Data Reduction"
+      "EPMA Lab"
     ]
   },
   {
-    "objectID": "microprobe/flank-method/data-reduction-program.html#preparing-the-sample-file",
-    "href": "microprobe/flank-method/data-reduction-program.html#preparing-the-sample-file",
-    "title": "Data Reduction",
-    "section": "Preparing the Sample File",
-    "text": "Preparing the Sample File\nFile Type\nThe file needs to be a csv file saved in the UTF-8 format. Some Excel versions have problems saving to UTF-8. Apple Numbers allows simple export to csv UTF-8.\nGeneral Spreadsheet Layout\nThe first row needs to be the categories, and there must not be any additional rows after the final sample row.\nSample Naming Conventions\ndrift standard – which are also in the sample file?! sample\nRequired Categories\nThe spreadsheet needs to have the following categories (=column headers). Some of the categories are automatically renamed by the program. The categories can be sorted in any order.\nPoint\nWill be renamed to: Point Nr.\nThis category is used in a number of plots on the x-axis, thereby allowing the quick identification of a sample that might have a bad analyses, and one might wants to not include.\nComment\nWill be renamed to: Name\nProvides the name of the sample.\nInspected\nWill not be renamed\nThis needs to be added manually by simply duplicating the ‘Comment’ column (= copy&paste a second ‘Comment’ column next to it) and then renaming the duplicated ‘Comment’ column to ‘Inspected’.\noxide_name(Mass%)\nWill be renamed to: oxide_name (wt%)\nFor example, categories need to be: SiO2(Mass%), Al2O3(Mass%), and so on. These are renamed to the common&gt; SiO2 (wt%), Al2O3 (wt%), and so on. There is no need for specific oxides, except for, of course, FeO(Mass%).\nBi(Net), Ar(Net), Br(Net), As(Net)\nWill be renamed to: Lb (2TAPL), La (2TAPL), Lb (4TAPL), Ls (4TAPL)\nThese are the fake elements in the measurement program of the EPMA. It is assumed that in the measurement program Bi and Ar are measured on channel 2, crystal TAPL, and Br and As are measured on channel 4 and also crystal TAPL. This is, because of the renaming of these categories as given above.\nAdditionnal Categories\nIt is possible to have as many other categories as wanted in the file. These are simply ignored. It might be sensible to include an addtional ‘Comment’ category to add specific notes.",
-    "crumbs": [
-      "Microprobe",
-      "Flank Method",
-      "Data Reduction"
-    ]
-  },
-  {
-    "objectID": "microprobe/flank-method/data-reduction-program.html#the-test-dataset",
-    "href": "microprobe/flank-method/data-reduction-program.html#the-test-dataset",
-    "title": "Data Reduction",
-    "section": "The Test Dataset",
-    "text": "The Test Dataset\n\n\n\nTable 1: The layout of a sample file\n\n\n#import pandas as pd\n#df = pd.read_csv('data/moessbauer standard data.csv')\n#df",
-    "crumbs": [
-      "Microprobe",
-      "Flank Method",
-      "Data Reduction"
-    ]
-  },
-  {
-    "objectID": "microprobe/flank-method/data-reduction-program.html#adding-new-standards",
-    "href": "microprobe/flank-method/data-reduction-program.html#adding-new-standards",
-    "title": "Data Reduction",
-    "section": "Adding new Standards",
-    "text": "Adding new Standards\nEach new standard that needs to be used for the flank method needs to be added to the Moessbauer stanard file. Should you wish to add a new standard, drop me an email with the required details and I will update the file with this new standard.",
-    "crumbs": [
-      "Microprobe",
-      "Flank Method",
-      "Data Reduction"
-    ]
-  },
-  {
-    "objectID": "microprobe/flank-method/data-reduction-program.html#the-moessbauer-standard-file",
-    "href": "microprobe/flank-method/data-reduction-program.html#the-moessbauer-standard-file",
-    "title": "Data Reduction",
-    "section": "The Moessbauer Standard File",
-    "text": "The Moessbauer Standard File\nFe3+/FeT is an atom-ratio. Oxide-Concentrations are in wt%.\n\n\n\nTable 2: The standard file used in the flank method program\n\n\n#import pandas as pd\n#pd.read_csv('data/moessbauer standard data.csv')",
-    "crumbs": [
-      "Microprobe",
-      "Flank Method",
-      "Data Reduction"
-    ]
-  },
-  {
-    "objectID": "microprobe/flank-method/data-reduction-program.html#start-data-upload",
-    "href": "microprobe/flank-method/data-reduction-program.html#start-data-upload",
-    "title": "Data Reduction",
-    "section": "Start & Data Upload",
-    "text": "Start & Data Upload\nForm of the data",
-    "crumbs": [
-      "Microprobe",
-      "Flank Method",
-      "Data Reduction"
-    ]
-  },
-  {
-    "objectID": "microprobe/flank-method/data-reduction-program.html#data-reduction",
-    "href": "microprobe/flank-method/data-reduction-program.html#data-reduction",
-    "title": "Data Reduction",
-    "section": "Data Reduction",
-    "text": "Data Reduction\nAnd so",
-    "crumbs": [
-      "Microprobe",
-      "Flank Method",
-      "Data Reduction"
-    ]
-  },
-  {
-    "objectID": "microprobe/flank-method/data-reduction-program.html#results-tables",
-    "href": "microprobe/flank-method/data-reduction-program.html#results-tables",
-    "title": "Data Reduction",
-    "section": "Results Tables",
-    "text": "Results Tables\n\nFe3+/SFe in Standard\n\n\nFe3+/SFe in Drift\n\n\nFe3+/SFe in Samples",
-    "crumbs": [
-      "Microprobe",
-      "Flank Method",
-      "Data Reduction"
-    ]
-  },
-  {
-    "objectID": "microprobe/flank-method/data-reduction-program.html#visualisations",
-    "href": "microprobe/flank-method/data-reduction-program.html#visualisations",
-    "title": "Data Reduction",
-    "section": "Visualisations",
-    "text": "Visualisations\n\nSelect your Detail\n\nDrift Inspection\n\n\nComparing La & Lb\n\n\nParametrisation\n\n\nSample Inspection\n\n\nError Considerations\n\n\nResults Inspection",
-    "crumbs": [
-      "Microprobe",
-      "Flank Method",
-      "Data Reduction"
-    ]
-  },
-  {
-    "objectID": "microprobe/flank-method/data-reduction-program.html#readme",
-    "href": "microprobe/flank-method/data-reduction-program.html#readme",
-    "title": "Data Reduction",
-    "section": "readme",
-    "text": "readme\nThe readme.md file from GitHub:  flank method github readme",
-    "crumbs": [
-      "Microprobe",
-      "Flank Method",
-      "Data Reduction"
-    ]
-  },
-  {
-    "objectID": "microprobe/tools/epma-intro.html",
-    "href": "microprobe/tools/epma-intro.html",
+    "objectID": "microprobe/flank-method/welcome.html",
+    "href": "microprobe/flank-method/welcome.html",
     "title": "Welcome",
     "section": "",
-    "text": "Electron Microprobe Data Processing\nThe flank data reduction application, including all documentation is up and running – check it out from the sidebar.\nThe data processing application is in development, a sneak peak is available."
+    "text": "To learn everything about the flank method, check the section Basics. If you want to use the flank data reduction program and/or want to know how this progam works, navigate to the section Data Reduction. The section Publications provides a method section ready for copy&paste into your publication, literature regarding the basics of the flank mehtod, and finally a copy&paste reference for your pubilcation to cite the flank method program. Finally, the Code Documentation section provides an in-depth reference that describes each part and the entire flank method reduction program. The section concludes with links to the GitHub repository of the Python code.\nShould you have any questions, found a bug, or run into other problems, please contact the developer Dominik Hezel at dominik.hezel - at - em.uni-frankfurt.de",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/glossary.html",
+    "href": "microprobe/flank-method/glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "AAI\nAuthentication, Authorisation & Identification – for example, Eduroam is an AAI system\nAPI\nApplication Programming Interface\ncsv\ncomma separated values – a file format\nELN\nElectronic Lab Notebook\nEPMA\nElectron-Probe Micro-Analyser\nFAIR\nFindable, Accessible, Interoperable, Reproducible\nGU\nGoethe Universität Frankfurt am Main\nIfG\nInstitut für Geowissenschaften (Institute for Geosciences) at the GU Frankfurt am Main\nL-value\nThe distance of the analyser crystal from the sample in a JEOL EPMA.\nTAPL\nThe large (L) type Thallium-Phthalat-Acid (TAP) analyser crystal.",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Glossary"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/code.html",
+    "href": "microprobe/flank-method/code.html",
+    "title": "The Data Reduction Code",
+    "section": "",
+    "text": "import matplotlib.pyplot as plt\nplt.plot([1,23,2,4])\nplt.show()",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "The Data Reduction Code"
+    ]
+  },
+  {
+    "objectID": "microprobe/tools/resources.html",
+    "href": "microprobe/tools/resources.html",
+    "title": "Apps",
+    "section": "",
+    "text": "Searchable standards of the IfG EPMA\n\nA tool to merge standard files\n\nPlots for the energy levels of all elements\n\nA tool to calculate peak interferences\n\nEPMA Tools",
+    "crumbs": [
+      "Microprobe",
+      "Apps"
+    ]
+  },
+  {
+    "objectID": "microprobe/tools/resources.html#this-app-contains-the-following-handy-tools",
+    "href": "microprobe/tools/resources.html#this-app-contains-the-following-handy-tools",
+    "title": "Apps",
+    "section": "",
+    "text": "Searchable standards of the IfG EPMA\n\nA tool to merge standard files\n\nPlots for the energy levels of all elements\n\nA tool to calculate peak interferences\n\nEPMA Tools",
+    "crumbs": [
+      "Microprobe",
+      "Apps"
+    ]
   },
   {
     "objectID": "mass-spec/mass-spec-intro.html",
@@ -889,29 +795,7 @@
     "href": "resources/otherwebresources.html",
     "title": "Other Web Resources",
     "section": "",
-    "text": "Pyrolite",
-    "crumbs": [
-      "Resources",
-      "Other Web Resources"
-    ]
-  },
-  {
-    "objectID": "resources/otherwebresources.html#pyrolite",
-    "href": "resources/otherwebresources.html#pyrolite",
-    "title": "Other Web Resources",
-    "section": "",
-    "text": "Pyrolite",
-    "crumbs": [
-      "Resources",
-      "Other Web Resources"
-    ]
-  },
-  {
-    "objectID": "resources/otherwebresources.html#onegeochemistry",
-    "href": "resources/otherwebresources.html#onegeochemistry",
-    "title": "Other Web Resources",
-    "section": "OneGeochemistry",
-    "text": "OneGeochemistry\nOneGeochemistry",
+    "text": "https://pyrolite.readthedocs.io/en/main/#",
     "crumbs": [
       "Resources",
       "Other Web Resources"
@@ -1013,193 +897,210 @@
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\nFigure 1"
   },
   {
-    "objectID": "microprobe/operation/operation.html",
-    "href": "microprobe/operation/operation.html",
-    "title": "Operation",
+    "objectID": "microprobe/tools/epma-intro.html",
+    "href": "microprobe/tools/epma-intro.html",
+    "title": "Welcome",
     "section": "",
-    "text": "tbd\n\n\n\n\n\n\n\n\n\ntbd",
-    "crumbs": [
-      "Microprobe",
-      "Operation"
-    ]
+    "text": "Electron Microprobe Data Processing\nThe flank data reduction application, including all documentation is up and running – check it out from the sidebar.\nThe data processing application is in development, a sneak peak is available."
   },
   {
-    "objectID": "microprobe/operation/operation.html#inserting-the-sample-into-the-epma-in-german",
-    "href": "microprobe/operation/operation.html#inserting-the-sample-into-the-epma-in-german",
-    "title": "Operation",
+    "objectID": "microprobe/flank-method/data-reduction-program.html",
+    "href": "microprobe/flank-method/data-reduction-program.html",
+    "title": "Data Reduction",
     "section": "",
-    "text": "tbd",
+    "text": "This way to flank metheod data reduction:\nflank method data reduction program",
     "crumbs": [
       "Microprobe",
-      "Operation"
+      "Flank Method",
+      "Data Reduction"
     ]
   },
   {
-    "objectID": "microprobe/operation/operation.html#taking-the-sample-out-of-the-epma-in-german",
-    "href": "microprobe/operation/operation.html#taking-the-sample-out-of-the-epma-in-german",
-    "title": "Operation",
+    "objectID": "microprobe/flank-method/data-reduction-program.html#preparing-the-sample-file",
+    "href": "microprobe/flank-method/data-reduction-program.html#preparing-the-sample-file",
+    "title": "Data Reduction",
+    "section": "Preparing the Sample File",
+    "text": "Preparing the Sample File\nFile Type\nThe file needs to be a csv file saved in the UTF-8 format. Some Excel versions have problems saving to UTF-8. Apple Numbers allows simple export to csv UTF-8.\nGeneral Spreadsheet Layout\nThe first row needs to be the categories, and there must not be any additional rows after the final sample row.\nSample Naming Conventions\ndrift standard – which are also in the sample file?! sample\nRequired Categories\nThe spreadsheet needs to have the following categories (=column headers). Some of the categories are automatically renamed by the program. The categories can be sorted in any order.\nPoint\nWill be renamed to: Point Nr.\nThis category is used in a number of plots on the x-axis, thereby allowing the quick identification of a sample that might have a bad analyses, and one might wants to not include.\nComment\nWill be renamed to: Name\nProvides the name of the sample.\nInspected\nWill not be renamed\nThis needs to be added manually by simply duplicating the ‘Comment’ column (= copy&paste a second ‘Comment’ column next to it) and then renaming the duplicated ‘Comment’ column to ‘Inspected’.\noxide_name(Mass%)\nWill be renamed to: oxide_name (wt%)\nFor example, categories need to be: SiO2(Mass%), Al2O3(Mass%), and so on. These are renamed to the common&gt; SiO2 (wt%), Al2O3 (wt%), and so on. There is no need for specific oxides, except for, of course, FeO(Mass%).\nBi(Net), Ar(Net), Br(Net), As(Net)\nWill be renamed to: Lb (2TAPL), La (2TAPL), Lb (4TAPL), Ls (4TAPL)\nThese are the fake elements in the measurement program of the EPMA. It is assumed that in the measurement program Bi and Ar are measured on channel 2, crystal TAPL, and Br and As are measured on channel 4 and also crystal TAPL. This is, because of the renaming of these categories as given above.\nAdditionnal Categories\nIt is possible to have as many other categories as wanted in the file. These are simply ignored. It might be sensible to include an addtional ‘Comment’ category to add specific notes.",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#the-test-dataset",
+    "href": "microprobe/flank-method/data-reduction-program.html#the-test-dataset",
+    "title": "Data Reduction",
+    "section": "The Test Dataset",
+    "text": "The Test Dataset\n\n\n\nTable 1: The layout of a sample file\n\n\n#import pandas as pd\n#df = pd.read_csv('data/moessbauer standard data.csv')\n#df",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#adding-new-standards",
+    "href": "microprobe/flank-method/data-reduction-program.html#adding-new-standards",
+    "title": "Data Reduction",
+    "section": "Adding new Standards",
+    "text": "Adding new Standards\nEach new standard that needs to be used for the flank method needs to be added to the Moessbauer stanard file. Should you wish to add a new standard, drop me an email with the required details and I will update the file with this new standard.",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#the-moessbauer-standard-file",
+    "href": "microprobe/flank-method/data-reduction-program.html#the-moessbauer-standard-file",
+    "title": "Data Reduction",
+    "section": "The Moessbauer Standard File",
+    "text": "The Moessbauer Standard File\nFe3+/FeT is an atom-ratio. Oxide-Concentrations are in wt%.\n\n\n\nTable 2: The standard file used in the flank method program\n\n\n#import pandas as pd\n#pd.read_csv('data/moessbauer standard data.csv')",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#start-data-upload",
+    "href": "microprobe/flank-method/data-reduction-program.html#start-data-upload",
+    "title": "Data Reduction",
+    "section": "Start & Data Upload",
+    "text": "Start & Data Upload\nForm of the data",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#data-reduction",
+    "href": "microprobe/flank-method/data-reduction-program.html#data-reduction",
+    "title": "Data Reduction",
+    "section": "Data Reduction",
+    "text": "Data Reduction\nAnd so",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#results-tables",
+    "href": "microprobe/flank-method/data-reduction-program.html#results-tables",
+    "title": "Data Reduction",
+    "section": "Results Tables",
+    "text": "Results Tables\n\nFe3+/SFe in Standard\n\n\nFe3+/SFe in Drift\n\n\nFe3+/SFe in Samples",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#visualisations",
+    "href": "microprobe/flank-method/data-reduction-program.html#visualisations",
+    "title": "Data Reduction",
+    "section": "Visualisations",
+    "text": "Visualisations\n\nSelect your Detail\n\nDrift Inspection\n\n\nComparing La & Lb\n\n\nParametrisation\n\n\nSample Inspection\n\n\nError Considerations\n\n\nResults Inspection",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/data-reduction-program.html#readme",
+    "href": "microprobe/flank-method/data-reduction-program.html#readme",
+    "title": "Data Reduction",
+    "section": "readme",
+    "text": "readme\nThe readme.md file from GitHub:  flank method github readme",
+    "crumbs": [
+      "Microprobe",
+      "Flank Method",
+      "Data Reduction"
+    ]
+  },
+  {
+    "objectID": "microprobe/flank-method/video-tutorials.html",
+    "href": "microprobe/flank-method/video-tutorials.html",
+    "title": "Video Tutorials",
     "section": "",
-    "text": "tbd",
+    "text": "The video tutorials are currently being updated and new one produced, and will go live towards autum 2024. Otherwise please ask for assistance.",
     "crumbs": [
       "Microprobe",
-      "Operation"
+      "Flank Method",
+      "Video Tutorials"
     ]
   },
   {
-    "objectID": "microprobe/operation/operation.html#setting-the-eos-conditions-and-focusing",
-    "href": "microprobe/operation/operation.html#setting-the-eos-conditions-and-focusing",
-    "title": "Operation",
-    "section": "Setting the EOS conditions and focusing",
-    "text": "Setting the EOS conditions and focusing\n\n\nThe first thing to do is setting the correct kV and nA, and focusing the machine, which is done with the EOS parameters such as focusing and stigmators.",
+    "objectID": "microprobe/flank-method/publications.html",
+    "href": "microprobe/flank-method/publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Method Section For Publications\nThe atomic Fe3+/Fetot proportions in garnets were determined with the flank method as developed and refined by Höfer et al. (1994) and Höfer and Brey (2007). Measurements were conducted with a JEOL JXA-8530F Plus electron microprobe at the Institute für Geowissenschaften, GU Frankfurt am Main. The flank method and the quantitative elemental analyses were simultaneously conducted using WDS at 15 kV and 120 nA, with a beam diameter of 1 μm. Two spectrometers with TAPL crystals for high intensities and the smallest detector slit (300 μm) were used, with 100 s counting time for FeLα and FeLβ. The Fe3+/Fetot of garnets were determined by applying the correction for self-absorption using natural and synthetic garnets with variable total Fe and Fe3+/Fetot known from Mössbauer ›milliprobe‹ (Höfer and Brey, 2007). The remaining 3 spectrometers carried out the simultaneous elemental analyses of Si, Ti, Al, Cr, Fe, Mn, Ni, Mg, Ca, Na, K and P. Appropriate silicates (pyrope (Mg, Al, Si), albite (Na), CaSiO3 (Ca)), phosphate (KTiOPO4 (Ti, K, P)), and metals or metal oxides (iron metal (Fe), NiO (Ni), MnTiO3 (Mn), Cr2O3 (Cr)) were used as standards, and a PRZ routine was used for the matrix correction (REF). The uncertainty in Fe3+/Fetot analyses is about ± 0.01 (1σ), while garnets with higher FeO have smaller errors than garnets with lower FeO.\nReferences\nHöfer H. E. and Brey G. P. (2007) The iron oxidation state of garnet by electron microprobe: Its determination with the flank method combined with major-element analysis. Am Mineral 92, 873–885. Höfer, H. E., Brey, G. P., Schulz-Dobrick, B., and Oberhänsli, R. (1994) The determination of the oxidation state of iron by the electron microprobe. European Journal of Mineralogy, 6, 407-418. PRZ REF\nAdditional References are listed in the according section in the sidebar on the left.\n\n\nLiterature\nHöfer H. E. and Brey G. P. (2007) The iron oxidation state of garnet by electron microprobe: Its determination with the flank method combined with major-element analysis. Am Mineral 92, 873–885.\nHöfer H. E. (2002) Quantification of Fe2+/Fe3+ by Electron Microprobe Analysis – New Developments. Hyperfine Interact 144–145, 239–248.\nHöfer H. E., Brey, G. P., and Hibberson, W. O. (2004) Iron oxidation state determination in synthetic pyroxenes by electron microprobe. Lithos, 73, 551.\nHöfer H. E., Weinbruch S., Mccammon C. A. and Brey G. P. (2000) Comparison of two electron probe microanalysis techniques to determine ferric iron in synthetic wüstite samples. Eur J Mineral 12, 63–71.\nHöfer, H. E., Brey, G. P., and Oberhänsli, R. (1996) The determination of the oxidation state of iron in synthetic garnets by X-ray spectroscopy with the electron microprobe. Physics and Chemistry of Minerals, 23, 241.\nHöfer, H. E., Brey, G. P., Schulz-Dobrick, B., and Oberhänsli, R. (1994) The determination of the oxidation state of iron by the electron microprobe. European Journal of Mineralogy, 6, 407-418.\n\n\nHow to Cite Flank Reduction\nIf you are using the flank method reduction website, please cite the following publication: Hezel, DC, Höfer, H, Fichtner A (2024) A fast open data reduction workflow for the electron microprobe flank method to determine Fe3+/SFe contents in minerals. American Mineralogist resubmitted.",
     "crumbs": [
       "Microprobe",
-      "Operation"
+      "Flank Method",
+      "Publications"
     ]
   },
   {
-    "objectID": "microprobe/operation/operation.html#element-calibration",
-    "href": "microprobe/operation/operation.html#element-calibration",
-    "title": "Operation",
-    "section": "Element calibration",
-    "text": "Element calibration\n\n\nThis illustrates how EOS conditions are read in, points are set on a standard, peak search is executed, the PHA of the detector is determined, and how this is done for all the elements in a measurement recipe using a serial analysis.",
+    "objectID": "microprobe/flank-method/basics.html",
+    "href": "microprobe/flank-method/basics.html",
+    "title": "Basics",
+    "section": "",
+    "text": "Introduction\nThe members of the garnet group have a large variety of chemical compositions with the general formula A2+3B3+2(SiO4)3. A is a distorted octahedral site and B a normal octahedral site. Here we focus on the two garnets almandine and andradite, which differ in their chemical composition and the valence state of Fe. Almandine has the chemical formula Fe2+3Al2(SiO4)3, with Fe as Fe2+ in the distorted octahedral A site, and andradite has the chemical formula Ca3Fe3+2(SiO4)3, with Fe as Fe3+ in the octahedral B site. There is a general, large immiscibility gap between almandine and andradite, however, almandine can have up to ~10% Fe3+ and andradite up to ~10% Fe2+. This amount is expressed in the atomic ratio Fe3+/FeT, with FeT meaning total Fe. The amount of Fe3+/FeT can be directly used to calculate the amount of free oxygen, i.e., the oxygen fugacity (\\(\\rightarrow\\) fO2) while the garnet formed.\n\n\n\n\n\n\nSummary\n\n\n\n\n\nAlmandine: Fe2+3Al2(SiO4)3, up to ~10% Fe3+/FeT\nAndradite: Ca3Fe3+2(SiO4)3, down to ~90% Fe3+/FeT\nThe amount of Fe3+/FeT is used to calculate the fO2.\n\n\n\n\n\nPrinciple\nThe energies of the FeL\\(\\alpha\\) and FeL\\(\\beta\\) lines are close together at 0.7049 and 0.7183 keV, respectively. These energies translate to analyser crystal positions, i.e., L-values on a JEOL microprobe of 191.218 and 187.631 mm. The relative intensities of the lines are 80 and 20, respectively, on a normalised scale of 100. Figure 1 shows the FeLa and FeLb peaks of an almandine spectra. The vertical lines indicate the tabulated values for FeLa and FeLb. A single tabulated and measured values need not to coincide, as this depends on the mechanical build. The distance of FeLa and FeLb, on the other, should be the same between the tabulated and measured peaks. However, this is not the case as already visible in Figure 1 by the naked eye.\n\n\n\n\n\n\nFigure 1: An Almandine Fe spectra with the Fe La and Lb lines. Taken with 2 µm steps, 1 s dwell time, 3 accumulations at 100 nA and 15 kV in Diff mode to suppress the FeKa 9. order peak at 189.417 mm (0.7116 keV). Spectra obtained with the GU Frankfurt IfG JEOL EPMA.\n\n\n\nThis means, at least one peak is not where it theoretically should be. The reason is the crystal field in which an atom, in this case the Fe atom, sits. This crystal fields slightly changes the electron energy levels around the Fe atom, and therewith the differences between the electron energy levels. Figure 2 illustrates this effect. The lengths of the arrows represent the energy differences when an electron from a higher shell transitions down to a lower shell, thereby emitting the characteristic X-rays with the same energies as these energy difference. The comparison of the arrow lengths on the right illustrate the change in energy difference between the two characteristic lines La and Lb.\n\n\n\n\n\n\nFigure 2: Schematic comparison of tabulated Fe energy levels with energy levels that are slightly changed by the crystal field.\n\n\n\nThese differences define the energies of the characteristic X-rays of the Lb and La lines. This effect is called chemical peak shift, and is the fundamental effect, upon which the flank method builds. :red[And finally, this effect also changes the relative intensities of the Lb and La lines.]\nNow, the Fe2+ in pure almandine occupies the distorted octahedral site, while the Fe3+ in pure andradite occupies the normal octahedral site. These two different crystal fields result in slightly different energy levels, and therewith in different energies of the characteristic La and Lb lines and different peak intensities. Hence, almandine and andradite are discriminated by the location and height of their La and Lb peaks. The goal is, however, not to simply discriminate two minerals, Further, most garnets in mantle and metamorphic rocks are solid solutions between almandine and pyrope with the general formula (Mg,Fe)3Al2(SiO4)3. These garnets contain, as outlined above, small amounts of Fe3+, which is a function of the ambient fO2 during garnet formation. But even small variations of Fe3+ shift the positions and increase/decrease the intensities of the La and Lb peaks. We cannot sensibly quantify an entire spectrum such as the one shown in Figure 1, and obtaining such spectra would cost way too much time. We therefore position the analyser crystal at a certain L-value, and measure the counts at this position in a standard and then in the sample. Because the peak shifted and in- or decreased its intensity depending on the sample’s Fe3+/FeT ratio, the counts in the sample will be either lower or higher than in the standard. As these count differences will be small, it is important to move the analyser crystal to a position with maximum count differences between standard and sample. As is seen from the schematic Figure 3, this position is at around the middle of a peak’s flank (now guess how this method earned its name). Each measurement position results in another count difference between the standard and sample peak. Note that peak means somewhere on the peak, not the peak maximum – which would not possible for both peaks at the same time when the measurement position is fixed, but the peak maximum of the samples is shifted from the peak maximum of the standard.\n\n\n\n\n\n\nFigure 3: Schematic FeL peak in a standard and a sample. The peak of the sample shifted its position and changed its intensity due to a different amount of Fe3+/FeT. Three coloured, dashed, vertical measurement positions (Pos) (\\(\\rightarrow\\) L-values) are indicated.\n\n\n\nThe maximum counts difference between the two spectra can be identified when the counts of spectra, e.g., almandine are subtracted from the counts of the other spectra, which would then be andradite. The positions of the maxima and minima of the resulting difference spectra (orange line in Figure 4) indicate the positions, where the two spectra have their maximum counts differences.\nThe counts differences between a single, e.g., FeLa standard and sample would insufficiently sensitive to correlate these with Fe3+/FeT difference between the standard and the sample. Therefore the counts differences between both, the FeLa and FeLb are determined. To obtain maximum changes in counts, for FeLa the position is chosen, where the difference spectra has its maxima, which will decrease with changing Fe3+/FeT, while for FeLb the position is chosen, where the difference spectra has its minima, which will increase with changing Fe3+/FeT. The change of counts at these two positions is then expressed by dividing the counts at these two positions, specifically by dividing the counts at the FeLb flank through the counts of the FeLa flank, in short: FeLb/FeLa. This provides a dimensionless number, which is preferable instead of the counts difference, which would be a dimensional number, and depend on measurement conditions.\nThe two analyser crystal positions should not be too close to their respective peaks, i.e., good analyser crystal positions in case of Figure 4 would be at 188.07 mm for FeLb and at 190.67 for FeLa, as drawn in the figure by the dashed, grey, vertical lines.\n\n\n\n\n\n\nFigure 4: FeLa and FeLb spectra for almandine and andradite, and the difference spectra of andradite minus almandine. Dashed, grey, vertical lines indicate ideal measurement positions for the TAPL analyser crystal positions. Measurement conditions are the same as for Figure 1.\n\n\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\nFe3+/FeT-poor (e.g., almandine) and Fe3+/FeT-rich (andradite) garnets have different chemical peak shifts. The extent of this chemical peak shift is a function of the garnet’s Fe3+/FeT and FeT. Count rates are measured on the FeLa and FeLb flanks and from these the dimensionless FeLb/FeLa-ratio is calculated. This ratio together with the FeT of a granet is used to determine its Fe3+/FeT.\n\n\n\n\n\nApplication\nThe FeLb/FeLa of a garnet not only depends on its Fe3+/FeT, but also on its Fe-content. Figure 5 illustrates this dependency, with the total Fe on the x/ and the FeLb/FeLa ratio on the y-axis. Standards with an ideally wide range of FeT concentrations are therefore imperative. This parametrisation plot and how it is calculated is explained in the next section.\nThe spread of the iso-Fe3+/FeT lines depends on the chosen standards. If only Fe3+/FeT-poor garnets are chosen (Figure 5 (a)), the spread is large, and the resolution, i.e., the precision of the Fe3+/FeT becomes better. The addition of an andradite standard decreases the spread of the iso-Fe3+/FeT lines, and reduces the Fe3+/FeT resolution (Figure 5 (b)). Finally, the precision of determining the Fe3+/FeT becomes increasingly better with increasing FeT, which correlates with a significant increase in the iso-Fe3+/FeT lines spread. And vice versa, the lower the FeT in garnet, the more imprecise it becomes to determine its iso-Fe3+/FeT.\n\n\n\n\n\n\n\n\n\n\n\n(a) Only pyrope-alamandine standards\n\n\n\n\n\n\n\n\n\n\n\n(b) Almandine and one andradite standard\n\n\n\n\n\n\n\nFigure 5: The FeLb/FeLa ratio depends on the Fe3+/FeT and the FeT concentration of a garnet. The blue and orange lines represent lines of the same Fe3+/FeT content, with high FeLb/FeLa represent high Fe3+/FeT and vice versa. Standards: large, black-rimmed symbols. Samples: small symbols.\n\n\n\n\n\nParametrisation\nRegression formulas, in which the parameters are used:\n\\(Fe^{2+} = A + B \\times \\frac{L\\beta}{L\\alpha} + C \\times \\Sigma Fe + D \\times \\Sigma Fe \\times \\frac{L\\beta}{L\\alpha}\\)\n\\(Fe^{3+} = -A - B \\times \\frac{L\\beta}{L\\alpha} - C \\times \\Sigma Fe - D \\times \\Sigma Fe \\times \\frac{L\\beta}{L\\alpha} + Fe_{tot}\\)\nx = \\(L\\beta/L\\alpha\\)\ny = \\(Fe_{tot}\\)\nz = \\(Fe^{2+}\\)\nA = [\n[n, \\(\\Sigma x\\), \\(\\Sigma y\\), \\(\\Sigma(x \\times y)\\)],\n[\\(\\Sigma x\\), \\(\\Sigma x^2\\), \\(\\Sigma(x \\times y)\\), \\(\\Sigma (y \\times x^2)\\)],\n[\\(\\Sigma y\\), \\(\\Sigma(x \\times y)\\), \\(\\Sigma(y^2)\\), \\(\\Sigma(x \\times y^ 2)\\)],\n[\\((x \\times y)\\), \\(\\Sigma((x^2) \\times y)\\),\n\\(\\Sigma(x \\times y^2)\\), \\(\\Sigma((x^2) \\times (y^2)\\)]\n]\nv = [\\(z\\), \\(\\Sigma(z \\times x)\\), \\(\\Sigma(z \\times y)\\), \\(\\Sigma(x \\times y \\times z)\\)]\nregression parameters:\nrfp = np.linalg.inv(A) @ v\nres = rfp[0] + rfp[1] * \\(L\\beta/L\\alpha\\) + rfp[2] * \\(Fe_{tot}\\) + rfp[3] * (\\(Fe_{tot}\\) * \\(L\\beta/L\\alpha\\))\nresultsFe3FP = (\\(Fe_{tot}\\) - res)/\\(Fe_{tot}\\)\n\n\nConclusion\nThe flank method is an elegant, cost efficient high resolution technique to determine Fe3+/FeT, and at the same time the chemical composition of the garnet. It has the potential to be used in a wide range of minerals. The main drawback is the tedious effort to setup the flank method for a new mineral type, which requires a range of minerals with variable FeO-concentrations and known Fe3+/FeT, as e.g., determined using Mössbauer quadrupole splitting.\n\n\nAlternatives\nAlternative methods to determine Fe3+/FeT are Mössbauer spectroscopy or XANES (X-ray absorption near edge structure). Mössbauer spectroscopy has a low resolution in the typical range of tens of µm, while XANES requires a synchrotron and is therefore costly and laborious. These methods can, however, determine Fe3+/FeT in basically all types of material.\n\n\nDetermining Analyser Crystal Positions\nThe flank method requires measurements on the FeLa and FeLb flanks rather than on their respective peaks. The ideal positions of the analyser crystals are best determined using a difference spectra, as described in the previous section. For garnet, this is best produced from a qualitative almandine and and andradite scan. It is, however, not required to record full spectra, as small intervals across the expected minima and maxima of the difference spectra are sufficient. Sufficient step size and dwell time – i.e., the counting time at each step – can be comparatively small, e.g., a step size of 3 µm and a dwell time of 300 ms. Figure 6 shows such segmented spectra with an interval for FeLa from 187.5 to 188. 5 mm, and for FeLb from 190 to 191 mm, as well as the resulting difference spectra. A high current of e.g., 300 nA is advisable, to obtain higher count rates. The sole measurement time will then be approx. 7 min, i.e., recording the required spectra should take about 10 min, if predefined measurement recipes are used.\n\n\n\n\n\n\nFigure 6: A segmented Fe spectra for fast determination of the FeLa and FeLb analyser crystal positions.\n\n\n\nThe flank data reduction program has a tool to determine analyser crystal positions (‘Crystal Positioning’ in ‘Tools’). Figure 7 shows how a csv table needs to be prepared for this tool. The ‘Datasets’ section further provides a test dataset for download that also serves as a template.\n\n\n\n\n\n\nFigure 7: Required header row and layout for csv tables to be used with the crystal positioning tool of the data reduction program.\n\n\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\nSegmented Fe spectra are sufficient to determine analyser crystal positions, e.g., using the one from the Tools section in the data reduction program.\n\n\n\n\n\nEPMA Set-Up\nThe flank method requires measuring the FeLa, FeLb flanks, as well as the Fe-concentration, e.g., on FeKa. The FeLa and FeLb flank measurement positions need to be input manually, after these have been determined as described above. The flank measurement set-ups in the EPMA measurement program might be labelled with element names that are never or only very rarely used. For the FeLb line, this could be Bi or Br and vor La Ar or As.\nThe FeLa and FeLb lines can be measured using a TAP-crystal, ideally a large-type TAPL cyrstal for better count rates, as the Fe L-lines are comparatively weak. Figure 8 shows a possible EPMA flank measurement set-up, in which the FeLa and FeLb lines are measured using the TAPL crystal of spectrometer 2 (2TAPL), and redundantly also on 4TAPL, to validate the results obtained with 2TAPL (or vice versa).\n\n\n\n\n\n\nFigure 8: The EPMA-measurement program and set-up for the FeLa and FeLb flanks. The flanks are measured on 2 spectrometers for cross-validation.\n\n\n\nThe selected Bi in Figure 8 represents the FeLb flank. The X-ray line as well as the order are as random as the selected Bi for labelling the measurement conditions of the actual FeLb line that is measured with this set-up. The peak position is input manually as determined using e.g., the data reduction program crystal positioning tool. The PHA conditions are determined as usual. The measurement time on all flanks is 100 s. No backgrounds are measured, i.e., the net count rates will be used to determine Fe3+ abundances.\nThe remaining spectrometers can be used for normal element analyses. Measuring Fe is mandatory, as it is required to determine Fe3+ abundances. It is, hence, also mandatory to at least measure all main elements, as these are required for accurate matrix corrected Fe concentrations. As the measurement of the flanks takes a little longer than 200 s (considering movement times of the analyser crystals), there might be time for further elements. Figure 9 displays a measurement set-up frequently used at the Institut für Geowissenschaften JEOL EPMA at the Goethe Universität Frankfurt.\n\n\n\n\n\n\nFigure 9: A full IfG GU Frankfurt EPMA flank measurement set-up.\n\n\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\nThe FeLa & FeLb measurement set-ups are labelled with fake elements, and measured for cross-validation on two spectrometers using TAPL crystals. Fe and main elements need to be measured for accurate Fe concentrations, further elements can be added.",
     "crumbs": [
       "Microprobe",
-      "Operation"
+      "Flank Method",
+      "Basics"
     ]
   },
   {
-    "objectID": "microprobe/operation/operation.html#collecting-the-4-files-for-quantitativ-point-analyses",
-    "href": "microprobe/operation/operation.html#collecting-the-4-files-for-quantitativ-point-analyses",
-    "title": "Operation",
-    "section": "Collecting the 4 files for quantitativ point analyses",
-    "text": "Collecting the 4 files for quantitativ point analyses\n\n\nOur data are stored in an electronic lab notebook (ELN). This video shows how to produce and store the 4 files required for the ELN.",
+    "objectID": "microprobe/epma-tutorials/epma-tutorials.html#probe-einschleusen",
+    "href": "microprobe/epma-tutorials/epma-tutorials.html#probe-einschleusen",
+    "title": "Tutorials",
+    "section": "Probe Einschleusen",
+    "text": "Probe Einschleusen",
     "crumbs": [
       "Microprobe",
-      "Operation"
+      "Tutorials"
     ]
   },
   {
-    "objectID": "microprobe/operation/operation.html#document-the-measurement-points-on-image-files",
-    "href": "microprobe/operation/operation.html#document-the-measurement-points-on-image-files",
-    "title": "Operation",
-    "section": "Document the measurement points on image files",
-    "text": "Document the measurement points on image files\n\n\nMeasured points can be dragged onto images taken from the sample to automatically document their position. This video shows how to do this.",
+    "objectID": "microprobe/epma-tutorials/epma-tutorials.html#probe-ausschleusen",
+    "href": "microprobe/epma-tutorials/epma-tutorials.html#probe-ausschleusen",
+    "title": "Tutorials",
+    "section": "Probe ausschleusen",
+    "text": "Probe ausschleusen",
     "crumbs": [
       "Microprobe",
-      "Operation"
+      "Tutorials"
     ]
   },
   {
-    "objectID": "microprobe/operation/operation.html#recipe-structure",
-    "href": "microprobe/operation/operation.html#recipe-structure",
-    "title": "Operation",
+    "objectID": "microprobe/epma-tutorials/epma-tutorials.html#producing-the-summary-file",
+    "href": "microprobe/epma-tutorials/epma-tutorials.html#producing-the-summary-file",
+    "title": "Tutorials",
+    "section": "Producing the Summary File",
+    "text": "Producing the Summary File",
+    "crumbs": [
+      "Microprobe",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "microprobe/epma-tutorials/epma-tutorials.html#recipe-structure",
+    "href": "microprobe/epma-tutorials/epma-tutorials.html#recipe-structure",
+    "title": "Tutorials",
     "section": "Recipe Structure",
     "text": "Recipe Structure",
     "crumbs": [
       "Microprobe",
-      "Operation"
-    ]
-  },
-  {
-    "objectID": "microprobe/tools/resources.html",
-    "href": "microprobe/tools/resources.html",
-    "title": "Apps",
-    "section": "",
-    "text": "Searchable standards of the IfG EPMA\n\nA tool to merge standard files\n\nPlots for the energy levels of all elements\n\nA tool to calculate peak interferences\n\nEPMA Tools",
-    "crumbs": [
-      "Microprobe",
-      "Apps"
-    ]
-  },
-  {
-    "objectID": "microprobe/tools/resources.html#this-app-contains-the-following-handy-tools",
-    "href": "microprobe/tools/resources.html#this-app-contains-the-following-handy-tools",
-    "title": "Apps",
-    "section": "",
-    "text": "Searchable standards of the IfG EPMA\n\nA tool to merge standard files\n\nPlots for the energy levels of all elements\n\nA tool to calculate peak interferences\n\nEPMA Tools",
-    "crumbs": [
-      "Microprobe",
-      "Apps"
-    ]
-  },
-  {
-    "objectID": "microprobe/flank-method/code.html",
-    "href": "microprobe/flank-method/code.html",
-    "title": "The Data Reduction Code",
-    "section": "",
-    "text": "import matplotlib.pyplot as plt\nplt.plot([1,23,2,4])\nplt.show()",
-    "crumbs": [
-      "Microprobe",
-      "Flank Method",
-      "The Data Reduction Code"
-    ]
-  },
-  {
-    "objectID": "microprobe/flank-method/glossary.html",
-    "href": "microprobe/flank-method/glossary.html",
-    "title": "Glossary",
-    "section": "",
-    "text": "AAI\nAuthentication, Authorisation & Identification – for example, Eduroam is an AAI system\nAPI\nApplication Programming Interface\ncsv\ncomma separated values – a file format\nELN\nElectronic Lab Notebook\nEPMA\nElectron-Probe Micro-Analyser\nFAIR\nFindable, Accessible, Interoperable, Reproducible\nGU\nGoethe Universität Frankfurt am Main\nIfG\nInstitut für Geowissenschaften (Institute for Geosciences) at the GU Frankfurt am Main\nL-value\nThe distance of the analyser crystal from the sample in a JEOL EPMA.\nTAPL\nThe large (L) type Thallium-Phthalat-Acid (TAP) analyser crystal.",
-    "crumbs": [
-      "Microprobe",
-      "Flank Method",
-      "Glossary"
-    ]
-  },
-  {
-    "objectID": "microprobe/flank-method/welcome.html",
-    "href": "microprobe/flank-method/welcome.html",
-    "title": "Welcome",
-    "section": "",
-    "text": "To learn everything about the flank method, check the section Basics. If you want to use the flank data reduction program and/or want to know how this progam works, navigate to the section Data Reduction. The section Publications provides a method section ready for copy&paste into your publication, literature regarding the basics of the flank mehtod, and finally a copy&paste reference for your pubilcation to cite the flank method program. Finally, the Code Documentation section provides an in-depth reference that describes each part and the entire flank method reduction program. The section concludes with links to the GitHub repository of the Python code.\nShould you have any questions, found a bug, or run into other problems, please contact the developer Dominik Hezel at dominik.hezel - at - em.uni-frankfurt.de",
-    "crumbs": [
-      "Microprobe",
-      "Flank Method",
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "microprobe/epma-intro.html",
-    "href": "microprobe/epma-intro.html",
-    "title": "EPMA Lab",
-    "section": "",
-    "text": "Die Elektronenstrahl-Mikrosonde ist ein JEOL JXA-8530F Plus Hyperprobe mit Feldemissionskathode (FEG – Field Emission Gun) und wurde am 25. Februar 2019 installiert.\nDie Sonde ist ausgestattet mit:\n5 Wellenlängen-Dispersiven Spektrometern (WDS) Einem Energiedispersiven Spektrometer (EDS) Schwarz-Weiß Kathodolumineszenz (CL) Einer Kühlfalle plus Airjet, im Besonderne für leichte Elemente\n\n\n\n(JEOL JXA-8530F Plus Hyperprobe Lab)\n\n\n\n\nRoutinemäßig polierte Dünn- oder Anschliffe im Rechteckformat (ca. 28 mm x 48 mm) oder rund (Durchmesser 25,4 mm) Beliebig geformte Proben (max. 100 mm x 100 mm x 50 mm) mit unebener Oberfläche; maximal erlaubte Höhenunterschiede der Probenoberfläche: 2 mm. Bitte beachten: bei unebener Oberfläche ist keine verlässliche quantitative Analyse möglich. Maximal analysierbare Fläche: 90 mm x 90 mm. *Die Probenoberfläche muss in jedem Fall elektrisch leitend sein, d.h. sie wird in der Regel vor der Mikrosondenanalyse bedampft (z.B. mit C).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpektrometer\nKristalle\nZähler\nSpalt\nRowland-Kreis (Radius)\nmm-Bereich\n\n\n\n\n1, N-type\nTAP, PET, LDE1 ([C], N, O, F), LDE2 (B, C, N)\ngas-flow Ar(90)CH4(10)\n300 µm, offen für Multilayer\n140 mm\n69.701 - 259.951\n\n\n2, L-type\nTAPL, PETL\ngas-flow Ar(90)CH4(10)\n300 µm\n140 mm\n69.561 - 259.766\n\n\n3, L-type\nLiFL, PETL\ngeschlossener Xe\n300 µm\n140 mm\n69.621 - 259.686\n\n\n4, L-type\nTAPL, LDE6L (B, C)\ngas-flow Ar(90)CH4(10)\n300 µm\n140 mm\n69.371 - 259.631\n\n\n5, H-type\nLiFH, PETH\ngeschlossener Xe\n500 µm\n100 mm\n85.281 - 240.295\n\n\n\n\n\n\nTAP: Thallium-Phthalat-Säure, 2d = 25.757 Å\n\nLiF: Lithium-Fluorid, 2d = 4.0267 Å\n\nPET: Penta-Erythritol, 2d = 8.742 Å\n\nLDE: künstliche layered dispersive element Kristalle (Multilayer), LDE1: 2d = 60 Å, LDE6: 2d = xx Å\n\n\n\n\n\nN: Normal große Kristalle. Davon passen 4 Stück auf den Kristallwechsler.\n\nL: Large Crystals: Die Analysator-Kristalle sind größer und ergeben höhere Intensitäten. Davon passen max. 2 Stück auf den Kristallwechsler.\n\nH: High intensity\n\n[[Category:Rasterelektronen-Mikroskop, REM (JEOL JSM-6490)]]\n\n\n\nimage\n\n\n\n\n\n\nElectron-probe (EPMA) measurements followed a similar protocol as described in Baldwin et al. 2007. We used a JEOL JXA-8530F Plus EPMA at the Institut für Geowissenschaften, Goethe Universität Frankfurt, and with the following setup (Channel, Analyser-Crystal, Standard): Si (Ch-1, TAP, Zircon 91500), Y (Ch-2, PETL, YPO4), Ti (Ch-3, PETL, SrTiO3), Hf (Ch-4, TAPL, ), Zr (Ch-5, PETH, Zircon 91500). We used differential mode for most elements to cut off higher order interferences that are a particular problem for Ti (e.g., Hf Lb(2)(this needs to be re-checked, only from what I remember) on Ti Ka). Individual points were measured at 15 kV and 150 nA. Ti was measured for 200 s on the peak and 100 on the backgrounds, resulting in a detection limit of approx. 25 wt-ppm. Other elements were measured between 20 and 60 s on the peak half the peak time on the backgrounds. The spot-size was set to a circle of 3 µm for all measurements. Data reduction was performed using the build-in the ZAF (oxide) algorithm.",
-    "crumbs": [
-      "Microprobe",
-      "EPMA Lab"
-    ]
-  },
-  {
-    "objectID": "microprobe/epma-intro.html#vorbereitung",
-    "href": "microprobe/epma-intro.html#vorbereitung",
-    "title": "EPMA Lab",
-    "section": "",
-    "text": "Routinemäßig polierte Dünn- oder Anschliffe im Rechteckformat (ca. 28 mm x 48 mm) oder rund (Durchmesser 25,4 mm) Beliebig geformte Proben (max. 100 mm x 100 mm x 50 mm) mit unebener Oberfläche; maximal erlaubte Höhenunterschiede der Probenoberfläche: 2 mm. Bitte beachten: bei unebener Oberfläche ist keine verlässliche quantitative Analyse möglich. Maximal analysierbare Fläche: 90 mm x 90 mm. *Die Probenoberfläche muss in jedem Fall elektrisch leitend sein, d.h. sie wird in der Regel vor der Mikrosondenanalyse bedampft (z.B. mit C).",
-    "crumbs": [
-      "Microprobe",
-      "EPMA Lab"
-    ]
-  },
-  {
-    "objectID": "microprobe/epma-intro.html#spektrometer-belegung",
-    "href": "microprobe/epma-intro.html#spektrometer-belegung",
-    "title": "EPMA Lab",
-    "section": "",
-    "text": "Spektrometer\nKristalle\nZähler\nSpalt\nRowland-Kreis (Radius)\nmm-Bereich\n\n\n\n\n1, N-type\nTAP, PET, LDE1 ([C], N, O, F), LDE2 (B, C, N)\ngas-flow Ar(90)CH4(10)\n300 µm, offen für Multilayer\n140 mm\n69.701 - 259.951\n\n\n2, L-type\nTAPL, PETL\ngas-flow Ar(90)CH4(10)\n300 µm\n140 mm\n69.561 - 259.766\n\n\n3, L-type\nLiFL, PETL\ngeschlossener Xe\n300 µm\n140 mm\n69.621 - 259.686\n\n\n4, L-type\nTAPL, LDE6L (B, C)\ngas-flow Ar(90)CH4(10)\n300 µm\n140 mm\n69.371 - 259.631\n\n\n5, H-type\nLiFH, PETH\ngeschlossener Xe\n500 µm\n100 mm\n85.281 - 240.295\n\n\n\n\n\n\nTAP: Thallium-Phthalat-Säure, 2d = 25.757 Å\n\nLiF: Lithium-Fluorid, 2d = 4.0267 Å\n\nPET: Penta-Erythritol, 2d = 8.742 Å\n\nLDE: künstliche layered dispersive element Kristalle (Multilayer), LDE1: 2d = 60 Å, LDE6: 2d = xx Å\n\n\n\n\n\nN: Normal große Kristalle. Davon passen 4 Stück auf den Kristallwechsler.\n\nL: Large Crystals: Die Analysator-Kristalle sind größer und ergeben höhere Intensitäten. Davon passen max. 2 Stück auf den Kristallwechsler.\n\nH: High intensity\n\n[[Category:Rasterelektronen-Mikroskop, REM (JEOL JSM-6490)]]\n\n\n\nimage",
-    "crumbs": [
-      "Microprobe",
-      "EPMA Lab"
-    ]
-  },
-  {
-    "objectID": "microprobe/epma-intro.html#ti-in-zircon-method",
-    "href": "microprobe/epma-intro.html#ti-in-zircon-method",
-    "title": "EPMA Lab",
-    "section": "",
-    "text": "Electron-probe (EPMA) measurements followed a similar protocol as described in Baldwin et al. 2007. We used a JEOL JXA-8530F Plus EPMA at the Institut für Geowissenschaften, Goethe Universität Frankfurt, and with the following setup (Channel, Analyser-Crystal, Standard): Si (Ch-1, TAP, Zircon 91500), Y (Ch-2, PETL, YPO4), Ti (Ch-3, PETL, SrTiO3), Hf (Ch-4, TAPL, ), Zr (Ch-5, PETH, Zircon 91500). We used differential mode for most elements to cut off higher order interferences that are a particular problem for Ti (e.g., Hf Lb(2)(this needs to be re-checked, only from what I remember) on Ti Ka). Individual points were measured at 15 kV and 150 nA. Ti was measured for 200 s on the peak and 100 on the backgrounds, resulting in a detection limit of approx. 25 wt-ppm. Other elements were measured between 20 and 60 s on the peak half the peak time on the backgrounds. The spot-size was set to a circle of 3 µm for all measurements. Data reduction was performed using the build-in the ZAF (oxide) algorithm.",
-    "crumbs": [
-      "Microprobe",
-      "EPMA Lab"
+      "Tutorials"
     ]
   },
   {
@@ -1243,7 +1144,7 @@
     "href": "microprobe/data-access/kadi4mat-backend-eln.html#video-tutorial",
     "title": "Kadi4Mat backend ELN",
     "section": "Video Tutorial",
-    "text": "Video Tutorial",
+    "text": "Video Tutorial\nsomething",
     "crumbs": [
       "Microprobe",
       "Measurements",
