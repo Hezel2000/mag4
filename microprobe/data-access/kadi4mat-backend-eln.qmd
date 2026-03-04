@@ -51,9 +51,6 @@ File with the results from the standard measurements, with colour results, there
 Files as .jpg, .tif, .bmp
 
 ## Video Tutorial
-**something**
-{{< video https://vimeo.com/954306014 >}}
-
 
 # Map Analyses  
 

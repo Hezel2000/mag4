@@ -21,6 +21,9 @@ Die Sonde ist ausgestattet mit:</br>
 *Beliebig geformte Proben (max. 100 mm x 100 mm x 50 mm) mit unebener Oberfläche; maximal erlaubte Höhenunterschiede der Probenoberfläche: 2 mm. Bitte beachten: bei unebener Oberfläche ist keine verlässliche quantitative Analyse möglich. Maximal analysierbare Fläche: 90 mm x 90 mm.
 *Die Probenoberfläche muss in jedem Fall elektrisch leitend sein, d.h. sie wird in der Regel vor der Mikrosondenanalyse bedampft (z.B. mit C).
 
+## Eine Video-Tour durch das EPMA-Labor
+{{< video https://youtu.be/Me2lRwQXwbI >}}
+
 ## Spektrometer-Belegung
 
 | Spektrometer | Kristalle                           | Zähler                           | Spalt                      | Rowland-Kreis (Radius) | mm-Bereich        |

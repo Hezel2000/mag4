@@ -64,7 +64,7 @@ website:
           - microprobe/flank-method/publications.qmd
           - microprobe/flank-method/code.qmd
           - microprobe/flank-method/glossary.qmd
-        - microprobe/epma-tutorials/epma-tutorials.qmd
+        - microprobe/operation/operation.qmd
         - microprobe/trouble-shooting/trouble-shooting.qmd
         - microprobe/tools/resources.qmd
     

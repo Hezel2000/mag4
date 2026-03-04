@@ -1,0 +1,79 @@
+---
+title: 'Operation'
+---
+
+
+# Inserting in and taking the sample out of the EPMA
+
+## Inserting the sample into the EPMA (in german)
+::: columns
+::: column
+tbd
+:::
+::: column
+{{< video https://vimeo.com/503073263 >}}
+:::
+:::
+
+## Taking the sample out of the EPMA (in german)
+::: columns
+::: column
+tbd
+:::
+::: column
+{{< video https://vimeo.com/500187437 >}}
+:::
+:::
+
+
+
+# Calibrating the EPMA
+
+## Setting the EOS conditions and focusing
+::: columns
+::: column
+The first thing to do is setting the correct kV and nA, and focusing the machine, which is done with the EOS parameters such as focusing and stigmators.
+:::
+::: column
+{{< video https://youtu.be/Qlb-edi-5iY >}}
+:::
+:::
+
+## Element calibration
+::: columns
+::: column
+This illustrates how EOS conditions are read in, points are set on a standard, peak search is executed, the PHA of the detector is determined, and how this is done for all the elements in a measurement recipe using a serial analysis.
+:::
+::: column
+{{< video https://youtu.be/fnd39-GBa5M >}}
+:::
+:::
+
+
+# Producing the files for the ELN
+
+## Collecting the 4 files for quantitativ point analyses
+::: columns
+::: column
+Our data are stored in an electronic lab notebook (ELN). This video shows how to produce and store the 4 files required for the ELN.
+:::
+::: column
+{{< video https://youtu.be/0g8-DLxOVcU >}}
+:::
+:::
+
+## Document the measurement points on image files
+::: columns
+::: column
+Measured points can be dragged onto images taken from the sample to automatically document their position. This video shows how to do this.
+:::
+::: column
+{{< video https://youtu.be/xVLQ3T4srnk >}}
+:::
+:::
+
+<!-- {{< video https://vimeo.com/500185337 >}} -->
+
+## Recipe Structure
+{{< video https://vimeo.com/573043920 >}}
+
