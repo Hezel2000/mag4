@@ -79,14 +79,14 @@ Should you want to test the flank method data reduction program, but have no dat
 Download the flank method test-dataset from the following GitHub repo: \
 <a href="">Flank Method Test-Dataset</a> \
 This csv file can directly be used for upload in the flank method data reduction program: \
-<a href="https://flankmethod.streamlit.app">->flank method data reduction program</a>
+<a href="https://hezel2000-flank-method.share.connect.posit.cloud/">->flank method data reduction program</a>
 
 
 #### Spectra for Crystal Positioning
 Download the spectra test-dataset from the following GitHub repo: \
 <a href="https://github.com/Hezel2000/flank_method/blob/31aedff128e8a89696a072d20805dd275130fc50/flank%20method%20documentation/test_data/Fe%20Spectra.csv">Flank Method Test-Dataset</a>
 This csv file can directly be used for upload in the flank method data reduction program, section 'crystal positioning': \
-<a href="https://flankmethod.streamlit.app">->flank method data reduction program</a>
+<a href="https://hezel2000-flank-method.share.connect.posit.cloud/">->flank method data reduction program</a>
 
 
 
