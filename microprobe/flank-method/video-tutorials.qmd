@@ -2,13 +2,13 @@
 title: "Video Tutorials"
 ---
 
-The video tutorials are currently being updated and new one produced, and will go live towards autum 2024. Otherwise please ask for assistance.
+Video tutorials are added continously as needed.
 
-<!-- ## Preparing the data file
-{{< video 'https://youtu.be/y-nVEMzy2gU' width="400" height="300" 
+## Setting points and the line for the standard monitor
+{{< video 'https://youtu.be/X-tzXuIHEx0' width="400" height="300" 
 title="Preparing the data file">}}
 
-## Flank Data Reduction
+<!-- ## Flank Data Reduction
 {{< video 'https://youtu.be/ub1wg-abesc' width="400" height="300" 
 title="Flank Data Reduction">}}
 
