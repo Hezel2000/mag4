@@ -27,7 +27,7 @@ website:
           - text: 'Data Science Short Course'
             href: https://hezel2000.quarto.pub/dmg-data-science-short-course # https://datascienceshortcourse.streamlit.app
           - text: 'Kosmochemie'
-            href: https://hezel2000.quarto.pub/kosmochemie-kurs-buch/
+            href: https://Hezel2000-kosmochemie-kurs-buch.share.connect.posit.cloud
           - text: 'Cosmochemistry'
             href: https://hezel2000.quarto.pub/cosmochemistry-course-book/
           - text: 'Mikroanalytik'

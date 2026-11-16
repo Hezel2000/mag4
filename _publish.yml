@@ -1,6 +1,6 @@
 - source: project
-  quarto-pub:
-    - id: b42e8757-a206-4114-b6d9-d817dba12ecb
-      url: 'https://hezel2000.quarto.pub/mag4'
+  posit-connect-cloud:
+    - id: 01a1e4ba-6325-8ae4-3f6d-099f973e608f
+      url: https://connect.posit.cloud/Hezel2000/content/01a1e4ba-6325-8ae4-3f6d-099f973e608f
 
-# command to publish to git pages: quarto publish gh-pages
+# quarto publish gh-pages

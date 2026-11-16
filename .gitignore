@@ -1,4 +1,6 @@
 /.quarto/
+/.venv/
 /_site/
 /misc/
 .DS_store
+**/*.quarto_ipynb
