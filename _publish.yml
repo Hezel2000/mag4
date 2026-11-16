@@ -2,5 +2,5 @@
   posit-connect-cloud:
     - id: 01a1e4ba-6325-8ae4-3f6d-099f973e608f
       url: https://connect.posit.cloud/Hezel2000/content/01a1e4ba-6325-8ae4-3f6d-099f973e608f
-
-# quarto publish gh-pages
+    - id: 01a1e4fb-4ef9-d8d4-6336-08865f7a21a7
+      url: https://connect.posit.cloud/Hezel2000/content/01a1e4fb-4ef9-d8d4-6336-08865f7a21a7
